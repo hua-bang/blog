@@ -8,18 +8,21 @@ hero:
   tagline: Record personal thoughts, technology, and lifestyle
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 🧑🏻‍💻 Tech
+      link: /tech/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: ✍🏼 Blog
+      link: /blog/
+    - theme: alt
+      text: 👋🏻 Life 
+      link: /life/
 
 features:
-  - title: 🧑🏻‍💻 技术文章
+  - title: 🧑🏻‍💻 Tech - 技术文章
     details: 学习技术知识、对技术看法、思考的记录。
-  - title: ✍🏼 日常 Blog
+  - title: ✍🏼 Blog - 日常 Blog
     details: 日常看书、使用产品等思考的记录。
-  - title: 👋🏻 生活记录
+  - title: 👋🏻 Life - 生活记录
     details: 生活中的点滴记录。
 ---
 
