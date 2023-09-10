@@ -13,6 +13,9 @@ export default defineConfig({
         borderRadius: "50%"
       }
     },
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -33,9 +36,51 @@ export default defineConfig({
         link: '/me/'
       }
     ],
-
+    sidebar: {
+      '/blog/': [
+        {
+          text: '线下活动',
+          items: [
+            {
+              text: 'in.clusion',
+              link: '/blog/in-clusion'
+            }
+          ]
+        },
+        {
+          text: '互联网技术',
+          items: [
+            {
+              text: 'AIGC 思考',
+              link: '/blog/aigc-think'
+            },
+          ]
+        },
+        {
+          text: '产品思考',
+          items: [
+            {
+              text: '小红书-内容搜索',
+              link: '/blog/content-search'
+            },
+          ]
+        },
+      ]
+    }
+    ,
+    lastUpdated: {
+      text: 'Updated at',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/hua-bang' }
-    ]
+    ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2023-present 华铧'
+    }
   }
 })

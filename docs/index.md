@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "华铧's Blog"
+  name: "<a href='https://github.com/hua-bang'>华铧</a>'s Blog"
   text: "Inspire Creativity, Enrich Life."
-  tagline: Record personal thoughts, technology, and lifestyle
+  tagline: Record personal thoughts, technology, and lifestyle.
   actions:
     - theme: brand
       text: 🧑🏻‍💻 Tech
