@@ -13,4 +13,3 @@
 - [Twitter](https://twitter.com/huabang1)
 - [掘金](https://juejin.cn/user/2410547053336039)
 - [即刻](https://okjk.co/89D7xf)
-- [微信公众号: 华铧同学](华铧同学)
