@@ -48,11 +48,15 @@ export default defineConfig({
           ]
         },
         {
-          text: '互联网技术',
+          text: '互联网',
           items: [
             {
               text: 'AIGC 思考',
               link: '/blog/aigc-think'
+            },
+            {
+              text: '信息过载',
+              link: '/blog/information-overload'
             },
           ]
         },
