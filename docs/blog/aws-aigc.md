@@ -32,8 +32,6 @@ AI 的冰山：
 - 应用模式3:微调基础模型(fine ture)
 - 应用模型4:训练自己的模型(customer model)。
 
-![Untitled](%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E7%A7%91%E6%8A%80%E7%A4%BE%E5%8C%BA%E5%98%89%E5%B9%B4%E5%8D%8E%207d28469ed4c2497fa22bcf8a67c56cdc/Untitled.heic)
-
 数据是差异化的优势之一。
 
 流程：Data Source → Store & Query → Act
