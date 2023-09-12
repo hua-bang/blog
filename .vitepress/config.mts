@@ -44,7 +44,12 @@ export default defineConfig({
             {
               text: 'in.clusion',
               link: '/blog/in-clusion'
+            },
+            {
+              text: '亚马逊云科技社区嘉年华',
+              link: '/blog/aws-aigc'
             }
+            
           ]
         },
         {
