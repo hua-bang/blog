@@ -8,7 +8,7 @@ export const getIssueId = () => {
 }
 
 export const gitalkInfo = {
-  id: document.title,
+  id: getIssueId(),
   owner: 'hua-bang', // GitHub repository 所有者
   repo: 'blog', // GitHub repository
   clientID: 'dc43c8dc2393eb383fdb', // 自己的clientID
