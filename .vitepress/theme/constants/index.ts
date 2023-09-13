@@ -1,14 +1,6 @@
 export const gitalkId = "gitalk-page-container";
 
-export const getIssueId = () => {
-  if (typeof document === 'undefined') {
-    return '';
-  }
-  return document.title
-}
-
 export const gitalkInfo = {
-  id: getIssueId(),
   owner: 'hua-bang', // GitHub repository 所有者
   repo: 'blog', // GitHub repository
   clientID: 'dc43c8dc2393eb383fdb', // 自己的clientID

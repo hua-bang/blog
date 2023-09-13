@@ -1,8 +1,16 @@
 import Gitalk from 'gitalk'
 import { gitalkId, gitalkInfo } from "../constants";
 
+export const getIssueId = () => {
+  if (typeof document === 'undefined') {
+    return '';
+  }
+  return document.title
+}
+
+
 let prevPath = '';
-const initGitalkMain = () => {
+const initGitalkMain = async () => {
   let gitalkEle = document.getElementById(gitalkId);
   if (gitalkEle && prevPath === location.href) {
     return;
@@ -11,10 +19,6 @@ const initGitalkMain = () => {
   if (gitalkEle) {
     gitalkEle.remove();
   }
-
-  console.log(
-    'init git'
-  );
 
   const contentEle = document.querySelector('.content-container');
 
@@ -26,7 +30,10 @@ const initGitalkMain = () => {
   gitalkEle.setAttribute("id", gitalkId);
   contentEle.appendChild(gitalkEle);
 
-  let gitalkInstance = new Gitalk(gitalkInfo)
+  let gitalkInstance = new Gitalk({
+    ...gitalkInfo,
+    id: getIssueId(),
+  })
   gitalkInstance.render(gitalkId);
 
   prevPath = location.href;
