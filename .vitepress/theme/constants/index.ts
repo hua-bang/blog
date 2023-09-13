@@ -1,7 +1,7 @@
 export const gitalkId = "gitalk-page-container";
 
 export const getIssueId = () => {
-  if (typeof document === undefined) {
+  if (typeof document === 'undefined') {
     return '';
   }
   return document.title
