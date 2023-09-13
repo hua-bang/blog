@@ -1,5 +1,6 @@
 import Gitalk from 'gitalk'
 import { gitalkId, gitalkInfo } from "../constants";
+import { delay } from './delay';
 
 export const getIssueId = () => {
   if (typeof document === 'undefined') {
@@ -11,6 +12,9 @@ export const getIssueId = () => {
 
 let prevPath = '';
 const initGitalkMain = async () => {
+
+  await delay(300);
+  
   let gitalkEle = document.getElementById(gitalkId);
   if (gitalkEle && prevPath === location.href) {
     return;
