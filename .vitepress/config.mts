@@ -48,8 +48,11 @@ export default defineConfig({
             {
               text: '亚马逊云科技社区嘉年华',
               link: '/blog/aws-aigc'
-            }
-            
+            },
+            {
+              text: '# MWC 2023',
+              link: '/blog/mwc-23'
+            },
           ]
         },
         {

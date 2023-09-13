@@ -7,6 +7,7 @@
 ## 线下活动
 - [in.clusion 外滩大会](/blog/in-clusion.html)
 - [亚马逊云科技社区嘉年华](/blog/aws-aigc.html)
+- [MWC 2023](/blog/mwc-23.html)
 
 
 ## 互联网
