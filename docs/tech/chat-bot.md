@@ -4,19 +4,21 @@ customTag: tech>AIGC
 editLink: true
 ---
 
-# 一、前言
+# 基于 OpenAI 的 API 快速搭建 ChaBot 🤖️
+
+## 一、前言
 
 相信目前大家目前对 `ChatGPT` 应该多多少少有所接触。
 
 `ChatGPT` 是由 `OpenAI` 开发的一个人工智能模型，它使用了机器学习技术，尤其是自然语言处理（ `NLP`）技术，以理解和生成人类语言。这种模型基于大规模的文本数据进行训练，能够生成连贯且自然的文本，从而可以与人类进行自然语言对话。
 
-![Untitled.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5ec16dbdc5fb4bf8bf1070470f2cf3ac~tplv-k3u1fbpfcp-watermark.image?)
+![Untitled.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/5ec16dbdc5fb4bf8bf1070470f2cf3ac%7Etplv-k3u1fbpfcp-watermark.image)
 
 想必大家也多少体验过 `ChatGPT` 。但本文的话，更多是以开发者的视角，通过 `OpenAI` 提供的 `API` ,从而去搭建自己的 `ChatBot` ，最终可以实现如下图的**微信公众号、飞书开放平台等第三方 IM 的接入**。
 
-![Untitled 1.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5ce65b03a464e08aa30e65d7534d019~tplv-k3u1fbpfcp-watermark.image?)
+![Untitled 1.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/b5ce65b03a464e08aa30e65d7534d019~tplv-k3u1fbpfcp-watermark.image)
 
-![Untitled 2.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/76ef809791e94fb689f1ae5c5698b7dd~tplv-k3u1fbpfcp-watermark.image?)
+![Untitled 2.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/76ef809791e94fb689f1ae5c5698b7dd%7Etplv-k3u1fbpfcp-watermark.image)
 
 在此之前，搭建 ChatBot 的所需要的东西
 
@@ -26,7 +28,7 @@ editLink: true
 
 那么下面，我们就进入正题吧，我们从大体思路开始。
 
-# 二、大体思路
+## 二、大体思路
 
 在介绍大体思路之前，我们先思考我们构建 ChatBot 的意图是啥 🤔️。
 
@@ -44,7 +46,7 @@ editLink: true
 - **IM APP:** 作为消息通信，信息分发的渠道。
 - **User / Chat Server:** 回复会话的用户或者自己的聊天服务，作为输出端。
 
-![Untitled 3.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/249a88fef32945188fa2001fa3dce682~tplv-k3u1fbpfcp-watermark.image?)
+![Untitled 3.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/249a88fef32945188fa2001fa3dce682%7Etplv-k3u1fbpfcp-watermark.image)
 从上方的图，我们可以看出来对用户的输入，往往是通过自己人工或者自己的聊天服务来进行回复用户的输入信息的，整个过程 **IM APP** 更多是最为一个渠道。
 
 那么其实我们只需要对响应端即（User / Chat Server）进行改造就行了。
@@ -64,13 +66,13 @@ ChatBot 的流程其实很简单，将上方的响应端，换成 ChatBot Server
 - **输入处理**：主要是为了生成对应的 Prompt。
 - **输出处理**：主要是对获得的 OpenAI 的响应，进行格式化处理。
 
-# 三、具体实现流程
+## 三、具体实现流程
 
 有了上方的思路，其实我们主要要实现的两个点就是 `调用 OpenAI 接口` + `第三方 IM 平台集成` 。
 
 注：由于第三方的接口涉及的文档会比较多，且各个开放平台应该都有对应的文档，所以，这里不会细讲第三方 IM 平台集成。
 
-## 3.1 调用 GPT 接口
+### 3.1 调用 GPT 接口
 
 > 参考文档：
 >
@@ -144,7 +146,7 @@ export class ChatGPT {
 }
 ```
 
-## 3.3 平台集成
+### 3.2 平台集成
 
 我们已经有了 API 的服务了，那么这个时候我们只需要将接口接入对应的平台即可。
 
@@ -153,7 +155,7 @@ export class ChatGPT {
 > - 微信公众号：<https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html>
 > - 飞书开放平台：<https://open.feishu.cn/document/home/interactive-session-based-robot/subscribe-to-user-group-entry-events-and-send>
 
-![Untitled 2.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2679b00d5e194e5b82b24ef82771d7fe~tplv-k3u1fbpfcp-watermark.image?)
+![Untitled 2.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/2679b00d5e194e5b82b24ef82771d7fe%7Etplv-k3u1fbpfcp-watermark.image)
 
 本质上是使用了 OpenAI [开放的 OpenAPI 接口](https://platform.openai.com/docs/api-reference) 以及 各个开放平台的 API 进行集成，一个简单的 chatBot 实际上就完成了。
 
@@ -162,15 +164,15 @@ export class ChatGPT {
 
 当然，简单的 ChatBot 你可以直接把用户的提示词和模型的响应直接进行返回，不做任何加工处理。
 
-# 四、补充拓展
+## 四、补充拓展
 
 上方简单写了如何搭建一个 `ChatBot`，但你可以借助 `OpenAI` 提供的能力去，尝试新的玩法，比如**特定的提示词加工、多模态的交互。同时，你也可以结合 LangChain 做一些自己的应用。**
 
 - **提示词加工**：你可以指定特殊的提示词，从而去做一些扩展应用。比如 [GPT + GitHub 实现自动 Code Review - 掘金](https://juejin.cn/post/7240333779221954616)
 
-![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8cd0653539c049b0963828aa96f81647~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/8cd0653539c049b0963828aa96f81647%7Etplv-k3u1fbpfcp-watermark.image)
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8970a6b9188646718f5820840a5aa943~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/8970a6b9188646718f5820840a5aa943%7Etplv-k3u1fbpfcp-watermark.image)
 
 - **多模态的交互**：目前 OPENAI 开放的 API 接口其实支持不同模态的交互，比如图片，语音。
 
@@ -179,7 +181,7 @@ export class ChatGPT {
 
 - **LangChain**: LangChain 是一个用于开发大型语言模型应用的软件框架。它的目标是**简化使用大型语言模型（LLMs）创建应用的过程**。
 
-# **五、总结**
+## **五、总结**
 
 本文简单介绍了如何搭建根据 OpenAI 提供的 API 搭建 ChatBOT，但更多是希望我们可以从开发者的视角去使用大语言模型，说不定会有新的想法出现呢。💡 有兴趣和想法的同学，可以在评论区留言一起讨论哈。
 

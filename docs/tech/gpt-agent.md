@@ -13,7 +13,7 @@ editLink: true
 > - Agent: <https://js.langchain.com/docs/modules/agents/>
 > - OpenAI API: <https://platform.openai.com/docs/api-reference/introduction>
 
-![图片](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/441e2e7cf89a4b90b15bc4eebb2d43bf~tplv-k3u1fbpfcp-watermark.image?)
+![图片](https://raw.githubusercontent.com/hua-bang/assert-store/master/441e2e7cf89a4b90b15bc4eebb2d43bf~tplv-k3u1fbpfcp-watermark.image)
 
 在这篇文章中，我们将探讨如何使用 GPT 来实现 LangChain 中的 Agent 概念。LangChain 是一个基于语言模型的编程框架，其中的 Agent、LLM 和 Tool 是其核心组件。我们将首先理解这些组件的概念和关系，然后设计一个状态机来描述 Agent 的工作流程，并使用 GPT 来实现 LLM 的功能。
 
@@ -25,7 +25,7 @@ editLink: true
 
 LangChain 的 Agents 概念，就是针对于类似的场景，结合 LLM，可以自动帮你进行处理，需要走具体哪个服务，这个服务需要什么参数，从而给出对应的输出。
 
-![Untitled 1.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1ed1aec2cee5407da90cf31369f874f3~tplv-k3u1fbpfcp-watermark.image?)
+![Untitled 1.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/1ed1aec2cee5407da90cf31369f874f3~tplv-k3u1fbpfcp-watermark.image)
 
 **一句话**：在 langChain 中 agent 做调用，llm 做决策，tools 做具体功能实现。
 
@@ -45,7 +45,7 @@ LangChain 的 Agents 概念，就是针对于类似的场景，结合 LLM，可�
 - **LLM**：语言处理工具，负责处理语言相关的任务。
 - **Tools**: Tools 是执行具体任务的工具或服务，提供了执行任务所需的功能和服务。
 
-![Untitled 2.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/55cabd8c2dfc45a79ed4832fda94bffe~tplv-k3u1fbpfcp-watermark.image?)
+![Untitled 2.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/55cabd8c2dfc45a79ed4832fda94bffe%7Etplv-k3u1fbpfcp-watermark.image)
 
 然后我们对流程进行拆解，可以得到下方的表格，并且我们定义对应的状态机。
 
@@ -273,11 +273,11 @@ class Agent {
 
 - **天气的例子**： What is the weather in Shanghai?
 
-![Untitled 3.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bd6730e4f38e40929601f4d7d555ccc1~tplv-k3u1fbpfcp-watermark.image?)
+![Untitled 3.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/bd6730e4f38e40929601f4d7d555ccc1%7Etplv-k3u1fbpfcp-watermark.image)
 
 - **计算例子**：What is the result of 100 \* 100 - 30?
 
-![Untitled 4.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/08337c8b64eb4f8fb9358f83aed68ce8~tplv-k3u1fbpfcp-watermark.image?)
+![Untitled 4.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/08337c8b64eb4f8fb9358f83aed68ce8%7Etplv-k3u1fbpfcp-watermark.image)
 
 上方两个例子，符合我们 Agent 的一个流程，我们也能看出他的决策流程。
 
