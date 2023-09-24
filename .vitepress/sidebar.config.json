@@ -78,6 +78,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/auto-tracker.md",
           "text": "通过 Babel 编译实现自动点击埋点",
           "link": "/tech/auto-tracker.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/introduction-front-end-compilation.md",
+          "text": "初识前端编译及 Babel",
+          "link": "/tech/introduction-front-end-compilation.md"
         }
       ]
     }

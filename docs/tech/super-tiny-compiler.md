@@ -83,7 +83,7 @@ customTag: tech>编译
 
 ### Generate
 
-> Generate 阶段会根据 AST 生成新的字符串，并生成对应的 SouceMap。
+> Generate 阶段会根据 AST 生成新的字符串，并生成对应的 SourceMap。
 
 不同的 AST 对应的不同结构的字符串。比如 `VariableDeclaration` 就可以打印成 `const` 格式的代码。
 
