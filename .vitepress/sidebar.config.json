@@ -60,6 +60,26 @@
           "link": "/tech/gpt-review.md"
         }
       ]
+    },
+    {
+      "text": "编译",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/babel-javaScript-compiler.md",
+          "text": "Babel: A JavaScript Compiler",
+          "link": "/tech/babel-javaScript-compiler.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/super-tiny-compiler.md",
+          "text": "通过 the-super-tiny-compiler 初识编译",
+          "link": "/tech/super-tiny-compiler.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/auto-tracker.md",
+          "text": "通过 Babel 编译实现自动点击埋点",
+          "link": "/tech/auto-tracker.md"
+        }
+      ]
     }
   ]
 }
