@@ -55,7 +55,7 @@ const getSideBarConfigFromMetaInfoMap = (
     }
 
     let finalMenuConfig = secondMenuConfig.items.find(
-      (item) => item.text === secondMenu
+      (item) => item.key === key
     );
 
     if (!finalMenuConfig) {
@@ -63,6 +63,7 @@ const getSideBarConfigFromMetaInfoMap = (
       secondMenuConfig.items.push(finalMenuConfig);
     }
 
+    finalMenuConfig.id = key;
     finalMenuConfig.text = title;
     finalMenuConfig.link = key.replace(options.docsDir, "");
   });
@@ -130,7 +131,9 @@ export default function AutoSideBar(options: AutoSideBarOptions) {
       const fileList = scanDirectory(docsDir);
       fileList.map((item) => generateConfigByFilePath(item));
     },
-    load: async (absolutePath: string) => {
+    handleHotUpdate(hmrContext) {
+      const { file: absolutePath } = hmrContext;
+      console.log("hmrCOntent", absolutePath);
       generateConfigByFilePath(absolutePath, true);
       patchSidebarConfig(metaInfoMap, options);
     },

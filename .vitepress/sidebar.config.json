@@ -39,5 +39,22 @@
         }
       ]
     }
+  ],
+  "/tech/": [
+    {
+      "text": "AIGC",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/gpt-agent.md",
+          "text": "基于 GPT 实现 Agent  🤖️",
+          "link": "/tech/gpt-agent.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/chat-bot.md",
+          "text": "基于 OpenAI 的 API 快速搭建 ChaBot 🤖️",
+          "link": "/tech/chat-bot.md"
+        }
+      ]
+    }
   ]
 }
