@@ -53,6 +53,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/chat-bot.md",
           "text": "基于 OpenAI 的 API 快速搭建 ChaBot 🤖️",
           "link": "/tech/chat-bot.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/gpt-review.md",
+          "text": "GPT + GitHub 实现自动 Code Review",
+          "link": "/tech/gpt-review.md"
         }
       ]
     }
