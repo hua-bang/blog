@@ -1,3 +1,9 @@
+---
+title: AIGC 思考
+customTag: blog>互联网
+editLink: true
+---
+
 # AIGC 思考
 
 ::: tip

@@ -1,3 +1,8 @@
+---
+title: 信息过载
+customTag: blog>互联网
+editLink: true
+---
 # 信息过载
 
 ::: tip

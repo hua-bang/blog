@@ -1,5 +1,7 @@
 ---
-lastUpdated: true
+title: in.clusion
+customTag: blog>线下活动
+editLink: true
 ---
 
 # in.clusion 外滩大会

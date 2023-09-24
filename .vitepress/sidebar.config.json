@@ -1,0 +1,43 @@
+{
+  "/blog/": [
+    {
+      "text": "线下活动",
+      "items": [
+        {
+          "text": "in.clusion",
+          "link": "/blog/in-clusion"
+        },
+        {
+          "text": "亚马逊云科技社区嘉年华",
+          "link": "/blog/aws-aigc"
+        },
+        {
+          "text": "# MWC 2023",
+          "link": "/blog/mwc-23"
+        }
+      ]
+    },
+    {
+      "text": "互联网",
+      "items": [
+        {
+          "text": "AIGC 思考",
+          "link": "/blog/aigc-think"
+        },
+        {
+          "text": "信息过载",
+          "link": "/blog/information-overload"
+        }
+      ]
+    },
+    {
+      "text": "产品思考",
+      "items": [
+        {
+          "text": "小红书-内容搜索",
+          "link": "/blog/content-search"
+        }
+      ]
+    }
+  ]
+}

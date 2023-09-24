@@ -1,98 +1,65 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
+import SideBarConfig from "./sidebar.config.json";
+import AutoSideBar from "./plugins/auto-side-bar";
+import path from "path";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "华铧's Blog",
   description: "Inspire Creativity, Enrich Life.",
-  base: '/blog/',
-  srcDir: 'docs',
+  base: "/blog/",
+  srcDir: "docs",
   themeConfig: {
     logo: {
-      src: 'https://avatars.githubusercontent.com/u/47221942?v=4',
+      src: "https://avatars.githubusercontent.com/u/47221942?v=4",
       style: {
-        borderRadius: "50%"
-      }
+        borderRadius: "50%",
+      },
     },
     search: {
-      provider: 'local'
+      provider: "local",
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: "Home", link: "/" },
       {
-        text: '🧑🏻‍💻 Tech',
-        link: '/tech/'
+        text: "🧑🏻‍💻 Tech",
+        link: "/tech/",
       },
       {
-        text: '✍🏼 Blog',
-        link: '/blog/'
+        text: "✍🏼 Blog",
+        link: "/blog/",
       },
       {
-        text: '👋🏻 Life',
-        link: '/life/'
+        text: "👋🏻 Life",
+        link: "/life/",
       },
       {
-        text: '⭐️ Me',
-        link: '/me/'
-      }
+        text: "⭐️ Me",
+        link: "/me/",
+      },
     ],
-    sidebar: {
-      '/blog/': [
-        {
-          text: '线下活动',
-          items: [
-            {
-              text: 'in.clusion',
-              link: '/blog/in-clusion'
-            },
-            {
-              text: '亚马逊云科技社区嘉年华',
-              link: '/blog/aws-aigc'
-            },
-            {
-              text: '# MWC 2023',
-              link: '/blog/mwc-23'
-            },
-          ]
-        },
-        {
-          text: '互联网',
-          items: [
-            {
-              text: 'AIGC 思考',
-              link: '/blog/aigc-think'
-            },
-            {
-              text: '信息过载',
-              link: '/blog/information-overload'
-            },
-          ]
-        },
-        {
-          text: '产品思考',
-          items: [
-            {
-              text: '小红书-内容搜索',
-              link: '/blog/content-search'
-            },
-          ]
-        },
-      ]
-    }
-    ,
+    sidebar: SideBarConfig,
     lastUpdated: {
-      text: 'Updated at',
+      text: "Updated at",
       formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
-      }
+        dateStyle: "full",
+        timeStyle: "medium",
+      },
     },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/hua-bang' }
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/hua-bang" }],
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present 华铧'
-    }
-  }
-})
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2023-present 华铧",
+    },
+  },
+  vite: {
+    plugins: [
+      AutoSideBar({
+        docsDir: path.resolve(__dirname, "../docs"),
+        rootPath: path.resolve(__dirname, "../"),
+        configFilePath: path.resolve(__dirname, "./sidebar.config.json"),
+      }),
+    ],
+  },
+});

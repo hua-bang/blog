@@ -1,3 +1,8 @@
+---
+title: 亚马逊云科技社区嘉年华
+customTag: blog>线下活动
+editLink: true
+---
 # 亚马逊云科技社区嘉年华
 
 :::tip
