@@ -38,6 +38,16 @@
           "link": "/blog/content-search"
         }
       ]
+    },
+    {
+      "text": "AIGC",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/blog/arc-max.md",
+          "text": "👋 Arc 公司全新 AI 功能来啦！🎉",
+          "link": "/blog/arc-max.md"
+        }
+      ]
     }
   ],
   "/tech/": [
