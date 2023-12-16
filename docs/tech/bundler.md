@@ -1,10 +1,10 @@
 ---
-title: 初始前端 bundler
+title: 初识前端 bundler
 customTag: tech>Frontend Engineer
 editLink: true
 ---
 
-# 初始前端 bundler
+# 初识前端 bundler
 
 ## 1. **什么是 bundler**
 
