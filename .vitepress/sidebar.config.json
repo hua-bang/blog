@@ -109,6 +109,16 @@
           "link": "/tech/introduction-front-end-compilation.md"
         }
       ]
+    },
+    {
+      "text": "Frontend Engineer",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/bundler.md",
+          "text": "初始前端 bundler",
+          "link": "/tech/bundler.md"
+        }
+      ]
     }
   ]
 }
