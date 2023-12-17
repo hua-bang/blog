@@ -120,5 +120,17 @@
         }
       ]
     }
+  ],
+  "/read/": [
+    {
+      "text": "个人成长",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/read/take-notes.md",
+          "text": "笔记的方法",
+          "link": "/read/take-notes.md"
+        }
+      ]
+    }
   ]
 }
