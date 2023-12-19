@@ -60,6 +60,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/blog/openai-dev-day.md",
           "text": "OpenAI 开发者大会",
           "link": "/blog/openai-dev-day.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/blog/coze.md",
+          "text": "Coze 机器人构建平台",
+          "link": "/blog/coze.md"
         }
       ]
     }
