@@ -67,6 +67,16 @@
           "link": "/blog/coze.md"
         }
       ]
+    },
+    {
+      "text": "AnnualSummary",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/blog/summary-2023.md",
+          "text": "2023 🥳 允许一切发生",
+          "link": "/blog/summary-2023.md"
+        }
+      ]
     }
   ],
   "/tech/": [
