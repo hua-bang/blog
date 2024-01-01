@@ -132,6 +132,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/bundler.md",
           "text": "初识前端 bundler",
           "link": "/tech/bundler.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/mini-bundler.md",
+          "text": "mini bundler 的实现",
+          "link": "/tech/mini-bundler.md"
         }
       ]
     }
