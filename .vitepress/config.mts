@@ -54,7 +54,7 @@ export default defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/hua-bang" }],
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2023-present 华铧",
+      copyright: "Copyright © 2023-present 华铧.",
     },
   },
   vite: {
