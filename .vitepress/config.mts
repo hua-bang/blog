@@ -7,7 +7,7 @@ import path from "path";
 export default defineConfig({
   title: "华铧's Blog",
   description: "Inspire Creativity, Enrich Life.",
-  base: "/blog/",
+  base: process.env.BASE ?? "/blog/",
   srcDir: "docs",
   themeConfig: {
     logo: {
