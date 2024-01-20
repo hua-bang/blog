@@ -142,6 +142,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/mini-bundler-plugin.md",
           "text": "mini bundler 插件系统",
           "link": "/tech/mini-bundler-plugin.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/mini-bundler-loader.md",
+          "text": "mini-bundler 实现：loader",
+          "link": "/tech/mini-bundler-loader.md"
         }
       ]
     }
