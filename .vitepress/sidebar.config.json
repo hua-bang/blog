@@ -171,6 +171,16 @@
           "link": "/read/the-almanack-of-Naval-Ravikant.md"
         }
       ]
+    },
+    {
+      "text": "创业",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/read/that-will-never-work.md",
+          "text": "复盘网飞",
+          "link": "/read/that-will-never-work.md"
+        }
+      ]
     }
   ]
 }
