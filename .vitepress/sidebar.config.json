@@ -186,6 +186,16 @@
           "link": "/read/principles.md"
         }
       ]
+    },
+    {
+      "text": "心理学",
+      "items": [
+        {
+          "id": "/workspaces/blog/docs/read/When-I-say-no_I-feel-guilty.md",
+          "text": "强势",
+          "link": "/read/When-I-say-no_I-feel-guilty.md"
+        }
+      ]
     }
   ]
 }
