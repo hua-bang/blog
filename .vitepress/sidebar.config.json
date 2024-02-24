@@ -196,6 +196,16 @@
           "link": "/read/When-I-say-no_I-feel-guilty.md"
         }
       ]
+    },
+    {
+      "text": "计算机",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/read/a-philosophy-of-software-design.md",
+          "text": "A Philosophy of Software Design",
+          "link": "/read/a-philosophy-of-software-design.md"
+        }
+      ]
     }
   ]
 }
