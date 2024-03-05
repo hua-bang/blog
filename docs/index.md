@@ -17,6 +17,9 @@ hero:
       text: 📖 Read
       link: /read/
     - theme: alt
+      text: 📚 Algorithms
+      link: /algorithms/
+    - theme: alt
       text: 👋🏻 Life
       link: /life/
 

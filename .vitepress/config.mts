@@ -35,6 +35,10 @@ export default defineConfig({
         link: "/read/",
       },
       {
+        text: "📚 Algorithms",
+        link: "/algorithms/",
+      },
+      {
         text: "👋🏻 Life",
         link: "/life/",
       },

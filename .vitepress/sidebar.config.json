@@ -207,5 +207,17 @@
         }
       ]
     }
+  ],
+  "/algorithms/": [
+    {
+      "text": "数据结构",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/data-structure/linked-list.md",
+          "text": "链表",
+          "link": "/algorithms/data-structure/linked-list.md"
+        }
+      ]
+    }
   ]
 }
