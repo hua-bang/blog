@@ -218,6 +218,16 @@
           "link": "/algorithms/data-structure/linked-list.md"
         }
       ]
+    },
+    {
+      "text": "算法",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/concept.md",
+          "text": "算法概念",
+          "link": "/algorithms/algorithms/concept.md"
+        }
+      ]
     }
   ]
 }
