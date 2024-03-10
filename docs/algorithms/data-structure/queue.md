@@ -41,7 +41,53 @@ class Queue<T extends any> {
 }
 ```
 
-## \*\*循环队列
+## 优先级队列
+
+优先级队列按照元素的优先级来确定出队顺序，不严格遵守 FIFO 原则。
+
+即会有一个字段表示优先级，来进行出栈/入栈的顺序。
+
+```ts
+interface PriorityQueueItem<T> {
+  value: T;
+  priority: number;
+}
+
+class PriorityQueue<T> {
+  private elements: Array<PriorityQueueItem<T>> = [];
+
+  enqueue(value: T, priority: PriorityQueueItem<T>["priority"]) {
+    const element: PriorityQueueItem<T> = {
+      value,
+      priority,
+    };
+
+    let added = false;
+
+    for (let i = 0; i < this.elements.length; i++) {
+      if (priority > this.elements[i].priority) {
+        this.elements.splice(i, 0, element);
+        added = true;
+        break;
+      }
+    }
+
+    if (!added) {
+      this.elements.push(element);
+    }
+  }
+
+  dequeue(): T | undefined {
+    if (this.elements.length === 0) {
+      return undefined;
+    }
+
+    return this.elements.shift()?.value;
+  }
+}
+```
+
+## 循环队列
 
 循环队列（Circular Queue）是一种使用有限数组存储元素的数据结构，通过有效地利用数组空间来模拟队列操作。
 
