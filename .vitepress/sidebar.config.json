@@ -221,6 +221,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/data-structure/queue.md",
           "text": "队列",
           "link": "/algorithms/data-structure/queue.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/data-structure/stack.md",
+          "text": "栈",
+          "link": "/algorithms/data-structure/stack.md"
         }
       ]
     },
