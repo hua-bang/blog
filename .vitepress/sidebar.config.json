@@ -226,6 +226,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/data-structure/stack.md",
           "text": "栈",
           "link": "/algorithms/data-structure/stack.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/data-structure/hash-table.md",
+          "text": "哈希表",
+          "link": "/algorithms/data-structure/hash-table.md"
         }
       ]
     },
