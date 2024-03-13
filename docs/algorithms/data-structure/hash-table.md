@@ -56,6 +56,8 @@ editLink: true
 
 具体来说，考虑一个哈希函数 `h`，它将输入空间 `I` 映射到输出空间 `O`。如果存在两个不同的输入 `x` 和 `y`（x ≠ y），使得 `h(x) = h(y)`，那么我们就说发生了一个哈希冲突。
 
+> 注意：哈希函数本身并不解决**哈希冲突**。
+
 哈希冲突的示例：考虑一个简单的哈希函数 `h(k) = k mod 10`，并且有两个不同的键 `k1 = 12` 和 `k2 = 22`。当应用哈希函数 `h` 到 `k1` 和 `k2` 上时，得到：
 
 ```
@@ -79,3 +81,134 @@ h(22) = 22 mod 10 = 2
 3. **双重散列（Double Hashing）**：使用一组哈希函数而不是单一哈希函数，在发生冲突时使用另一个哈希函数来确定探查序列。
 
 4. **再哈希（Rehashing）**：当哈希表变得过于拥挤时（即装填因子变大），使用一个新的哈希函数和更大的哈希表大小进行再哈希，以减少冲突并重新分配已有的项。
+
+## 代码实现
+
+下方我们用 `TS` 结合数组的数据结构来进行哈希表的具体实现吧。
+
+### 哈希函数计算
+
+注意，哈希函数的作用是将输入（即键）映射到一个整数，这个整数作为数组（哈希表）的索引。不解决具体冲突。
+同时，哈希函数的算法并不固定，取决于具体场景，具体实现。
+
+下方是一种实现方式，无需关注具体细节，只需要记住将 key -> index 即可。
+
+```ts
+class HashTable<K, V> {
+  private table: Array<Array<[K, V]>>;
+  private size: number; // 哈希表大小
+
+  private hash(key: K): number {
+    const stringKey = JSON.stringify(key);
+    let hash = 0;
+    for (let i = 0; i < stringKey.length; i++) {
+      const char = stringKey.charCodeAt(i);
+      hash = (hash << 5) - hash + char;
+      hash = hash & hash; // Convert to 32bit integer
+    }
+    return Math.abs(hash) % this.size;
+  }
+}
+```
+
+### 解决哈希冲突
+
+哈希函数计算完，会得到一个索引，我们将索引和桶进行关联，在桶中去做存储键值对和解决哈希冲突。
+具体来说，我们每一个桶是是 `[key, value]` 的数组。
+通过数组天然提供的 `find`、`findIndex` 属性，我们能在确保在哈希冲突的情况下，我们通过其他信息，如 `key` 来进行 `get`、`put`、`remove` 的操作。
+
+```ts
+class HashTable<K, V> {
+  private table: Array<Array<[K, V]>>;
+  private size: number; // 哈希表大小
+
+  constructor(size: number = 100) {
+    this.size = size;
+    this.table = new Array(size);
+    for (let i = 0; i < size; i++) {
+      this.table[i] = [];
+    }
+  }
+
+  put(key: K, value: V): void {
+    const index = this.hash(key);
+    const bucket = this.table[index];
+    const foundIndex = bucket.findIndex((item) => item[0] === key);
+
+    if (foundIndex !== -1) {
+      bucket[foundIndex][1] = value;
+    } else {
+      bucket.push([key, value]);
+    }
+  }
+
+  get(key: K): V | undefined {
+    const index = this.hash(key);
+    const bucket = this.table[index];
+    const target = bucket.find((item) => item[0] === key);
+
+    return target ? target[1] : undefined;
+  }
+}
+```
+
+### 整体代码
+
+```ts
+class HashTable<K, V> {
+  private table: Array<Array<[K, V]>>;
+  private size: number; // 哈希表大小
+
+  constructor(size: number = 100) {
+    this.size = size;
+    this.table = new Array(size);
+    for (let i = 0; i < size; i++) {
+      this.table[i] = [];
+    }
+  }
+
+  private hash(key: K): number {
+    const stringKey = JSON.stringify(key);
+    let hash = 0;
+    for (let i = 0; i < stringKey.length; i++) {
+      const char = stringKey.charCodeAt(i);
+      hash = (hash << 5) - hash + char;
+      hash = hash & hash; // Convert to 32bit integer
+    }
+    return Math.abs(hash) % this.size;
+  }
+
+  put(key: K, value: V): void {
+    const index = this.hash(key);
+    const bucket = this.table[index];
+    const foundIndex = bucket.findIndex((item) => item[0] === key);
+
+    if (foundIndex !== -1) {
+      bucket[foundIndex][1] = value;
+    } else {
+      bucket.push([key, value]);
+    }
+  }
+
+  get(key: K): V | undefined {
+    const index = this.hash(key);
+    const bucket = this.table[index];
+    const target = bucket.find((item) => item[0] === key);
+
+    return target ? target[1] : undefined;
+  }
+
+  remove(key: K): boolean {
+    const index = this.hash(key);
+    const bucket = this.table[index];
+    const foundIndex = bucket.findIndex((item) => item[0] === key);
+
+    if (foundIndex === -1) {
+      return false;
+    }
+
+    bucket.splice(foundIndex, 1);
+    return true;
+  }
+}
+```
