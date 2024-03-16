@@ -1,45 +1,3 @@
----
-title: 堆
-customTag: algorithms>数据结构
-editLink: true
----
-
-# 堆
-
-在计算机科学中, 一个 堆(heap) 是一种特殊的基于树的数据结构，它满足下面描述的堆属性。
-
-- 堆中每个节点的值都大于等于（或者小于等于）其左右子节点的值。
-- 堆通常是一颗 `完全二叉树`。
-
-## 二叉堆
-
-二叉堆是一颗完全二叉树，二叉堆分为大顶堆（最大堆）和小顶堆（最小堆）。
-
-- 最大堆：对于每个节点的值都大于等于子树中每个节点值的堆，我们叫作 大顶堆。
-- 最小堆：对于每个节点的值都小于等于子树中每个节点值的堆，我们叫作 小顶堆。
-
-![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240314220952.png)
-![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240314221014.png)
-
-性质：
-
-- 任何一个非树根节点的父节点为  `Math.floor((index - 1) / 2)`
-- 任何一个非叶子节点的左子节点为  `index * 2 + 1`
-- 任何一个非叶子节点的右子节点为  `index * 2 + 2`
-
-## 堆的操作
-
-- 插入（Insert）：插入是向堆中添加新元素的过程。新元素首先被添加到树的末端，然后向上移动到正确的位置以维持堆的性质。
-
-- 删除（Delete）：在最大堆中，删除操作通常指删除最大元素，即根节点。删除根后，通常将最后一个元素移动到根位置，然后进行下沉调整。
-
-- 构建堆（Build Heap）：给定一组元素，构建堆是将这些元素重新排列，以形成堆的过程。这可以通过从最后一个非叶子节点开始，向根节点进行下沉调整来完成。
-
-- 堆排序（Heap Sort）：堆排序是一种利用堆结构进行排序的方法。通过构建最大堆（或最小堆），然后反复移除根节点（最大或最小值）并重新调整堆，直到堆为空，从而完成排序。
-
-## 代码实现
-
-```typescript
 class MinHeap {
   private heap: number[];
   private capacity: number;
@@ -160,4 +118,3 @@ minHeap.insert(45);
 
 console.log("Extracted Min:", minHeap.extractMin());
 console.log("Heap after extracting min:", minHeap.heapSort());
-```
