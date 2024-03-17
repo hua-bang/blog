@@ -126,14 +126,12 @@ export default function AutoSideBar(options: AutoSideBarOptions) {
   return {
     name: "autoSideBar",
     buildStart: async () => {
-      console.log("build start");
       metaInfoMap = {};
       const fileList = scanDirectory(docsDir);
       fileList.map((item) => generateConfigByFilePath(item));
     },
     handleHotUpdate(hmrContext) {
       const { file: absolutePath } = hmrContext;
-      console.log("hmrCOntent", absolutePath);
       generateConfigByFilePath(absolutePath, true);
       patchSidebarConfig(metaInfoMap, options);
     },
