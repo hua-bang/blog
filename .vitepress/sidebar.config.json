@@ -147,6 +147,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/mini-bundler-loader.md",
           "text": "mini-bundler 实现：loader",
           "link": "/tech/mini-bundler-loader.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/webpack-hmr.md",
+          "text": "webpack 中的 HMR",
+          "link": "/tech/webpack-hmr.md"
         }
       ]
     }
