@@ -27,18 +27,18 @@ editLink: true
 
 ![](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240318223223.png)
 
-### **初始化阶段**
+### 2.1 初始化阶段
 
 项目启动后，本地会开启一个服务（ `Dev Server` ），同时 `Browser` 侧会注入 `HMR Runtime` 的一些代码，使得两方都可以在后续流程用到 `HMR` 的能力。并且在初始化过程中，他们会建立一个 `WebSocket` 的链接，支持后续的双向通信。
 
 - **`Dev Server` 侧**： `Dev Server` 中可以调用 `HMR`，提供的能力，我们称它为 HMR Server。
 - **`Browser` 侧**: 注意，这里的 `browser` 侧的话，不仅仅只有 `bundler` 编译过后我们原来的代码， `HMR` 工具需要注入一些代码到 `browser` 和我们具体的代码之中，才能保证 `HMR` 热更新生效。
 
-### 文件更新时
+### 2.2 文件更新时
 
 当项目文件更新的时候， `bundler` 会进行一次重新打包。这个时候 `HMR Server` 会计算出修改的文件，并封装成约定好的数据结构，通过 `WebSocket`，给到 `HMR Runtime`， 而这个时候 `HMR Runtime` 会通知需要修改的模块来进行更新。
 
-### **热更新应用时**
+### 2.3 热更新应用时
 
 - 在浏览器端， `HMR Runtime` 负责具体的更新流程，这包括请求新模块代码，以及在其载入后，更新模块实例或状态。
 - 如果模块可以被热更新，这个过程就会发生，否则可能需要回退到完整的页面刷新。
@@ -251,26 +251,105 @@ if (module.hot) {
 - 提供 `HMR` 的 API。
 
 4. 文件更新的过程。
+   上文提到，文件更新调用 `sendStats` ，我们仔细来看，文件热更新的话 && 文件编译没出错的情况，则会调用下方两个方法
 
-上文提到，文件更新调用 `sendStats` ，我们仔细来看，文件热更新的话 && 文件编译没出错的情况，则会调用 `this.sendMessage(clients, "ok");`
+- `this.sendMessage(clients, "hash", stats.hash)` : 将最新生成的 `hash` 告诉 `client`
+- `this.sendMessage(clients, "ok")` : 提示文件编译更新完成。
 
-![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240318223848.png)
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319224936.png)
 
-同样的，在 `client` 处，会有一个接受处理 `WS` 的处理，其中处理 `ok` 的触发的函数。
+于是，在 `client` 端，我们可以看到这两条消息。
 
-可以看到里面触发了 `reloadApp` 这个函数。
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319224958.png)
 
-![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240318223906.png)
+同样的，在 `client` 处，会有一个接受处理 `WS` 的处理，其中处理 `hash` 和 `ok` 的触发的函数。
+
+- `hash` : 保存当前 hash 的值。
+  ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225015.png)
+
+- `ok`: 可以看到里面触发了 `reloadApp` 这个函数。
+  ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225034.png)
 
 直接看里面的热更新的逻辑，会看到里面通过事件订阅 发送 `webpackHotUpdate` 。
 
-![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240318223918.png)
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225055.png)
 
 而 `webpackHotUpdate` 事件，会触发到 `[module.hot](<http://module.hot>)` 的 `check` 函数，即图中的 `hotCheck`
 
-里面这个时候有 \*\*webpack_require\*\*.hmrM 是用于获取 hot-update.json 的。
+里面这个时候有 \*\*webpack_require\*\*.hmrM 是用于获取 `hot-update.json` 的。
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225122.png)
 
-![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240318223942.png)
+这里会根据 `chunk` + `hash` + `hot-update.json` 的规则，去拉取这个 `hot-update.json` 这个文件。
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225141.png)
+
+**`hot-update.json`**文件的作用主要是提供有关哪些 chunks（代码块）发生了更新的信息。然后，这些信息被用来请求对应的热更新文件，即**`[chunkId].[hash].hot-update.js`**文件，这些文件包含了被修改模块的新代码。
+
+加载完之后，我们能看到这是一段 `JS` 代码，并且在执行的时候自己调用了 `self['webpackHotUpdatehmr']` 的函数，这里主要做了两件事
+
+- 存储替换的模块信息：
+  - 未修改前，模块还是在 `main.js` 中的。
+    ![Uploading file...4x7de]()
+  - 而当拉取了最新更改的 **`[chunkId].[hash].hot-update.js`**，则会将这次修改信息给存起来（修改的模块 ，修改的代码），待后续使用。
+    ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225216.png)
+- 保留修改当前的 `hash` 值的函数：后续使用，如下一次的热更新。
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225237.png)
+
+加载完之后，最终会走到 `internalApply` 函数中。
+
+这个函数完成最后的回调函数调用
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225251.png)
+
+这东西会调用 `applyHandler` 返回的 `apply` 方法
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225307.png)
+
+可以看到模块已经被替换成最新的了。
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225323.png)
+
+接着，会找到我们对应注册的回调中，将我们的注册的回调进行执行。
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225343.png)
+
+而对于我们的回调，主要是： 重新挂载了一次 `dom` 节点。
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225358.png)
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225408.png)
+
+最终页面也完成了更新
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225420.png)
+
+最后，整体会到 `check` 的回调后，虽然没有很细致的看具体代码，但这里感觉。
+
+当我们没有通过 `[module.hot](<http://module.hot>).accept` 注册回调的话，这里的 `updateModules` 理论上是空的，从而会触发页面的重新加载。
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240319225445.png)
+
+## 四、流程梳理
+
+### 4.1 Dev Server 初始化
+
+- **建立 WebSocket 链接**：开启 `ws` ，支持后续和 `browser` 的通信。
+- **监听文件变化**：通过注册 `webpack` 插件：实现文件变化的监听，文件变化后会触发的。
+- **修改 `Webpack` 配置**：注入 `webpack-dev-server/client`，`webpack/hot/dev-server.js` 代码，同时注入了 `webpack.HotModuleReplacementPlugin` 的插件（这个插件也会进行代码注入）
+
+### 4.2 Client 初始化
+
+- **建立 `WebSocket` 链接：**开启 `ws` ，支持后续和 `Dev Server` 的通信。
+- **注入了 `[module.hot](<http://module.hot>)` 对象，提供热更新接口：**暴露给开发者 `module.hot` 的 `api` 能力。
+
+### 4.3 文件更新的流程
+
+- **文件更新**： `Dev Server` 发送 `hash` 和 `ok` 事件，通知浏览器。
+- **浏览器**：接受 `hash` 和 `ok` 事件，并进行处理。即发起 `hot-update.json` 和 `hot-update.js` 的请求。
+- **执行 `hot-update.js` 的代码**：拿到 `hot-update.js` 会直接执行这个脚本，做新模块的临时存储。
+- **更新模块并执行回调**：临时存储了新模块之后，需要进行新旧模块的替换。替换完之后，会去找我们通过 `module.hot.accept` 注册的回调，进行收集和执行。从而实现模块的热更新。
+- **更新模块检查**：当我们没有通过 `[module.hot](<http://module.hot>).accept` 注册回调的话，会造成 `updateModules` 理论上是空的，从而会触发页面的重新加载，而非热更新。
 
 ## 参考资料
 
