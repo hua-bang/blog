@@ -44,7 +44,7 @@ editLink: true
 | **总节点 k** | `2^(h - 1) <= k <= 2^h - 1` | `k = 2^h - 1`     |
 | **树高 h**   | `h = log2 k + 1`            | `h = log2(k + 1)` |
 
-## 二叉搜索树
+## 二叉树搜索
 
 二叉树的搜索主要分为 `深度优先搜索(DFS)` 和 `广度优先搜索(BFS)`两种方式。
 
@@ -113,4 +113,100 @@ const inOrderTraversal = (root: BinaryTree) => {
 
 ### 后序遍历
 
+**后序遍历**：先遍历左子树，然后遍历右子树，最后访问根节点。
+
+```ts
+import { BinaryTree } from "./binary-tree";
+
+const postOrderTraversal = (root: BinaryTree) => {
+  const stack: BinaryTree[] = [root];
+  const result: number[] = [];
+
+  while (stack.length) {
+    const node = stack.pop()!;
+
+    result.unshift(node.value);
+
+    if (node.left) {
+      stack.push(node.left);
+    }
+
+    if (node.right) {
+      stack.push(node.right);
+    }
+  }
+
+  return result;
+};
+
+const a = new BinaryTree(2);
+const b = new BinaryTree(3);
+const c = new BinaryTree(4);
+
+const b1 = new BinaryTree(6);
+const b2 = new BinaryTree(5);
+
+const c1 = new BinaryTree(7);
+const c2 = new BinaryTree(8);
+
+a.left = b;
+a.right = c;
+
+b.left = b1;
+b.right = b2;
+
+c.left = c1;
+c.right = c2;
+
+const res = postOrderTraversal(a);
+console.log(res);
+```
+
 ### 层序遍历
+
+广度优先搜索（BFS）是从根节点开始，逐层遍历树中每个节点，同时每层从左到右遍历。BFS 通常使用队列来实现。
+
+```md
+import { BinaryTree } from "./binary-tree";
+
+const levelOrder = (root: BinaryTree) => {
+const res: number[] = [];
+const queue: BinaryTree[] = [root];
+while (queue.length) {
+const node = queue.shift()!;
+res.push(node.value);
+if (node.left) {
+queue.push(node.left);
+}
+
+    if (node.right) {
+      queue.push(node.right);
+    }
+
+}
+
+return res;
+};
+
+const a = new BinaryTree(2);
+const b = new BinaryTree(3);
+const c = new BinaryTree(4);
+
+const b1 = new BinaryTree(6);
+const b2 = new BinaryTree(5);
+
+const c1 = new BinaryTree(7);
+const c2 = new BinaryTree(8);
+
+a.left = b;
+a.right = c;
+
+b.left = b1;
+b.right = b2;
+
+c.left = c1;
+c.right = c2;
+
+const res = levelOrder(a);
+console.log(res);
+```
