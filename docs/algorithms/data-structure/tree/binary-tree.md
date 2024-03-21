@@ -61,6 +61,12 @@ editLink: true
 
 ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240320081657.png)
 
+**比较**
+
+- 时间效率：BFS 和 DFS 的时间复杂度很多时候是相同的，但在特定问题上，一种可能比另一种更高效。
+- 空间效率：在实际应用中，DFS 通常比 BFS 占用更少的内存，因为 BFS 需要存储整个层的节点。
+- 应用领域：BFS 更适合问题的最短路径(图)、层次遍历等场景，而 DFS 更适用于查找所有可能解的问题、深度优先的探索等。
+
 ### 前序遍历
 
 **先序遍历**：先访问根节点，然后遍历左子树，最后遍历右子树。
@@ -166,26 +172,25 @@ console.log(res);
 
 广度优先搜索（BFS）是从根节点开始，逐层遍历树中每个节点，同时每层从左到右遍历。BFS 通常使用队列来实现。
 
-```md
+```ts
 import { BinaryTree } from "./binary-tree";
 
 const levelOrder = (root: BinaryTree) => {
-const res: number[] = [];
-const queue: BinaryTree[] = [root];
-while (queue.length) {
-const node = queue.shift()!;
-res.push(node.value);
-if (node.left) {
-queue.push(node.left);
-}
+  const res: number[] = [];
+  const queue: BinaryTree[] = [root];
+  while (queue.length) {
+    const node = queue.shift()!;
+    res.push(node.value);
+    if (node.left) {
+      queue.push(node.left);
+    }
 
     if (node.right) {
       queue.push(node.right);
     }
+  }
 
-}
-
-return res;
+  return res;
 };
 
 const a = new BinaryTree(2);

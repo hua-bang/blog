@@ -253,6 +253,10 @@
             {
               "text": "二叉树",
               "link": "/algorithms/data-structure/tree/binary-tree.md"
+            },
+            {
+              "text": "二叉搜索树",
+              "link": "/algorithms/data-structure/tree/binary-search-tree.md"
             }
           ]
         }
