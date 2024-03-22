@@ -257,8 +257,17 @@
             {
               "text": "二叉搜索树",
               "link": "/algorithms/data-structure/tree/binary-search-tree.md"
+            },
+            {
+              "text": "AVL 树",
+              "link": "/algorithms/data-structure/tree/avl-tree.md"
             }
           ]
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/data-structure/tree/avl-tree.md",
+          "text": "AVL 树",
+          "link": "/algorithms/data-structure/tree/avl-tree.md"
         }
       ]
     },
