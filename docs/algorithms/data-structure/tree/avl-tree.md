@@ -30,8 +30,24 @@ editLink: true
 
 ### 平衡情况
 
-左左情况：指的是一种特定的不平衡状态，其中一个节点的左子树的左侧更重（即左子树的高度大于右子树的高度），并且这种不平衡状态发生在两级连续的左子节点上。这种情况需要通过右旋转操作来修正不平衡。
+**左左情况**：指的是一种特定的不平衡状态，其中一个节点的左子树的左侧更重（即左子树的高度大于右子树的高度），并且这种不平衡状态发生在两级连续的左子节点上。这种情况需要通过右旋转操作来修正不平衡。
 ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240322082135.png)
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240324103855.png)
+
+**右右情况**：是与左左（LL）情况相对应的另一种特定不平衡场景。当在 AVL 树的某个节点的右子树的右侧添加一个新节点后，导致那个节点的右子树比左子树高出 2 级，这时就出现了 RR 不平衡。
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240324103223.png)
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240324103903.png)
+
+**左右不平衡**： 左-右（LR）不平衡是 AVL 树中的一种特殊情况，当一个节点的左子树的右子树比它的左子树高时，会发生这种不平衡。更具体地说，LR 不平衡是在某个节点的左子树的右子树添加一个新节点后，导致该节点的左子树比右子树高 2 层，从而破坏了 AVL 树平衡因子的规则。
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240324103408.png)
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240324103913.png)
+
+**右-左（RL）不平衡**：是 AVL 树中的一种特定不平衡情况。当在一个节点的右子树的左子树进行插入操作，导致这个节点的右子树的高度比左子树高 2 级时，就会发生 RL 不平衡。
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240324103721.png)
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240324103922.png)
 
 ## 性质
 
@@ -64,15 +80,15 @@ AVL 树通过这些性质，为许多应用提供了一个既高效又可靠的�
 
 ### 右旋
 
-右旋转是一种在 AVL 树或其他自平衡二叉搜索树中用来修正不平衡的操作。当一个节点的左子树的高度比右子树的高度大 2 时，即发生了左左不平衡（LL），这时可以通过右旋转来恢复平衡。
+右旋转是一种在 AVL 树或其他自平衡二叉搜索树中用来修正不平衡的操作。当一个节点的左子树的高度比右子树的高度大 2 时，即发生了左左不平衡（LL），这时可以通过右旋转来恢复平衡。以下是一个需要右旋转的树的例子
 
 ```
-     A
-    / \
-   B   C
-  /
- D
-/
+      A
+     / \
+    B   C
+   /
+  D
+ /
 E
 ```
 
@@ -129,4 +145,76 @@ root.left.left.left = new AVLNode(5);
 
 // Assuming the tree needs a right rotation at the root
 const newRoot = rightRotate(root);
+```
+
+### 左旋
+
+左旋转是一种在 AVL 树或其他自平衡二叉搜索树中用来修正不平衡的操作。当一个节点的右子树的高度比左子树的高度大 2 时，即发生了右右不平衡（RR），这时可以通过左旋转来恢复平衡。
+
+```
+     A
+    / \
+   B   C
+	    \
+         D
+          \
+           E
+```
+
+**右旋转步骤：**
+
+1. **确定旋转的节点**：
+   - 旋转发生在最小不平衡子树的根节点，在这个例子中是节点 A。
+2. **旋转的操作**：
+
+- C 节点将成为新的根节点。
+- A 节点降级为 C 的左子节点。
+- 如果 C 有左子节点，那么这个左子节点将变成 A 的右子节点
+
+1. **更新引用**： - 原本 A 的左子节点是 B，现在 B 将变成新的根节点。 - 原本 B 的右子节点是 D，D 保持不变。 - 原本 A 的右子节点是 C，现在 A 降级后 C 保持为 A 的右子节点。
+   **旋转后的树**
+
+```
+    C
+   / \
+  A   D
+ /     \
+B       E
+```
+
+经过右旋转，平衡因子重新计算，树的平衡被恢复。这是一种简化版的解释，实际的 AVL 树还会在每一步操作后更新每个节点的高度信息。
+
+代码实现
+
+```ts
+function getHeight(node: AVLNode | null): number {
+  if (node === null) {
+    return 0;
+  }
+  return node.height;
+}
+
+function leftRotate(x: AVLNode): AVLNode {
+  const y = x.right!;
+  const temp = y.left;
+
+  y.left = x;
+  x.right = temp;
+
+  x.height = Math.max(getHeight(x.left), getHeight(x.right)) + 1;
+  y.height = Math.max(getHeight(y.left), getHeight(y.right)) + 1;
+
+  // Return new root
+  return y;
+}
+
+// Usage example
+const root = new AVLNode(30);
+root.left = new AVLNode(20);
+root.right = new AVLNode(40);
+root.right.right = new AVLNode(50); // Making the tree right-heavy
+root.right.right.right = new AVLNode(60); // Adding further imbalance
+
+// Assuming the tree needs a left rotation at the root
+const newRoot = leftRotate(root);
 ```
