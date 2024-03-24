@@ -25,7 +25,7 @@ editLink: true
 
 ## 二、流程图解
 
-![](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240318223223.png)
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240324213139.png)
 
 ### 2.1 初始化阶段
 
@@ -185,7 +185,7 @@ if (module.hot) {
 
 注意：由于文章篇幅和重点内容在于 `HMR`，只会专门描述 `HMR` 相关的知识点。其他的会进行一定的省略。
 
-1. webpack `server` 命令。
+1. **webpack `server` 命令**
 
 > [webnpackCli.run](https://github.com/webpack/webpack-cli/blob/e07f0e58df103011435524d757102534b75a6796/packages/webpack-cli/src/webpack-cli.ts#L1282)
 
@@ -201,7 +201,7 @@ if (module.hot) {
 
 我们具体看看 `start` 函数做了啥。
 
-2. `WebpackDevServer` 中的 `start` 函数流程。
+2. **`WebpackDevServer` 中的 `start` 函数流程**
 
 我们可以看到， `start` 函数中做了配置的适配，和初始化，同时还开启了一个 `websocket` 的链接（以方便 Server 和 Client 作为通信）。
 
@@ -225,7 +225,7 @@ if (module.hot) {
 - 跟 `browser` 注入代码，如 entry 加入 `webpack-dev-server/client` 和 `webpack/hot/dev-server.js`, 而 `plugin` 加入 `webpack.HotModuleReplacementPlugin` 插件, 这些都会在 `browser` 注入代码以支持热更新的能力。
 - 注册 `webpack` 插件：实现文件变化的监听，文件变化后会触发的。
 
-3.  网页加载产物后的操作。
+3.  **网页加载产物后的操作**
 
 > 注意， `Browser` 的生命周期和 `Dev Server` 有所不同， `Dev Server` 进行初始化的时候，只会有一次，即我们在命令行启动项目的时候。而 `Browser` 的生命周期是你打开网页的时候。
 
@@ -250,7 +250,7 @@ if (module.hot) {
 - 建立 `WebSocket` 链接，便于后续与 `Dev Serve` 的通信。
 - 提供 `HMR` 的 API。
 
-4. 文件更新的过程。
+4. **文件更新的过程**
    上文提到，文件更新调用 `sendStats` ，我们仔细来看，文件热更新的话 && 文件编译没出错的情况，则会调用下方两个方法
 
 - `this.sendMessage(clients, "hash", stats.hash)` : 将最新生成的 `hash` 告诉 `client`
@@ -332,6 +332,8 @@ if (module.hot) {
 
 ## 四、流程梳理
 
+将上面的流程在串一串，分为 `Dev Server`、 `Client` 的初始化，以及文件更新流程
+
 ### 4.1 Dev Server 初始化
 
 - **建立 WebSocket 链接**：开启 `ws` ，支持后续和 `browser` 的通信。
@@ -351,9 +353,14 @@ if (module.hot) {
 - **更新模块并执行回调**：临时存储了新模块之后，需要进行新旧模块的替换。替换完之后，会去找我们通过 `module.hot.accept` 注册的回调，进行收集和执行。从而实现模块的热更新。
 - **更新模块检查**：当我们没有通过 `[module.hot](<http://module.hot>).accept` 注册回调的话，会造成 `updateModules` 理论上是空的，从而会触发页面的重新加载，而非热更新。
 
+## 五、总结
+
+上文简单地从源码层面调试，让我们大概了解 `HMR` 的原理和触发过程，其中也省略了很多细节，但也算足够了，也许有些细节点，等到我们需要具体去研究的时候也算不迟。以及 `HMR` 的机制更多是一个抽象，而 `Webpack` 中 `HMR` 相关的插件也是实现的细节，也许 `Vite` 中的 `HMR` 又是不同的实现，所以，我们也可以发挥自己的想象，去根据这个机制，去实现具体的 `HMR` 。
+
 ## 参考资料
 
-- [https://zhuanlan.zhihu.com/p/30669007](https://zhuanlan.zhihu.com/p/30669007)
-- [https://webpack.js.org/concepts/hot-module-replacement](https://webpack.js.org/concepts/hot-module-replacement)
-- [https://blog.jakoblind.no/webpack-hmr/](https://blog.jakoblind.no/webpack-hmr/)
-- [https://juejin.cn/book/7115598540721618944/section/7119036095211241472](https://juejin.cn/book/7115598540721618944/section/7119036095211241472)
+- [Webpack HMR 原理解析](https://zhuanlan.zhihu.com/p/30669007)
+- [HMR](https://webpack.js.org/concepts/hot-module-replacement)
+- [Understanding webpack HMR beyond the docs](https://blog.jakoblind.no/webpack-hmr/)
+- [Webpack5 核心原理与应用实践](https://juejin.cn/book/7115598540721618944/section/7119036095211241472)
+- [webpack HMR 使用与简单实现](https://juejin.cn/post/7110916748152406047)
