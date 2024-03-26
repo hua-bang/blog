@@ -1,3 +1,5 @@
+// 时间 O(MN)
+// 空间 O(M)
 function getLongestCommonPrefix(str1: string, str2: string) {
   const length = Math.min(str1.length, str2.length);
   let index = 0;
