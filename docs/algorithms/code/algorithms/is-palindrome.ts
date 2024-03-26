@@ -21,6 +21,8 @@ function isPalindrome(x: number): boolean {
   return true;
 }
 
+// 时间 O(n)
+// 空间 O(1)
 function isPalindrome2(x: number): boolean {
   if (x < 0 || (x % 10 === 0 && x !== 0)) {
     return false;
