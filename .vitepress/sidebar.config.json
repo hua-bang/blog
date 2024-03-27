@@ -265,9 +265,14 @@
           ]
         },
         {
-          "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/data-structure/tree/avl-tree.md",
-          "text": "AVL 树",
-          "link": "/algorithms/data-structure/tree/avl-tree.md"
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/data-structure/graph/index.md",
+          "text": "图",
+          "items": [
+            {
+              "text": "概览",
+              "link": "/algorithms/data-structure/graph/index.md"
+            }
+          ]
         }
       ]
     },
