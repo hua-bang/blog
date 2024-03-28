@@ -43,7 +43,132 @@ editLink: true
 图主要有两种表示方法：邻接矩阵和邻接表。
 
 - **邻接矩阵**：使用二维数组来表示图中顶点之间的连接关系。对于无向图来说，邻接矩阵是对称的。这种表示方法空间复杂度较高，但是可以快速查询任意两个顶点是否相连。
+  ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240329071050.png)
+
+```ts
+class Graph {
+  private matrix: number[][];
+  private vertices: string[];
+  private verticesIndex: Map<string, number>;
+
+  constructor(vertexCount: number) {
+    this.matrix = new Array(vertexCount)
+      .fill(null)
+      .map(() => new Array(vertexCount).fill(0));
+    this.vertices = [];
+    this.verticesIndex = new Map<string, number>();
+  }
+
+  addVertex(vertex: string) {
+    if (this.verticesIndex.has(vertex)) {
+      return;
+    }
+
+    const index = this.vertices.length;
+    this.vertices.push(vertex);
+    this.verticesIndex.set(vertex, index);
+  }
+
+  addEdge(v1: string, v2: string, weight = 1) {
+    const index1 = this.verticesIndex.get(v1);
+    const index2 = this.verticesIndex.get(v2);
+
+    if (index1 === undefined || index2 === undefined) {
+      return;
+    }
+
+    this.matrix[index1][index2] = weight;
+    this.matrix[index2][index1] = weight;
+  }
+
+  hasEdge(v1: string, v2: string) {
+    const index1 = this.verticesIndex.get(v1);
+    const index2 = this.verticesIndex.get(v2);
+
+    if (index1 === undefined || index2 === undefined) {
+      return false;
+    }
+
+    return this.matrix[index1][index2] !== 0;
+  }
+
+  print() {
+    console.log(this.matrix);
+  }
+}
+
+// 使用示例
+const graph = new Graph(4);
+graph.addVertex("A");
+graph.addVertex("B");
+graph.addVertex("C");
+graph.addVertex("D");
+graph.addEdge("A", "B");
+graph.addEdge("B", "C");
+graph.addEdge("C", "D");
+graph.addEdge("D", "A");
+
+graph.print();
+```
+
 - **邻接表**：为每个顶点维护一个列表，列出直接连接到的所有顶点。这种表示方法更加节省空间，尤其是对于稀疏图。
+
+```ts
+type Vertex = string;
+type Edge = { vertex: Vertex; weight: number };
+type AdjacencyList = Map<Vertex, Edge[]>;
+
+class WeightedGraph {
+  private adjacencyList: AdjacencyList;
+
+  constructor() {
+    this.adjacencyList = new Map<Vertex, Edge[]>();
+  }
+
+  addVertex(vertex: Vertex): void {
+    if (this.adjacencyList.get(vertex)) {
+      return;
+    }
+
+    this.adjacencyList.set(vertex, []);
+  }
+
+  addEdge(vertex1: Vertex, vertex2: Vertex, weight = 1) {
+    if (!this.adjacencyList.get(vertex1) || !this.adjacencyList.get(vertex2)) {
+      return;
+    }
+
+    this.adjacencyList.get(vertex1)?.push({
+      vertex: vertex2,
+      weight,
+    });
+
+    this.adjacencyList.get(vertex2)?.push({
+      vertex: vertex1,
+      weight,
+    });
+  }
+
+  print() {
+    for (let [vertex, edges] of this.adjacencyList) {
+      const edgeStr = edges
+        .map((edge) => `${edge.vertex} (${edge.weight})`)
+        .join(", ");
+      console.log(`${vertex} -> ${edgeStr}`);
+    }
+  }
+}
+
+const graph2 = new WeightedGraph();
+graph2.addVertex("A");
+graph2.addVertex("B");
+graph2.addVertex("C");
+graph2.addEdge("A", "B", 1);
+graph2.addEdge("A", "C", 2);
+graph2.addEdge("B", "C", 3);
+
+graph2.print();
+```
 
 ## 图的遍历
 
