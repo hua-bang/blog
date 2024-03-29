@@ -174,3 +174,237 @@ graph2.print();
 
 - **深度优先搜索（DFS）**：模仿走迷宫，尽可能深地搜索图的分支。
 - **广度优先搜索（BFS）**：从源顶点开始，逐层遍历图，先访问离源顶点最近的顶点。
+
+## 整体代码
+
+### 领接数组
+
+```ts
+class Graph {
+  private matrix: number[][];
+  private vertices: string[];
+  private verticesIndex: Map<string, number>;
+
+  constructor(vertexCount: number) {
+    this.matrix = new Array(vertexCount)
+      .fill(null)
+      .map(() => new Array(vertexCount).fill(0));
+    this.vertices = [];
+    this.verticesIndex = new Map<string, number>();
+  }
+
+  addVertex(vertex: string) {
+    if (this.verticesIndex.has(vertex)) {
+      return;
+    }
+
+    const index = this.vertices.length;
+    this.vertices.push(vertex);
+    this.verticesIndex.set(vertex, index);
+  }
+
+  addEdge(v1: string, v2: string, weight = 1) {
+    const index1 = this.verticesIndex.get(v1);
+    const index2 = this.verticesIndex.get(v2);
+
+    if (index1 === undefined || index2 === undefined) {
+      return;
+    }
+
+    this.matrix[index1][index2] = weight;
+    this.matrix[index2][index1] = weight;
+  }
+
+  hasEdge(v1: string, v2: string) {
+    const index1 = this.verticesIndex.get(v1);
+    const index2 = this.verticesIndex.get(v2);
+
+    if (index1 === undefined || index2 === undefined) {
+      return false;
+    }
+
+    return this.matrix[index1][index2] !== 0;
+  }
+
+  print() {
+    console.log(this.matrix);
+  }
+
+  BFS(startVertex: string): void {
+    const startVertexIndex = this.verticesIndex.get(startVertex);
+    if (startVertexIndex === undefined) {
+      return;
+    }
+
+    const queue: number[] = [];
+    const visited: boolean[] = [];
+
+    queue.push(startVertexIndex);
+    visited[startVertexIndex] = true;
+
+    while (queue.length) {
+      const currentIndex = queue.shift()!;
+
+      console.log(`${this.vertices[currentIndex]} `);
+
+      const targetMatrix = this.matrix[currentIndex] || [];
+
+      for (let i = 0; i < targetMatrix.length; i++) {
+        if (targetMatrix[i] && !visited[i]) {
+          visited[i] = true;
+          queue.push(i);
+        }
+      }
+    }
+  }
+
+  DFS(startVertex: string): void {
+    const visited = new Array(this.vertices.length).fill(false);
+    const DFSUtils = (idx: number) => {
+      visited[idx] = true;
+      console.log(this.vertices[idx]);
+
+      for (let i = 0; i < this.matrix[idx].length; i++) {
+        if (this.matrix[idx][i] && !visited[i]) {
+          DFSUtils(i);
+        }
+      }
+    };
+
+    const startIdx = this.verticesIndex.get(startVertex);
+    if (startIdx !== undefined) {
+      DFSUtils(startIdx);
+    }
+  }
+}
+
+// 使用示例
+const graph = new Graph(4);
+graph.addVertex("A");
+graph.addVertex("B");
+graph.addVertex("C");
+graph.addVertex("D");
+graph.addEdge("A", "B");
+graph.addEdge("B", "C");
+graph.addEdge("C", "D");
+graph.addEdge("D", "A");
+
+graph.print();
+
+console.log("BFS: ");
+graph.BFS("A");
+
+console.log("\nDFS: ");
+graph.DFS("A");
+```
+
+### 领接表
+
+```ts
+type Vertex = string;
+type Edge = { vertex: Vertex; weight: number };
+type AdjacencyList = Map<Vertex, Edge[]>;
+
+class WeightedGraph {
+  private adjacencyList: AdjacencyList;
+
+  constructor() {
+    this.adjacencyList = new Map<Vertex, Edge[]>();
+  }
+
+  addVertex(vertex: Vertex): void {
+    if (this.adjacencyList.get(vertex)) {
+      return;
+    }
+
+    this.adjacencyList.set(vertex, []);
+  }
+
+  addEdge(vertex1: Vertex, vertex2: Vertex, weight = 1) {
+    if (!this.adjacencyList.get(vertex1) || !this.adjacencyList.get(vertex2)) {
+      return;
+    }
+
+    this.adjacencyList.get(vertex1)?.push({
+      vertex: vertex2,
+      weight,
+    });
+
+    this.adjacencyList.get(vertex2)?.push({
+      vertex: vertex1,
+      weight,
+    });
+  }
+
+  print() {
+    for (let [vertex, edges] of this.adjacencyList) {
+      const edgeStr = edges
+        .map((edge) => `${edge.vertex} (${edge.weight})`)
+        .join(", ");
+      console.log(`${vertex} -> ${edgeStr}`);
+    }
+  }
+
+  BFS(vertex: Vertex) {
+    const visited: Record<Vertex, boolean> = {};
+    const queue: Vertex[] = [vertex];
+
+    visited[vertex] = true;
+
+    while (queue.length) {
+      const currentVertex = queue.shift()!;
+      console.log(`${currentVertex} `);
+
+      const edge = this.adjacencyList.get(currentVertex);
+
+      if (edge) {
+        for (let i = 0; i < edge.length; i++) {
+          const { vertex } = edge[i];
+          if (vertex && !visited[vertex]) {
+            queue.push(vertex);
+            visited[vertex] = true;
+          }
+        }
+      }
+    }
+  }
+
+  DFS(vertex: Vertex) {
+    const visited: Record<Vertex, boolean> = {};
+    const DFSUtils = (targetVertex: Vertex) => {
+      console.log(`${targetVertex} `);
+      visited[targetVertex] = true;
+
+      const edges = this.adjacencyList.get(targetVertex);
+
+      if (edges) {
+        for (let i = 0; i < edges.length; i++) {
+          const { vertex: nextVertex } = edges[i];
+          if (nextVertex && !visited[nextVertex]) {
+            DFSUtils(nextVertex);
+          }
+        }
+      }
+    };
+
+    DFSUtils(vertex);
+  }
+}
+
+const graph2 = new WeightedGraph();
+graph2.addVertex("A");
+graph2.addVertex("B");
+graph2.addVertex("C");
+graph2.addVertex("D");
+graph2.addEdge("A", "B", 1);
+graph2.addEdge("A", "C", 2);
+graph2.addEdge("B", "D", 2);
+graph2.addEdge("B", "C", 3);
+
+graph2.print();
+console.log("BFS:");
+graph2.BFS("A");
+
+console.log("DFS:");
+graph2.DFS("A");
+```
