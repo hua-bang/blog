@@ -286,5 +286,22 @@
         }
       ]
     }
+  ],
+  "/react/": [
+    {
+      "text": "React 源码解析",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/react/react-source-code/index.md",
+          "text": "概述",
+          "link": "/react/react-source-code/index.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/react/react-source-code/base-data-structure.md",
+          "text": "React 基础数据类型",
+          "link": "/react/react-source-code/base-data-structure.md"
+        }
+      ]
+    }
   ]
 }
