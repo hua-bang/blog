@@ -300,6 +300,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/react/react-source-code/base-data-structure.md",
           "text": "React 基础数据类型",
           "link": "/react/react-source-code/base-data-structure.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/react/react-source-code/scheduler.md",
+          "text": "调度",
+          "link": "/react/react-source-code/scheduler.md"
         }
       ]
     }
