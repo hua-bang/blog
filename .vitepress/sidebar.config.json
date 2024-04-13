@@ -159,6 +159,16 @@
           "link": "/tech/webpack-hmr.md"
         }
       ]
+    },
+    {
+      "text": "TypeScript",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/typescript-skill.md",
+          "text": "TypeScript的类型编程小技巧",
+          "link": "/tech/typescript-skill.md"
+        }
+      ]
     }
   ],
   "/read/": [
