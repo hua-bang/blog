@@ -36,6 +36,11 @@
         {
           "text": "信息过载",
           "link": "/blog/information-overload"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/blog/subscribe-or-recommend.md",
+          "text": "有多久没看公众号了。",
+          "link": "/blog/subscribe-or-recommend.md"
         }
       ]
     },
