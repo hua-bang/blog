@@ -126,10 +126,77 @@ export const binarySearchInsertionSimple = (
 
 ### 存在重复元素的情况
 
-假设数组中存在多个 `target` ，则普通二分查找只能返回其中一个 `target` 的索引，**而无法确定该元素的左边和右边还有多少 `target`**。
+假设数组中存在多个  `target` ，则普通二分查找只能返回其中一个  `target`  的索引，**而无法确定该元素的左边和右边还有多少  `target`**。
 
 我们可以通过线性的方法去找左边还有多少 target， 当这样子的话，时间复杂度回比成 O(n)。
 ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240416081240.png)
 于是，我们考虑二分查找。
-- 当 `nums[m] < target` 或 `nums[m] > target` 时，说明还没有找到 `target` ，因此采用普通二分查找的缩小区间操作，**从而使指针 left 和 right 向 `target` 靠近**
-- 当 `nums[m] == target` 时，说明小于 `target` 的元素在区间 \[i, m-1\]中，因此采用 j = m -1 来缩小区间，**从而使指针 j 向小于 `target` 的元素靠近**
+
+- 当  `nums[m] < target`  或  `nums[m] > target`  时，说明还没有找到  `target` ，因此采用普通二分查找的缩小区间操作，**从而使指针  left  和  right  向  `target`  靠近**
+- 当  `nums[m] == target`  时，说明小于  `target`  的元素在区间  \[i, m-1\]中，因此采用 j = m -1 来缩小区间，**从而使指针  j  向小于  `target`  的元素靠近**
+
+```ts
+function binarySearchInsertion(arr: Array<number>, target: number): number {
+  let left = 0,
+    right = arr.length - 1;
+
+  while (left <= right) {
+    const mid = (left + right) >> 1;
+
+    if (arr[mid] === target) {
+      right = mid - 1;
+    }
+
+    if (arr[mid] < target) {
+      left = mid + 1;
+    }
+
+    if (arr[mid] > target) {
+      right = mid - 1;
+    }
+  }
+
+  return left;
+}
+
+console.log(binarySearchInsertion([1, 3, 3, 3, 3, 4, 5, 6, 7, 9], 3));
+```
+
+## 二分查找边界
+
+### 查找左边界
+
+给定一个长度为 n 的有序数组 nums ，其中可能包含重复元素。请返回数组中最左一个元素 target 的索引。若数组中不包含该元素，则返回 -1。
+
+```ts
+function binarySearchLeftEdge(nums: Array<number>, target: number): number {
+  // 等价于查找 target 的插入点
+  const i = binarySearchInsertion(nums, target);
+  // 未找到 target ，返回 -1
+  if (i === nums.length || nums[i] !== target) {
+    return -1;
+  }
+  // 找到 target ，返回索引 i
+  return i;
+}
+```
+
+### 查找右边界
+
+实际上，我们可以利用查找最左元素的函数来查找最右元素，具体方法为：将查找最右一个 target 转化为查找最左一个 target + 1。
+
+```ts
+/* 二分查找最右一个 target */
+function binarySearchRightEdge(nums: Array<number>, target: number): number {
+  // 转化为查找最左一个 target + 1
+  const i = binarySearchInsertion(nums, target + 1);
+  // j 指向最右一个 target ，i 指向首个大于 target 的元素
+  const j = i - 1;
+  // 未找到 target ，返回 -1
+  if (j === -1 || nums[j] !== target) {
+    return -1;
+  }
+  // 找到 target ，返回索引 j
+  return j;
+}
+```
