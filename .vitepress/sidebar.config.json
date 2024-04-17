@@ -307,10 +307,15 @@
         {
           "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/search/binary_search.md",
           "text": "搜索",
-          "items" : [
+          "items": [
             {
               "text": "二分查找",
               "link": "/algorithms/algorithms/search/binary_search.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/search/hash_search.md",
+              "text": "哈希优化策略",
+              "link": "/algorithms/algorithms/search/hash_search.md"
             }
           ]
         }
