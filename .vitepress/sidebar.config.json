@@ -316,6 +316,11 @@
               "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/search/hash_search.md",
               "text": "哈希优化策略",
               "link": "/algorithms/algorithms/search/hash_search.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/search/over-view.md",
+              "text": "搜索算法",
+              "link": "/algorithms/algorithms/search/over-view.md"
             }
           ]
         }
