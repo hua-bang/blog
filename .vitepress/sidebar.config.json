@@ -323,6 +323,16 @@
               "link": "/algorithms/algorithms/search/over-view.md"
             }
           ]
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/overview.md",
+          "text": "排序",
+          "items": [
+            {
+              "text": "概览",
+              "link": "/algorithms/algorithms/sort/overview.md"
+            }
+          ]
         }
       ]
     }
