@@ -331,6 +331,11 @@
             {
               "text": "概览",
               "link": "/algorithms/algorithms/sort/overview.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/selection_sort.md",
+              "text": "选择排序",
+              "link": "/algorithms/algorithms/sort/selection_sort.md"
             }
           ]
         }
