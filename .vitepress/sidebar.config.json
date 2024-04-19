@@ -336,6 +336,11 @@
               "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/selection_sort.md",
               "text": "选择排序",
               "link": "/algorithms/algorithms/sort/selection_sort.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/search/bubble_sort.md",
+              "text": "冒泡搜索",
+              "link": "/algorithms/algorithms/search/bubble_sort.md"
             }
           ]
         }
