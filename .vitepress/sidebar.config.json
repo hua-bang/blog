@@ -338,12 +338,18 @@
               "link": "/algorithms/algorithms/sort/selection_sort.md"
             },
             {
-              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/search/bubble_sort.md",
-              "text": "冒泡搜索",
-              "link": "/algorithms/algorithms/search/bubble_sort.md"
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/bubble_sort.md",
+              "text": "冒泡排序",
+              "link": "/algorithms/algorithms/sort/bubble_sort.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/insertion_sort.md",
+              "text": "插入排序",
+              "link": "/algorithms/algorithms/sort/insertion_sort.md"
             }
           ]
         }
+        
       ]
     }
   ],
