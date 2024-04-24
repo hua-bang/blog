@@ -346,10 +346,14 @@
               "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/insertion_sort.md",
               "text": "插入排序",
               "link": "/algorithms/algorithms/sort/insertion_sort.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/merge_sort.md",
+              "text": "归并排序",
+              "link": "/algorithms/algorithms/sort/merge_sort.md"
             }
           ]
         }
-        
       ]
     }
   ],
