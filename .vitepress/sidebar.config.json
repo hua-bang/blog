@@ -87,6 +87,16 @@
           "link": "/blog/summary-2023.md"
         }
       ]
+    },
+    {
+      "text": "生活体验",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/blog/2024-05-01.md",
+          "text": "2024 五一",
+          "link": "/blog/2024-05-01.md"
+        }
+      ]
     }
   ],
   "/tech/": [
