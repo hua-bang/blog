@@ -97,6 +97,16 @@
           "link": "/blog/2024-05-01.md"
         }
       ]
+    },
+    {
+      "text": "碎碎念",
+      "items": [
+        {
+          "id": "/workspaces/blog/docs/blog/right.md",
+          "text": "对也不对",
+          "link": "/blog/right.md"
+        }
+      ]
     }
   ],
   "/tech/": [
