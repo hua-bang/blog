@@ -2,6 +2,14 @@ import { defineConfig } from "vitepress";
 import SideBarConfig from "./sidebar.config.json";
 import AutoSideBar from "./plugins/auto-side-bar";
 import path from "path";
+import { RssPlugin, RSSOptions } from "vitepress-plugin-rss";
+
+const baseUrl = "https://hua-bang.github.io";
+const RSS: RSSOptions = {
+  title: "华铧的 Blog",
+  baseUrl,
+  copyright: "Copyright (c) 2022-present, 华铧",
+};
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -68,6 +76,7 @@ export default defineConfig({
         rootPath: path.resolve(__dirname, "../"),
         configFilePath: path.resolve(__dirname, "./sidebar.config.json"),
       }),
+      RssPlugin(RSS),
     ],
   },
 });

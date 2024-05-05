@@ -8,6 +8,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "gitalk": "^1.8.0"
+    "gitalk": "^1.8.0",
+    "vitepress-plugin-rss": "^0.2.3"
   }
 }
