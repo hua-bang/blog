@@ -182,6 +182,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/webpack-hmr.md",
           "text": "webpack 中的 HMR",
           "link": "/tech/webpack-hmr.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/module-federation.md",
+          "text": "模块联邦",
+          "link": "/tech/module-federation.md"
         }
       ]
     },
