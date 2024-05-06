@@ -1,6 +1,7 @@
 ---
 title: 二叉树
 customTag: algorithms>数据结构>树
+date: 2024.04.01
 editLink: true
 ---
 

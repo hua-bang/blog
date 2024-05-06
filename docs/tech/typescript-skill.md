@@ -2,6 +2,7 @@
 title: TypeScript 类型编程小技巧
 customTag: tech>TypeScript
 editLink: true
+date: 2024.02.05
 ---
 
 # TypeScript 类型编程小技巧
@@ -36,7 +37,7 @@ editLink: true
 
 `TypeScript`很明显就是支持类型编程的类型系统，类型编程提供了高度的灵活性。
 
-`TypeScript`是图灵完备的，我们能够用TS所提供的语法以及基础工具，去进行条件判断，递归，类型推断等操作去，同时我们进行复杂的组合计算，获得新的类型，从而可以去实现`Pick`等内置泛型工具, `斐波那契数列`,`中国象棋`,`Lisp解释器`,`HypeScript`类型系统，这也被称为`类型体操`。
+`TypeScript`是图灵完备的，我们能够用 TS 所提供的语法以及基础工具，去进行条件判断，递归，类型推断等操作去，同时我们进行复杂的组合计算，获得新的类型，从而可以去实现`Pick`等内置泛型工具, `斐波那契数列`,`中国象棋`,`Lisp解释器`,`HypeScript`类型系统，这也被称为`类型体操`。
 
 # 类型编程的小技巧
 
@@ -92,12 +93,12 @@ typescript
 
 > `TypeScript`中,有内置一些泛型工具,提供我们做类型转换。
 
-这里的话就不加多介绍了， 可以查阅TS的文档[Documentation - Utility Types](https://link.juejin.cn?target=https%3A%2F%2Fwww.typescriptlang.org%2Fdocs%2Fhandbook%2Futility-types.html "https://www.typescriptlang.org/docs/handbook/utility-types.html")。
+这里的话就不加多介绍了， 可以查阅 TS 的文档[Documentation - Utility Types](https://link.juejin.cn?target=https%3A%2F%2Fwww.typescriptlang.org%2Fdocs%2Fhandbook%2Futility-types.html "https://www.typescriptlang.org/docs/handbook/utility-types.html")。
 
-|Partial|Required|Readonly|Record<Keys, Type>|Pick<Type, Keys>|Omit<Type, Keys>|Exclude<UnionType, ExcludedMembers>|
-|---|---|---|---|---|---|---|
-|Extract<Type, Union>|NonNullable|Parameters|ConstructorParameters|ReturnType|InstanceType|ThisParameterType|
-|OmitThisParameter|ThisType|Uppercase|Lowercase|Capitalize|Uncapitalize||
+| Partial              | Required    | Readonly   | Record<Keys, Type>    | Pick<Type, Keys> | Omit<Type, Keys> | Exclude<UnionType, ExcludedMembers> |
+| -------------------- | ----------- | ---------- | --------------------- | ---------------- | ---------------- | ----------------------------------- |
+| Extract<Type, Union> | NonNullable | Parameters | ConstructorParameters | ReturnType       | InstanceType     | ThisParameterType                   |
+| OmitThisParameter    | ThisType    | Uppercase  | Lowercase             | Capitalize       | Uncapitalize     |                                     |
 
 当然, `TypeScript`的基础当然不止这么多，还有`索引类型`,`as`等。
 
@@ -139,13 +140,13 @@ typescript
 
 复制代码
 
-``type StartsWith<     Str extends string,      Prefix extends string > = Prefix extends ''      ? true      : Str extends `${Prefix}${string}`      ? true      : false;``
+`` type StartsWith<     Str extends string,      Prefix extends string > = Prefix extends ''      ? true      : Str extends `${Prefix}${string}`      ? true      : false; ``
 
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/18347e7df07e4e2ea02e196831c2a18c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
 ### GetParameters
 
-实现一个Parameters泛型工具。
+实现一个 Parameters 泛型工具。
 
 typescript
 
@@ -161,7 +162,7 @@ typescript
 
 ## 重新构造
 
-注意，我们都知道TS中的类型不会像我们的变量那样支持重新赋值的，即我们用`type`,`infer`,`泛型参数`都是唯一确定的，无法修改的，这个时候我们要产生新的类型就要对类型去进行修改。
+注意，我们都知道 TS 中的类型不会像我们的变量那样支持重新赋值的，即我们用`type`,`infer`,`泛型参数`都是唯一确定的，无法修改的，这个时候我们要产生新的类型就要对类型去进行修改。
 
 ### AppendArgument
 
@@ -183,13 +184,13 @@ typescript
 
 复制代码
 
-``type ReplaceStr<   Str extends string,   From extends string,   To extends string > = Str extends `${infer Prefix}${From}${infer Suffix}`   ? `${Prefix}${To}${Suffix}`   : Str;``
+`` type ReplaceStr<   Str extends string,   From extends string,   To extends string > = Str extends `${infer Prefix}${From}${infer Suffix}`   ? `${Prefix}${To}${Suffix}`   : Str; ``
 
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9b77ae13d26641a183cd0e2e84947451~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
 ### ParitalByKeys
 
-实现一个根据`Key`值过滤的Parital。
+实现一个根据`Key`值过滤的 Parital。
 
 typescript
 
@@ -208,7 +209,7 @@ typescript
 `TS`中是支持我们去做递归计算的，不过最好结合`extends`和`infer`。
 
 > **递归的基本要素**
-> 
+>
 > 基线条件：确定递归到何时终止，函数不再调用自己，也称为递归出口； 递归条件：函数调用自己，将大问题分解为类似的小问题，也称为递归体。
 
 ### DeepAwaited
@@ -231,7 +232,7 @@ typescript
 
 复制代码
 
-``type ReplaceAll<   Str extends string,   From extends string,   To extends string > = Str extends `${infer Prefix}${From}${infer Suffix}`   ? `${Prefix}${To}${ReplaceAll<Suffix, From, To>}`   : Str;``
+`` type ReplaceAll<   Str extends string,   From extends string,   To extends string > = Str extends `${infer Prefix}${From}${infer Suffix}`   ? `${Prefix}${To}${ReplaceAll<Suffix, From, To>}`   : Str; ``
 
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e5d9fb3411b4699a4124199da65801b~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
@@ -273,7 +274,7 @@ typescript
 
 复制代码
 
-``type LengthOfString<S extends string, Result extends string[] = []> =     S extends `${infer First}${infer Next}`       ? LengthOfString<Next, [...Result, First]>       : Result['length'];``
+`` type LengthOfString<S extends string, Result extends string[] = []> =     S extends `${infer First}${infer Next}`       ? LengthOfString<Next, [...Result, First]>       : Result['length']; ``
 
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/925e57de53654f1abed486bba23d586a~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
@@ -305,11 +306,11 @@ typescript
 
 # 扩展
 
-**Lisp解释器：** [TypeScript 类型体操天花板，用类型运算写一个 Lisp 解释器 - 掘金](https://juejin.cn/post/7024673107906396190 "https://juejin.cn/post/7024673107906396190")
+**Lisp 解释器：** [TypeScript 类型体操天花板，用类型运算写一个 Lisp 解释器 - 掘金](https://juejin.cn/post/7024673107906396190 "https://juejin.cn/post/7024673107906396190")
 
 **中国象棋**：[用 TypeScript 类型运算实现一个中国象棋程序](https://link.juejin.cn?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F426966480 "https://zhuanlan.zhihu.com/p/426966480")
 
-**井字棋：** [TS实现简易的井字棋 - 掘金](https://juejin.cn/post/7128621293011730469 "https://juejin.cn/post/7128621293011730469")
+**井字棋：** [TS 实现简易的井字棋 - 掘金](https://juejin.cn/post/7128621293011730469 "https://juejin.cn/post/7128621293011730469")
 
 **HypeScript**: [GitHub - ronami/HypeScript: 🐬 A simplified implementation of TypeScript's type system written in Typ](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fronami%2FHypeScript "https://github.com/ronami/HypeScript")
 
@@ -323,7 +324,7 @@ typescript
 
 - [TypeScript 类型体操通关秘籍](https://juejin.cn/book/7086408430491172901 "https://juejin.cn/book/7086408430491172901")
 
-- [TypeScript类型元编程入门指南 - 掘金](https://juejin.cn/post/7025619077158666270 "https://juejin.cn/post/7025619077158666270")
+- [TypeScript 类型元编程入门指南 - 掘金](https://juejin.cn/post/7025619077158666270 "https://juejin.cn/post/7025619077158666270")
 
 - [The starting point for learning TypeScript](https://link.juejin.cn?target=https%3A%2F%2Fwww.typescriptlang.org%2Fdocs%2F "https://www.typescriptlang.org/docs/")
 

@@ -2,17 +2,21 @@
 title: 亚马逊云科技社区嘉年华
 customTag: blog>线下活动
 editLink: true
+date: 2023.08.27
 ---
+
 # 亚马逊云科技社区嘉年华
 
 :::tip
+
 - Tags: AIGC, 互联网, 创业思考, 线下活动
 
 - Date: August 27, 2023
 
-- HightLight: 
+- HightLight:
+
 1. https://www.notion.so/7d28469ed4c2497fa22bcf8a67c56cdc?pvs=21
-2.  https://www.notion.so/7d28469ed4c2497fa22bcf8a67c56cdc?pvs=21
+2. https://www.notion.so/7d28469ed4c2497fa22bcf8a67c56cdc?pvs=21
 3. https://www.notion.so/7d28469ed4c2497fa22bcf8a67c56cdc?pvs=21
 4. https://www.notion.so/7d28469ed4c2497fa22bcf8a67c56cdc?pvs=21
 5. CVP：用知识库改进大模型 (https://www.notion.so/CVP-d606b67a82c0497ba4fa265c2eb505ae?pvs=21)
@@ -32,10 +36,10 @@ AI 的冰山：
 
 生成 AI 应用公式：提示词 + 上下文 + 模型 = 输出结果。
 
-- 应用模式1：上下文提示工程(prompt)
-- 应用模式2：检索增强生成(RAG)
-- 应用模式3:微调基础模型(fine ture)
-- 应用模型4:训练自己的模型(customer model)。
+- 应用模式 1：上下文提示工程(prompt)
+- 应用模式 2：检索增强生成(RAG)
+- 应用模式 3:微调基础模型(fine ture)
+- 应用模型 4:训练自己的模型(customer model)。
 
 数据是差异化的优势之一。
 
@@ -74,17 +78,17 @@ AI 的冰山：
 ### 概述
 
 - Transformer “Attention IS All You Need”
-    - 重要贡献：并行计算、注意力（关联上下文）。
+  - 重要贡献：并行计算、注意力（关联上下文）。
 - 应用
 
 ### 构建实践
 
 - Text Generation
-    - Llama-2 7B/70B
+  - Llama-2 7B/70B
 - Text to Image
-    - Stable Diffusion XL 开源
+  - Stable Diffusion XL 开源
 - Code Generation
-    - Amazon CodeWhisperer
+  - Amazon CodeWhisperer
 
 ### 生成式 AI/LLMs 前沿
 
@@ -142,17 +146,17 @@ AI 的冰山：
 ### Common Prompt Patterns
 
 - Communication-based Patterns
-    - Format of Persona Pattern
-        - Act as a person who xxx, you will tell me
-    - Format of Question Refinement Pattern
-        - From now on, whenever I ask a question, suggest a better version of the question to use instead.
-    - Format of ad Person, explain
-    - Format of Cognitive Verifier Pattern
+  - Format of Persona Pattern
+    - Act as a person who xxx, you will tell me
+  - Format of Question Refinement Pattern
+    - From now on, whenever I ask a question, suggest a better version of the question to use instead.
+  - Format of ad Person, explain
+  - Format of Cognitive Verifier Pattern
 - Interaction based Patterns
-    - Flipped Interaction Pattern
-    - Format ask me for the first question
+  - Flipped Interaction Pattern
+  - Format ask me for the first question
 - Text Creation Patterns
-    - Template Pattern:${替换词}
+  - Template Pattern:${替换词}
 - Info manager
 
 ## 向量数据库 —> 知识库 —> 改进大模型

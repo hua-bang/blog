@@ -2,6 +2,7 @@
 title: OpenAI 开发者大会
 customTag: blog>AIGC
 editLink: true
+date: 2023.11.05
 ---
 
 # OpenAI 开发者大会

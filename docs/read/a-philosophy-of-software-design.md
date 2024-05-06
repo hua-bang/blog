@@ -2,6 +2,7 @@
 title: A Philosophy of Software Design
 customTag: read>计算机
 editLink: true
+date: 2024.03.02
 ---
 
 # A Philosophy of Software Design

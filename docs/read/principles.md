@@ -2,6 +2,7 @@
 title: 原则
 customTag: read>创业
 editLink: true
+date: 2024.02.02
 ---
 
 # principles

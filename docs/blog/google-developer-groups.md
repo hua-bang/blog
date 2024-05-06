@@ -2,6 +2,7 @@
 title: Google Developer groups
 customTag: blog>线下活动
 editLink: true
+date: 2023.12.18
 ---
 
 # Google Developer groups
@@ -13,6 +14,7 @@ editLink: true
 AI + Code + WorkFlow
 
 resource
+
 - **Img2Code**: [builder.io](http://builder.io)
 - **Coding Agent**: MetaGPT
 - **Search engine for code**: phind
@@ -22,17 +24,17 @@ resource
 
 - 可解释性 + 隐私 + 治理
 
-## 如何成为AI时代的开发者
+## 如何成为 AI 时代的开发者
 
 - **软件时代的转折点:** desktop software → web software → AI software
 - Agent: Agent = LLM + memory + planning skills + tool use
 - AI based software
-- **软件开发者**：算法模型开发者 / Full-stack应用开发者
+- **软件开发者**：算法模型开发者 / Full-stack 应用开发者
 - From coder to creator
 - 个人开发者
-    - 模型层不太有机会。
-    - 卖卡和算力。
-    - 中国社会不同阶层是存在信息差的。
+  - 模型层不太有机会。
+  - 卖卡和算力。
+  - 中国社会不同阶层是存在信息差的。
 
 ## 增强大语言模型关键技术与应用范式
 

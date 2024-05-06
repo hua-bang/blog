@@ -2,6 +2,7 @@
 title: 基于 GPT 实现 Agent  🤖️
 customTag: tech>AIGC
 editLink: true
+date: 2023.11.02
 ---
 
 # 基于 GPT 实现 Agent 🤖️

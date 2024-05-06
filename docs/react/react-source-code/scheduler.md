@@ -2,13 +2,15 @@
 title: 调度
 customTag: react>React 源码解析
 editLink: true
+date: 2024.04.02
 ---
+
 之前我们了解过。在初次渲染的时候会走下方代码
 
 ```tsx
 newCallbackNode = scheduleCallback(
-   schedulerPriorityLevel,
-   performConcurrentWorkOnRoot.bind(null, root),
+  schedulerPriorityLevel,
+  performConcurrentWorkOnRoot.bind(null, root)
 );
 
 function scheduleCallback(priorityLevel, callback) {
@@ -35,19 +37,18 @@ export const scheduleCallback = Scheduler.unstable_scheduleCallback;
 
 作用就是生成一个带有优先级的任务，入队列（这里采用的是最小堆），这里的 `push`, `peek` 是基于最小堆。
 
-
 ```tsx
 function unstable_scheduleCallback(
   priorityLevel: PriorityLevel,
   callback: Callback,
-  options?: {delay: number},
+  options?: { delay: number }
 ): Task {
   var currentTime = getCurrentTime();
 
   var startTime;
-  if (typeof options === 'object' && options !== null) {
+  if (typeof options === "object" && options !== null) {
     var delay = options.delay;
-    if (typeof delay === 'number' && delay > 0) {
+    if (typeof delay === "number" && delay > 0) {
       startTime = currentTime + delay;
     } else {
       startTime = currentTime;

@@ -2,6 +2,7 @@
 title: 初识前端 bundler
 customTag: tech>Frontend Engineer
 editLink: true
+date: 2024.01.02
 ---
 
 # 初识前端 bundler

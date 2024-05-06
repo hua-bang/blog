@@ -1,3 +1,7 @@
+---
+date: 2024.04.01
+---
+
 # Algorithms 📚
 
 Data Structure and Algorithms

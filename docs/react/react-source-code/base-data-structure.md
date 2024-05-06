@@ -2,6 +2,7 @@
 title: React 基础数据类型
 customTag: react>React 源码解析
 editLink: true
+date: 2024.04.02
 ---
 
 # 基础类型

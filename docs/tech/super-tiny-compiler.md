@@ -2,8 +2,11 @@
 title: 通过 the-super-tiny-compiler 初识编译
 editLink: true
 customTag: tech>编译
+date: 2023.11.05
 ---
+
 # 通过 the-super-tiny-compiler 初识编译
+
 ## 前言
 
 编译，对部分前端开发来说，是一个熟悉又陌生的词汇。
@@ -26,35 +29,34 @@ customTag: tech>编译
 
 简单来说，编译就是把一种语言转成另一种语言。如 `babel` 作为一个 `JavaScript` 的编译器，在官网上也放了下图。（ES2015+ -> ES5）
 
-
 ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/e0115a79d077481fb866211ff164ad7b%7Etplv-k3u1fbpfcp-watermark.image)
 
 ### 作用
 
 那么，这种转化在前端有什么作用呢。下面列举了几点
 
--   转译 `esnext`, `typescript`, `flow` 等到目标环境支持的 `javaScript`。
+- 转译 `esnext`, `typescript`, `flow` 等到目标环境支持的 `javaScript`。
 
 <!---->
 
--   一些特定代码的转换，如去除注释，压缩代码等。
+- 一些特定代码的转换，如去除注释，压缩代码等。
 
 <!---->
 
--   代码的静态分析，如 `eslint`的代码规范检查, `typescript`的类型检查。
+- 代码的静态分析，如 `eslint`的代码规范检查, `typescript`的类型检查。
 
 ### 编译流程
 
 > 在介绍具体流程之前，我们先讲一下 `AST` 的概念。
-**抽象语法树**（Abstract Syntax Tree，AST） 实际上是对源代码的抽象数据结构，用树状结构来表示源代码，树上每个节点代表着代码中的 `标识符`，`语句`，`表达式` 等。
+> **抽象语法树**（Abstract Syntax Tree，AST） 实际上是对源代码的抽象数据结构，用树状结构来表示源代码，树上每个节点代表着代码中的 `标识符`，`语句`，`表达式` 等。
 
 一般的**编译流程**分为三步：
 
--   **Parse:** 通过 `parser` 将源代码转换成**抽象语法树(AST),** 其中会涉及到 词法解析，语法解析等操作。
+- **Parse:** 通过 `parser` 将源代码转换成**抽象语法树(AST),** 其中会涉及到 词法解析，语法解析等操作。
 
--   **Transform：** 拿到了源码上对应的 `AST`, 我们可以去对这个`AST`, 进行增删改查的操作。其中会涉及到访问者模式的知识。
+- **Transform：** 拿到了源码上对应的 `AST`, 我们可以去对这个`AST`, 进行增删改查的操作。其中会涉及到访问者模式的知识。
 
--   **Generate：** 转换后的 `AST`，我们可以转换生成目标代码。
+- **Generate：** 转换后的 `AST`，我们可以转换生成目标代码。
 
 ![](https://raw.githubusercontent.com/hua-bang/assert-store/master/468710afea504f829dc741f8028d5d93%7Etplv-k3u1fbpfcp-zoom-1.image)
 
@@ -63,6 +65,7 @@ customTag: tech>编译
 ## 流程细化
 
 上方只是简单说了下编译的流程，下方我们对流程进行细化。
+
 ### Parse
 
 > Parse 阶段是将源码字符串转换成机器能够理解的 AST，这个过程分成此**词法分析**，**语法分析**。
@@ -93,18 +96,16 @@ customTag: tech>编译
 
 最小编辑器用了少量的代码，实现了 `Lisp` 语言的函数调用到 `c` 语言的函数调用。
 
-
-|  | LISP | C|
-| --- | --- | --- |
-| 2 + 2 |(add 2 2)  |add(2, 2) |
-| 4 - 2 |(subtract 4 2)  |subtract(4, 2) |
-| 2 + (4 - 2) |(add 2 (subtract 4 2))  |add(2, subtract(4, 2)) |
+|             | LISP                   | C                      |
+| ----------- | ---------------------- | ---------------------- |
+| 2 + 2       | (add 2 2)              | add(2, 2)              |
+| 4 - 2       | (subtract 4 2)         | subtract(4, 2)         |
+| 2 + (4 - 2) | (add 2 (subtract 4 2)) | add(2, subtract(4, 2)) |
 
 例如
 `(add 2 (subtract 4 2))` ---> `add(2, subtract(4, 2))`。
 
-
-接下来我们来看 
+接下来我们来看
 [the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) 是如何做这编译的流程 `parse` -> `transform` -> `generate` 吧。
 
 ### Parse
@@ -122,6 +123,7 @@ const ast = parse(sourceCode);
 **思路**： 根据字符串生成 `token` 数组。
 
 **伪代码**
+
 ```ts
 const tokens = tokenizer(input);
 ```
@@ -146,8 +148,6 @@ const tokens = tokenizer(input);
 ]
 ```
 
-
-
 **具体代码**
 
 实际上是对字符串进行遍历，对每个字符串进行判断，从而生成对应的`token`, 最终拿到一个 `token` 数组。
@@ -159,21 +159,19 @@ function tokenizer(input) {
   let tokens = [];
 
   while (current < input.length) {
-
     let char = input[current];
-    if (char === '(') {
-
+    if (char === "(") {
       tokens.push({
-        type: 'paren',
-        value: '(',
+        type: "paren",
+        value: "(",
       });
       current++;
       continue;
     }
-    if (char === ')') {
+    if (char === ")") {
       tokens.push({
-        type: 'paren',
-        value: ')',
+        type: "paren",
+        value: ")",
       });
       current++;
       continue;
@@ -186,20 +184,20 @@ function tokenizer(input) {
     }
     let NUMBERS = /[0-9]/;
     if (NUMBERS.test(char)) {
-      let value = '';
+      let value = "";
 
       while (NUMBERS.test(char)) {
         value += char;
         char = input[++current];
       }
 
-      tokens.push({ type: 'number', value });
+      tokens.push({ type: "number", value });
 
       continue;
     }
 
     if (char === '"') {
-      let value = '';
+      let value = "";
 
       char = input[++current];
 
@@ -210,27 +208,26 @@ function tokenizer(input) {
 
       char = input[++current];
 
-      tokens.push({ type: 'string', value });
+      tokens.push({ type: "string", value });
 
       continue;
     }
 
-  
     let LETTERS = /[a-z]/i;
     if (LETTERS.test(char)) {
-      let value = '';
+      let value = "";
 
       while (LETTERS.test(char)) {
         value += char;
         char = input[++current];
       }
 
-      tokens.push({ type: 'name', value });
+      tokens.push({ type: "name", value });
 
       continue;
     }
 
-    throw new TypeError('I dont know what this character is: ' + char);
+    throw new TypeError("I dont know what this character is: " + char);
   }
 
   return tokens;
@@ -241,12 +238,14 @@ function tokenizer(input) {
 
 拿到 `tokens` 后我们还要把他转成 `AST` 。
 
-**伪代码**： 
+**伪代码**：
+
 ```ts
 const ast = parse(tokens);
 ```
 
 **效果**:
+
 ```ts
 // tokens
 [
@@ -297,40 +296,34 @@ const ast = parse(tokens);
 
 这里会去遍历 `tokens`, 对不同类型的 `token` 进行判断，从而生成不同的 `节点`。 两个节点是会通过一些属性所关联的（比如 `CallExpression` 的 `params` 就可能会含有 `StringLiteral` 或 `NumberLiteral` 节点）。从而，我们拿到了我们的 `AST` 树。
 
-
 ```ts
 function parser(tokens) {
-
   let current = 0;
 
   function walk() {
-
     let token = tokens[current];
 
-    if (token.type === 'number') {
+    if (token.type === "number") {
       current++;
       return {
-        type: 'NumberLiteral',
+        type: "NumberLiteral",
         value: token.value,
       };
     }
 
-    if (token.type === 'string') {
+    if (token.type === "string") {
       current++;
 
       return {
-        type: 'StringLiteral',
+        type: "StringLiteral",
         value: token.value,
       };
     }
 
-    if (
-      token.type === 'paren' &&
-      token.value === '('
-    ) {
+    if (token.type === "paren" && token.value === "(") {
       token = tokens[++current];
       let node = {
-        type: 'CallExpression',
+        type: "CallExpression",
         name: token.value,
         params: [],
       };
@@ -338,8 +331,8 @@ function parser(tokens) {
       token = tokens[++current];
 
       while (
-        (token.type !== 'paren') ||
-        (token.type === 'paren' && token.value !== ')')
+        token.type !== "paren" ||
+        (token.type === "paren" && token.value !== ")")
       ) {
         node.params.push(walk());
         token = tokens[current];
@@ -354,10 +347,10 @@ function parser(tokens) {
   }
 
   let ast = {
-    type: 'Program',
+    type: "Program",
     body: [],
   };
-  
+
   while (current < tokens.length) {
     ast.body.push(walk());
   }
@@ -371,11 +364,13 @@ function parser(tokens) {
 把原本的 `AST` 改造为目标代码的 `AST`, 这一步叫做 `transform`。
 
 **伪代码**
+
 ```ts
 const newAst = transform(ast);
 ```
 
 **效果**
+
 ```ts
 // source ast
 {
@@ -470,19 +465,15 @@ const newAst = transform(ast);
 <- Program (exit)
 ```
 
-
-
 ```ts
 function traverser(ast, visitor) {
-
   function traverseArray(array, parent) {
-    array.forEach(child => {
+    array.forEach((child) => {
       traverseNode(child, parent);
     });
   }
 
   function traverseNode(node, parent) {
-
     let methods = visitor[node.type];
 
     if (methods && methods.enter) {
@@ -490,16 +481,16 @@ function traverser(ast, visitor) {
     }
 
     switch (node.type) {
-    case 'Program':
+      case "Program":
         traverseArray(node.body, node);
         break;
 
-      case 'CallExpression':
+      case "CallExpression":
         traverseArray(node.params, node);
         break;
 
-      case 'NumberLiteral':
-      case 'StringLiteral':
+      case "NumberLiteral":
+      case "StringLiteral":
         break;
 
       default:
@@ -515,21 +506,18 @@ function traverser(ast, visitor) {
 }
 
 function transformer(ast) {
-
   let newAst = {
-    type: 'Program',
+    type: "Program",
     body: [],
   };
 
   ast._context = newAst.body;
 
   traverser(ast, {
-
     NumberLiteral: {
-
       enter(node, parent) {
         parent._context.push({
-          type: 'NumberLiteral',
+          type: "NumberLiteral",
           value: node.value,
         });
       },
@@ -538,7 +526,7 @@ function transformer(ast) {
     StringLiteral: {
       enter(node, parent) {
         parent._context.push({
-          type: 'StringLiteral',
+          type: "StringLiteral",
           value: node.value,
         });
       },
@@ -547,11 +535,10 @@ function transformer(ast) {
     // Next up, `CallExpression`.
     CallExpression: {
       enter(node, parent) {
-
         let expression = {
-          type: 'CallExpression',
+          type: "CallExpression",
           callee: {
-            type: 'Identifier',
+            type: "Identifier",
             name: node.name,
           },
           arguments: [],
@@ -559,18 +546,16 @@ function transformer(ast) {
 
         node._context = expression.arguments;
 
-        if (parent.type !== 'CallExpression') {
-
+        if (parent.type !== "CallExpression") {
           expression = {
-            type: 'ExpressionStatement',
+            type: "ExpressionStatement",
             expression: expression,
           };
         }
 
-      
         parent._context.push(expression);
       },
-    }
+    },
   });
 
   return newAst;
@@ -584,11 +569,13 @@ function transformer(ast) {
 把修改后的 `AST` 进行遍历，生成对应的代码。
 
 **伪代码**:
+
 ```ts
 const code = generate(newAst);
 ```
 
 **效果**:
+
 ```ts
 {
   "type": "Program",
@@ -629,7 +616,7 @@ const code = generate(newAst);
   ]
 }
 
-// 转换成 
+// 转换成
 add(2, subtract(4, 2));
 ```
 
@@ -639,35 +626,30 @@ add(2, subtract(4, 2));
 
 ```ts
 function codeGenerator(node) {
-  
   switch (node.type) {
+    case "Program":
+      return node.body.map(codeGenerator).join("\n");
 
-    case 'Program':
-      return node.body.map(codeGenerator)
-        .join('\n');
-
-    case 'ExpressionStatement':
+    case "ExpressionStatement":
       return (
-        codeGenerator(node.expression) +
-        ';' // << (...because we like to code the *correct* way)
+        codeGenerator(node.expression) + ";" // << (...because we like to code the *correct* way)
       );
 
-    case 'CallExpression':
+    case "CallExpression":
       return (
         codeGenerator(node.callee) +
-        '(' +
-        node.arguments.map(codeGenerator)
-          .join(', ') +
-        ')'
+        "(" +
+        node.arguments.map(codeGenerator).join(", ") +
+        ")"
       );
 
-    case 'Identifier':
+    case "Identifier":
       return node.name;
 
-    case 'NumberLiteral':
+    case "NumberLiteral":
       return node.value;
 
-    case 'StringLiteral':
+    case "StringLiteral":
       return '"' + node.value + '"';
 
     default:
@@ -675,7 +657,6 @@ function codeGenerator(node) {
   }
 }
 ```
-
 
 ### 整体流程
 
@@ -690,8 +671,6 @@ function codeGenerator(node) {
 
 ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/21899aea781d4a42872b6e841490acfd%7Etplv-k3u1fbpfcp-watermark.image)
 
-
-
 ```ts
 const compile = (sourceCode) => {
   const token = tokenizer(sourceCode);
@@ -699,7 +678,7 @@ const compile = (sourceCode) => {
   const newAst = transform(ast);
   const output = codeGenerator(newAst);
   return output;
-}
+};
 ```
 
 ## 结语
@@ -707,12 +686,7 @@ const compile = (sourceCode) => {
 实际上，大多编译器的实现细节可能会有些许不同，但大体的流程也是一样的，本文旨在讲述编译的一个流程，以及通过 `the-super-tiny-compier` 举例，从而有所体感。同时，本文对于一些编译的具体细节没有讲，也请读者见谅。
 
 ## 参考资料
+
 - [the-super-tiny-compier](https://github.com/jamiebuilds/the-super-tiny-compiler)
-- [前端工程化基石 -- AST（抽象语法树）以及AST的广泛应用🔥](https://juejin.cn/post/7155151377013047304#heading-6)
+- [前端工程化基石 -- AST（抽象语法树）以及 AST 的广泛应用 🔥](https://juejin.cn/post/7155151377013047304#heading-6)
 - [笔者：the-super-tiny-compiler](https://github.com/hua-bang/front_note/tree/master/compiler/the-super-tiny-compiler)
-
-
-
-
-
-

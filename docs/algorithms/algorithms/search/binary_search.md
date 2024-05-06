@@ -1,6 +1,7 @@
 ---
 title: 二分查找
 customTag: algorithms>算法>搜索
+date: 2024.04.01
 editLink: true
 ---
 

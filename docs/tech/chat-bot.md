@@ -2,6 +2,7 @@
 title: 基于 OpenAI 的 API 快速搭建 ChaBot 🤖️
 customTag: tech>AIGC
 editLink: true
+date: 2023.11.02
 ---
 
 # 基于 OpenAI 的 API 快速搭建 ChaBot 🤖️

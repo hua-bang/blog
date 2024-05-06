@@ -1,8 +1,10 @@
 ---
 title: 强势
-customTag: read>心理学 
+customTag: read>心理学
 editLink: true
+date: 2024.02.02
 ---
+
 # 强势
 
 :::info
@@ -14,7 +16,6 @@ editLink: true
 :::
 
 > 学会做自己的行动的评判者，学会**清醒、强势**，学会不要被他人操控。
- 
 
 ## Mark
 

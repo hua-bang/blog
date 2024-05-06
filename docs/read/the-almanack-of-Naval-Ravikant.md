@@ -2,6 +2,7 @@
 title: 纳瓦尔宝典
 customTag: read>个人成长
 editLink: true
+date: 2024.02.02
 ---
 
 # 纳瓦尔宝典

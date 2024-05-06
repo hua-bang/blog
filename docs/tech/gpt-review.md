@@ -2,8 +2,11 @@
 title: GPT + GitHub 实现自动 Code Review
 editLink: true
 customTag: tech>AIGC
+date: 2023.11.02
 ---
+
 # GPT + GitHub 实现自动 Code Review
+
 ## 前言
 
 在日常开发过程中， `code review` 是软件开发过程中的关键步骤。它可以帮助开发人员发现代码中的错误，提高代码质量，并促进团队间的知识共享。**然而**，代码审查过程往往需要**大量的时间和精力**以及 **code review 代码质量**的问题。
@@ -26,27 +29,30 @@ customTag: tech>AIGC
 
 ```ts
 export async function autoCodeView(pullNumber: number) {
+  // 1. get pull request info
+  const pr = await getPRInfo(owner, repo, pullNumber);
 
-	// 1. get pull request info
-	const pr = await getPRInfo(owner, repo, pullNumber);
+  if (!pr) {
+    log(`It's failed to get pr info, please retry the get pr info api.`);
+    return;
+  }
 
-	if (!pr) {
-		log(`It's failed to get pr info, please retry the get pr info api.`);
-		return;
-	}
+  // 2. get compareCommits
+  const compareCommits = await getCompareCommits(owner, repo, pr);
 
-	// 2. get compareCommits
-	const compareCommits = await getCompareCommits(owner, repo, pr);
+  if (
+    !compareCommits ||
+    compareCommits.files?.length === 0 ||
+    compareCommits.commits?.length === 0
+  ) {
+    log(`No commit info.`);
+    return;
+  }
 
-	if (!compareCommits || compareCommits.files?.length === 0 || compareCommits.commits?.length === 0) {
-		log(`No commit info.`);
-		return ;
-	}
+  const { files: changedFiles = [], commits } = compareCommits;
 
-	const { files: changedFiles = [], commits } = compareCommits;
-
-	// 3. generate review comment
-	generateReviewComment(changedFiles, commits, pullNumber);
+  // 3. generate review comment
+  generateReviewComment(changedFiles, commits, pullNumber);
 }
 ```
 
@@ -56,9 +62,9 @@ export async function autoCodeView(pullNumber: number) {
 
 > 这里列举用到的文档：
 
-*   **Github Access Token:** <https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>
-*   **ChatGPT-NPM:** <https://www.npmjs.com/package/chatgpt#usage---chatgptapi>
-*   **ockokit-NPM**: <https://www.npmjs.com/package/octokit>
+- **Github Access Token:** <https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>
+- **ChatGPT-NPM:** <https://www.npmjs.com/package/chatgpt#usage---chatgptapi>
+- **ockokit-NPM**: <https://www.npmjs.com/package/octokit>
 
 ### **1. 获取 PR 信息**
 
@@ -68,7 +74,7 @@ export async function autoCodeView(pullNumber: number) {
 
 ```jsx
 const octokit = new Octokit({
-  auth: process.env.GITHUB_TOKEN || 'Your Github Token',  // Replace with your GitHub Personal Access Token
+  auth: process.env.GITHUB_TOKEN || "Your Github Token", // Replace with your GitHub Personal Access Token
 });
 
 async function getPRInfo(owner: string, repo: string, pull_number: number) {
@@ -76,7 +82,7 @@ async function getPRInfo(owner: string, repo: string, pull_number: number) {
     const { data: pr } = await octokit.rest.pulls.get({
       owner,
       repo,
-      pull_number
+      pull_number,
     });
     return pr;
   } catch {
@@ -84,28 +90,31 @@ async function getPRInfo(owner: string, repo: string, pull_number: number) {
   }
 }
 
-async function getCompareCommits(owner: string, repo: string, pr: Record<string, any>) {
+async function getCompareCommits(
+  owner: string,
+  repo: string,
+  pr: Record<string, any>
+) {
   try {
-    return (await octokit.repos.compareCommits({
-      owner,
-      repo,
-      base: pr.base.sha,
-      head: pr.head.sha
-    })).data;
+    return (
+      await octokit.repos.compareCommits({
+        owner,
+        repo,
+        base: pr.base.sha,
+        head: pr.head.sha,
+      })
+    ).data;
   } catch {
     return undefined;
   }
 }
 
-
 export async function autoCodeView(pullNumber: number) {
-
   // 1. get pull request info
   const pr = await getPRInfo(owner, repo, pullNumber);
 
   // 2. get compareCommits
   const compareCommits = await getCompareCommits(owner, repo, pr);
-
 
   const { files: changedFiles = [], commits } = compareCommits;
 
@@ -118,10 +127,10 @@ export async function autoCodeView(pullNumber: number) {
 
 我们需要使用 `GPT` 模型来获取对代码变更的审查建议。这需要实现一个 GPT 助手类并提供一个 `code review` 方法，该方法将问题发送到 `GPT` 并返回答案：
 
-注意，这里要注意做好拆分， `GPT` 的 `code review` 仅仅只做代码分析，不应该耦合 `github` 或其他变量信息，理论上，他应该输入一个 `patch`  字符串，返回 `修改建议` 字符串。
+注意，这里要注意做好拆分， `GPT` 的 `code review` 仅仅只做代码分析，不应该耦合 `github` 或其他变量信息，理论上，他应该输入一个 `patch` 字符串，返回 `修改建议` 字符串。
 
-*   **输入**：接受 `patch` 字符串，并且内部处理逻辑不应该耦合平台信息下。
-*   **输出**：拿到对应返回的输出建议。（这里其实更好的话，可以加工一下输入格式）
+- **输入**：接受 `patch` 字符串，并且内部处理逻辑不应该耦合平台信息下。
+- **输出**：拿到对应返回的输出建议。（这里其实更好的话，可以加工一下输入格式）
 
 ```jsx
 import { ChatGPTAPI } from 'chatgpt';
@@ -153,7 +162,7 @@ class ChatBot {
   async codeReview(patch: string) {
     const prompt = this.generatePrompt(patch);
     const res = await this.chatAPI?.sendMessage(prompt);
-    return res.text;		
+    return res.text;
   }
 }
 
@@ -172,15 +181,19 @@ const suggestion = bot.codeReview(patch);
 
 我们使用 `GitHub API` 将 `code review` 建议提交到 `PR`。
 
-*   **获取  `code review` 建议信息**：调用 `bot.codeReview` API。
-*   **提交 `code review` 建议 到 PR**：调用 `createReviewComment` API。
+- **获取 `code review` 建议信息**：调用 `bot.codeReview` API。
+- **提交 `code review` 建议 到 PR**：调用 `createReviewComment` API。
 
 ```tsx
-async function generateReviewComment(changedFiles: any, commits: any, pullNumber: number) {
-  changedFiles.forEach(async changedFile => {
+async function generateReviewComment(
+  changedFiles: any,
+  commits: any,
+  pullNumber: number
+) {
+  changedFiles.forEach(async (changedFile) => {
     const { patch } = changedFile;
 
-    if (changedFile.status !== 'modified' && changedFile.status !== 'added') {
+    if (changedFile.status !== "modified" && changedFile.status !== "added") {
       return;
     }
 
@@ -194,7 +207,7 @@ async function generateReviewComment(changedFiles: any, commits: any, pullNumber
     const res = await autoReviewBot.codeReview(patch);
 
     if (!res) {
-      return
+      return;
     }
 
     await createReviewComment({
@@ -204,7 +217,7 @@ async function generateReviewComment(changedFiles: any, commits: any, pullNumber
       commit_id: commits[commits.length - 1].sha,
       path: changedFile.filename,
       body: res,
-      position: patch.split('\n').length - 1,
+      position: patch.split("\n").length - 1,
       pull_number: pullNumber,
     } as any);
   });
@@ -221,20 +234,21 @@ async function generateReviewComment(changedFiles: any, commits: any, pullNumber
 
 上方仅仅实现了一个很简单的 `demo`, 还有很多优化的空间。比如：
 
-*   **自动化**：结合 `CI/CD`, `Github Action` 实现全自动化。
-*   **定制化**：让 `GPT` 结合团队内部规范去做 `Code Review` 。
-*   **持久化**：持久化从而实现增量代码的 `Code Review` 。
-*   **自愈化**：既让能自动 `CR`, 那能不能自己修改代码提 `MR`  。
+- **自动化**：结合 `CI/CD`, `Github Action` 实现全自动化。
+- **定制化**：让 `GPT` 结合团队内部规范去做 `Code Review` 。
+- **持久化**：持久化从而实现增量代码的 `Code Review` 。
+- **自愈化**：既让能自动 `CR`, 那能不能自己修改代码提 `MR` 。
 
 但是，这些优化点往往需要结合实际情况，同时也需要时间精力吧，这也是为什么本文只实现最简单 `demo` 的原因。
 
 很多优化点是值得我们思考的，同时， `GPT` 在研发层面的一些优化结合，我觉得也是能值得我们思考的。有兴趣和想法的同学，可以在评论区留言一起讨论哈。
 
 **参考资料**
-*   anc95/ChatGPT-CodeReview: <https://github.com/anc95/ChatGPT-CodeReview/tree/main>
-*   项目 demo: <https://github.com/hua-bang/AIGC/blob/master/creative/src/auto-review/index.ts>
+
+- anc95/ChatGPT-CodeReview: <https://github.com/anc95/ChatGPT-CodeReview/tree/main>
+- 项目 demo: <https://github.com/hua-bang/AIGC/blob/master/creative/src/auto-review/index.ts>
 
 **如果本文对你有一点点帮助或启发，希望可以点个赞哈 / 下方评论区评论 / 互关注 Github、公众号 学习交流，支持是创作的动力～**。
 
-*   **公众号**：华铧同学
-*   **Github**: <https://github.com/hua-bang>
+- **公众号**：华铧同学
+- **Github**: <https://github.com/hua-bang>

@@ -2,6 +2,7 @@
 title: mini bundler 插件系统
 customTag: tech>Frontend Engineer
 editLink: true
+date: 2024.01.02
 ---
 
 # mini bundler 插件系统
@@ -22,23 +23,21 @@ editLink: true
 
 正如，`webpack` 的插件系统提供了一系列的生命周期钩子，同时，提供了一些内部的 api，以及打包过程中的上下文信息，从而可以方便其他插件做 `css 分离`, `代码转译`，`自定义语法解析`等强大功能。
 
-
 ## `mini-bundler` 插件系统设计
 
-` mini-bundler ` 的插件系统设计着眼于提供一个简单、直观且功能完备的开发环境。它允许开发者通过插件接口介入打包器的核心功能，添加或修改功能，满足各种复杂场景的需求。其设计原则包括：
+`mini-bundler` 的插件系统设计着眼于提供一个简单、直观且功能完备的开发环境。它允许开发者通过插件接口介入打包器的核心功能，添加或修改功能，满足各种复杂场景的需求。其设计原则包括：
 
--   **易于集成**：插件开发者可以轻松地将新功能整合进 `mini-bundler`。
--   **可配置性**：插件支持配置选项，以适应不同项目的需求。
--   **扩展性**：设计考虑到未来可能的功能扩展，保证系统的灵活性。
-
+- **易于集成**：插件开发者可以轻松地将新功能整合进 `mini-bundler`。
+- **可配置性**：插件支持配置选项，以适应不同项目的需求。
+- **扩展性**：设计考虑到未来可能的功能扩展，保证系统的灵活性。
 
 ## `mini-bundler` 的核心组件
 
--   **Compiler 类**：作为打包过程的指挥官，`Compiler` 类负责协调整个编译过程。它管理资源、模块解析和文件输出等关键环节。
+- **Compiler 类**：作为打包过程的指挥官，`Compiler` 类负责协调整个编译过程。它管理资源、模块解析和文件输出等关键环节。
 
--   **钩子（Hooks）** ：钩子是插件系统的基石。通过在关键的编译阶段提供钩子，`mini-bundler` 允许插件在如模块解析前、资产生成后等关键时刻介入。
+- **钩子（Hooks）** ：钩子是插件系统的基石。通过在关键的编译阶段提供钩子，`mini-bundler` 允许插件在如模块解析前、资产生成后等关键时刻介入。
 
--   **插件接口**：这是插件需要遵循的规范。一个标准的插件是一个包含 `apply` 方法的类，此方法接收 `Compiler` 实例，允许插件通过钩子与编译过程交互。
+- **插件接口**：这是插件需要遵循的规范。一个标准的插件是一个包含 `apply` 方法的类，此方法接收 `Compiler` 实例，允许插件通过钩子与编译过程交互。
 
 ## 具体实现
 
@@ -50,12 +49,11 @@ editLink: true
 
 ```ts
 import * as fs from "fs";
-import { DependencyGraph } from './typings';
-import { bundle } from './bundle';
-import { createDependencyGraph } from './create-dependency-graph';
+import { DependencyGraph } from "./typings";
+import { bundle } from "./bundle";
+import { createDependencyGraph } from "./create-dependency-graph";
 
 export class Compiler {
-
   private options: CompilerOptions;
   private dependencyGraph: DependencyGraph;
 
@@ -78,20 +76,21 @@ export class Compiler {
 export interface CompilerOptions {
   entry: string;
   output: string;
-};
+}
 ```
 
-###  Hook 钩子机制
+### Hook 钩子机制
 
 一个复杂的 `bundler` 的流程可能很长，于是会去抽象一些生命周期，如 `webpack` 中就有 （`emit`, `build`, `afterEmit` 等）。这些生命周期，我们都可以称为 `hook`。
 `hook` 不仅要用于通知生命周期的触发，同时也会去对不同的生命周期的事件进行管理。
 
 所以这里，我们将 `hook`设计了如下的功能。
+
 - `管理回调函数`：支持第三方插件注册事件。
 - `触发事件`: 当生命周期执行的时候，调用注册的事件。
 
-
 于是，`hook` 的类型我们可以做如下定义。
+
 - `tap`：事件注册的函数，提供给第三方使用。
 - `call`: 事件触发的函数，当对应的流程/时机到的时候，直接执行。
 
@@ -104,9 +103,9 @@ class Hook {
   }
 
   call() {
-    this.callbacks.forEach(callback => callback());
+    this.callbacks.forEach((callback) => callback());
   }
-};
+}
 
 export default Hook;
 ```
@@ -115,13 +114,12 @@ export default Hook;
 
 ```ts
 import * as fs from "fs";
-import { DependencyGraph } from './typings';
-import { bundle } from './bundle';
-import { createDependencyGraph } from './create-dependency-graph';
+import { DependencyGraph } from "./typings";
+import { bundle } from "./bundle";
+import { createDependencyGraph } from "./create-dependency-graph";
 import Hook from "./hook";
 
 export class Compiler {
-
   hooks = {
     beforeRun: new Hook(),
     afterRun: new Hook(),
@@ -153,7 +151,7 @@ export class Compiler {
 export interface CompilerOptions {
   entry: string;
   output: string;
-};
+}
 ```
 
 上方实现了两个生命周期，但我们也可以提供自己自定义的 hook，不过需要把控好执行的时机。这里由于篇幅关系，就不展开了。
@@ -186,7 +184,7 @@ class Compiler {
 
   constructor(options: CompilerOptions) {
     this.plugins = options.plugins || [];
-    this.plugins.forEach(plugin => plugin.apply(this));
+    this.plugins.forEach((plugin) => plugin.apply(this));
 
     this.options = options;
 
@@ -214,7 +212,7 @@ export class Stats {
 
 class Compiler {
   stats: Stats = new Stats();
-  
+
   bundle() {
     const result = bundle(this.dependencyGraph);
     this.stats.setOutput(result);
@@ -227,15 +225,14 @@ class Compiler {
 
 ```ts
 import * as fs from "fs";
-import { DependencyGraph } from './typings';
-import { bundle } from './bundle';
-import { createDependencyGraph } from './create-dependency-graph';
+import { DependencyGraph } from "./typings";
+import { bundle } from "./bundle";
+import { createDependencyGraph } from "./create-dependency-graph";
 import Hook from "./hook";
 import Plugin from "./plugin";
 import { Stats } from "./stats";
 
 export class Compiler {
-
   hooks = {
     beforeRun: new Hook(),
     afterRun: new Hook(),
@@ -249,7 +246,7 @@ export class Compiler {
 
   constructor(options: CompilerOptions) {
     this.plugins = options.plugins || [];
-    this.plugins.forEach(plugin => plugin.apply(this));
+    this.plugins.forEach((plugin) => plugin.apply(this));
 
     this.options = options;
 
@@ -275,25 +272,25 @@ export interface CompilerOptions {
   entry: string;
   output: string;
   plugins?: Plugin[];
-};
+}
 ```
 
 这样子，我们的就可以去自定义插件了，效果大概为如下。
+
 ```ts
 class MyPlugin implements Plugin {
   apply(compiler: Compiler) {
-    compiler.hooks.afterRun.tap('pluginName', () => {
+    compiler.hooks.afterRun.tap("pluginName", () => {
       console.log(compiler.stats);
-    })
+    });
   }
 }
 
 new Compiler({
   entry: filePath,
   output: outputPath,
-  plugins: [new MyPlugin()]
-})
-
+  plugins: [new MyPlugin()],
+});
 ```
 
 ## 自定义插件示范
@@ -303,7 +300,7 @@ new Compiler({
 实现一个 `copy` 最后 `bundle` 资源的插件。
 
 ```ts
-import * as fs from 'fs';
+import * as fs from "fs";
 import { Compiler } from "../../src/compiler";
 import Plugin from "../../src/plugin";
 
@@ -312,7 +309,6 @@ interface CopyPluginOptions {
 }
 
 class CopyPlugin implements Plugin {
-
   options: CopyPluginOptions;
 
   constructor(options: CopyPluginOptions) {
@@ -320,13 +316,13 @@ class CopyPlugin implements Plugin {
   }
 
   apply(compiler: Compiler) {
-    compiler.hooks.afterRun.tap('LoggerPlugin', () => {
+    compiler.hooks.afterRun.tap("LoggerPlugin", () => {
       const { output } = this.options;
       if (compiler.stats.output) {
         console.log(`copy file begin: output path is ${output}`);
         fs.writeFileSync(this.options.output, compiler.stats.output);
         console.log(`copy file finished.`);
-      } 
+      }
     });
   }
 }
@@ -336,8 +332,10 @@ export default CopyPlugin;
 new Compiler({
   entry: filePath,
   output: outputPath,
-  plugins: [new CopyPlugin({ output: path.resolve(__dirname, "./output/copy.js") })]
-})
+  plugins: [
+    new CopyPlugin({ output: path.resolve(__dirname, "./output/copy.js") }),
+  ],
+});
 ```
 
 最终效果

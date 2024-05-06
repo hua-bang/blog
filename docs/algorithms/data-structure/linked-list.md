@@ -1,6 +1,7 @@
 ---
 title: 链表
 customTag: algorithms>数据结构
+date: 2024.04.01
 editLink: true
 ---
 
@@ -106,7 +107,6 @@ node1.next = node2;
 双链表与单链表类似，但它的每个节点包含两个指针，一个指向前一个节点，另一个指向下一个节点。
 
 ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240309222319.png)
-
 
 **特点**:
 

@@ -1,6 +1,7 @@
 ---
 title: 初识前端编译及 Babel
 customTag: tech>编译
+date: 2023.11.02
 ---
 
 # 初识前端编译及 Babel
@@ -18,7 +19,6 @@ customTag: tech>编译
 简单来说，它通常是将高级语言转换为低级语言（如汇编或机器代码）。与解释不同，编译是在代码运行之前完成的。
 
 ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20230924231818.png)
-
 
 ### **前端常见的编译工具**
 
@@ -45,7 +45,6 @@ customTag: tech>编译
 - **Generate：** 转换后的 `AST`，我们可以转换生成目标代码。
 
 ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20230924231840.png)
-
 
 上方只是简单说了下编译的流程，下方我们对流程进行细化。
 
@@ -76,7 +75,6 @@ customTag: tech>编译
 不同的 AST 对应的不同结构的字符串。比如 `VariableDeclaration` 就可以打印成 `const` 格式的代码。
 
 ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20230924232046.png)
-
 
 以上是编译的抽象的流程。而前端工程中，其实也是在打包的过程去加入了编译的这样的一个环节。
 
@@ -158,8 +156,8 @@ babel 讲流程拆的很细, 并且每个包都符合单一职责的设计。
 我们使用 vite 的 transform 钩子。
 
 ```ts
-import * as babel from '@babel/core';
-import autoTrackerBabelPlugin from './babel-plugin';
+import * as babel from "@babel/core";
+import autoTrackerBabelPlugin from "./babel-plugin";
 
 interface AutoTrackerPluginOptions {
   libPath: string;
@@ -168,10 +166,9 @@ interface AutoTrackerPluginOptions {
 const fileRegex = /\\.(tsx)$/;
 
 export default function autoTracker(pluginOptions: AutoTrackerPluginOptions) {
-
   return {
-    name: 'autoTracker',
-    enforce: 'pre',
+    name: "autoTracker",
+    enforce: "pre",
 
     async transform(code: string, id: string) {
       if (!fileRegex.test(id)) {
@@ -184,22 +181,17 @@ export default function autoTracker(pluginOptions: AutoTrackerPluginOptions) {
         ast: true,
         code: true,
         parserOpts: {
-          plugins: ["jsx", "typescript"]
+          plugins: ["jsx", "typescript"],
         },
-        plugins: [
-          [
-            autoTrackerBabelPlugin,
-            pluginOptions
-          ]
-        ]
+        plugins: [[autoTrackerBabelPlugin, pluginOptions]],
       });
       return {
         code: result.code,
-        map: null      }
-    }
-  }
+        map: null,
+      };
+    },
+  };
 }
-
 ```
 
 **babel 代码编译**
@@ -282,11 +274,13 @@ export default function (babel, options) {
 
 ```ts
 function checkHasLogIdentification(attributes) {
-  return (attributes || []).some(item => item.name.name === 'data-log-params');
+  return (attributes || []).some(
+    (item) => item.name.name === "data-log-params"
+  );
 }
 
 function findAttributeNode(attributes, key) {
-  return (attributes || []).find(item => item.name && item.name.name === key);
+  return (attributes || []).find((item) => item.name && item.name.name === key);
 }
 
 export default function (babel, options) {
@@ -296,65 +290,56 @@ export default function (babel, options) {
     name: "autoTrackerPlugin",
     visitor: {
       JSXOpeningElement(path, state) {
-      	if (!state.loggerNodeName) {
+        if (!state.loggerNodeName) {
           return;
         }
         const { attributes } = path.node;
 
-        const hasLogIdentification = checkHasLogIdentification(
-          attributes,
-        );
+        const hasLogIdentification = checkHasLogIdentification(attributes);
         if (!hasLogIdentification) {
           return;
         }
 
-        const onClickNode = findAttributeNode(
-          attributes,
-          'onClick',
-        );
+        const onClickNode = findAttributeNode(attributes, "onClick");
 
         if (!onClickNode) {
           path.pushContainer(
-            'attributes',
+            "attributes",
             t.jsxAttribute(
-              t.jsxIdentifier('onClick'),
+              t.jsxIdentifier("onClick"),
               t.jsxExpressionContainer(
-                template.expression(`${state.loggerNodeName}.reportClick`)(),
-              ),
-            ),
+                template.expression(`${state.loggerNodeName}.reportClick`)()
+              )
+            )
           );
         } else {
           const { value } = onClickNode;
-          const { expression: onClickFNNode } =
-            value;
+          const { expression: onClickFNNode } = value;
 
           const newTapFNNode = t.callExpression(
             t.callExpression(
               t.memberExpression(
                 t.memberExpression(
                   t.identifier(state.loggerNodeName),
-                  t.identifier('generateReportClickFn'),
+                  t.identifier("generateReportClickFn")
                 ),
-                t.identifier('bind'),
+                t.identifier("bind")
               ),
-              [t.thisExpression()],
+              [t.thisExpression()]
             ),
-            [onClickFNNode],
+            [onClickFNNode]
           );
-          (onClickNode.value).expression =
-            newTapFNNode;
+          onClickNode.value.expression = newTapFNNode;
         }
-      }
-    }
+      },
+    },
   };
 }
-
 ```
 
 ### **5.4 效果**
 
 ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20230924232152.png)
-
 
 ## 6. 结尾
 

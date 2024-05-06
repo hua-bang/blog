@@ -1,6 +1,7 @@
 ---
 title: 堆
 customTag: algorithms>数据结构
+date: 2024.04.01
 editLink: true
 ---
 
@@ -30,16 +31,13 @@ editLink: true
 ## 堆的操作
 
 - 插入（Insert）：插入是向堆中添加新元素的过程。新元素首先被添加到树的末端，然后向上移动到正确的位置以维持堆的性质。
-![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240316104355.png)
-
+  ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240316104355.png)
 
 - 删除（Delete）：在最大堆中，删除操作通常指删除最大元素，即根节点。删除根后，通常将最后一个元素移动到根位置，然后进行下沉调整。
-![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240316105203.png)
-
+  ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240316105203.png)
 
 - 构建堆（Build Heap）：给定一组元素，构建堆是将这些元素重新排列，以形成堆的过程。这可以通过从最后一个非叶子节点开始，向根节点进行下沉调整来完成。
-![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240316111044.png)
-
+  ![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240316111044.png)
 
 - 堆排序（Heap Sort）：堆排序是一种利用堆结构进行排序的方法。通过构建最大堆（或最小堆），然后反复移除根节点（最大或最小值）并重新调整堆，直到堆为空，从而完成排序。
 

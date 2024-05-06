@@ -376,6 +376,11 @@
               "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/merge_sort.md",
               "text": "归并排序",
               "link": "/algorithms/algorithms/sort/merge_sort.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/heap-sort.md",
+              "text": "堆排序",
+              "link": "/algorithms/algorithms/sort/heap-sort.md"
             }
           ]
         }

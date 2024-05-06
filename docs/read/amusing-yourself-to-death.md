@@ -2,6 +2,7 @@
 title: 娱乐至死
 customTag: read>个人成长
 editLink: true
+date: 2024.02.02
 ---
 
 # 娱乐至死

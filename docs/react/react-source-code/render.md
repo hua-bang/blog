@@ -2,6 +2,7 @@
 title: 页面首次渲染 & 组件更新
 customTag: react>React 源码解析
 editLink: true
+date: 2024.04.02
 ---
 
 ## 页面首次渲染 & 组件更新

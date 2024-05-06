@@ -2,6 +2,7 @@
 title: 你有多久没看公众号了
 customTag: blog>互联网
 editLink: true
+date: 2024.04.15
 ---
 
 # 有多久没看公众号了。

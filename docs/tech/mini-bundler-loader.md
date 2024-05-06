@@ -2,6 +2,7 @@
 title: mini-bundler 实现：loader
 customTag: tech>Frontend Engineer
 editLink: true
+date: 2024.01.02
 ---
 
 # mini-bundler 实现：loader
@@ -23,14 +24,16 @@ editLink: true
 > Out of the box, webpack only understands JavaScript and JSON files. **Loaders** allow webpack to process other types of files and convert them into valid [modules](https://webpack.js.org/concepts/modules) that can be consumed by your application and added to the dependency graph. - [webpack-concets](https://webpack.js.org/concepts/#loaders)
 
 ### 定义
+
 从 `webpack` 的定义中，我们可以发现它是一个转换器，负责将源文件（如 `.js`, `.css`, `.html`）转换成 Webpack 能够处理的模块。
 
 ### 作用
--   **代码转换**：Loader 允许开发者将文件从一种语言或格式（例如 TypeScript、Sass）转换成标准的 JavaScript 和 CSS，这些转换后的文件可以被浏览器解析。
 
--   **自定义处理流程**：开发者可以通过配置一个或多个 Loader 来定义一个处理流程，例如，可以使用 `babel-loader` 将 ES6 代码转换为兼容的 JavaScript，使用 `style-loader` 和 `css-loader` 处理样式文件。
+- **代码转换**：Loader 允许开发者将文件从一种语言或格式（例如 TypeScript、Sass）转换成标准的 JavaScript 和 CSS，这些转换后的文件可以被浏览器解析。
 
--   **链式传递**：Loader 可以链式调用，每个 Loader 只需专注于完成一种特定的任务。例如，一组 Loader 可以先将 SASS 转为 CSS，再将 CSS 转为 JavaScript 模块。
+- **自定义处理流程**：开发者可以通过配置一个或多个 Loader 来定义一个处理流程，例如，可以使用 `babel-loader` 将 ES6 代码转换为兼容的 JavaScript，使用 `style-loader` 和 `css-loader` 处理样式文件。
+
+- **链式传递**：Loader 可以链式调用，每个 Loader 只需专注于完成一种特定的任务。例如，一组 Loader 可以先将 SASS 转为 CSS，再将 CSS 转为 JavaScript 模块。
 
 所以我们可以简单地将 `loader` 看成一个转化代码的函数。
 
@@ -56,7 +59,6 @@ editLink: true
 
 - 解析依赖：在依赖图构建期间，`bundler` 需要理解和解析文件之间的依赖关系，`loader` 帮助它处理非 `JavaScript` 资源，确保这些依赖被正确识别。
 
-
 ### 转译机制：
 
 由于一个文件可能会有多个 `loader` 来执行，所以我们可以抽一个 `Record<string, Array<Loader>>` 来处理。
@@ -76,11 +78,11 @@ editLink: true
 而 `Loader` 本质上 是一个文件内容转文件内容，即 string -> string。
 
 所以我们的类型定义为
-```ts
 
+```ts
 export type Loader = (content: string, filePath: string) => string;
 
-type LoaderMap = Record<string, Loader[]>
+type LoaderMap = Record<string, Loader[]>;
 ```
 
 ### 时机触发
@@ -88,7 +90,6 @@ type LoaderMap = Record<string, Loader[]>
 上文说到，我们从提取文件代码的时候处理即可。之前我们其实已经提供了 `createModule` 函数，所以我们直接在这个函数做一下改造即可，即我们加入一个 `applyLoaders` 方法来专门走文件模块解析。
 
 #### `applyLoaders`
-
 
 ```ts
 import * as path from "path";
@@ -185,7 +186,6 @@ export function createModule(
 
 ### **ts-loader**
 
-
 ```ts
 import * as ts from "typescript";
 import * as babel from "@babel/core";
@@ -223,11 +223,9 @@ export const getTSLoader = (options: TsLoaderOptions) => {
 interface TsLoaderOptions {
   useBabel?: boolean;
 }
-
 ```
 
 ### **css-loader**
-
 
 ```ts
 import { Loader } from "../../../loader";
@@ -244,7 +242,6 @@ export const cssLoader: Loader = (content, filePath) => {
 
 **入口文件**
 
-
 ```ts
 import { add } from "./add";
 import { sub } from "./sub";
@@ -253,7 +250,6 @@ import "./index.css";
 const value = add(1, 4) + sub(3, 2);
 
 document.body.innerHTML = `<div id="app">with ts loader and css loader: ${value}</div>`;
-
 ```
 
 **配置**
@@ -305,6 +301,4 @@ run({
 
 ## 参考
 
--   [代码实现](https://github.com/hua-bang/mini-bundler/blob/master/src/core/create-dependency-graph.ts)
-
-
+- [代码实现](https://github.com/hua-bang/mini-bundler/blob/master/src/core/create-dependency-graph.ts)

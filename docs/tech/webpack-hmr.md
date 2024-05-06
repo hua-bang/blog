@@ -2,6 +2,7 @@
 title: webpack 中的 HMR
 customTag: tech>Frontend Engineer
 editLink: true
+date: 2024.02.05
 ---
 
 # Webpack 中的 HMR
