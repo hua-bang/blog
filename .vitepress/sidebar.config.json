@@ -381,6 +381,11 @@
               "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/heap-sort.md",
               "text": "堆排序",
               "link": "/algorithms/algorithms/sort/heap-sort.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/bucket_sort.md",
+              "text": "桶排序",
+              "link": "/algorithms/algorithms/sort/bucket_sort.md"
             }
           ]
         }
