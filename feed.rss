@@ -4,7 +4,7 @@
         <title>华铧的 Blog</title>
         <link>https://hua-bang.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Mon, 06 May 2024 00:37:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 May 2024 00:36:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2022-present, 华铧</copyright>
@@ -12,7 +12,8 @@
             <title><![CDATA[Life]]></title>
             <link>https://hua-bang.github.io/blog/life/</link>
             <guid>https://hua-bang.github.io/blog/life/</guid>
-            <pubDate>Mon, 06 May 2024 00:36:13 GMT</pubDate>
+            <pubDate>Wed, 08 May 2024 00:35:26 GMT</pubDate>
+            <description><![CDATA[建设中]]></description>
             <content:encoded><![CDATA[<h1 id="life" tabindex="-1">Life <a class="header-anchor" href="#life" aria-label="Permalink to &quot;Life&quot;">&ZeroWidthSpace;</a></h1>
 <p>建设中</p>
 ]]></content:encoded>
@@ -21,7 +22,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://hua-bang.github.io/blog/me/</link>
             <guid>https://hua-bang.github.io/blog/me/</guid>
-            <pubDate>Mon, 06 May 2024 00:36:13 GMT</pubDate>
+            <pubDate>Wed, 08 May 2024 00:35:26 GMT</pubDate>
             <description><![CDATA[# About Me
 
 ## Self introduction
@@ -84,7 +85,8 @@
             <title><![CDATA[React]]></title>
             <link>https://hua-bang.github.io/blog/react/</link>
             <guid>https://hua-bang.github.io/blog/react/</guid>
-            <pubDate>Mon, 06 May 2024 00:36:13 GMT</pubDate>
+            <pubDate>Wed, 08 May 2024 00:35:26 GMT</pubDate>
+            <description><![CDATA[关于对 React 的理解。]]></description>
             <content:encoded><![CDATA[<h1 id="react" tabindex="-1">React <a class="header-anchor" href="#react" aria-label="Permalink to &quot;React&quot;">&ZeroWidthSpace;</a></h1>
 <p>关于对 React 的理解。</p>
 ]]></content:encoded>
@@ -93,7 +95,8 @@
             <title><![CDATA[Read]]></title>
             <link>https://hua-bang.github.io/blog/read/</link>
             <guid>https://hua-bang.github.io/blog/read/</guid>
-            <pubDate>Mon, 06 May 2024 00:36:13 GMT</pubDate>
+            <pubDate>Wed, 08 May 2024 00:35:26 GMT</pubDate>
+            <description><![CDATA[这里记录我的日常阅读的东西 🤔️, 尽量记录记录。]]></description>
             <content:encoded><![CDATA[<h1 id="read" tabindex="-1">Read <a class="header-anchor" href="#read" aria-label="Permalink to &quot;Read&quot;">&ZeroWidthSpace;</a></h1>
 <p>这里记录我的日常阅读的东西 🤔️, 尽量记录记录。</p>
 ]]></content:encoded>
@@ -102,7 +105,13 @@
             <title><![CDATA[Tech 🚧]]></title>
             <link>https://hua-bang.github.io/blog/tech/</link>
             <guid>https://hua-bang.github.io/blog/tech/</guid>
-            <pubDate>Mon, 06 May 2024 00:36:13 GMT</pubDate>
+            <pubDate>Wed, 08 May 2024 00:35:26 GMT</pubDate>
+            <description><![CDATA[关于 Tech 的文件仍在施工中
+ Knowledge Docs
+- TypeScript Note
+- React Book
+- frontend-guidebook
+- 掘金]]></description>
             <content:encoded><![CDATA[<h1 id="tech-🚧" tabindex="-1">Tech 🚧 <a class="header-anchor" href="#tech-🚧" aria-label="Permalink to &quot;Tech 🚧&quot;">&ZeroWidthSpace;</a></h1>
 <p>关于 Tech 的文件仍在施工中</p>
 <h2 id="knowledge-docs" tabindex="-1">Knowledge Docs <a class="header-anchor" href="#knowledge-docs" aria-label="Permalink to &quot;Knowledge Docs&quot;">&ZeroWidthSpace;</a></h2>
@@ -118,16 +127,82 @@
             <title><![CDATA[React Source Code]]></title>
             <link>https://hua-bang.github.io/blog/react/react-source-code/</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/</guid>
-            <pubDate>Mon, 06 May 2024 00:36:13 GMT</pubDate>
+            <pubDate>Wed, 08 May 2024 00:35:26 GMT</pubDate>
+            <description><![CDATA[This is React Source Code.]]></description>
             <content:encoded><![CDATA[<h1 id="react-source-code" tabindex="-1">React Source Code <a class="header-anchor" href="#react-source-code" aria-label="Permalink to &quot;React Source Code&quot;">&ZeroWidthSpace;</a></h1>
 <p>This is React Source Code.</p>
 ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[桶排序]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/algorithms/sort/bucket_sort.html</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/algorithms/sort/bucket_sort.html</guid>
+            <pubDate>Wed, 08 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[桶排序
+桶排序（bucket sort）是分治策略的一个典型应用。它通过设置一些具有大小顺序的桶，每个桶对应一个数据范围，将数据平均分配到各个桶中；然后，在每个桶内部分别执行排序；最终按照桶的顺序将所]]></description>
+            <content:encoded><![CDATA[<h1 id="桶排序" tabindex="-1">桶排序 <a class="header-anchor" href="#桶排序" aria-label="Permalink to &quot;桶排序&quot;">&ZeroWidthSpace;</a></h1>
+<p>桶排序（bucket sort）是分治策略的一个典型应用。它通过设置一些具有大小顺序的桶，每个桶对应一个数据范围，将数据平均分配到各个桶中；然后，在每个桶内部分别执行排序；最终按照桶的顺序将所有数据合并。</p>
+<p>本质是先划分好区间，然后在区间中进行排序。</p>
+<h2 id="算法流程" tabindex="-1">算法流程 <a class="header-anchor" href="#算法流程" aria-label="Permalink to &quot;算法流程&quot;">&ZeroWidthSpace;</a></h2>
+<p>有一个数组，范围在 [1, 10] 中，整体流程如下。</p>
+<ol>
+<li>初始化 K 个桶，将 数组元素分配到对应的桶中。</li>
+<li>对每个桶中的元素分别进行排序。</li>
+<li>按照桶从小到大顺序进行合并。
+<img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20240508082553.png" alt=""></li>
+</ol>
+<h2 id="代码" tabindex="-1">代码 <a class="header-anchor" href="#代码" aria-label="Permalink to &quot;代码&quot;">&ZeroWidthSpace;</a></h2>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> bucketSort</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">nums</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[])</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> void</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> k</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> nums.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">length</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> /</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> buckets</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[][] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> [];</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> k; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    buckets.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">push</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">([]);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> num</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> of</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> nums) {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 输入数据范围为 [0, 1)，使用 num * k 映射到索引范围 [0, k-1]</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> Math.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">floor</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(num </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">*</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> k);</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 将 num 添加进桶 i</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    buckets[i].</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">push</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(num);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> bucket</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> of</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> buckets) {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 使用内置排序函数，也可以替换成其他排序算法</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    bucket.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">sort</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">((</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">a</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">b</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=></span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> a </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> b);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> bucket</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> of</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> buckets) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> num</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> of</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> bucket) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">      nums[i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> num;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h2 id="算法特性" tabindex="-1">算法特性 <a class="header-anchor" href="#算法特性" aria-label="Permalink to &quot;算法特性&quot;">&ZeroWidthSpace;</a></h2>
+<p>桶排序适用于处理体量很大的数据。例如，输入数据包含 100 万个元素，由于空间限制，系统内存无法一次性加载所有数据。此时，可以将数据分成 1000 个桶，然后分别对每个桶进行排序，最后将结果合并。</p>
+<ul>
+<li><strong>时间复杂度为  𝑂(𝑛+𝑘)</strong> ：假设元素在各个桶内平均分布，那么每个桶内的元素数量为  𝑛𝑘 。假设排序单个桶使用  𝑂(𝑛𝑘log⁡𝑛𝑘)  时间，则排序所有桶使用  𝑂(𝑛log⁡𝑛𝑘)  时间。<strong>当桶数量  𝑘  比较大时，时间复杂度则趋向于  𝑂(𝑛)</strong> 。合并结果时需要遍历所有桶和元素，花费  𝑂(𝑛+𝑘)  时间。</li>
+<li><strong>自适应排序</strong>：在最差情况下，所有数据被分配到一个桶中，且排序该桶使用  𝑂(𝑛2)  时间。</li>
+<li><strong>空间复杂度为  𝑂(𝑛+𝑘)、非原地排序</strong>：需要借助  𝑘  个桶和总共  𝑛  个元素的额外空间。</li>
+<li>桶排序是否稳定取决于排序桶内元素的算法是否稳定。</li>
+</ul>
+<h2 id="参考" tabindex="-1">参考 <a class="header-anchor" href="#参考" aria-label="Permalink to &quot;参考&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><a href="https://www.hello-algo.com/chapter_sorting/bucket_sort/#1183" target="_blank" rel="noreferrer">Hello算法-桶排序</a></li>
+</ul>
+]]></content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/hua-bang/assert-store/master/20240508082553.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[堆排序]]></title>
             <link>https://hua-bang.github.io/blog/algorithms/algorithms/sort/heap-sort.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/algorithms/sort/heap-sort.html</guid>
             <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[堆排序
+堆排序（heap sort）是一种基于堆数据结构实现的高效排序算法。
+1. 输入数组并建立小顶堆，此时最小元素位于堆顶。
+2. 不断执行出堆操作，依次记录出堆元素，即可得到从小到大排序的序列。]]></description>
             <content:encoded><![CDATA[<h1 id="堆排序" tabindex="-1">堆排序 <a class="header-anchor" href="#堆排序" aria-label="Permalink to &quot;堆排序&quot;">&ZeroWidthSpace;</a></h1>
 <p>堆排序（heap sort）是一种基于堆数据结构实现的高效排序算法。</p>
 <ol>
@@ -199,6 +274,11 @@
             <link>https://hua-bang.github.io/blog/tech/module-federation.html</link>
             <guid>https://hua-bang.github.io/blog/tech/module-federation.html</guid>
             <pubDate>Sun, 05 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[模块联邦
+ 💡 什么是模块联邦
+模块联邦是 `JavaScript` 应用程序中去中心化的架构模式，允许你在多个 `JavaScript` 应用中进行代码共享。
+解决了什么问题？
+- 减少代码重复问]]></description>
             <content:encoded><![CDATA[<h1 id="模块联邦" tabindex="-1">模块联邦 <a class="header-anchor" href="#模块联邦" aria-label="Permalink to &quot;模块联邦&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="💡-什么是模块联邦" tabindex="-1"><strong>💡 什么是模块联邦</strong> <a class="header-anchor" href="#💡-什么是模块联邦" aria-label="Permalink to &quot;**💡 什么是模块联邦**&quot;">&ZeroWidthSpace;</a></h2>
 <p>模块联邦是 <code>JavaScript</code> 应用程序中去中心化的架构模式，允许你在多个 <code>JavaScript</code> 应用中进行代码共享。</p>
@@ -250,6 +330,10 @@
             <link>https://hua-bang.github.io/blog/blog/2024-05-01.html</link>
             <guid>https://hua-bang.github.io/blog/blog/2024-05-01.html</guid>
             <pubDate>Sat, 04 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[2024 . 五一
+记录下五一假期几件印象深刻的事吧。
+ 😊 欢迎来到荷兰
+本来定好了当天 10 点 30 的飞机，但后面延误了近三个小时，半夜 1 点多才登机。但本次我没有抱怨，或者用消极的情况去]]></description>
             <content:encoded><![CDATA[<h1 id="_2024-五一" tabindex="-1">2024 . 五一 <a class="header-anchor" href="#_2024-五一" aria-label="Permalink to &quot;2024 . 五一&quot;">&ZeroWidthSpace;</a></h1>
 <p>记录下五一假期几件印象深刻的事吧。</p>
 <h3 id="😊-欢迎来到荷兰" tabindex="-1">😊 欢迎来到荷兰 <a class="header-anchor" href="#😊-欢迎来到荷兰" aria-label="Permalink to &quot;😊 欢迎来到荷兰&quot;">&ZeroWidthSpace;</a></h3>
@@ -385,6 +469,10 @@
             <link>https://hua-bang.github.io/blog/blog/right.html</link>
             <guid>https://hua-bang.github.io/blog/blog/right.html</guid>
             <pubDate>Sat, 27 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[对也不对
+“对也不对”，最近我经常会把这句话挂在嘴边。
+这句话看上去似乎矛盾，模糊，不同于“非黑即白”的二元论，也不同于二进制“非零和非一”的计算机符号。
+所以，我也在想是什么原因，让我最近频繁地使用]]></description>
             <content:encoded><![CDATA[<h1 id="对也不对" tabindex="-1">对也不对 <a class="header-anchor" href="#对也不对" aria-label="Permalink to &quot;对也不对&quot;">&ZeroWidthSpace;</a></h1>
 <p><strong>“对也不对”</strong>，最近我经常会把这句话挂在嘴边。</p>
 <p>这句话看上去似乎矛盾，模糊，不同于**“非黑即白”<strong>的二元论，也不同于二进制</strong>“非零和非一”**的计算机符号。</p>
@@ -622,6 +710,8 @@
             <link>https://hua-bang.github.io/blog/blog/dify.html</link>
             <guid>https://hua-bang.github.io/blog/blog/dify.html</guid>
             <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 探索 Dify：开源 LLM 应用开发的未来 🚀
+在快速发展的 AI 时代，Dify 为全球开发者带来了一种全新的开源 LLM 应用开发平台。通过它那直观的界面，Dify 将复杂的技术简化，使]]></description>
             <content:encoded><![CDATA[<h1 id="🚀-探索-dify-开源-llm-应用开发的未来-🚀" tabindex="-1">🚀 探索 Dify：开源 LLM 应用开发的未来 🚀 <a class="header-anchor" href="#🚀-探索-dify-开源-llm-应用开发的未来-🚀" aria-label="Permalink to &quot;🚀 探索 Dify：开源 LLM 应用开发的未来 🚀&quot;">&ZeroWidthSpace;</a></h1>
 <p>在快速发展的 AI 时代，Dify 为全球开发者带来了一种全新的开源 LLM 应用开发平台。通过它那直观的界面，Dify 将复杂的技术简化，使得从原型到生产的过程变得前所未有的快速和简单。</p>
 <p>✨ <strong>Dify 的核心特色包括：</strong></p>
@@ -648,6 +738,10 @@
             <link>https://hua-bang.github.io/blog/react/react-source-code/base-data-structure.html</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/base-data-structure.html</guid>
             <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[基础类型
+ Fiber
+类型：单链表
+定义：A Fiber is work on a Component that needs to be done or was done. There can be]]></description>
             <content:encoded><![CDATA[<h1 id="基础类型" tabindex="-1">基础类型 <a class="header-anchor" href="#基础类型" aria-label="Permalink to &quot;基础类型&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="fiber" tabindex="-1">Fiber <a class="header-anchor" href="#fiber" aria-label="Permalink to &quot;Fiber&quot;">&ZeroWidthSpace;</a></h2>
 <p>类型：单链表</p>
@@ -949,6 +1043,11 @@
             <link>https://hua-bang.github.io/blog/react/react-source-code/render.html</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/render.html</guid>
             <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[页面首次渲染 & 组件更新
+&lt;aside
+💡 render 流程：
+1. 获取 current fiber & lane
+2. 创建一个 update: const update = crea]]></description>
             <content:encoded><![CDATA[<h2 id="页面首次渲染-组件更新" tabindex="-1">页面首次渲染 &amp; 组件更新 <a class="header-anchor" href="#页面首次渲染-组件更新" aria-label="Permalink to &quot;页面首次渲染 &amp; 组件更新&quot;">&ZeroWidthSpace;</a></h2>
 <aside>
 💡 render 流程：
@@ -1149,6 +1248,11 @@
             <link>https://hua-bang.github.io/blog/react/react-source-code/scheduler.html</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/scheduler.html</guid>
             <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[之前我们了解过。在初次渲染的时候会走下方代码
+```tsx
+newCallbackNode = scheduleCallback(
+  schedulerPriorityLevel,
+  perfor]]></description>
             <content:encoded><![CDATA[<p>之前我们了解过。在初次渲染的时候会走下方代码</p>
 <div class="language-tsx vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">tsx</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">newCallbackNode </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> scheduleCallback</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  schedulerPriorityLevel,</span></span>
@@ -1361,6 +1465,11 @@
             <link>https://hua-bang.github.io/blog/algorithms/</link>
             <guid>https://hua-bang.github.io/blog/algorithms/</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Algorithms 📚
+Data Structure and Algorithms
+ Data Structure
+数据结构是计算机中组织和存储数据的一种特殊方式，使得数据可以被高效修改和访问。
+]]></description>
             <content:encoded><![CDATA[<h1 id="algorithms-📚" tabindex="-1">Algorithms 📚 <a class="header-anchor" href="#algorithms-📚" aria-label="Permalink to &quot;Algorithms 📚&quot;">&ZeroWidthSpace;</a></h1>
 <p>Data Structure and Algorithms</p>
 <h2 id="data-structure" tabindex="-1">Data Structure <a class="header-anchor" href="#data-structure" aria-label="Permalink to &quot;Data Structure&quot;">&ZeroWidthSpace;</a></h2>
@@ -1390,6 +1499,8 @@
             <link>https://hua-bang.github.io/blog/algorithms/data-structure/hash-table.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/data-structure/hash-table.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[哈希表
+在计算机领域的定义中，哈希表（hash map or hash table）是一种实现关联数组(associative array)的抽象数据类型，该结构可以将键(key)映射成值(value]]></description>
             <content:encoded><![CDATA[<h1 id="哈希表" tabindex="-1">哈希表 <a class="header-anchor" href="#哈希表" aria-label="Permalink to &quot;哈希表&quot;">&ZeroWidthSpace;</a></h1>
 <p>在计算机领域的定义中，哈希表（hash map or hash table）是一种实现关联数组(associative array)的抽象数据类型，该结构可以将键(key)映射成值(value)。</p>
 <blockquote>
@@ -1581,6 +1692,10 @@
             <link>https://hua-bang.github.io/blog/algorithms/data-structure/heap.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/data-structure/heap.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[堆
+在计算机科学中, 一个 堆(heap) 是一种特殊的基于树的数据结构，它满足下面描述的堆属性。
+- 堆中每个节点的值都大于等于（或者小于等于）其左右子节点的值。
+- 堆通常是一颗 `完全二叉树`。]]></description>
             <content:encoded><![CDATA[<h1 id="堆" tabindex="-1">堆 <a class="header-anchor" href="#堆" aria-label="Permalink to &quot;堆&quot;">&ZeroWidthSpace;</a></h1>
 <p>在计算机科学中, 一个 堆(heap) 是一种特殊的基于树的数据结构，它满足下面描述的堆属性。</p>
 <ul>
@@ -1748,6 +1863,10 @@
             <link>https://hua-bang.github.io/blog/algorithms/data-structure/linked-list.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/data-structure/linked-list.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[链表
+ 线性表
+线性表（Linear List）是数据结构中的一个概念，指的是一组具有线性关系的数据元素的集合。在线性表中，元素之间只有一对一的相互关系。
+线性表主要有两种存储结构：顺序存储结构和链式]]></description>
             <content:encoded><![CDATA[<h1 id="链表" tabindex="-1">链表 <a class="header-anchor" href="#链表" aria-label="Permalink to &quot;链表&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="线性表" tabindex="-1">线性表 <a class="header-anchor" href="#线性表" aria-label="Permalink to &quot;线性表&quot;">&ZeroWidthSpace;</a></h2>
 <p>线性表（Linear List）是数据结构中的一个概念，指的是一组具有线性关系的数据元素的集合。在线性表中，元素之间只有一对一的相互关系。</p>
@@ -1877,6 +1996,9 @@
             <link>https://hua-bang.github.io/blog/algorithms/data-structure/queue.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/data-structure/queue.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[队列
+队列（Queue）是一种基于元素处理顺序的线性数据结构，主要包括两种形式：标准队列、优先级队列、循环队列。
+- 标准队列：遵循先进先出（First In First Out, FIFO）的原则，]]></description>
             <content:encoded><![CDATA[<h1 id="队列" tabindex="-1">队列 <a class="header-anchor" href="#队列" aria-label="Permalink to &quot;队列&quot;">&ZeroWidthSpace;</a></h1>
 <p>队列（Queue）是一种基于元素处理顺序的线性数据结构，主要包括两种形式：<strong>标准队列</strong>、<strong>优先级队列</strong>、<strong>循环队列</strong>。</p>
 <ul>
@@ -2006,6 +2128,10 @@
             <link>https://hua-bang.github.io/blog/algorithms/data-structure/stack.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/data-structure/stack.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[栈
+在计算机科学中, 一个  栈(stack)  是一种抽象数据类型,用作表示元素的集合,具有两种主要操作:
+- push, 添加元素到栈的顶端(末尾)， 即入栈;
+- pop, 移除栈最顶端(末尾)]]></description>
             <content:encoded><![CDATA[<h1 id="栈" tabindex="-1">栈 <a class="header-anchor" href="#栈" aria-label="Permalink to &quot;栈&quot;">&ZeroWidthSpace;</a></h1>
 <p>在计算机科学中, 一个  <strong>栈(stack)</strong>  是一种抽象数据类型,用作表示元素的集合,具有两种主要操作:</p>
 <ul>
@@ -2052,6 +2178,10 @@
             <link>https://hua-bang.github.io/blog/algorithms/algorithms/search/binary_search.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/algorithms/search/binary_search.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[二分查找
+二分查找是一种在有序数组中查找特定元素的有效算法。基本思想是将每次搜索的空间减半（分治），从而减少需要检查的元素数量，达到提高查找效率的目的。
+ 基本步骤
+1. 初始化指针：设置两个指针，`]]></description>
             <content:encoded><![CDATA[<h1 id="二分查找" tabindex="-1">二分查找 <a class="header-anchor" href="#二分查找" aria-label="Permalink to &quot;二分查找&quot;">&ZeroWidthSpace;</a></h1>
 <p>二分查找是一种在<strong>有序数组</strong>中查找特定元素的有效算法。基本思想是将每次搜索的空间减半（分治），从而减少需要检查的元素数量，达到提高查找效率的目的。</p>
 <p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20240415083005.png" alt="image.png"></p>
@@ -2230,6 +2360,11 @@
             <link>https://hua-bang.github.io/blog/algorithms/algorithms/search/hash_search.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/algorithms/search/hash_search.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[哈希优化策略
+日常中，我们常常用哈希查找来降低算法的时间复杂度， 其本质是空间换时间。
+下方用两数之和为例子，来讲讲线性查找和哈希查找。
+:::info
+给定一个整数数组  `nums`  和一个目标]]></description>
             <content:encoded><![CDATA[<h1 id="哈希优化策略" tabindex="-1">哈希优化策略 <a class="header-anchor" href="#哈希优化策略" aria-label="Permalink to &quot;哈希优化策略&quot;">&ZeroWidthSpace;</a></h1>
 <p>日常中，我们常常用哈希查找来降低算法的时间复杂度， <strong>其本质是空间换时间</strong>。</p>
 <p>下方用两数之和为例子，来讲讲线性查找和哈希查找。</p>
@@ -2276,6 +2411,11 @@
             <link>https://hua-bang.github.io/blog/algorithms/algorithms/search/over-view.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/algorithms/search/over-view.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[搜索算法概述
+搜索算法的本质是在数据结构中搜索一个或一组满足条件的元素。
+主要的实现思路有两个
+- 通过遍历数据结构来定位目标元素，例如数组、链表、树和图的遍历等。
+- 利用数据组织结构或数据包含的先]]></description>
             <content:encoded><![CDATA[<h1 id="搜索算法概述" tabindex="-1">搜索算法概述 <a class="header-anchor" href="#搜索算法概述" aria-label="Permalink to &quot;搜索算法概述&quot;">&ZeroWidthSpace;</a></h1>
 <p><strong>搜索算法的本质</strong>是在数据结构中搜索一个或一组满足条件的元素。
 主要的实现思路有两个</p>
@@ -2335,6 +2475,8 @@
             <link>https://hua-bang.github.io/blog/algorithms/algorithms/sort/bubble_sort.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/algorithms/sort/bubble_sort.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[冒泡排序
+冒泡排序（bubble sort）通过连续地比较与交换相邻元素实现排序。实际上，会开启一次循环，每一次循环中，会从左到右，将两个数组元素比较，将比较大的元素移到右边去。每次循环后，回减小一个]]></description>
             <content:encoded><![CDATA[<h1 id="冒泡排序" tabindex="-1">冒泡排序 <a class="header-anchor" href="#冒泡排序" aria-label="Permalink to &quot;冒泡排序&quot;">&ZeroWidthSpace;</a></h1>
 <p>冒泡排序（bubble sort）通过连续地比较与交换相邻元素实现排序。实际上，会开启一次循环，每一次循环中，会从左到右，将两个数组元素比较，将比较大的元素移到右边去。每次循环后，回减小一个区间范围。</p>
 <h2 id="执行流程" tabindex="-1">执行流程 <a class="header-anchor" href="#执行流程" aria-label="Permalink to &quot;执行流程&quot;">&ZeroWidthSpace;</a></h2>
@@ -2387,6 +2529,9 @@
             <link>https://hua-bang.github.io/blog/algorithms/algorithms/sort/insertion_sort.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/algorithms/sort/insertion_sort.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[插入排序
+插入排序（insertion sort）是一种简单的排序算法，它的工作原理与手动整理一副牌的过程非常相似。
+具体来说，我们在未排序区间选择一个基准元素，将该元素与其左侧已排序区间的元素逐一比]]></description>
             <content:encoded><![CDATA[<h1 id="插入排序" tabindex="-1">插入排序 <a class="header-anchor" href="#插入排序" aria-label="Permalink to &quot;插入排序&quot;">&ZeroWidthSpace;</a></h1>
 <p>插入排序（insertion sort）是一种简单的排序算法，它的工作原理与手动整理一副牌的过程非常相似。</p>
 <p>具体来说，我们在未排序区间选择一个基准元素，将该元素与其左侧已排序区间的元素逐一比较大小，并将该元素插入到正确的位置。</p>
@@ -2433,6 +2578,9 @@
             <link>https://hua-bang.github.io/blog/algorithms/algorithms/sort/merge_sort.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/algorithms/sort/merge_sort.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[归并排序
+归并排序（merge sort）是一种基于分治策略的排序算法，包含图所示的“划分”和“合并”阶段。先分再合。
+1. 划分阶段：通过递归不断地将数组从中点处分开，将长数组的排序问题转换为短数组]]></description>
             <content:encoded><![CDATA[<h1 id="归并排序" tabindex="-1">归并排序 <a class="header-anchor" href="#归并排序" aria-label="Permalink to &quot;归并排序&quot;">&ZeroWidthSpace;</a></h1>
 <p>归并排序（merge sort）是一种基于分治策略的排序算法，包含图所示的“划分”和“合并”阶段。先分再合。</p>
 <ol>
@@ -2508,6 +2656,14 @@
             <link>https://hua-bang.github.io/blog/algorithms/algorithms/sort/overview.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/algorithms/sort/overview.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[排序算法
+排序算法是一类算法，其核心目的是将一组数据按照特定顺序重新排列。 通常，这个顺序是按照数字的大小或字母的顺序进行的。
+- 数值排序
+  
+- 自定义规则排序
+  
+ 评价维度
+运行效率：我们]]></description>
             <content:encoded><![CDATA[<h1 id="排序算法" tabindex="-1">排序算法 <a class="header-anchor" href="#排序算法" aria-label="Permalink to &quot;排序算法&quot;">&ZeroWidthSpace;</a></h1>
 <p><strong>排序算法是一类算法，其核心目的是将一组数据按照特定顺序重新排列。</strong> 通常，这个顺序是按照数字的大小或字母的顺序进行的。</p>
 <ul>
@@ -2532,6 +2688,10 @@
             <link>https://hua-bang.github.io/blog/algorithms/algorithms/sort/quick_sort.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/algorithms/sort/quick_sort.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[快速排序
+快速排序（quick sort）是一种基于分治策略的排序算法，运行高效，应用广泛。
+ 基本流程
+快速排序的核心操作是“哨兵划分”，其目标是：选择数组中的某个元素作为“基准数”，将所有小于基准]]></description>
             <content:encoded><![CDATA[<h1 id="快速排序" tabindex="-1">快速排序 <a class="header-anchor" href="#快速排序" aria-label="Permalink to &quot;快速排序&quot;">&ZeroWidthSpace;</a></h1>
 <p>快速排序（quick sort）是一种基于分治策略的排序算法，运行高效，应用广泛。</p>
 <h2 id="基本流程" tabindex="-1">基本流程 <a class="header-anchor" href="#基本流程" aria-label="Permalink to &quot;基本流程&quot;">&ZeroWidthSpace;</a></h2>
@@ -2583,6 +2743,11 @@
             <link>https://hua-bang.github.io/blog/algorithms/algorithms/sort/selection_sort.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/algorithms/sort/selection_sort.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[选择排序
+选择排序的思路：开启一个循环，每一个巡回选定一个未排序区间（i， n-1）, 每轮将最小的元素放在已经排序的末尾。
+ 流程
+主要流程如下
+1. 初始情况下，所有元素未排序，即未排序区间为\[]]></description>
             <content:encoded><![CDATA[<h1 id="选择排序" tabindex="-1">选择排序 <a class="header-anchor" href="#选择排序" aria-label="Permalink to &quot;选择排序&quot;">&ZeroWidthSpace;</a></h1>
 <p>选择排序的思路：开启一个循环，每一个巡回选定一个未排序区间（i， n-1）, 每轮将最小的元素放在已经排序的末尾。</p>
 <h2 id="流程" tabindex="-1"><strong>流程</strong> <a class="header-anchor" href="#流程" aria-label="Permalink to &quot;**流程**&quot;">&ZeroWidthSpace;</a></h2>
@@ -2630,6 +2795,10 @@
             <link>https://hua-bang.github.io/blog/algorithms/data-structure/graph/</link>
             <guid>https://hua-bang.github.io/blog/algorithms/data-structure/graph/</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[图
+
+在计算机科学中，图（英語：graph）是一种抽象数据类型，用于实现数学中图论的无向图&gt; "图 (数学)")和有向图的概念。
+图的数据结构包含一个有限（可能是可变的）的集合&gt; "集合 ]]></description>
             <content:encoded><![CDATA[<h1 id="图" tabindex="-1">图 <a class="header-anchor" href="#图" aria-label="Permalink to &quot;图&quot;">&ZeroWidthSpace;</a></h1>
 <blockquote>
 <p>图是由节点和节点之间的边组成的集合。</p>
@@ -3027,6 +3196,10 @@
             <link>https://hua-bang.github.io/blog/algorithms/data-structure/tree/avl-tree.html</link>
             <guid>https://hua-bang.github.io/blog/algorithms/data-structure/tree/avl-tree.html</guid>
             <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[计算机领域中，AVL 树是一种平衡的二叉搜索树。在 AVL 树中，同一节点的两个子节点树的高度不会相差大于 1。如果在任何时候它们相差不止一个，则进行重新平衡以恢复此属性。
+ 概念
+ 二叉搜索树
+前文]]></description>
             <content:encoded><![CDATA[<p>计算机领域中，AVL 树是一种平衡的二叉搜索树。在 AVL 树中，同一节点的两个子节点树的高度不会相差大于 1。如果在任何时候它们相差不止一个，则进行重新平衡以恢复此属性。</p>
 <h2 id="概念" tabindex="-1">概念 <a class="header-anchor" href="#概念" aria-label="Permalink to &quot;概念&quot;">&ZeroWidthSpace;</a></h2>
 <h3 id="二叉搜索树" tabindex="-1">二叉搜索树 <a class="header-anchor" href="#二叉搜索树" aria-label="Permalink to &quot;二叉搜索树&quot;">&ZeroWidthSpace;</a></h3>
@@ -3879,6 +4052,9 @@
             <link>https://hua-bang.github.io/blog/read/a-philosophy-of-software-design.html</link>
             <guid>https://hua-bang.github.io/blog/read/a-philosophy-of-software-design.html</guid>
             <pubDate>Sat, 02 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A Philosophy of Software Design
+最近在读 A Philosophy of Software Design, 即软件设计的哲学。
+作者 John Ousterhout 认]]></description>
             <content:encoded><![CDATA[<h1 id="a-philosophy-of-software-design" tabindex="-1">A Philosophy of Software Design <a class="header-anchor" href="#a-philosophy-of-software-design" aria-label="Permalink to &quot;A Philosophy of Software Design&quot;">&ZeroWidthSpace;</a></h1>
 <p>最近在读 A Philosophy of Software Design, 即软件设计的哲学。</p>
 <p>作者 John Ousterhout 认为<strong>软件设计的最大目标，就是降低复杂性</strong>。并通过自己的实践经验，沉淀了软件设计的原则以及技巧，从而利用降低复杂性来指导软件设计的整个生命周期。</p>
@@ -4432,6 +4608,11 @@ typescript
             <link>https://hua-bang.github.io/blog/tech/webpack-hmr.html</link>
             <guid>https://hua-bang.github.io/blog/tech/webpack-hmr.html</guid>
             <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Webpack 中的 HMR
+[[toc]]
+ 一、背景
+
+`Hot Module Replacement`，也称为 `HMR`，是一种在应用程序运行时替换、添加或删除模块的技术，无需完全刷新页面就能]]></description>
             <content:encoded><![CDATA[<h1 id="webpack-中的-hmr" tabindex="-1">Webpack 中的 HMR <a class="header-anchor" href="#webpack-中的-hmr" aria-label="Permalink to &quot;Webpack 中的 HMR&quot;">&ZeroWidthSpace;</a></h1>
 <nav class="table-of-contents"><ul><li><a href="#一、背景">一、背景</a></li><li><a href="#二、流程图解">二、流程图解</a><ul><li><a href="#_2-1-初始化阶段">2.1 初始化阶段</a></li><li><a href="#_2-2-文件更新时">2.2 文件更新时</a></li><li><a href="#_2-3-热更新应用时">2.3 热更新应用时</a></li></ul></li><li><a href="#三、-webpack-项目中的-hmr">三、 Webpack 项目中的 HMR</a><ul><li><a href="#_3-1-初始化项目">3.1 初始化项目</a></li><li><a href="#_3-2-热更新能力的开启">3.2 热更新能力的开启</a></li><li><a href="#_3-3-具体看源码">3.3 具体看源码</a></li></ul></li><li><a href="#四、流程梳理">四、流程梳理</a><ul><li><a href="#_4-1-dev-server-初始化">4.1 Dev Server 初始化</a></li><li><a href="#_4-2-client-初始化">4.2 Client 初始化</a></li><li><a href="#_4-3-文件更新的流程">4.3 文件更新的流程</a></li></ul></li><li><a href="#五、总结">五、总结</a></li><li><a href="#参考资料">参考资料</a></li></ul></nav>
 <h2 id="一、背景" tabindex="-1">一、背景 <a class="header-anchor" href="#一、背景" aria-label="Permalink to &quot;一、背景&quot;">&ZeroWidthSpace;</a></h2>
@@ -4707,6 +4888,13 @@ typescript
             <link>https://hua-bang.github.io/blog/read/When-I-say-no_I-feel-guilty.html</link>
             <guid>https://hua-bang.github.io/blog/read/When-I-say-no_I-feel-guilty.html</guid>
             <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[强势
+:::info
+状态: 读完
+作者: 曼纽尔·J·史密斯
+推荐指数: 🌟🌟🌟🌟
+类别: 心理学, 职场成长
+链接: https://weread.qq.com/web/bookDetai]]></description>
             <content:encoded><![CDATA[<h1 id="强势" tabindex="-1">强势 <a class="header-anchor" href="#强势" aria-label="Permalink to &quot;强势&quot;">&ZeroWidthSpace;</a></h1>
 <div class="info custom-block"><p class="custom-block-title">INFO</p>
 <p>状态: 读完
@@ -4758,6 +4946,10 @@ typescript
             <link>https://hua-bang.github.io/blog/read/amusing-yourself-to-death.html</link>
             <guid>https://hua-bang.github.io/blog/read/amusing-yourself-to-death.html</guid>
             <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[娱乐至死
+:::tip
+- Date: September 13, 2023 → September 24, 2023
+- 作者: https://weread.qq.com/web/search/b]]></description>
             <content:encoded><![CDATA[<h1 id="娱乐至死" tabindex="-1">娱乐至死 <a class="header-anchor" href="#娱乐至死" aria-label="Permalink to &quot;娱乐至死&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">TIP</p>
 <ul>
@@ -4863,6 +5055,14 @@ typescript
             <link>https://hua-bang.github.io/blog/read/principles.html</link>
             <guid>https://hua-bang.github.io/blog/read/principles.html</guid>
             <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[principles
+
+ 生活原则
+ 拥抱现实，应对现实
+ 做一个超级现实的人
+- 梦想 + 现实 + 决心 = 成功的生活。
+- “创造伟大事物的人不是空想者，而是彻底地扎根于现实。”
+ 真相是任何]]></description>
             <content:encoded><![CDATA[<h1 id="principles" tabindex="-1">principles <a class="header-anchor" href="#principles" aria-label="Permalink to &quot;principles&quot;">&ZeroWidthSpace;</a></h1>
 <blockquote>
 <p>Maintain personal principles and improve efficiency.</p>
@@ -5300,6 +5500,12 @@ typescript
             <link>https://hua-bang.github.io/blog/read/that-will-never-work.html</link>
             <guid>https://hua-bang.github.io/blog/read/that-will-never-work.html</guid>
             <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[复盘网飞
+ Question
+1. 三句话说一下这本书在讲什么
+   马克以创始人的角度，叙述了网飞是如何从一个想法到最后的上市公司。
+   创业故事可能不是那么真实，
+   也许这本书也是经过包装过]]></description>
             <content:encoded><![CDATA[<h2 id="复盘网飞" tabindex="-1">复盘网飞 <a class="header-anchor" href="#复盘网飞" aria-label="Permalink to &quot;复盘网飞&quot;">&ZeroWidthSpace;</a></h2>
 <h2 id="question" tabindex="-1">Question <a class="header-anchor" href="#question" aria-label="Permalink to &quot;Question&quot;">&ZeroWidthSpace;</a></h2>
 <ol>
@@ -5375,6 +5581,13 @@ typescript
             <link>https://hua-bang.github.io/blog/read/the-almanack-of-Naval-Ravikant.html</link>
             <guid>https://hua-bang.github.io/blog/read/the-almanack-of-Naval-Ravikant.html</guid>
             <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[纳瓦尔宝典
+ 财富
+ 积累财富
+
+ 认识财富创造的原理
+- 赚钱跟工作的努力程度没什么必然联系。你必须知道做什么、和谁一起做、什么时候做。
+- 把自己产品化。“自己”具有独特性，“产品化”是发挥杠杆效]]></description>
             <content:encoded><![CDATA[<h1 id="纳瓦尔宝典" tabindex="-1">纳瓦尔宝典 <a class="header-anchor" href="#纳瓦尔宝典" aria-label="Permalink to &quot;纳瓦尔宝典&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="财富" tabindex="-1">财富 <a class="header-anchor" href="#财富" aria-label="Permalink to &quot;财富&quot;">&ZeroWidthSpace;</a></h2>
 <h3 id="积累财富" tabindex="-1">积累财富 <a class="header-anchor" href="#积累财富" aria-label="Permalink to &quot;积累财富&quot;">&ZeroWidthSpace;</a></h3>
@@ -5636,6 +5849,10 @@ typescript
             <link>https://hua-bang.github.io/blog/blog/coze.html</link>
             <guid>https://hua-bang.github.io/blog/blog/coze.html</guid>
             <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Coze 机器人构建平台
+最近，字节推出了 Coze 平台，定位为：下一代人工智能聊天机器人构建平台。快速创建无需编码的机器人并将其发布在各种平台上。
+个人体验了一波，总体体验不错。
+首先先介绍其主要]]></description>
             <content:encoded><![CDATA[<h1 id="coze-机器人构建平台" tabindex="-1">Coze 机器人构建平台 <a class="header-anchor" href="#coze-机器人构建平台" aria-label="Permalink to &quot;Coze 机器人构建平台&quot;">&ZeroWidthSpace;</a></h1>
 <p>最近，字节推出了 Coze 平台，定位为：下一代人工智能聊天机器人构建平台。快速创建无需编码的机器人并将其发布在各种平台上。</p>
 <p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20231219232506.png" alt="image.png"></p>
@@ -5685,6 +5902,11 @@ typescript
             <link>https://hua-bang.github.io/blog/read/take-notes.html</link>
             <guid>https://hua-bang.github.io/blog/read/take-notes.html</guid>
             <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[笔记的方法
+ Question
+1. 一句话说一下这本书在讲什么
+本书主要讲了做笔记的方法，从介绍自己的理念后，并做笔记的一些技巧和方法的介绍。本质上是一种做笔记的思维方式。
+1. 对我个人的生活的帮]]></description>
             <content:encoded><![CDATA[<h1 id="笔记的方法" tabindex="-1">笔记的方法 <a class="header-anchor" href="#笔记的方法" aria-label="Permalink to &quot;笔记的方法&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="question" tabindex="-1">Question <a class="header-anchor" href="#question" aria-label="Permalink to &quot;Question&quot;">&ZeroWidthSpace;</a></h2>
 <ol>
@@ -5784,6 +6006,9 @@ typescript
             <link>https://hua-bang.github.io/blog/tech/bundler.html</link>
             <guid>https://hua-bang.github.io/blog/tech/bundler.html</guid>
             <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[初识前端 bundler
+ 1. 什么是 bundler
+在前端开发过程中，我们日常基本都会接触 webpack、rollup、esbuild 等打包工具，通过这些工具，我们日常编写的 TSX、Vue]]></description>
             <content:encoded><![CDATA[<h1 id="初识前端-bundler" tabindex="-1">初识前端 bundler <a class="header-anchor" href="#初识前端-bundler" aria-label="Permalink to &quot;初识前端 bundler&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="_1-什么是-bundler" tabindex="-1">1. <strong>什么是 bundler</strong> <a class="header-anchor" href="#_1-什么是-bundler" aria-label="Permalink to &quot;1. **什么是 bundler**&quot;">&ZeroWidthSpace;</a></h2>
 <p>在前端开发过程中，我们日常基本都会接触 webpack、rollup、esbuild 等打包工具，通过这些工具，我们日常编写的 TSX、Vue、CSS 等文件会经过编译处理，打包生成最终的产物文件。</p>
@@ -5858,6 +6083,9 @@ typescript
             <link>https://hua-bang.github.io/blog/tech/mini-bundler-loader.html</link>
             <guid>https://hua-bang.github.io/blog/tech/mini-bundler-loader.html</guid>
             <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[mini-bundler 实现：loader
+ 前言
+在上篇文章 mini-bundler 的简易实现中，我们实现了 `mini-bundler` 的`模块解析`，`依赖图构建`、`代码转换`，实际上]]></description>
             <content:encoded><![CDATA[<h1 id="mini-bundler-实现-loader" tabindex="-1">mini-bundler 实现：loader <a class="header-anchor" href="#mini-bundler-实现-loader" aria-label="Permalink to &quot;mini-bundler 实现：loader&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="前言" tabindex="-1">前言 <a class="header-anchor" href="#前言" aria-label="Permalink to &quot;前言&quot;">&ZeroWidthSpace;</a></h2>
 <p>在上篇文章 <a href="https://juejin.cn/post/7317870445323223076" target="_blank" rel="noreferrer">mini-bundler 的简易实现</a>中，我们实现了 <code>mini-bundler</code> 的<code>模块解析</code>，<code>依赖图构建</code>、<code>代码转换</code>，实际上已经是一个能执行的 <code>bundler</code> 了。</p>
@@ -6100,6 +6328,9 @@ typescript
             <link>https://hua-bang.github.io/blog/tech/mini-bundler-plugin.html</link>
             <guid>https://hua-bang.github.io/blog/tech/mini-bundler-plugin.html</guid>
             <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[mini bundler 插件系统
+ 前言
+在上篇文章mini-bundler 的简易实现中，我们实现了 `mini-bundler` 的`模块解析`，`依赖图构建`、`代码转换`，实际上已经是一个能]]></description>
             <content:encoded><![CDATA[<h1 id="mini-bundler-插件系统" tabindex="-1">mini bundler 插件系统 <a class="header-anchor" href="#mini-bundler-插件系统" aria-label="Permalink to &quot;mini bundler 插件系统&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="前言" tabindex="-1">前言 <a class="header-anchor" href="#前言" aria-label="Permalink to &quot;前言&quot;">&ZeroWidthSpace;</a></h2>
 <p>在上篇文章<a href="https://juejin.cn/post/7317870445323223076" target="_blank" rel="noreferrer">mini-bundler 的简易实现</a>中，我们实现了 <code>mini-bundler</code> 的<code>模块解析</code>，<code>依赖图构建</code>、<code>代码转换</code>，实际上已经是一个能执行的 <code>bundler</code> 了。</p>
@@ -6399,6 +6630,10 @@ typescript
             <link>https://hua-bang.github.io/blog/tech/mini-bundler.html</link>
             <guid>https://hua-bang.github.io/blog/tech/mini-bundler.html</guid>
             <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[mini bundler 的实现
+ 前言
+上篇初识前端 bundler，我们简单介绍了 `bundler` 的概念，特点以及常用的工具，那么本文我们就来进行 bundler 的设计。
+ 1. bund]]></description>
             <content:encoded><![CDATA[<h1 id="mini-bundler-的实现" tabindex="-1">mini bundler 的实现 <a class="header-anchor" href="#mini-bundler-的实现" aria-label="Permalink to &quot;mini bundler 的实现&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="前言" tabindex="-1">前言 <a class="header-anchor" href="#前言" aria-label="Permalink to &quot;前言&quot;">&ZeroWidthSpace;</a></h2>
 <p>上篇<a href="https://juejin.cn/post/7312844725181218857" target="_blank" rel="noreferrer">初识前端 bundler</a>，我们简单介绍了 <code>bundler</code> 的概念，特点以及常用的工具，那么本文我们就来进行 bundler 的设计。</p>
@@ -7004,6 +7239,12 @@ typescript
             <link>https://hua-bang.github.io/blog/blog/google-developer-groups.html</link>
             <guid>https://hua-bang.github.io/blog/blog/google-developer-groups.html</guid>
             <pubDate>Mon, 18 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google Developer groups
+ 活动
+ AI 编程助手: 打造未来智能化编程工作流
+AI + Code + WorkFlow
+resource
+- Img2Code: builder]]></description>
             <content:encoded><![CDATA[<h1 id="google-developer-groups" tabindex="-1">Google Developer groups <a class="header-anchor" href="#google-developer-groups" aria-label="Permalink to &quot;Google Developer groups&quot;">&ZeroWidthSpace;</a></h1>
 <h1 id="活动" tabindex="-1">活动 <a class="header-anchor" href="#活动" aria-label="Permalink to &quot;活动&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="ai-编程助手-打造未来智能化编程工作流" tabindex="-1">AI 编程助手: 打造未来智能化编程工作流 <a class="header-anchor" href="#ai-编程助手-打造未来智能化编程工作流" aria-label="Permalink to &quot;AI 编程助手: 打造未来智能化编程工作流&quot;">&ZeroWidthSpace;</a></h2>
@@ -7067,6 +7308,14 @@ typescript
             <link>https://hua-bang.github.io/blog/blog/fe-day.html</link>
             <guid>https://hua-bang.github.io/blog/blog/fe-day.html</guid>
             <pubDate>Sat, 18 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[FeDay
+https://fequan.com/2023/
+周六去了前端圈主办的前端活动，FEDay。
+活动信息如下：
+- 活动：FEDay
+- 地点：杭州
+- 时间：2023.11.18
+总体来说]]></description>
             <content:encoded><![CDATA[<h1 id="feday" tabindex="-1">FeDay <a class="header-anchor" href="#feday" aria-label="Permalink to &quot;FeDay&quot;">&ZeroWidthSpace;</a></h1>
 <p><a href="https://fequan.com/2023/" target="_blank" rel="noreferrer">https://fequan.com/2023/</a></p>
 <p>周六去了前端圈主办的前端活动，FEDay。</p>
@@ -7168,6 +7417,11 @@ typescript
             <link>https://hua-bang.github.io/blog/blog/openai-dev-day.html</link>
             <guid>https://hua-bang.github.io/blog/blog/openai-dev-day.html</guid>
             <pubDate>Sun, 05 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI 开发者大会
+ 发布会内容
+面向普通用户
+- 用户自定义 GPT：用户可以定制自己的 GPT，加入 prompt 预设，知识库。
+- GPT Store: GPT store 的开放生态。]]></description>
             <content:encoded><![CDATA[<h1 id="openai-开发者大会" tabindex="-1">OpenAI 开发者大会 <a class="header-anchor" href="#openai-开发者大会" aria-label="Permalink to &quot;OpenAI 开发者大会&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="发布会内容" tabindex="-1">发布会内容 <a class="header-anchor" href="#发布会内容" aria-label="Permalink to &quot;发布会内容&quot;">&ZeroWidthSpace;</a></h2>
 <p><strong>面向普通用户</strong></p>
@@ -7843,6 +8097,11 @@ typescript
             <link>https://hua-bang.github.io/blog/tech/auto-tracker.html</link>
             <guid>https://hua-bang.github.io/blog/tech/auto-tracker.html</guid>
             <pubDate>Thu, 02 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[通过 Babel 编译实现自动点击埋点
+
+ 前言
+埋点，可以理解为针对用户的特定行为，进行一个记录，处理和发送相关事件以及对应的数据的技术。
+你可以理解为是采取用户的行为，把这次的事件数据化，进行上报]]></description>
             <content:encoded><![CDATA[<h1 id="通过-babel-编译实现自动点击埋点" tabindex="-1">通过 Babel 编译实现自动点击埋点 <a class="header-anchor" href="#通过-babel-编译实现自动点击埋点" aria-label="Permalink to &quot;通过 Babel 编译实现自动点击埋点&quot;">&ZeroWidthSpace;</a></h1>
 <blockquote>
 <p>本文仅探讨通过 Babel 实现区域自动点击埋点的一个简单思路，并不一定适用具体的场景。</p>
@@ -8679,6 +8938,10 @@ typescript
             <link>https://hua-bang.github.io/blog/tech/chat-bot.html</link>
             <guid>https://hua-bang.github.io/blog/tech/chat-bot.html</guid>
             <pubDate>Thu, 02 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[基于 OpenAI 的 API 快速搭建 ChaBot 🤖️
+ 一、前言
+相信目前大家目前对 `ChatGPT` 应该多多少少有所接触。
+`ChatGPT` 是由 `OpenAI` 开发的一个人工智]]></description>
             <content:encoded><![CDATA[<h1 id="基于-openai-的-api-快速搭建-chabot-🤖️" tabindex="-1">基于 OpenAI 的 API 快速搭建 ChaBot 🤖️ <a class="header-anchor" href="#基于-openai-的-api-快速搭建-chabot-🤖️" aria-label="Permalink to &quot;基于 OpenAI 的 API 快速搭建 ChaBot 🤖️&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="一、前言" tabindex="-1">一、前言 <a class="header-anchor" href="#一、前言" aria-label="Permalink to &quot;一、前言&quot;">&ZeroWidthSpace;</a></h2>
 <p>相信目前大家目前对 <code>ChatGPT</code> 应该多多少少有所接触。</p>
@@ -9492,6 +9755,10 @@ export async function autoCodeView(pullNumber: number) {
             <link>https://hua-bang.github.io/blog/tech/introduction-front-end-compilation.html</link>
             <guid>https://hua-bang.github.io/blog/tech/introduction-front-end-compilation.html</guid>
             <pubDate>Thu, 02 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[初识前端编译及 Babel
+本文主要从个人对前端编译的了解，对前端编译的一些进行思考。会讲解编译的大致流程，以及前端的常用工具 Babel，但不会细节到具体某个环节。
+ 1. 引言
+编译在前端开发中的]]></description>
             <content:encoded><![CDATA[<h1 id="初识前端编译及-babel" tabindex="-1">初识前端编译及 Babel <a class="header-anchor" href="#初识前端编译及-babel" aria-label="Permalink to &quot;初识前端编译及 Babel&quot;">&ZeroWidthSpace;</a></h1>
 <p>本文主要从个人对前端编译的了解，对前端编译的一些进行思考。会讲解编译的大致流程，以及前端的常用工具 Babel，但不会细节到具体某个环节。</p>
 <h2 id="_1-引言" tabindex="-1"><strong>1. 引言</strong> <a class="header-anchor" href="#_1-引言" aria-label="Permalink to &quot;**1. 引言**&quot;">&ZeroWidthSpace;</a></h2>
@@ -9946,6 +10213,12 @@ Arc 公司刚刚推出了全新的 AI 功能 ]]></description>
             <link>https://hua-bang.github.io/blog/blog/in-clusion.html</link>
             <guid>https://hua-bang.github.io/blog/blog/in-clusion.html</guid>
             <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[in.clusion 外滩大会
+::: tip
+- Tags: 创业思考, 线下活动
+- Date: September 9, 2023
+- HightLight:
+  - https://www.n]]></description>
             <content:encoded><![CDATA[<h1 id="in-clusion-外滩大会" tabindex="-1">in.clusion 外滩大会 <a class="header-anchor" href="#in-clusion-外滩大会" aria-label="Permalink to &quot;in.clusion 外滩大会&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">TIP</p>
 <ul>
@@ -9993,6 +10266,13 @@ Arc 公司刚刚推出了全新的 AI 功能 ]]></description>
             <link>https://hua-bang.github.io/blog/blog/aigc-think.html</link>
             <guid>https://hua-bang.github.io/blog/blog/aigc-think.html</guid>
             <pubDate>Sun, 27 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[AIGC 思考
+::: tip
+Tags: AIGC, 互联网
+Date: August 27, 2023 10:00 PM
+:::
+周末两天分别跑了两场有关 AIGC 的活动，
+个人有了更多关于 A]]></description>
             <content:encoded><![CDATA[<h1 id="aigc-思考" tabindex="-1">AIGC 思考 <a class="header-anchor" href="#aigc-思考" aria-label="Permalink to &quot;AIGC 思考&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">TIP</p>
 <p><strong>Tags</strong>: AIGC, 互联网</p>
@@ -10031,6 +10311,12 @@ Arc 公司刚刚推出了全新的 AI 功能 ]]></description>
             <link>https://hua-bang.github.io/blog/blog/aws-aigc.html</link>
             <guid>https://hua-bang.github.io/blog/blog/aws-aigc.html</guid>
             <pubDate>Sun, 27 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[亚马逊云科技社区嘉年华
+:::tip
+- Tags: AIGC, 互联网, 创业思考, 线下活动
+- Date: August 27, 2023
+- HightLight:
+1. https://ww]]></description>
             <content:encoded><![CDATA[<h1 id="亚马逊云科技社区嘉年华" tabindex="-1">亚马逊云科技社区嘉年华 <a class="header-anchor" href="#亚马逊云科技社区嘉年华" aria-label="Permalink to &quot;亚马逊云科技社区嘉年华&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">TIP</p>
 <ul>
@@ -10218,6 +10504,11 @@ Arc 公司刚刚推出了全新的 AI 功能 ]]></description>
             <link>https://hua-bang.github.io/blog/blog/information-overload.html</link>
             <guid>https://hua-bang.github.io/blog/blog/information-overload.html</guid>
             <pubDate>Sun, 13 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[信息过载
+::: tip
+- Tags: 互联网, 创业思考, 知识管理
+- Date: August 13, 2023
+- 链接：https://www.xiaoyuzhoufm.com/episo]]></description>
             <content:encoded><![CDATA[<h1 id="信息过载" tabindex="-1">信息过载 <a class="header-anchor" href="#信息过载" aria-label="Permalink to &quot;信息过载&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">TIP</p>
 <ul>
@@ -10262,6 +10553,10 @@ Arc 公司刚刚推出了全新的 AI 功能 ]]></description>
             <link>https://hua-bang.github.io/blog/blog/mwc-23.html</link>
             <guid>https://hua-bang.github.io/blog/blog/mwc-23.html</guid>
             <pubDate>Wed, 28 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[MWC 23
+:::tip
+全称：Mobile World Congress 2023
+时间：Wed, 28 Jun 2023 09:30:00 GMT+08 ～ Fri, 30 Jun 2023 1]]></description>
             <content:encoded><![CDATA[<h1 id="mwc-23" tabindex="-1">#MWC 23 <a class="header-anchor" href="#mwc-23" aria-label="Permalink to &quot;#MWC 23&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">TIP</p>
 <p><strong>全称</strong>：Mobile World Congress 2023</p>
@@ -10341,6 +10636,13 @@ Arc 公司刚刚推出了全新的 AI 功能 ]]></description>
             <link>https://hua-bang.github.io/blog/blog/</link>
             <guid>https://hua-bang.github.io/blog/blog/</guid>
             <pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Blog
+这里记录我的一些日常思考 🤔️, 我会尽量分类，但也许也是日常写写。
+不求赞同, 保留异见, 但求启发。
+ 线下活动
+- in.clusion 外滩大会
+- 亚马逊云科技社区嘉年华
+- M]]></description>
             <content:encoded><![CDATA[<h1 id="blog" tabindex="-1">Blog <a class="header-anchor" href="#blog" aria-label="Permalink to &quot;Blog&quot;">&ZeroWidthSpace;</a></h1>
 <p>这里记录我的一些日常思考 🤔️, 我会尽量分类，但也许也是日常写写。</p>
 <p><strong>不求赞同, 保留异见, 但求启发。</strong></p>
