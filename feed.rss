@@ -4,7 +4,7 @@
         <title>华铧的 Blog</title>
         <link>https://hua-bang.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Wed, 08 May 2024 00:36:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 May 2024 00:34:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2022-present, 华铧</copyright>
@@ -12,7 +12,7 @@
             <title><![CDATA[Life]]></title>
             <link>https://hua-bang.github.io/blog/life/</link>
             <guid>https://hua-bang.github.io/blog/life/</guid>
-            <pubDate>Wed, 08 May 2024 00:35:26 GMT</pubDate>
+            <pubDate>Fri, 10 May 2024 00:33:13 GMT</pubDate>
             <description><![CDATA[建设中]]></description>
             <content:encoded><![CDATA[<h1 id="life" tabindex="-1">Life <a class="header-anchor" href="#life" aria-label="Permalink to &quot;Life&quot;">&ZeroWidthSpace;</a></h1>
 <p>建设中</p>
@@ -22,7 +22,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://hua-bang.github.io/blog/me/</link>
             <guid>https://hua-bang.github.io/blog/me/</guid>
-            <pubDate>Wed, 08 May 2024 00:35:26 GMT</pubDate>
+            <pubDate>Fri, 10 May 2024 00:33:13 GMT</pubDate>
             <description><![CDATA[# About Me
 
 ## Self introduction
@@ -85,7 +85,7 @@
             <title><![CDATA[React]]></title>
             <link>https://hua-bang.github.io/blog/react/</link>
             <guid>https://hua-bang.github.io/blog/react/</guid>
-            <pubDate>Wed, 08 May 2024 00:35:26 GMT</pubDate>
+            <pubDate>Fri, 10 May 2024 00:33:13 GMT</pubDate>
             <description><![CDATA[关于对 React 的理解。]]></description>
             <content:encoded><![CDATA[<h1 id="react" tabindex="-1">React <a class="header-anchor" href="#react" aria-label="Permalink to &quot;React&quot;">&ZeroWidthSpace;</a></h1>
 <p>关于对 React 的理解。</p>
@@ -95,7 +95,7 @@
             <title><![CDATA[Read]]></title>
             <link>https://hua-bang.github.io/blog/read/</link>
             <guid>https://hua-bang.github.io/blog/read/</guid>
-            <pubDate>Wed, 08 May 2024 00:35:26 GMT</pubDate>
+            <pubDate>Fri, 10 May 2024 00:33:13 GMT</pubDate>
             <description><![CDATA[这里记录我的日常阅读的东西 🤔️, 尽量记录记录。]]></description>
             <content:encoded><![CDATA[<h1 id="read" tabindex="-1">Read <a class="header-anchor" href="#read" aria-label="Permalink to &quot;Read&quot;">&ZeroWidthSpace;</a></h1>
 <p>这里记录我的日常阅读的东西 🤔️, 尽量记录记录。</p>
@@ -105,7 +105,7 @@
             <title><![CDATA[Tech 🚧]]></title>
             <link>https://hua-bang.github.io/blog/tech/</link>
             <guid>https://hua-bang.github.io/blog/tech/</guid>
-            <pubDate>Wed, 08 May 2024 00:35:26 GMT</pubDate>
+            <pubDate>Fri, 10 May 2024 00:33:13 GMT</pubDate>
             <description><![CDATA[关于 Tech 的文件仍在施工中
  Knowledge Docs
 - TypeScript Note
@@ -127,11 +127,65 @@
             <title><![CDATA[React Source Code]]></title>
             <link>https://hua-bang.github.io/blog/react/react-source-code/</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/</guid>
-            <pubDate>Wed, 08 May 2024 00:35:26 GMT</pubDate>
+            <pubDate>Fri, 10 May 2024 00:33:13 GMT</pubDate>
             <description><![CDATA[This is React Source Code.]]></description>
             <content:encoded><![CDATA[<h1 id="react-source-code" tabindex="-1">React Source Code <a class="header-anchor" href="#react-source-code" aria-label="Permalink to &quot;React Source Code&quot;">&ZeroWidthSpace;</a></h1>
 <p>This is React Source Code.</p>
 ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[计数排序]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/algorithms/sort/counting_sort.html</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/algorithms/sort/counting_sort.html</guid>
+            <pubDate>Fri, 10 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[计数排序
+计数排序（counting sort）通过统计元素数量来实现排序，通常应用于整数数组。
+ 流程
+给定一个长度为  𝑛  的数组  `nums` ，其中的元素都是“非负整数”，整体流程如下。]]></description>
+            <content:encoded><![CDATA[<h1 id="计数排序" tabindex="-1">计数排序 <a class="header-anchor" href="#计数排序" aria-label="Permalink to &quot;计数排序&quot;">&ZeroWidthSpace;</a></h1>
+<p>计数排序（counting sort）通过统计元素数量来实现排序，通常应用于整数数组。</p>
+<h2 id="流程" tabindex="-1">流程 <a class="header-anchor" href="#流程" aria-label="Permalink to &quot;流程&quot;">&ZeroWidthSpace;</a></h2>
+<p>给定一个长度为  𝑛  的数组  <code>nums</code> ，其中的元素都是“非负整数”，整体流程如下。</p>
+<ol>
+<li>遍历数组，找出最大值 m， 并创建一个 m + 1 的数组。</li>
+<li>借助  <strong><code>counter</code>  统计  <code>nums</code>  中各数字的出现次数</strong>，其中  <code>counter[num]</code>  对应数字  <code>num</code>  的出现次数。统计方法很简单，只需遍历  <code>nums</code>（设当前数字为  <code>num</code>），每轮将  <code>counter[num]</code>  增加  1  即可。</li>
+<li><strong>由于  <code>counter</code>  的各个索引天然有序，因此相当于所有数字已经排序好了</strong>。接下来，我们遍历  <code>counter</code> ，根据各数字出现次数从小到大的顺序填入  <code>nums</code>  即可。
+<img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20240510082209.png" alt=""></li>
+</ol>
+<h2 id="代码实现" tabindex="-1">代码实现 <a class="header-anchor" href="#代码实现" aria-label="Permalink to &quot;代码实现&quot;">&ZeroWidthSpace;</a></h2>
+<p>具体代码实现如下</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> countingSort</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">nums</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[]) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> m</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> Math.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">max</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">...</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">nums);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> counters</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> Array</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(m </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">).</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">fill</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> num</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> of</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> nums) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    counters[num]</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> num </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; num </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> counters.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">length</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; num</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> j </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; j </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> counters[num]; j</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">      nums[i] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> num;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">      i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h2 id="特性" tabindex="-1">特性 <a class="header-anchor" href="#特性" aria-label="Permalink to &quot;特性&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><strong>时间复杂度为 𝑂(𝑛+𝑚)、非自适应排序</strong> ：涉及遍历 <code>nums</code> 和遍历 <code>counter</code> ，都使用线性时间。一般情况下 𝑛≫𝑚 ，时间复杂度趋于 𝑂(𝑛) 。</li>
+<li><strong>空间复杂度为 𝑂(𝑛+𝑚)、非原地排序</strong>：借助了长度分别为 𝑛 和 𝑚 的数组 <code>res</code> 和 <code>counter</code> 。</li>
+<li><strong>稳定排序</strong>：由于向 <code>res</code> 中填充元素的顺序是“从右向左”的，因此倒序遍历 <code>nums</code> 可以避免改变相等元素之间的相对位置，从而实现稳定排序。实际上，正序遍历 <code>nums</code> 也可以得到正确的排序结果，但结果是非稳定的。</li>
+</ul>
+<h2 id="局限性" tabindex="-1">局限性 <a class="header-anchor" href="#局限性" aria-label="Permalink to &quot;局限性&quot;">&ZeroWidthSpace;</a></h2>
+<p><strong>计数排序只适用于非负整数</strong>。若想将其用于其他类型的数据，需要确保这些数据可以转换为非负整数，并且在转换过程中不能改变各个元素之间的相对大小关系。例如，对于包含负数的整数数组，可以先给所有数字加上一个常数，将全部数字转化为正数，排序完成后再转换回去。</p>
+<p><strong>计数排序适用于数据量大但数据范围较小的情况</strong>。比如，在上述示例中 𝑚 不能太大，否则会占用过多空间。而当 𝑛≪𝑚 时，计数排序使用 𝑂(𝑚) 时间，可能比 𝑂(𝑛log⁡𝑛) 的排序算法还要慢。</p>
+<h2 id="参考" tabindex="-1">参考 <a class="header-anchor" href="#参考" aria-label="Permalink to &quot;参考&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><a href="https://www.hello-algo.com/chapter_sorting/counting_sort/#1194" target="_blank" rel="noreferrer">计数排序</a></li>
+</ul>
+]]></content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/hua-bang/assert-store/master/20240510082209.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[桶排序]]></title>
