@@ -386,9 +386,15 @@
               "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/bucket_sort.md",
               "text": "桶排序",
               "link": "/algorithms/algorithms/sort/bucket_sort.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/counting_sort.md",
+              "text": "计数排序",
+              "link": "/algorithms/algorithms/sort/counting_sort.md"
             }
           ]
         }
+        
       ]
     }
   ],
