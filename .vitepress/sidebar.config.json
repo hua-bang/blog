@@ -199,6 +199,16 @@
           "link": "/tech/typescript-skill.md"
         }
       ]
+    },
+    {
+      "text": "工程设计",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/dependency-inversion-principle.md",
+          "text": "聊聊依赖反转原则",
+          "link": "/tech/dependency-inversion-principle.md"
+        }
+      ]
     }
   ],
   "/read/": [
@@ -399,7 +409,6 @@
             }
           ]
         }
-        
       ]
     }
   ],
