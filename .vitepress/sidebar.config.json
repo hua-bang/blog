@@ -212,6 +212,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/dependency-inversion-principle.md",
           "text": "聊聊依赖反转原则",
           "link": "/tech/dependency-inversion-principle.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/dependency-inject.md",
+          "text": "聊聊依赖注入",
+          "link": "/tech/dependency-inject.md"
         }
       ]
     }
