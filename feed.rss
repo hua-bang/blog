@@ -4,7 +4,7 @@
         <title>华铧的 Blog</title>
         <link>https://hua-bang.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Sun, 19 May 2024 10:55:26 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 May 2024 01:40:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2022-present, 华铧</copyright>
@@ -12,7 +12,7 @@
             <title><![CDATA[Life]]></title>
             <link>https://hua-bang.github.io/blog/life/</link>
             <guid>https://hua-bang.github.io/blog/life/</guid>
-            <pubDate>Sun, 19 May 2024 10:54:28 GMT</pubDate>
+            <pubDate>Tue, 21 May 2024 01:39:38 GMT</pubDate>
             <description><![CDATA[建设中]]></description>
             <content:encoded><![CDATA[<h1 id="life" tabindex="-1">Life <a class="header-anchor" href="#life" aria-label="Permalink to &quot;Life&quot;">&ZeroWidthSpace;</a></h1>
 <p>建设中</p>
@@ -22,7 +22,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://hua-bang.github.io/blog/me/</link>
             <guid>https://hua-bang.github.io/blog/me/</guid>
-            <pubDate>Sun, 19 May 2024 10:54:28 GMT</pubDate>
+            <pubDate>Tue, 21 May 2024 01:39:38 GMT</pubDate>
             <description><![CDATA[# About Me
 
 ## Self introduction
@@ -85,7 +85,7 @@
             <title><![CDATA[React]]></title>
             <link>https://hua-bang.github.io/blog/react/</link>
             <guid>https://hua-bang.github.io/blog/react/</guid>
-            <pubDate>Sun, 19 May 2024 10:54:28 GMT</pubDate>
+            <pubDate>Tue, 21 May 2024 01:39:38 GMT</pubDate>
             <description><![CDATA[关于对 React 的理解。]]></description>
             <content:encoded><![CDATA[<h1 id="react" tabindex="-1">React <a class="header-anchor" href="#react" aria-label="Permalink to &quot;React&quot;">&ZeroWidthSpace;</a></h1>
 <p>关于对 React 的理解。</p>
@@ -95,7 +95,7 @@
             <title><![CDATA[Read]]></title>
             <link>https://hua-bang.github.io/blog/read/</link>
             <guid>https://hua-bang.github.io/blog/read/</guid>
-            <pubDate>Sun, 19 May 2024 10:54:28 GMT</pubDate>
+            <pubDate>Tue, 21 May 2024 01:39:38 GMT</pubDate>
             <description><![CDATA[这里记录我的日常阅读的东西 🤔️, 尽量记录记录。]]></description>
             <content:encoded><![CDATA[<h1 id="read" tabindex="-1">Read <a class="header-anchor" href="#read" aria-label="Permalink to &quot;Read&quot;">&ZeroWidthSpace;</a></h1>
 <p>这里记录我的日常阅读的东西 🤔️, 尽量记录记录。</p>
@@ -105,7 +105,7 @@
             <title><![CDATA[Tech 🚧]]></title>
             <link>https://hua-bang.github.io/blog/tech/</link>
             <guid>https://hua-bang.github.io/blog/tech/</guid>
-            <pubDate>Sun, 19 May 2024 10:54:28 GMT</pubDate>
+            <pubDate>Tue, 21 May 2024 01:39:38 GMT</pubDate>
             <description><![CDATA[关于 Tech 的文件仍在施工中
  Knowledge Docs
 - TypeScript Note
@@ -127,10 +127,104 @@
             <title><![CDATA[React Source Code]]></title>
             <link>https://hua-bang.github.io/blog/react/react-source-code/</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/</guid>
-            <pubDate>Sun, 19 May 2024 10:54:28 GMT</pubDate>
+            <pubDate>Tue, 21 May 2024 01:39:38 GMT</pubDate>
             <description><![CDATA[This is React Source Code.]]></description>
             <content:encoded><![CDATA[<h1 id="react-source-code" tabindex="-1">React Source Code <a class="header-anchor" href="#react-source-code" aria-label="Permalink to &quot;React Source Code&quot;">&ZeroWidthSpace;</a></h1>
 <p>This is React Source Code.</p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[基数排序]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/algorithms/sort/radix_sort.html</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/algorithms/sort/radix_sort.html</guid>
+            <pubDate>Tue, 21 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[基数排序
+基数排序（Radix Sort）是一种非比较型整数排序算法，它基于数字的位来排序。
+基数排序的工作原理是将整数按照位来排序，从最低位到最高位。
+这种排序算法可以非常高效，特别是当涉及到的数字]]></description>
+            <content:encoded><![CDATA[<h1 id="基数排序" tabindex="-1">基数排序 <a class="header-anchor" href="#基数排序" aria-label="Permalink to &quot;基数排序&quot;">&ZeroWidthSpace;</a></h1>
+<p>基数排序（Radix Sort）是一种非比较型整数排序算法，它基于数字的位来排序。
+<strong>基数排序的工作原理是将整数按照位来排序，从最低位到最高位。</strong>
+这种排序算法可以非常高效，特别是当涉及到的数字位数相对较少时。</p>
+<h2 id="基础步骤" tabindex="-1">基础步骤 <a class="header-anchor" href="#基础步骤" aria-label="Permalink to &quot;基础步骤&quot;">&ZeroWidthSpace;</a></h2>
+<p>基数排序的基本步骤如下：</p>
+<ol>
+<li>
+<p>确定最大数的位数：首先确定所有待排序数字中的最大数的位数。</p>
+</li>
+<li>
+<p>按位排序：从最低位开始，对所有数字的该位进行排序。可以使用稳定的排序算法，如计数排序或桶排序。</p>
+</li>
+<li>
+<p>重复过程：重复上述过程，每次将排序的位数提高一位，直到达到最高位。</p>
+</li>
+<li>
+<p>完成排序：当所有位数都排序完成后，整个数组就按照从低到高的顺序排列好了。</p>
+</li>
+</ol>
+<p>基数排序的关键点在于，它不是通过比较数字的大小来进行排序，而是通过数字的每一位来决定其在排序过程中的位置。这使得基数排序在处理大量具有相同位数的数字时效率非常高。</p>
+<h2 id="具体代码" tabindex="-1">具体代码 <a class="header-anchor" href="#具体代码" aria-label="Permalink to &quot;具体代码&quot;">&ZeroWidthSpace;</a></h2>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 获取元素 num 的第 k 位，其中 exp = 10^(k-1) */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> digit</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">num</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">exp</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">  // 传入 exp 而非 k 可以避免在此重复执行昂贵的次方计算</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> Math.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">floor</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(num </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">/</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> exp) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">%</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 10</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 计数排序（根据 nums 第 k 位排序） */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> countingSortDigit</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">nums</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[], </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">exp</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> void</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 十进制的位范围为 0~9 ，因此需要长度为 10 的桶数组</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> counter</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> Array</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">10</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">).</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">fill</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> nums.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">length</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 统计 0~9 各数字的出现次数</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">        const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> d</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> digit</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(nums[i], exp); </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// 获取 nums[i] 第 k 位，记为 d</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        counter[d]</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// 统计数字 d 的出现次数</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 求前缀和，将“出现个数”转换为“数组索引”</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 10</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        counter[i] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> counter[i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">];</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 倒序遍历，根据桶内统计结果，将各元素填入 res</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> res</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> Array</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n).</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">fill</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">>=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">--</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">        const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> d</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> digit</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(nums[i], exp);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">        const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> j</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> counter[d] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// 获取 d 在数组中的索引 j</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        res[j] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> nums[i]; </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// 将当前元素填入索引 j</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        counter[d]</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">--</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// 将 d 的数量减 1</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 使用结果覆盖原数组 nums</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        nums[i] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> res[i];</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> radixSort</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">nums</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[])</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> void</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> m </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> Number.MIN_VALUE;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> num</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> of</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> nums) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (num </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">></span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> m) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">      m </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> num;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">  // 按照从低位到高位的顺序遍历</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> exp </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; exp </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> m; exp </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">*=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 10</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 对数组元素的第 k 位执行计数排序</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // k = 1 -> exp = 1</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // k = 2 -> exp = 10</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 即 exp = 10^(k-1)</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">    countingSortDigit</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(nums, exp);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h2 id="算法特征" tabindex="-1">算法特征 <a class="header-anchor" href="#算法特征" aria-label="Permalink to &quot;算法特征&quot;">&ZeroWidthSpace;</a></h2>
+<p>相较于计数排序，基数排序适用于数值范围较大的情况，但前提是数据必须可以表示为固定位数的格式，且位数不能过大。例如，浮点数不适合使用基数排序。</p>
+<ul>
+<li><strong>时间复杂度O(nk)、非自适应排序</strong>：其中n是待排序数字的数量，k是数字的位数。当k（数字的位数）远小于n（数字的数量）时，基数排序的性能通常优于比较型排序算法。</li>
+<li><strong>空间复杂度为 O(n + d)、非原地排序</strong>：与计数排序相同，基数排序需要借助长度为 n 和 d 的数组 res 和 counter 。</li>
+</ul>
+<h2 id="参考链接" tabindex="-1">参考链接 <a class="header-anchor" href="#参考链接" aria-label="Permalink to &quot;参考链接&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><a href="https://www.hello-algo.com/chapter_sorting/radix_sort/#11101" target="_blank" rel="noreferrer">基数排序</a></li>
+</ul>
 ]]></content:encoded>
         </item>
         <item>
