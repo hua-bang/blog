@@ -416,6 +416,11 @@
               "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/sort/counting_sort.md",
               "text": "计数排序",
               "link": "/algorithms/algorithms/sort/counting_sort.md"
+            },
+            {
+              "id": "/workspaces/blog/docs/algorithms/algorithms/sort/radix_sort.md",
+              "text": "基数排序",
+              "link": "/algorithms/algorithms/sort/radix_sort.md"
             }
           ]
         }
