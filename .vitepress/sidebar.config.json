@@ -421,6 +421,11 @@
               "id": "/workspaces/blog/docs/algorithms/algorithms/sort/radix_sort.md",
               "text": "基数排序",
               "link": "/algorithms/algorithms/sort/radix_sort.md"
+            },
+            {
+              "id": "/workspaces/blog/docs/algorithms/algorithms/sort/summary.md",
+              "text": "总结",
+              "link": "/algorithms/algorithms/sort/summary.md"
             }
           ]
         }
