@@ -4,7 +4,7 @@
         <title>华铧的 Blog</title>
         <link>https://hua-bang.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Tue, 21 May 2024 01:40:54 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 May 2024 01:25:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2022-present, 华铧</copyright>
@@ -12,7 +12,7 @@
             <title><![CDATA[Life]]></title>
             <link>https://hua-bang.github.io/blog/life/</link>
             <guid>https://hua-bang.github.io/blog/life/</guid>
-            <pubDate>Tue, 21 May 2024 01:39:38 GMT</pubDate>
+            <pubDate>Wed, 22 May 2024 01:24:30 GMT</pubDate>
             <description><![CDATA[建设中]]></description>
             <content:encoded><![CDATA[<h1 id="life" tabindex="-1">Life <a class="header-anchor" href="#life" aria-label="Permalink to &quot;Life&quot;">&ZeroWidthSpace;</a></h1>
 <p>建设中</p>
@@ -22,7 +22,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://hua-bang.github.io/blog/me/</link>
             <guid>https://hua-bang.github.io/blog/me/</guid>
-            <pubDate>Tue, 21 May 2024 01:39:38 GMT</pubDate>
+            <pubDate>Wed, 22 May 2024 01:24:30 GMT</pubDate>
             <description><![CDATA[# About Me
 
 ## Self introduction
@@ -85,7 +85,7 @@
             <title><![CDATA[React]]></title>
             <link>https://hua-bang.github.io/blog/react/</link>
             <guid>https://hua-bang.github.io/blog/react/</guid>
-            <pubDate>Tue, 21 May 2024 01:39:38 GMT</pubDate>
+            <pubDate>Wed, 22 May 2024 01:24:30 GMT</pubDate>
             <description><![CDATA[关于对 React 的理解。]]></description>
             <content:encoded><![CDATA[<h1 id="react" tabindex="-1">React <a class="header-anchor" href="#react" aria-label="Permalink to &quot;React&quot;">&ZeroWidthSpace;</a></h1>
 <p>关于对 React 的理解。</p>
@@ -95,7 +95,7 @@
             <title><![CDATA[Read]]></title>
             <link>https://hua-bang.github.io/blog/read/</link>
             <guid>https://hua-bang.github.io/blog/read/</guid>
-            <pubDate>Tue, 21 May 2024 01:39:38 GMT</pubDate>
+            <pubDate>Wed, 22 May 2024 01:24:30 GMT</pubDate>
             <description><![CDATA[这里记录我的日常阅读的东西 🤔️, 尽量记录记录。]]></description>
             <content:encoded><![CDATA[<h1 id="read" tabindex="-1">Read <a class="header-anchor" href="#read" aria-label="Permalink to &quot;Read&quot;">&ZeroWidthSpace;</a></h1>
 <p>这里记录我的日常阅读的东西 🤔️, 尽量记录记录。</p>
@@ -105,7 +105,7 @@
             <title><![CDATA[Tech 🚧]]></title>
             <link>https://hua-bang.github.io/blog/tech/</link>
             <guid>https://hua-bang.github.io/blog/tech/</guid>
-            <pubDate>Tue, 21 May 2024 01:39:38 GMT</pubDate>
+            <pubDate>Wed, 22 May 2024 01:24:30 GMT</pubDate>
             <description><![CDATA[关于 Tech 的文件仍在施工中
  Knowledge Docs
 - TypeScript Note
@@ -127,11 +127,119 @@
             <title><![CDATA[React Source Code]]></title>
             <link>https://hua-bang.github.io/blog/react/react-source-code/</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/</guid>
-            <pubDate>Tue, 21 May 2024 01:39:38 GMT</pubDate>
+            <pubDate>Wed, 22 May 2024 01:24:30 GMT</pubDate>
             <description><![CDATA[This is React Source Code.]]></description>
             <content:encoded><![CDATA[<h1 id="react-source-code" tabindex="-1">React Source Code <a class="header-anchor" href="#react-source-code" aria-label="Permalink to &quot;React Source Code&quot;">&ZeroWidthSpace;</a></h1>
 <p>This is React Source Code.</p>
 ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[小结]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/algorithms/sort/summary.html</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/algorithms/sort/summary.html</guid>
+            <pubDate>Wed, 22 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+# 总结
+
+目前，我们已经把常用的排序方式进行了实现
+
+具体如下
+
+| 排序方式      | 描述                                                         | 时间复杂度（平均） | 时间复杂度（最坏） | 时间复杂度（最好） | 空间复杂度 |
+|]]></description>
+            <content:encoded><![CDATA[<h1 id="总结" tabindex="-1">总结 <a class="header-anchor" href="#总结" aria-label="Permalink to &quot;总结&quot;">&ZeroWidthSpace;</a></h1>
+<p>目前，我们已经把常用的排序方式进行了实现</p>
+<p>具体如下</p>
+<table>
+<thead>
+<tr>
+<th>排序方式</th>
+<th>描述</th>
+<th>时间复杂度（平均）</th>
+<th>时间复杂度（最坏）</th>
+<th>时间复杂度（最好）</th>
+<th>空间复杂度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>冒泡排序</td>
+<td>比较相邻元素，若顺序错误则交换，重复此过程直到无序元素为止</td>
+<td>O(n^2)</td>
+<td>O(n^2)</td>
+<td>O(n)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>选择排序</td>
+<td>从未排序部分选择最小（或最大）元素，与未排序部分的第一个元素交换</td>
+<td>O(n^2)</td>
+<td>O(n^2)</td>
+<td>O(n^2)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>插入排序</td>
+<td>将每个元素插入到已排序部分的适当位置</td>
+<td>O(n^2)</td>
+<td>O(n^2)</td>
+<td>O(n)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>归并排序</td>
+<td>将数组分成两部分分别排序，然后合并已排序的部分</td>
+<td>O(n log n)</td>
+<td>O(n log n)</td>
+<td>O(n log n)</td>
+<td>O(n)</td>
+</tr>
+<tr>
+<td>快速排序</td>
+<td>选择基准元素，将小于基准的元素放在左边，大于基准的元素放在右边，递归排序</td>
+<td>O(n log n)</td>
+<td>O(n^2)</td>
+<td>O(n log n)</td>
+<td>O(log n)</td>
+</tr>
+<tr>
+<td>堆排序</td>
+<td>构建最大堆，将堆顶元素与末尾元素交换并调整堆，重复此过程</td>
+<td>O(n log n)</td>
+<td>O(n log n)</td>
+<td>O(n log n)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>计数排序</td>
+<td>统计每个元素出现的次数，然后按顺序输出</td>
+<td>O(n + k)</td>
+<td>O(n + k)</td>
+<td>O(n + k)</td>
+<td>O(k)</td>
+</tr>
+<tr>
+<td>桶排序</td>
+<td>将元素分布到不同的桶中，每个桶内分别排序，再合并</td>
+<td>O(n + k)</td>
+<td>O(n^2)</td>
+<td>O(n)</td>
+<td>O(n + k)</td>
+</tr>
+<tr>
+<td>基数排序</td>
+<td>依次按位（从最低位到最高位或相反）进行排序</td>
+<td>O(nk)</td>
+<td>O(nk)</td>
+<td>O(nk)</td>
+<td>O(n + k)</td>
+</tr>
+</tbody>
+</table>
+<p>贴上一张 <a href="https://www.hello-algo.com/chapter_sorting/summary/#1" target="_blank" rel="noreferrer">hello 算法</a>的图</p>
+<p><img src="https://www.hello-algo.com/chapter_sorting/summary.assets/sorting_algorithms_comparison.png" alt="alt text"></p>
+]]></content:encoded>
+            <enclosure url="https://www.hello-algo.com/chapter_sorting/summary.assets/sorting_algorithms_comparison.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[基数排序]]></title>
