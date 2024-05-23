@@ -355,6 +355,16 @@
           "link": "/algorithms/algorithms/concept.md"
         },
         {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/divide_and_conquer/over-view.md",
+          "text": "分治",
+          "items": [
+            {
+              "text": "概览",
+              "link": "/algorithms/algorithms/divide_and_conquer/over-view.md"
+            }
+          ]
+        },
+        {
           "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/search/binary_search.md",
           "text": "搜索",
           "items": [
