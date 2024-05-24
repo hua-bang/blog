@@ -4,7 +4,7 @@
         <title>华铧的 Blog</title>
         <link>https://hua-bang.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Thu, 23 May 2024 02:23:13 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 May 2024 02:01:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2022-present, 华铧</copyright>
@@ -12,7 +12,7 @@
             <title><![CDATA[Life]]></title>
             <link>https://hua-bang.github.io/blog/life/</link>
             <guid>https://hua-bang.github.io/blog/life/</guid>
-            <pubDate>Thu, 23 May 2024 02:21:22 GMT</pubDate>
+            <pubDate>Fri, 24 May 2024 01:47:34 GMT</pubDate>
             <description><![CDATA[建设中]]></description>
             <content:encoded><![CDATA[<h1 id="life" tabindex="-1">Life <a class="header-anchor" href="#life" aria-label="Permalink to &quot;Life&quot;">&ZeroWidthSpace;</a></h1>
 <p>建设中</p>
@@ -22,7 +22,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://hua-bang.github.io/blog/me/</link>
             <guid>https://hua-bang.github.io/blog/me/</guid>
-            <pubDate>Thu, 23 May 2024 02:21:22 GMT</pubDate>
+            <pubDate>Fri, 24 May 2024 01:47:34 GMT</pubDate>
             <description><![CDATA[# About Me
 
 ## Self introduction
@@ -85,7 +85,7 @@
             <title><![CDATA[React]]></title>
             <link>https://hua-bang.github.io/blog/react/</link>
             <guid>https://hua-bang.github.io/blog/react/</guid>
-            <pubDate>Thu, 23 May 2024 02:21:22 GMT</pubDate>
+            <pubDate>Fri, 24 May 2024 01:47:34 GMT</pubDate>
             <description><![CDATA[关于对 React 的理解。]]></description>
             <content:encoded><![CDATA[<h1 id="react" tabindex="-1">React <a class="header-anchor" href="#react" aria-label="Permalink to &quot;React&quot;">&ZeroWidthSpace;</a></h1>
 <p>关于对 React 的理解。</p>
@@ -95,7 +95,7 @@
             <title><![CDATA[Read]]></title>
             <link>https://hua-bang.github.io/blog/read/</link>
             <guid>https://hua-bang.github.io/blog/read/</guid>
-            <pubDate>Thu, 23 May 2024 02:21:22 GMT</pubDate>
+            <pubDate>Fri, 24 May 2024 01:47:34 GMT</pubDate>
             <description><![CDATA[这里记录我的日常阅读的东西 🤔️, 尽量记录记录。]]></description>
             <content:encoded><![CDATA[<h1 id="read" tabindex="-1">Read <a class="header-anchor" href="#read" aria-label="Permalink to &quot;Read&quot;">&ZeroWidthSpace;</a></h1>
 <p>这里记录我的日常阅读的东西 🤔️, 尽量记录记录。</p>
@@ -105,7 +105,7 @@
             <title><![CDATA[Tech 🚧]]></title>
             <link>https://hua-bang.github.io/blog/tech/</link>
             <guid>https://hua-bang.github.io/blog/tech/</guid>
-            <pubDate>Thu, 23 May 2024 02:21:22 GMT</pubDate>
+            <pubDate>Fri, 24 May 2024 01:47:34 GMT</pubDate>
             <description><![CDATA[关于 Tech 的文件仍在施工中
  Knowledge Docs
 - TypeScript Note
@@ -127,11 +127,65 @@
             <title><![CDATA[React Source Code]]></title>
             <link>https://hua-bang.github.io/blog/react/react-source-code/</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/</guid>
-            <pubDate>Thu, 23 May 2024 02:21:22 GMT</pubDate>
+            <pubDate>Fri, 24 May 2024 01:47:34 GMT</pubDate>
             <description><![CDATA[This is React Source Code.]]></description>
             <content:encoded><![CDATA[<h1 id="react-source-code" tabindex="-1">React Source Code <a class="header-anchor" href="#react-source-code" aria-label="Permalink to &quot;React Source Code&quot;">&ZeroWidthSpace;</a></h1>
 <p>This is React Source Code.</p>
 ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[分治搜索策略]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/algorithms/divide_and_conquer/binary_search_recur.html</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/algorithms/divide_and_conquer/binary_search_recur.html</guid>
+            <pubDate>Fri, 24 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[分治搜索策略
+之前我们学习了搜索相关的知识，搜索方法主要分两类
+- 暴力搜索：它通过遍历数据结构实现，时间复杂度为 O(n)
+- 自适应搜索：它利用特有的数据组织形式或先验信息，时间复杂度可达到 O(]]></description>
+            <content:encoded><![CDATA[<h1 id="分治搜索策略" tabindex="-1">分治搜索策略 <a class="header-anchor" href="#分治搜索策略" aria-label="Permalink to &quot;分治搜索策略&quot;">&ZeroWidthSpace;</a></h1>
+<p>之前我们学习了搜索相关的知识，搜索方法主要分两类</p>
+<ul>
+<li><strong>暴力搜索</strong>：它通过遍历数据结构实现，时间复杂度为 O(n)</li>
+<li><strong>自适应搜索</strong>：它利用特有的数据组织形式或先验信息，时间复杂度可达到 O(log n)甚至 O(1)</li>
+</ul>
+<p>实际上，一些搜索的算法也是基于分治策略实现的，例如二分查找和树。</p>
+<ul>
+<li>二分查找的每一步都将问题（在数组中搜索目标元素）分解为一个小问题（在数组的一半中搜索目标元素），这个过程一直持续到数组为空或找到目标元素为止。</li>
+<li>树是分治思想的代表，在二叉搜索树、AVL 树、堆等数据结构中，各种操作的时间复杂度皆为 O(n)。</li>
+</ul>
+<p>二分查找的分治策略如下所示。</p>
+<ul>
+<li><strong>问题可以分解</strong>：二分查找递归地将原问题（在数组中进行查找）分解为子问题（在数组的一半中进行查找），这是通过比较中间元素和目标元素来实现的。</li>
+<li><strong>子问题是独立的</strong>：在二分查找中，每轮只处理一个子问题，它不受其他子问题的影响。</li>
+<li><strong>子问题的解无须合并</strong>：二分查找旨在查找一个特定元素，因此不需要将子问题的解进行合并。当子问题得到解决时，原问题也会同时得到解决。</li>
+</ul>
+<p>分治能够提升搜索效率，<strong>本质上是因为分治搜索每轮可以排除一半选项</strong>。</p>
+<h2 id="基于分治实现二分查找" tabindex="-1">基于分治实现二分查找 <a class="header-anchor" href="#基于分治实现二分查找" aria-label="Permalink to &quot;基于分治实现二分查找&quot;">&ZeroWidthSpace;</a></h2>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> dfs</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">nums</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[], </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">target</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">left</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">right</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (left </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">></span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> right) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> -</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> m</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> left </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> ((right </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> left) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">>></span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (nums[m] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> target) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> dfs</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(nums, target, m </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, right);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  } </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">else</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(nums[m] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">></span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> target) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> dfs</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(nums, target, left, m </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  } </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">else</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> m;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 二分查找 */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> binarySearch</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">nums</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[], </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">target</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> nums.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">length</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">  // 求解问题 f(0, n-1)</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  return</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> dfs</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(nums, target, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">console.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">log</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">binarySearch</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">([</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">3</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">4</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">5</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">], </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">3</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">));</span></span></code></pre>
+</div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[分治算法]]></title>
