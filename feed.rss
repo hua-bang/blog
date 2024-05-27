@@ -4,7 +4,7 @@
         <title>华铧的 Blog</title>
         <link>https://hua-bang.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Fri, 24 May 2024 02:01:11 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 May 2024 02:19:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2022-present, 华铧</copyright>
@@ -12,7 +12,7 @@
             <title><![CDATA[Life]]></title>
             <link>https://hua-bang.github.io/blog/life/</link>
             <guid>https://hua-bang.github.io/blog/life/</guid>
-            <pubDate>Fri, 24 May 2024 01:47:34 GMT</pubDate>
+            <pubDate>Mon, 27 May 2024 02:18:11 GMT</pubDate>
             <description><![CDATA[建设中]]></description>
             <content:encoded><![CDATA[<h1 id="life" tabindex="-1">Life <a class="header-anchor" href="#life" aria-label="Permalink to &quot;Life&quot;">&ZeroWidthSpace;</a></h1>
 <p>建设中</p>
@@ -22,7 +22,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://hua-bang.github.io/blog/me/</link>
             <guid>https://hua-bang.github.io/blog/me/</guid>
-            <pubDate>Fri, 24 May 2024 01:47:34 GMT</pubDate>
+            <pubDate>Mon, 27 May 2024 02:18:11 GMT</pubDate>
             <description><![CDATA[# About Me
 
 ## Self introduction
@@ -85,7 +85,7 @@
             <title><![CDATA[React]]></title>
             <link>https://hua-bang.github.io/blog/react/</link>
             <guid>https://hua-bang.github.io/blog/react/</guid>
-            <pubDate>Fri, 24 May 2024 01:47:34 GMT</pubDate>
+            <pubDate>Mon, 27 May 2024 02:18:11 GMT</pubDate>
             <description><![CDATA[关于对 React 的理解。]]></description>
             <content:encoded><![CDATA[<h1 id="react" tabindex="-1">React <a class="header-anchor" href="#react" aria-label="Permalink to &quot;React&quot;">&ZeroWidthSpace;</a></h1>
 <p>关于对 React 的理解。</p>
@@ -95,7 +95,7 @@
             <title><![CDATA[Read]]></title>
             <link>https://hua-bang.github.io/blog/read/</link>
             <guid>https://hua-bang.github.io/blog/read/</guid>
-            <pubDate>Fri, 24 May 2024 01:47:34 GMT</pubDate>
+            <pubDate>Mon, 27 May 2024 02:18:11 GMT</pubDate>
             <description><![CDATA[这里记录我的日常阅读的东西 🤔️, 尽量记录记录。]]></description>
             <content:encoded><![CDATA[<h1 id="read" tabindex="-1">Read <a class="header-anchor" href="#read" aria-label="Permalink to &quot;Read&quot;">&ZeroWidthSpace;</a></h1>
 <p>这里记录我的日常阅读的东西 🤔️, 尽量记录记录。</p>
@@ -105,7 +105,7 @@
             <title><![CDATA[Tech 🚧]]></title>
             <link>https://hua-bang.github.io/blog/tech/</link>
             <guid>https://hua-bang.github.io/blog/tech/</guid>
-            <pubDate>Fri, 24 May 2024 01:47:34 GMT</pubDate>
+            <pubDate>Mon, 27 May 2024 02:18:11 GMT</pubDate>
             <description><![CDATA[关于 Tech 的文件仍在施工中
  Knowledge Docs
 - TypeScript Note
@@ -127,7 +127,7 @@
             <title><![CDATA[React Source Code]]></title>
             <link>https://hua-bang.github.io/blog/react/react-source-code/</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/</guid>
-            <pubDate>Fri, 24 May 2024 01:47:34 GMT</pubDate>
+            <pubDate>Mon, 27 May 2024 02:18:11 GMT</pubDate>
             <description><![CDATA[This is React Source Code.]]></description>
             <content:encoded><![CDATA[<h1 id="react-source-code" tabindex="-1">React Source Code <a class="header-anchor" href="#react-source-code" aria-label="Permalink to &quot;React Source Code&quot;">&ZeroWidthSpace;</a></h1>
 <p>This is React Source Code.</p>
@@ -186,6 +186,162 @@
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">console.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">log</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">binarySearch</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">([</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">3</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">4</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">5</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">], </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">3</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">));</span></span></code></pre>
 </div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[构建二叉树]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/algorithms/divide_and_conquer/build_binary_tree_problem.html</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/algorithms/divide_and_conquer/build_binary_tree_problem.html</guid>
+            <pubDate>Fri, 24 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+# 构建二叉树
+
+这里再具体举一个分治的例子，就是**构建二叉树**。
+
+描述：通过 **前序遍历(preOrder)** 和 **中序遍历(inOrder)**，请从中构建二叉树，返回二叉树的根节点。
+
+![alt text](image-1.png)
+
+## 判断是否为分治问题
+
+原问题定义为从 preorder 和 inorder 构建二叉树，是一个典型的分治问题。
+
+- **问题可以分解**：从分治的角度切入，我们可以将原问题划分为两个子问题：构建左子树、构建右子树，加上一步操作：初始化根节点。而对于每棵子树（子问题），我们仍然可以复用以上划分方法，将其划分为更小的子树（子问题），直至达到最小子问题（空子树）时终止。
+  
+- **子问题是独立的**：左子树和右子树是相互独立的，它们之间没有交集。在构建左子树时，我们只需关注中序遍历和前序遍历中与左子树对应的部分。右子树同理。
+  
+- **子问题的解可以合并**：一旦得到了左子树和右子树（子问题的解），我们就可以将它们链接到根节点上，得到原问题的解。
+
+## 如何划分子树
+
+根据以上分析，这道题可以使用分治来求解，但如何通过前序遍历 `preorder` 和中序遍历 `inorder` 来划分左子树和右子树呢？
+
+根据定义，`preorder` 和 `inorder` 都可以划分为三个部分。
+
+- **前序遍历**：[ 根节点 | 左子树 | 右子树 ] ，例如图 12-5 的树对应 [ 3 | 9 | 2 1 7 ] 。
+- **中序遍历**：[ 左子树 | 根节点 ｜ 右子树 ] ，例如图 12-5 的树对应 [ 9 | 3 | 1 2 7 ] 。
+以上图数据为例，我们可以通过图 12-6 所示的步骤得到划分结果。
+
+1. 前序遍历的首元素 3 是根节点的值。
+2. 查找根节点 3 在 inorder 中的索引，利用该索引可将 inorder 划分为 [ 9 | 3 ｜ 1 2 7 ] 。
+3. 根据 inorder 的划分结果，易得左子树和右子树的节点数量分别为 1 和 3 ，从而可将 preorder 划分为 [ 3 | 9 | 2 1 7 ] 。
+   
+![alt text](image-2.png)
+
+## 基于变量描述子树区间
+
+根据以上划分方法，我们已经得到根节点、左子树、右子树在 preorder 和 inorder 中的索引区间。而为了描述这些索引区间，我们需要借助几个指针变量。
+
+- 将当前树的根节点在 preorder 中的索引记为 i。
+- 将当前树的根节点在 inorder 中的索引记为 m。
+- 将当前树在 inorder 中的索引区间记为 l, r。
+
+则有下方表格
+| 根节点 | 在 preorder 中的索引 | 子树在 inorder 中的索引区间 |
+|]]></description>
+            <content:encoded><![CDATA[<h1 id="构建二叉树" tabindex="-1">构建二叉树 <a class="header-anchor" href="#构建二叉树" aria-label="Permalink to &quot;构建二叉树&quot;">&ZeroWidthSpace;</a></h1>
+<p>这里再具体举一个分治的例子，就是<strong>构建二叉树</strong>。</p>
+<p>描述：通过 <strong>前序遍历(preOrder)</strong> 和 <strong>中序遍历(inOrder)</strong>，请从中构建二叉树，返回二叉树的根节点。</p>
+<p><img src="./image-1.png" alt="alt text"></p>
+<h2 id="判断是否为分治问题" tabindex="-1">判断是否为分治问题 <a class="header-anchor" href="#判断是否为分治问题" aria-label="Permalink to &quot;判断是否为分治问题&quot;">&ZeroWidthSpace;</a></h2>
+<p>原问题定义为从 preorder 和 inorder 构建二叉树，是一个典型的分治问题。</p>
+<ul>
+<li>
+<p><strong>问题可以分解</strong>：从分治的角度切入，我们可以将原问题划分为两个子问题：构建左子树、构建右子树，加上一步操作：初始化根节点。而对于每棵子树（子问题），我们仍然可以复用以上划分方法，将其划分为更小的子树（子问题），直至达到最小子问题（空子树）时终止。</p>
+</li>
+<li>
+<p><strong>子问题是独立的</strong>：左子树和右子树是相互独立的，它们之间没有交集。在构建左子树时，我们只需关注中序遍历和前序遍历中与左子树对应的部分。右子树同理。</p>
+</li>
+<li>
+<p><strong>子问题的解可以合并</strong>：一旦得到了左子树和右子树（子问题的解），我们就可以将它们链接到根节点上，得到原问题的解。</p>
+</li>
+</ul>
+<h2 id="如何划分子树" tabindex="-1">如何划分子树 <a class="header-anchor" href="#如何划分子树" aria-label="Permalink to &quot;如何划分子树&quot;">&ZeroWidthSpace;</a></h2>
+<p>根据以上分析，这道题可以使用分治来求解，但如何通过前序遍历 <code>preorder</code> 和中序遍历 <code>inorder</code> 来划分左子树和右子树呢？</p>
+<p>根据定义，<code>preorder</code> 和 <code>inorder</code> 都可以划分为三个部分。</p>
+<ul>
+<li><strong>前序遍历</strong>：[ 根节点 | 左子树 | 右子树 ] ，例如图 12-5 的树对应 [ 3 | 9 | 2 1 7 ] 。</li>
+<li><strong>中序遍历</strong>：[ 左子树 | 根节点 ｜ 右子树 ] ，例如图 12-5 的树对应 [ 9 | 3 | 1 2 7 ] 。
+以上图数据为例，我们可以通过图 12-6 所示的步骤得到划分结果。</li>
+</ul>
+<ol>
+<li>前序遍历的首元素 3 是根节点的值。</li>
+<li>查找根节点 3 在 inorder 中的索引，利用该索引可将 inorder 划分为 [ 9 | 3 ｜ 1 2 7 ] 。</li>
+<li>根据 inorder 的划分结果，易得左子树和右子树的节点数量分别为 1 和 3 ，从而可将 preorder 划分为 [ 3 | 9 | 2 1 7 ] 。</li>
+</ol>
+<p><img src="./image-2.png" alt="alt text"></p>
+<h2 id="基于变量描述子树区间" tabindex="-1">基于变量描述子树区间 <a class="header-anchor" href="#基于变量描述子树区间" aria-label="Permalink to &quot;基于变量描述子树区间&quot;">&ZeroWidthSpace;</a></h2>
+<p>根据以上划分方法，我们已经得到根节点、左子树、右子树在 preorder 和 inorder 中的索引区间。而为了描述这些索引区间，我们需要借助几个指针变量。</p>
+<ul>
+<li>将当前树的根节点在 preorder 中的索引记为 i。</li>
+<li>将当前树的根节点在 inorder 中的索引记为 m。</li>
+<li>将当前树在 inorder 中的索引区间记为 l, r。</li>
+</ul>
+<p>则有下方表格</p>
+<table>
+<thead>
+<tr>
+<th>根节点</th>
+<th>在 preorder 中的索引</th>
+<th>子树在 inorder 中的索引区间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>当前树</td>
+<td>i</td>
+<td>[l, r]</td>
+</tr>
+<tr>
+<td>左子树</td>
+<td>i + 1</td>
+<td>[l, m - 1]</td>
+</tr>
+<tr>
+<td>右子树</td>
+<td>i + 1 + (m - l)</td>
+<td>[m + 1, r]</td>
+</tr>
+</tbody>
+</table>
+<p>加一个图方便理解。</p>
+<p><img src="./image-3.png" alt="alt text"></p>
+<h2 id="代码实现" tabindex="-1">代码实现 <a class="header-anchor" href="#代码实现" aria-label="Permalink to &quot;代码实现&quot;">&ZeroWidthSpace;</a></h2>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> dfs</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">  preorder</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[],</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">  inorderMap</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> Map</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">&#x3C;</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">>,</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">  i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">  l</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">  r</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> TreeNode</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> |</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> null</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">  // 子树区间为空时终止</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (r </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> l </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">return</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> null</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">  // 初始化根节点</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> root</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> TreeNode</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> TreeNode</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(preorder[i]);</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">  // 查询 m ，从而划分左右子树</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> m</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> inorderMap.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">get</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(preorder[i]);</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">  // 子问题：构建左子树</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  root.left </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> dfs</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(preorder, inorderMap, i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, l, m </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">  // 子问题：构建右子树</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  root.right </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> dfs</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(preorder, inorderMap, i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> +</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> m </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> l, m </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, r);</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">  // 返回根节点</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> root;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> buildTree</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">preorder</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[], </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">inorder</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[]) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> inorderMap </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> Map</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">&#x3C;</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">>();</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> inorder.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">length</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    inorderMap.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">set</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(inorder[i], i);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> root</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> dfs</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(preorder, inorderMap, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, inorder.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">length</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> -</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> root;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><p>时间复杂度为 O(n), 空间复杂度为 O(n).</p>
+<h2 id="参考" tabindex="-1">参考 <a class="header-anchor" href="#参考" aria-label="Permalink to &quot;参考&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><a href="https://www.hello-algo.com/chapter_divide_and_conquer/build_binary_tree_problem/" target="_blank" rel="noreferrer">Hello 算法</a></li>
+</ul>
+]]></content:encoded>
+            <enclosure url="https://hua-bang.github.io/image-1.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[分治算法]]></title>
