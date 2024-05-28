@@ -371,6 +371,11 @@
               "id": "/workspaces/blog/docs/algorithms/algorithms/divide_and_conquer/hanota_problem.md",
               "text": "汉诺塔问题",
               "link": "/algorithms/algorithms/divide_and_conquer/hanota_problem.md"
+            },
+            {
+              "id": "/workspaces/blog/docs/algorithms/algorithms/divide_and_conquer/summary.md",
+              "text": "总结",
+              "link": "/algorithms/algorithms/divide_and_conquer/summary.md"
             }
           ]
         },
