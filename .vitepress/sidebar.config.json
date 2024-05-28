@@ -361,6 +361,16 @@
             {
               "text": "概览",
               "link": "/algorithms/algorithms/divide_and_conquer/over-view.md"
+            },
+            {
+              "id": "/workspaces/blog/docs/algorithms/algorithms/divide_and_conquer/build_binary_tree_problem.md",
+              "text": "构建二叉树",
+              "link": "/algorithms/algorithms/divide_and_conquer/build_binary_tree_problem.md"
+            },
+            {
+              "id": "/workspaces/blog/docs/algorithms/algorithms/divide_and_conquer/hanota_problem.md",
+              "text": "汉诺塔问题",
+              "link": "/algorithms/algorithms/divide_and_conquer/hanota_problem.md"
             }
           ]
         },
@@ -438,11 +448,6 @@
               "link": "/algorithms/algorithms/sort/summary.md"
             }
           ]
-        },
-        {
-          "id": "/workspaces/blog/docs/algorithms/algorithms/divide_and_conquer/build_binary_tree_problem.md",
-          "text": "构建二叉树",
-          "link": "/algorithms/algorithms/divide_and_conquer/build_binary_tree_problem.md"
         }
       ]
     }
