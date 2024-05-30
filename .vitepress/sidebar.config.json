@@ -386,6 +386,11 @@
             {
               "text": "概览",
               "link": "/algorithms/algorithms/backtracking/overview.md"
+            },
+            {
+              "id": "/workspaces/blog/docs/algorithms/algorithms/backtracking/permutations_problem.md",
+              "text": "全排列问题",
+              "link": "/algorithms/algorithms/backtracking/permutations_problem.md"
             }
           ]
         },
