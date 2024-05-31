@@ -391,6 +391,11 @@
               "id": "/workspaces/blog/docs/algorithms/algorithms/backtracking/permutations_problem.md",
               "text": "全排列问题",
               "link": "/algorithms/algorithms/backtracking/permutations_problem.md"
+            },
+            {
+              "id": "/workspaces/blog/docs/algorithms/algorithms/backtracking/subset_sum_problem.md",
+              "text": "子集和问题",
+              "link": "/algorithms/algorithms/backtracking/subset_sum_problem.md"
             }
           ]
         },
