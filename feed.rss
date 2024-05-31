@@ -4,7 +4,7 @@
         <title>华铧的 Blog</title>
         <link>https://hua-bang.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Thu, 30 May 2024 01:26:32 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 May 2024 01:51:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2022-present, 华铧</copyright>
@@ -12,7 +12,7 @@
             <title><![CDATA[Life]]></title>
             <link>https://hua-bang.github.io/blog/life/</link>
             <guid>https://hua-bang.github.io/blog/life/</guid>
-            <pubDate>Thu, 30 May 2024 01:25:25 GMT</pubDate>
+            <pubDate>Fri, 31 May 2024 01:50:32 GMT</pubDate>
             <description><![CDATA[建设中]]></description>
             <content:encoded><![CDATA[<h1 id="life" tabindex="-1">Life <a class="header-anchor" href="#life" aria-label="Permalink to &quot;Life&quot;">&ZeroWidthSpace;</a></h1>
 <p>建设中</p>
@@ -22,7 +22,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://hua-bang.github.io/blog/me/</link>
             <guid>https://hua-bang.github.io/blog/me/</guid>
-            <pubDate>Thu, 30 May 2024 01:25:25 GMT</pubDate>
+            <pubDate>Fri, 31 May 2024 01:50:32 GMT</pubDate>
             <description><![CDATA[# About Me
 
 ## Self introduction
@@ -85,7 +85,7 @@
             <title><![CDATA[React]]></title>
             <link>https://hua-bang.github.io/blog/react/</link>
             <guid>https://hua-bang.github.io/blog/react/</guid>
-            <pubDate>Thu, 30 May 2024 01:25:25 GMT</pubDate>
+            <pubDate>Fri, 31 May 2024 01:50:32 GMT</pubDate>
             <description><![CDATA[关于对 React 的理解。]]></description>
             <content:encoded><![CDATA[<h1 id="react" tabindex="-1">React <a class="header-anchor" href="#react" aria-label="Permalink to &quot;React&quot;">&ZeroWidthSpace;</a></h1>
 <p>关于对 React 的理解。</p>
@@ -95,7 +95,7 @@
             <title><![CDATA[Read]]></title>
             <link>https://hua-bang.github.io/blog/read/</link>
             <guid>https://hua-bang.github.io/blog/read/</guid>
-            <pubDate>Thu, 30 May 2024 01:25:25 GMT</pubDate>
+            <pubDate>Fri, 31 May 2024 01:50:32 GMT</pubDate>
             <description><![CDATA[这里记录我的日常阅读的东西 🤔️, 尽量记录记录。]]></description>
             <content:encoded><![CDATA[<h1 id="read" tabindex="-1">Read <a class="header-anchor" href="#read" aria-label="Permalink to &quot;Read&quot;">&ZeroWidthSpace;</a></h1>
 <p>这里记录我的日常阅读的东西 🤔️, 尽量记录记录。</p>
@@ -105,7 +105,7 @@
             <title><![CDATA[Tech 🚧]]></title>
             <link>https://hua-bang.github.io/blog/tech/</link>
             <guid>https://hua-bang.github.io/blog/tech/</guid>
-            <pubDate>Thu, 30 May 2024 01:25:25 GMT</pubDate>
+            <pubDate>Fri, 31 May 2024 01:50:32 GMT</pubDate>
             <description><![CDATA[关于 Tech 的文件仍在施工中
  Knowledge Docs
 - TypeScript Note
@@ -127,7 +127,7 @@
             <title><![CDATA[React Source Code]]></title>
             <link>https://hua-bang.github.io/blog/react/react-source-code/</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/</guid>
-            <pubDate>Thu, 30 May 2024 01:25:25 GMT</pubDate>
+            <pubDate>Fri, 31 May 2024 01:50:32 GMT</pubDate>
             <description><![CDATA[This is React Source Code.]]></description>
             <content:encoded><![CDATA[<h1 id="react-source-code" tabindex="-1">React Source Code <a class="header-anchor" href="#react-source-code" aria-label="Permalink to &quot;React Source Code&quot;">&ZeroWidthSpace;</a></h1>
 <p>This is React Source Code.</p>
@@ -330,6 +330,117 @@
 </ul>
 ]]></content:encoded>
             <enclosure url="https://hua-bang.github.io/image.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[子集和问题1]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/algorithms/backtracking/subset_sum_problem.html</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/algorithms/backtracking/subset_sum_problem.html</guid>
+            <pubDate>Wed, 29 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[子集和问题
+给定一个正整数数组 `nums` 和一个目标正整数 `target` ，请找出所有可能的组合，使得组合中的元素和等于 `target` 。给定数组无重复元素，每个元素可以被选取多次。请以列]]></description>
+            <content:encoded><![CDATA[<h1 id="子集和问题" tabindex="-1">子集和问题 <a class="header-anchor" href="#子集和问题" aria-label="Permalink to &quot;子集和问题&quot;">&ZeroWidthSpace;</a></h1>
+<p>给定一个正整数数组 <code>nums</code> 和一个目标正整数 <code>target</code> ，请找出所有可能的组合，使得组合中的元素和等于 <code>target</code> 。给定数组无重复元素，每个元素可以被选取多次。请以列表形式返回这些组合，列表中不应包含重复组合。</p>
+<p>例如，输入集合 { 3,4,5 } 和 目标 9，可以获得解位 {3,3,3}, {4,5}。</p>
+<h2 id="回溯方案找到解" tabindex="-1">回溯方案找到解 <a class="header-anchor" href="#回溯方案找到解" aria-label="Permalink to &quot;回溯方案找到解&quot;">&ZeroWidthSpace;</a></h2>
+<p>这里实际上，我们是对元素去进行重复选择和排序，并且计算元素和。</p>
+<ul>
+<li>当元素和 === 目标值，则记录数组。</li>
+<li>当元素和  &gt;  目标值，则剪枝。</li>
+<li>当元素和  &lt;  目标值，则下钻。</li>
+</ul>
+<p>于是，我们可以得到下方代码。</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> backtrack</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">  state</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[],</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">  target</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">  total</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">  choices</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[],</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">  res</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[][]</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (total </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">===</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> target) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    res.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">push</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">([</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">...</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">state]);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> choices.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">length</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (total </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> choices[i] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">></span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> target) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">      continue</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    state.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">push</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(choices[i]);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">    backtrack</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(state, target, total </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> choices[i], choices, res);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    state.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">pop</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">();</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> subsetSumINaive</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">nums</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[], </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">target</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[][] {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> state</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> []; </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// 状态（子集）</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> total</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// 子集和</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> res</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> []; </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// 结果列表（子集列表）</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">  backtrack</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(state, target, total, nums, res);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> res;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><p>向以上代码输入数组 [3,4,5] 和目标元素 9 ，输出结果为 [3,3,3],[4,5],[5,4]。虽然成功找出了所有和为 9 的子集，但其中存在重复的子集 [4,5]和 [5,4] 。</p>
+<p>这个时候，其实，我们可以直接对列表去重，但有点不优雅。</p>
+<h2 id="重复子集剪枝" tabindex="-1">重复子集剪枝 <a class="header-anchor" href="#重复子集剪枝" aria-label="Permalink to &quot;重复子集剪枝&quot;">&ZeroWidthSpace;</a></h2>
+<p>这里除了做重复子集剪枝外，我们还做排序进行优化。</p>
+<h3 id="排序" tabindex="-1">排序 <a class="header-anchor" href="#排序" aria-label="Permalink to &quot;排序&quot;">&ZeroWidthSpace;</a></h3>
+<p>排序是指在处理集合中的元素之前，先将集合中的元素按升序（或降序）排列。排序有以下几个好处：</p>
+<ul>
+<li>简化重复子集剪枝：排序后，相同的元素会聚集在一起，更容易检测和跳过重复的子集。</li>
+<li>早期剪枝：当元素按升序排列时，可以更早地判断当前子集是否可能超过目标和，从而提前结束不必要的递归，节省计算时间。</li>
+</ul>
+<h3 id="重复子集剪枝-1" tabindex="-1">重复子集剪枝 <a class="header-anchor" href="#重复子集剪枝-1" aria-label="Permalink to &quot;重复子集剪枝&quot;">&ZeroWidthSpace;</a></h3>
+<p>重复子集剪枝是指在回溯算法中避免生成重复的子集。具体来说，主要通过以下方式进行剪枝：</p>
+<ul>
+<li>跳过相同的元素：在递归过程中，如果当前元素和前一个元素相同，则跳过当前元素。这是因为前一个元素已经考虑过了，再次考虑当前元素会产生重复的子集。</li>
+<li>避免从同一个位置重复选择：在递归过程中，每次选择元素时，只选择从当前索引之后的元素，这样可以避免选择相同的元素组合。</li>
+</ul>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 回溯算法：子集和 I */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> backtrack</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">    state</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[],</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">    target</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">    choices</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[],</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">    start</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">,</span></span>
+<span class="line"><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">    res</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[][]</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> void</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 子集和等于 target 时，记录解</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (target </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">===</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        res.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">push</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">([</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">...</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">state]);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">        return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 遍历所有选择</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 剪枝二：从 start 开始遍历，避免生成重复子集</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> start; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> choices.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">length</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">        // 剪枝一：若子集和超过 target ，则直接结束循环</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">        // 这是因为数组已排序，后边元素更大，子集和一定超过 target</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">        if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (target </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> choices[i] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">            break</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">        // 尝试：做出选择，更新 target, start</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        state.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">push</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(choices[i]);</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">        // 进行下一轮选择</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">        backtrack</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(state, target </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> choices[i], choices, i, res);</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">        // 回退：撤销选择，恢复到之前的状态</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        state.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">pop</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">();</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 求解子集和 I */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> subsetSumI</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">nums</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[], </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">target</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[][] {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> state</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> []; </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// 状态（子集）</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    nums.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">sort</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">((</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">a</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">b</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=></span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> a </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> b); </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// 对 nums 进行排序</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> start</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// 遍历起始点</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> res</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> []; </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// 结果列表（子集列表）</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">    backtrack</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(state, target, nums, start, res);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> res;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h2 id="参考" tabindex="-1">参考 <a class="header-anchor" href="#参考" aria-label="Permalink to &quot;参考&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><a href="https://www.hello-algo.com/chapter_backtracking/subset_sum_problem/" target="_blank" rel="noreferrer">子集和问题</a></li>
+</ul>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[分治搜索策略]]></title>
