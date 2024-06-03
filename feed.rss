@@ -4,7 +4,7 @@
         <title>华铧的 Blog</title>
         <link>https://hua-bang.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Fri, 31 May 2024 01:51:31 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Jun 2024 01:30:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2022-present, 华铧</copyright>
@@ -12,7 +12,7 @@
             <title><![CDATA[Life]]></title>
             <link>https://hua-bang.github.io/blog/life/</link>
             <guid>https://hua-bang.github.io/blog/life/</guid>
-            <pubDate>Fri, 31 May 2024 01:50:32 GMT</pubDate>
+            <pubDate>Mon, 03 Jun 2024 01:29:55 GMT</pubDate>
             <description><![CDATA[建设中]]></description>
             <content:encoded><![CDATA[<h1 id="life" tabindex="-1">Life <a class="header-anchor" href="#life" aria-label="Permalink to &quot;Life&quot;">&ZeroWidthSpace;</a></h1>
 <p>建设中</p>
@@ -22,7 +22,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://hua-bang.github.io/blog/me/</link>
             <guid>https://hua-bang.github.io/blog/me/</guid>
-            <pubDate>Fri, 31 May 2024 01:50:32 GMT</pubDate>
+            <pubDate>Mon, 03 Jun 2024 01:29:55 GMT</pubDate>
             <description><![CDATA[# About Me
 
 ## Self introduction
@@ -85,7 +85,7 @@
             <title><![CDATA[React]]></title>
             <link>https://hua-bang.github.io/blog/react/</link>
             <guid>https://hua-bang.github.io/blog/react/</guid>
-            <pubDate>Fri, 31 May 2024 01:50:32 GMT</pubDate>
+            <pubDate>Mon, 03 Jun 2024 01:29:55 GMT</pubDate>
             <description><![CDATA[关于对 React 的理解。]]></description>
             <content:encoded><![CDATA[<h1 id="react" tabindex="-1">React <a class="header-anchor" href="#react" aria-label="Permalink to &quot;React&quot;">&ZeroWidthSpace;</a></h1>
 <p>关于对 React 的理解。</p>
@@ -95,7 +95,7 @@
             <title><![CDATA[Read]]></title>
             <link>https://hua-bang.github.io/blog/read/</link>
             <guid>https://hua-bang.github.io/blog/read/</guid>
-            <pubDate>Fri, 31 May 2024 01:50:32 GMT</pubDate>
+            <pubDate>Mon, 03 Jun 2024 01:29:55 GMT</pubDate>
             <description><![CDATA[这里记录我的日常阅读的东西 🤔️, 尽量记录记录。]]></description>
             <content:encoded><![CDATA[<h1 id="read" tabindex="-1">Read <a class="header-anchor" href="#read" aria-label="Permalink to &quot;Read&quot;">&ZeroWidthSpace;</a></h1>
 <p>这里记录我的日常阅读的东西 🤔️, 尽量记录记录。</p>
@@ -105,7 +105,7 @@
             <title><![CDATA[Tech 🚧]]></title>
             <link>https://hua-bang.github.io/blog/tech/</link>
             <guid>https://hua-bang.github.io/blog/tech/</guid>
-            <pubDate>Fri, 31 May 2024 01:50:32 GMT</pubDate>
+            <pubDate>Mon, 03 Jun 2024 01:29:55 GMT</pubDate>
             <description><![CDATA[关于 Tech 的文件仍在施工中
  Knowledge Docs
 - TypeScript Note
@@ -127,7 +127,7 @@
             <title><![CDATA[React Source Code]]></title>
             <link>https://hua-bang.github.io/blog/react/react-source-code/</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/</guid>
-            <pubDate>Fri, 31 May 2024 01:50:32 GMT</pubDate>
+            <pubDate>Mon, 03 Jun 2024 01:29:55 GMT</pubDate>
             <description><![CDATA[This is React Source Code.]]></description>
             <content:encoded><![CDATA[<h1 id="react-source-code" tabindex="-1">React Source Code <a class="header-anchor" href="#react-source-code" aria-label="Permalink to &quot;React Source Code&quot;">&ZeroWidthSpace;</a></h1>
 <p>This is React Source Code.</p>
@@ -439,6 +439,34 @@
 </div><h2 id="参考" tabindex="-1">参考 <a class="header-anchor" href="#参考" aria-label="Permalink to &quot;参考&quot;">&ZeroWidthSpace;</a></h2>
 <ul>
 <li><a href="https://www.hello-algo.com/chapter_backtracking/subset_sum_problem/" target="_blank" rel="noreferrer">子集和问题</a></li>
+</ul>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[总结]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/algorithms/backtracking/summary.html</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/algorithms/backtracking/summary.html</guid>
+            <pubDate>Wed, 29 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[总结
+ 要点总结
+1. 回溯算法的本质是暴力穷尽，一般使用深度优先搜索来寻找符合条件的解。搜索过成功中，遇到满足条件的则记录，直到遍历完所有情况，或者满足条件。
+2. 回溯算法分为尝试和回退。它通过深]]></description>
+            <content:encoded><![CDATA[<h1 id="总结" tabindex="-1">总结 <a class="header-anchor" href="#总结" aria-label="Permalink to &quot;总结&quot;">&ZeroWidthSpace;</a></h1>
+<h2 id="要点总结" tabindex="-1">要点总结 <a class="header-anchor" href="#要点总结" aria-label="Permalink to &quot;要点总结&quot;">&ZeroWidthSpace;</a></h2>
+<ol>
+<li>回溯算法的本质是<strong>暴力穷尽</strong>，一般使用深度优先搜索来寻找符合条件的解。搜索过成功中，遇到满足条件的则记录，直到遍历完所有情况，或者满足条件。</li>
+<li>回溯算法分为<strong>尝试和回退</strong>。它通过深度优先搜索来尝试各种选择，当遇到不满足约束条件的情况时，则撤销上一步的选择，退回到之前的状态，并继续尝试其他选择。尝试与回退是两个方向相反的操作。</li>
+<li><strong>回溯过程常常包含约束条件，可以用于进行剪枝</strong>。减少不必要的遍历情况。</li>
+<li>回溯算法主要可用于解决搜索问题和约束满足问题。组合优化问题虽然可以用回溯算法解决，但往往存在效率更高或效果更好的解法。</li>
+</ol>
+<h2 id="q-a" tabindex="-1">Q &amp; A <a class="header-anchor" href="#q-a" aria-label="Permalink to &quot;Q &amp; A&quot;">&ZeroWidthSpace;</a></h2>
+<p>如何理解回溯和递归的关系。</p>
+<p>总的来看，回溯是一种“算法策略”，而递归更像是一个“工具”。</p>
+<p>回溯算法通常基于递归实现。然而，回溯是递归的应用场景之一，是递归在搜索问题中的应用。
+递归的结构体现了“子问题分解”的解题范式，常用于解决分治、回溯、动态规划（记忆化递归）等问题。</p>
+<h2 id="参考" tabindex="-1">参考 <a class="header-anchor" href="#参考" aria-label="Permalink to &quot;参考&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><a href="https://www.hello-algo.com/chapter_backtracking/summary/#1" target="_blank" rel="noreferrer">hello 算法</a></li>
 </ul>
 ]]></content:encoded>
         </item>
