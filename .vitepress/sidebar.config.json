@@ -396,6 +396,11 @@
               "id": "/workspaces/blog/docs/algorithms/algorithms/backtracking/subset_sum_problem.md",
               "text": "子集和问题",
               "link": "/algorithms/algorithms/backtracking/subset_sum_problem.md"
+            },
+            {
+              "id": "/workspaces/blog/docs/algorithms/algorithms/backtracking/summary.md",
+              "text": "总结",
+              "link": "/algorithms/algorithms/backtracking/summary.md"
             }
           ]
         },
