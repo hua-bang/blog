@@ -486,9 +486,15 @@
             {
               "text": "初识动态规划",
               "link": "/algorithms/algorithms/dynamic_programming/overview.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/dynamic_programming/feature.md",
+              "text": "动态规划问题特性",
+              "link": "/algorithms/algorithms/dynamic_programming/feature.md"
             }
           ]
         }
+       
       ]
     }
   ],
