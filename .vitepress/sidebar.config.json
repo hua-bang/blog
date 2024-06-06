@@ -491,10 +491,14 @@
               "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/dynamic_programming/feature.md",
               "text": "动态规划问题特性",
               "link": "/algorithms/algorithms/dynamic_programming/feature.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/dynamic_programming/problem_solving.md",
+              "text": "动态规划解题思路",
+              "link": "/algorithms/algorithms/dynamic_programming/problem_solving.md"
             }
           ]
         }
-       
       ]
     }
   ],
