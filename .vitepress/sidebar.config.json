@@ -496,6 +496,11 @@
               "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/dynamic_programming/problem_solving.md",
               "text": "动态规划解题思路",
               "link": "/algorithms/algorithms/dynamic_programming/problem_solving.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/dynamic_programming/knapsack.md",
+              "text": "0-1 背包问题",
+              "link": "/algorithms/algorithms/dynamic_programming/knapsack.md"
             }
           ]
         }
