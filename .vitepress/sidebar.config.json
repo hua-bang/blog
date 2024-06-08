@@ -501,6 +501,11 @@
               "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/dynamic_programming/knapsack.md",
               "text": "0-1 背包问题",
               "link": "/algorithms/algorithms/dynamic_programming/knapsack.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/dynamic_programming/complete-knapsack.md",
+              "text": "完全背包问题",
+              "link": "/algorithms/algorithms/dynamic_programming/complete-knapsack.md"
             }
           ]
         }
