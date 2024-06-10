@@ -508,6 +508,17 @@
               "link": "/algorithms/algorithms/dynamic_programming/complete-knapsack.md"
             }
           ]
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/greedy/overview.md",
+          "text": "贪心",
+          "items": [
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/greedy/overview.md",
+              "text": "概览",
+              "link": "/algorithms/algorithms/greedy/overview.md"
+            }
+          ]
         }
       ]
     }
