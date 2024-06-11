@@ -517,9 +517,15 @@
               "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/greedy/overview.md",
               "text": "概览",
               "link": "/algorithms/algorithms/greedy/overview.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/greedy/fractional_knapsack_problem.md",
+              "text": "分数背包问题",
+              "link": "/algorithms/algorithms/greedy/fractional_knapsack_problem.md"
             }
           ]
         }
+       
       ]
     }
   ],
