@@ -4,7 +4,7 @@
         <title>华铧的 Blog</title>
         <link>https://hua-bang.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Tue, 11 Jun 2024 14:18:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Jun 2024 13:50:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2022-present, 华铧</copyright>
@@ -12,7 +12,7 @@
             <title><![CDATA[Life]]></title>
             <link>https://hua-bang.github.io/blog/life/</link>
             <guid>https://hua-bang.github.io/blog/life/</guid>
-            <pubDate>Tue, 11 Jun 2024 14:17:54 GMT</pubDate>
+            <pubDate>Wed, 12 Jun 2024 13:49:27 GMT</pubDate>
             <description><![CDATA[建设中]]></description>
             <content:encoded><![CDATA[<h1 id="life" tabindex="-1">Life <a class="header-anchor" href="#life" aria-label="Permalink to &quot;Life&quot;">&ZeroWidthSpace;</a></h1>
 <p>建设中</p>
@@ -22,7 +22,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://hua-bang.github.io/blog/me/</link>
             <guid>https://hua-bang.github.io/blog/me/</guid>
-            <pubDate>Tue, 11 Jun 2024 14:17:54 GMT</pubDate>
+            <pubDate>Wed, 12 Jun 2024 13:49:27 GMT</pubDate>
             <description><![CDATA[# About Me
 
 ## Self introduction
@@ -85,7 +85,7 @@
             <title><![CDATA[React]]></title>
             <link>https://hua-bang.github.io/blog/react/</link>
             <guid>https://hua-bang.github.io/blog/react/</guid>
-            <pubDate>Tue, 11 Jun 2024 14:17:54 GMT</pubDate>
+            <pubDate>Wed, 12 Jun 2024 13:49:27 GMT</pubDate>
             <description><![CDATA[关于对 React 的理解。]]></description>
             <content:encoded><![CDATA[<h1 id="react" tabindex="-1">React <a class="header-anchor" href="#react" aria-label="Permalink to &quot;React&quot;">&ZeroWidthSpace;</a></h1>
 <p>关于对 React 的理解。</p>
@@ -95,7 +95,7 @@
             <title><![CDATA[Read]]></title>
             <link>https://hua-bang.github.io/blog/read/</link>
             <guid>https://hua-bang.github.io/blog/read/</guid>
-            <pubDate>Tue, 11 Jun 2024 14:17:54 GMT</pubDate>
+            <pubDate>Wed, 12 Jun 2024 13:49:27 GMT</pubDate>
             <description><![CDATA[这里记录我的日常阅读的东西 🤔️, 尽量记录记录。]]></description>
             <content:encoded><![CDATA[<h1 id="read" tabindex="-1">Read <a class="header-anchor" href="#read" aria-label="Permalink to &quot;Read&quot;">&ZeroWidthSpace;</a></h1>
 <p>这里记录我的日常阅读的东西 🤔️, 尽量记录记录。</p>
@@ -105,7 +105,7 @@
             <title><![CDATA[Tech 🚧]]></title>
             <link>https://hua-bang.github.io/blog/tech/</link>
             <guid>https://hua-bang.github.io/blog/tech/</guid>
-            <pubDate>Tue, 11 Jun 2024 14:17:54 GMT</pubDate>
+            <pubDate>Wed, 12 Jun 2024 13:49:27 GMT</pubDate>
             <description><![CDATA[关于 Tech 的文件仍在施工中
  Knowledge Docs
 - TypeScript Note
@@ -127,11 +127,89 @@
             <title><![CDATA[React Source Code]]></title>
             <link>https://hua-bang.github.io/blog/react/react-source-code/</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/</guid>
-            <pubDate>Tue, 11 Jun 2024 14:17:54 GMT</pubDate>
+            <pubDate>Wed, 12 Jun 2024 13:49:27 GMT</pubDate>
             <description><![CDATA[This is React Source Code.]]></description>
             <content:encoded><![CDATA[<h1 id="react-source-code" tabindex="-1">React Source Code <a class="header-anchor" href="#react-source-code" aria-label="Permalink to &quot;React Source Code&quot;">&ZeroWidthSpace;</a></h1>
 <p>This is React Source Code.</p>
 ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[最大容量问题]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/algorithms/greedy/max_capacity_problem.html</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/algorithms/greedy/max_capacity_problem.html</guid>
+            <pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[最大容量问题
+&lt;aside
+&lt;/aside&gt;
+面对这个问题，我们最简单的方式就是做暴力，计算每两个柱子之间的容量和，我们可以直接用暴力破解。
+```tsx
+function maxC]]></description>
+            <content:encoded><![CDATA[<h1 id="最大容量问题" tabindex="-1">最大容量问题 <a class="header-anchor" href="#最大容量问题" aria-label="Permalink to &quot;最大容量问题&quot;">&ZeroWidthSpace;</a></h1>
+<aside> 💡 输入一个数组 ht, 其中的每个元素代表一个垂直隔板的高度。数组中的任意两个隔板，以及它们之间的空间可以组成一个容器。 容器的容量 = 高度 * 宽度。高度则为隔板的高度，宽度则为索引之差。
+</aside>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20240612214807.png" alt="image.png"></p>
+<p>面对这个问题，我们最简单的方式就是做暴力，计算每两个柱子之间的容量和，我们可以直接用暴力破解。</p>
+<div class="language-tsx vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">tsx</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> maxCapacity</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">ht</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[])</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> ht.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">length</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> max </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> j </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; j </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; j</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">      const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> val</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (j </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">*</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> Math.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">min</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(ht[i], ht[j]);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">      </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">      if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(val </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">></span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> max) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        max </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> val;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">      }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> max;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><p>上方这里，我们可以看到时间复杂度为 <code>O(n^2)</code>, 空间复杂度为 <code>O(1)</code></p>
+<p>但其实我们这里还可以使用贪心算法。</p>
+<h2 id="贪心策略确认" tabindex="-1">贪心策略确认 <a class="header-anchor" href="#贪心策略确认" aria-label="Permalink to &quot;贪心策略确认&quot;">&ZeroWidthSpace;</a></h2>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20240612214824.png" alt="image.png"></p>
+<p>在过程中，我们一定会存在长板和短板。这个时候其实我们有两种选择，移动长板或移动短板</p>
+<ul>
+<li>移动长板：移动过后的高度一定不会大于之前的高度，并且宽度一定是缩小的。</li>
+<li>移动短板：高度不一定，宽度不一定，才有可能变大。</li>
+</ul>
+<p>所以我们的策略是移动短板，去记录下最大值。</p>
+<h2 id="代码实现" tabindex="-1">代码实现 <a class="header-anchor" href="#代码实现" aria-label="Permalink to &quot;代码实现&quot;">&ZeroWidthSpace;</a></h2>
+<p>代码循环最多 𝑛 轮，<strong>因此时间复杂度为 𝑂(𝑛)</strong> 。</p>
+<p>变量 𝑖、𝑗、𝑟𝑒𝑠 使用常数大小的额外空间，<strong>因此空间复杂度为 𝑂(1)</strong> 。</p>
+<div class="language-tsx vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">tsx</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> maxCapacity</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">ht</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">[])</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> ht.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">length</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">, j </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> max </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  while</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> j) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> cap</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> Math.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">min</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(ht[i], ht[j]) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">*</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (j </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(cap </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">></span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> max) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">      max </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> cap;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(ht[j] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> ht[i]) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">      j</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">--</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    } </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">else</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">      i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> max;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h2 id="正确性证明" tabindex="-1">正确性证明 <a class="header-anchor" href="#正确性证明" aria-label="Permalink to &quot;正确性证明&quot;">&ZeroWidthSpace;</a></h2>
+<p>之所以贪心比穷举更快，是因为每轮的贪心选择都会“跳过”一些状态。</p>
+<p>比如在状态 𝑐𝑎𝑝[𝑖,𝑗] 下，𝑖为短板、𝑗为长板。若贪心地将短板𝑖向内移动一格，会导致图 15-12 所示的状态被“跳过”。</p>
+<p><strong>这意味着之后无法验证这些状态的容量大小</strong>。</p>
+<p>但其实我们已经推论了<strong>这些被跳过的状态实际上就是将长板 𝑗 向内移动的所有状态</strong>。前面我们已经证明内移长板一定会导致容量变小。也就是说，被跳过的状态都不可能是最优解，<strong>跳过它们不会导致错过最优解</strong>。</p>
+<p>以上分析说明，移动短板的操作是“安全”的，贪心策略是有效的。</p>
+<h2 id="参考" tabindex="-1">参考 <a class="header-anchor" href="#参考" aria-label="Permalink to &quot;参考&quot;">&ZeroWidthSpace;</a></h2>
+<p><a href="https://www.hello-algo.com/chapter_greedy/max_capacity_problem/#3" target="_blank" rel="noreferrer">https://www.hello-algo.com/chapter_greedy/max_capacity_problem/#3</a></p>
+]]></content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/hua-bang/assert-store/master/20240612214807.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[分数背包问题]]></title>
