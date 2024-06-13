@@ -1,6 +1,6 @@
 ---
 title: 最大容量问题
-customTag: algorithms>算法>动态规划
+customTag: algorithms>算法>贪心
 date: 2024.06.12
 editLink: true
 ---

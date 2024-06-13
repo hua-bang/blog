@@ -527,8 +527,18 @@
               "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/greedy/max_capacity_problem.md",
               "text": "最大容量问题",
               "link": "/algorithms/algorithms/greedy/max_capacity_problem.md"
+            },
+            {
+              "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/greedy/max_product_cutting_problem.md",
+              "text": "最大切分乘积问题",
+              "link": "/algorithms/algorithms/greedy/max_product_cutting_problem.md"
             }
           ]
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/algorithms/algorithms/greedy/summary.md",
+          "text": "总结",
+          "link": "/algorithms/algorithms/greedy/summary.md"
         }
       ]
     }
