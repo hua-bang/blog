@@ -48,3 +48,47 @@ function mergeTwoLists(
 
   return headNode.next;
 }
+
+function mergeTwoLists(
+  list1: ListNode | null,
+  list2: ListNode | null
+): ListNode | null {
+  if (!list1) {
+    return list2;
+  }
+
+  if (!list2) {
+    return list1;
+  }
+
+  const head: ListNode = new ListNode(0);
+  let temp = head;
+
+  while (list1 && list2) {
+    const num1 = list1.val;
+    const num2 = list2.val;
+
+    if (num1 >= num2) {
+      temp.next = new ListNode(num2);
+      list2 = list2.next;
+    } else {
+      temp.next = new ListNode(num1);
+      list1 = list1.next;
+    }
+    temp = temp.next;
+  }
+
+  while (list1) {
+    temp.next = new ListNode(list1.val);
+    temp = temp.next;
+    list1 = list1.next;
+  }
+
+  while (list2) {
+    temp.next = new ListNode(list2.val);
+    temp = temp.next;
+    list2 = list2.next;
+  }
+
+  return head.next;
+}
