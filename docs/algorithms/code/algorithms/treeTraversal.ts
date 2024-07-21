@@ -17,7 +17,7 @@ const preOrderTraversal = (root: BinaryTree) => {
       current = current.left;
     }
 
-    current = stack.pop()?.right || null;
+    current = stack.pop()!.right;
   }
 
   return res;
@@ -36,7 +36,28 @@ const inOrderTraversal = (root: BinaryTree) => {
     }
     current = stack.pop()!;
     result.push(current.val);
-    current = current.right || null;
+    current = current.right;
+  }
+
+  return result;
+};
+
+const postTraversal = (root: BinaryTree) => {
+  const stack: BinaryTree[] = [root];
+  const result: number[] = [];
+
+  while (stack.length) {
+    const node = stack.pop()!;
+
+    result.unshift(node.val);
+
+    if (node.left) {
+      stack.push(node.left);
+    }
+
+    if (node.right) {
+      stack.push(node.right);
+    }
   }
 
   return result;
