@@ -112,6 +112,16 @@
           "link": "/blog/right.md"
         }
       ]
+    },
+    {
+      "text": "个人思考",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/blog/time-flow.md",
+          "text": "时间流",
+          "link": "/blog/time-flow.md"
+        }
+      ]
     }
   ],
   "/tech/": [
