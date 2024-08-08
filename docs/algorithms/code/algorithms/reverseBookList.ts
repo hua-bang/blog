@@ -40,3 +40,27 @@ function reverseBookList2(head: ListNode | null): number[] {
 
   return res;
 }
+
+function reverseBookList(head: ListNode | null): number[] {
+  if (!head) {
+    return [];
+  }
+
+  let prevNode = null,
+    currentNode = head;
+  while (currentNode) {
+    const nextNode = currentNode.next;
+    currentNode.next = prevNode;
+    prevNode = currentNode;
+    currentNode = nextNode;
+  }
+
+  let curr = prevNode;
+  const res: number[] = [];
+  while (curr) {
+    res.push(curr.val);
+    curr = curr.next;
+  }
+
+  return res;
+}
