@@ -17,3 +17,24 @@ function twoSum(numbers: number[], target: number): number[] {
 
   return [-1, -1];
 }
+
+function twoSum(price: number[], target: number): number[] {
+  let left = 0,
+    right = price.length - 1;
+
+  while (left < right) {
+    const currVal = price[left] + price[right];
+
+    if (currVal === target) {
+      return [price[left], price[right]];
+    }
+
+    if (currVal < target) {
+      left++;
+    } else {
+      right--;
+    }
+  }
+
+  return [];
+}

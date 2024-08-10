@@ -33,3 +33,38 @@ function deleteNode(head: ListNode | null, val: number): ListNode | null {
 
   return head;
 }
+
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     val: number
+ *     next: ListNode | null
+ *     constructor(val?: number, next?: ListNode | null) {
+ *         this.val = (val===undefined ? 0 : val)
+ *         this.next = (next===undefined ? null : next)
+ *     }
+ * }
+ */
+
+function deleteNode(head: ListNode | null, val: number): ListNode | null {
+  if (!head) {
+    return null;
+  }
+
+  if (head.val === val) {
+    return head.next;
+  }
+
+  let curr = head.next,
+    prev = head;
+  while (curr) {
+    if (curr.val === val) {
+      prev.next = curr.next;
+      break;
+    }
+    prev = curr;
+    curr = curr.next;
+  }
+
+  return head;
+}
