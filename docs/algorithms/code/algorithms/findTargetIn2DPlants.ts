@@ -21,4 +21,25 @@ function findTargetIn2DPlants(plants: number[][], target: number): boolean {
   return false;
 }
 
-let a = Infinity;
+function findTargetIn2DPlants(plants: number[][], target: number): boolean {
+  if (!plants.length || !plants[0].length) {
+    return false;
+  }
+
+  let row = plants.length - 1,
+    col = 0;
+
+  while (row >= 0 && col < plants[0].length) {
+    if (plants[row][col] === target) {
+      return true;
+    }
+
+    if (plants[row][col] < target) {
+      col++;
+    } else {
+      row--;
+    }
+  }
+
+  return false;
+}

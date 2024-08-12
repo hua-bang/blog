@@ -7,3 +7,7 @@ function stockManagement(stock: number[]): number {
 
   return min;
 }
+
+function stockManagement(stock: number[]): number {
+  return stock.reduce((acc, curr) => (acc < curr ? acc : curr));
+}

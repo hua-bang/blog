@@ -40,3 +40,32 @@ function decorateRecord(root: TreeNode | null): number[] {
 
   return res;
 }
+
+function decorateRecord(root: TreeNode | null): number[] {
+  if (!root) {
+    return [];
+  }
+
+  const stack: TreeNode[] = [root];
+  const res: number[] = [];
+
+  while (stack.length) {
+    let size = stack.length;
+    while (size) {
+      const node = stack.shift();
+      res.push(node.val);
+
+      if (node.left) {
+        stack.push(node.left);
+      }
+
+      if (node.right) {
+        stack.push(node.right);
+      }
+
+      size--;
+    }
+  }
+
+  return res;
+}
