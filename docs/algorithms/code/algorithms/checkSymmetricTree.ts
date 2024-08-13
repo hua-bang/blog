@@ -39,3 +39,26 @@ function checkSymmetricTree(root: TreeNode | null): boolean {
 
   return checkHelper(root.left, root.right);
 }
+
+function checkSymmetricTree(root: TreeNode | null): boolean {
+  if (!root) {
+    return true;
+  }
+
+  return checkSymmetricTreeHelper(root.left, root.right);
+}
+
+function checkSymmetricTreeHelper(a: TreeNode | null, b: TreeNode | null) {
+  if (!a && !b) {
+    return true;
+  }
+  if (!a || !b) {
+    return false;
+  }
+
+  return (
+    a.val === b.val &&
+    checkSymmetricTreeHelper(a.left, b.right) &&
+    checkSymmetricTreeHelper(a.right, b.left)
+  );
+}

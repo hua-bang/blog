@@ -80,3 +80,27 @@ function isSubStructure(A: TreeNode | null, B: TreeNode | null): boolean {
     equalTree(A, B) || isSubStructure(A.left, B) || isSubStructure(A.right, B)
   );
 }
+
+function isSubStructure(A: TreeNode | null, B: TreeNode | null): boolean {
+  if (!A || !B) {
+    return false;
+  }
+
+  return (
+    equalTree(A, B) || isSubStructure(A.left, B) || isSubStructure(A.right, B)
+  );
+}
+
+function equalTree(A: TreeNode | null, B: TreeNode | null) {
+  if (!B) {
+    return true;
+  }
+
+  if (!A) {
+    return false;
+  }
+
+  return (
+    A.val === B.val && equalTree(A.left, B.left) && equalTree(A.right, B.right)
+  );
+}
