@@ -48,3 +48,11 @@ function calculateDepth(root: TreeNode | null): number {
   }
   return Math.max(calculateDepth(root.left), calculateDepth(root.right)) + 1;
 }
+
+function calculateDepth(root: TreeNode | null): number {
+  if (!root) {
+    return 0;
+  }
+
+  return Math.max(calculateDepth(root.left), calculateDepth(root.right)) + 1;
+}

@@ -30,3 +30,22 @@ function isBalanced(root: TreeNode | null): boolean {
     Math.abs(height(root.left) - height(root.right)) <= 1
   );
 }
+
+function getHeight(root: TreeNode | null): number {
+  if (!root) {
+    return 0;
+  }
+
+  return Math.max(getHeight(root.left), getHeight(root.right)) + 1;
+}
+
+function isBalanced(root: TreeNode | null): boolean {
+  if (!root) {
+    return true;
+  }
+  return (
+    isBalanced(root.left) &&
+    isBalanced(root.right) &&
+    Math.abs(getHeight(root.left) - getHeight(root.right)) <= 1
+  );
+}

@@ -52,3 +52,20 @@ function findTargetNode(root: TreeNode | null, cnt: number): number {
   res.sort((a, b) => a - b);
   return res[res.length - cnt];
 }
+
+function findTargetNode(root: TreeNode | null, cnt: number): number {
+  const stack: TreeNode[] = [];
+  const res: number[] = [];
+
+  while (stack.length || root) {
+    while (root) {
+      stack.push(root);
+      root = root.left;
+    }
+    root = stack.pop();
+    res.push(root.val);
+    root = root.right;
+  }
+
+  return res[res.length - cnt];
+}
