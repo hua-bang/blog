@@ -202,6 +202,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/module-federation.md",
           "text": "模块联邦",
           "link": "/tech/module-federation.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/tapable.md",
+          "text": "Tapable： a little module for plugin",
+          "link": "/tech/tapable.md"
         }
       ]
     },
