@@ -7,3 +7,11 @@ function encryptionCalculate(dataA: number, dataB: number): number {
 
   return dataA;
 }
+
+function encryptionCalculate(dataA: number, dataB: number): number {
+  if (dataB === 0) {
+    return dataA;
+  }
+
+  return encryptionCalculate(dataA ^ dataB, (dataA & dataB) << 1);
+}
