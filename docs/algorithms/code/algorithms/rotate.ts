@@ -18,3 +18,12 @@ function rotate(nums: number[], k: number): void {
   rotateArr(nums, 0, k - 1);
   rotateArr(nums, k, nums.length - 1);
 }
+
+function rotate(nums: number[], k: number): void {
+  const n = nums.length;
+  const temp = [...nums];
+
+  for (let i = 0; i < n; i++) {
+    nums[(i + k) % n] = temp[i];
+  }
+}
