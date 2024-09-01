@@ -207,6 +207,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/tapable.md",
           "text": "Tapable： a little module for plugin",
           "link": "/tech/tapable.md"
+        },
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/tech/mini-micro-frontend.md",
+          "text": "手写类 Garfish 微前端框架",
+          "link": "/tech/mini-micro-frontend.md"
         }
       ]
     },
