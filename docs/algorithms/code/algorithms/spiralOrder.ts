@@ -1,41 +1,42 @@
 function spiralOrder(matrix: number[][]): number[] {
-  const res: number[] = [];
+  let res: number[] = [];
   const m = matrix.length,
     n = matrix[0].length;
 
   let left = 0,
     top = 0,
-    right = n - 1,
-    bottom = m - 1;
+    bottom = m - 1,
+    right = n - 1;
 
-  while (left <= right || top <= bottom) {
-    for (let col = left; col <= right; col++) {
-      res.push(matrix[top][col]);
+  while (true) {
+    for (let i = left; i <= right; i++) {
+      res.push(matrix[top][i]);
     }
-    for (let row = top + 1; row <= bottom; row++) {
-      res.push(matrix[row][right]);
-    }
-
-    if (!(left < right && top < bottom)) {
-      continue;
-    }
-    for (let col = right - 1; col > left; col--) {
-      res.push(matrix[bottom][col]);
-    }
-    for (let row = bottom; row > top; row--) {
-      res.push(matrix[row][left]);
+    if (++top > bottom) {
+      break;
     }
 
-    [left, top, right, bottom] = [left + 1, top + 1, right - 1, bottom - 1];
+    for (let i = top; i <= bottom; i++) {
+      res.push(matrix[i][right]);
+    }
+    if (--right < left) {
+      break;
+    }
+
+    for (let i = right; i >= left; i--) {
+      res.push(matrix[bottom][i]);
+    }
+    if (top > --bottom) {
+      break;
+    }
+
+    for (let i = bottom; i >= top; i--) {
+      res.push(matrix[i][left]);
+    }
+    if (++left > right) {
+      break;
+    }
   }
 
   return res;
 }
-
-console.log(
-  spiralOrder([
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-  ])
-);
