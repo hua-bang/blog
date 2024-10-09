@@ -1,46 +1,47 @@
-/* 合并左子数组和右子数组 */
-function merge(nums: number[], left: number, mid: number, right: number): void {
-  const tmp = new Array(right - left + 1);
+function merge(nums: number[], left: number, mid: number, right: number) {
+  const temp: number[] = [];
+
   let i = left,
     j = mid + 1,
     k = 0;
 
   while (i <= mid && j <= right) {
     if (nums[i] <= nums[j]) {
-      tmp[k++] = nums[i++];
+      temp[k++] = nums[i++];
     } else {
-      tmp[k++] = nums[j++];
+      temp[k++] = nums[j++];
     }
   }
 
   while (i <= mid) {
-    tmp[k++] = nums[i++];
+    temp[k++] = nums[i++];
   }
 
   while (j <= right) {
-    tmp[k++] = nums[j++];
+    temp[k++] = nums[j++];
   }
 
-  for (let k = 0; k < tmp.length; k++) {
-    nums[left + k] = tmp[k];
+  for (let index = 0; index < temp.length; index++) {
+    nums[left + index] = temp[index];
   }
 }
 
-const mergeSort = (nums: number[], left: number, right: number): void => {
+// 本质上是做分治
+// 排序好再合并
+const mergeSort = (nums: number[], left: number, right: number) => {
   if (left >= right) {
     return;
   }
 
-  const mid = (left + right) >> 1;
+  const mid = Math.floor((left + right) / 2);
+  mergeSort(nums, left, mid);
+  mergeSort(nums, mid + 1, right);
 
-  mergeSort(nums, left, mid); // 递归左子数组
-  mergeSort(nums, mid + 1, right); // 递归右子数组
-  // 合并阶段
   merge(nums, left, mid, right);
 };
 
-const a = [2, 1, 3, 4, 5, 6, 8, 7];
+const testA = [2, 1, 3, 4, 5, 6, 8, 7];
 
-mergeSort(a, 0, a.length - 1);
+mergeSort(testA, 0, testA.length - 1);
 
-console.log("a", a);
+console.log("a", testA);
