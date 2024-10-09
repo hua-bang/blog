@@ -1,14 +1,16 @@
-const selectionSort = (arr: number[]) => {
-  let n = arr.length;
-
-  for (let i = 0; i < n - 1; i++) {
+// 选择排序的思路：每一次循环选出最小的出来。
+// 第 n 次循环则选择最小的到 nums[n - 1] 中
+const selectionSort = (nums: number[]) => {
+  for (let i = 0; i < nums.length - 1; i++) {
     let k = i;
-    for (let j = i + 1; j < n; j++) {
-      if (arr[j] < arr[k]) {
-        k = j; // 记录最小元素的索引
+    for (let j = i + 1; j < nums.length; j++) {
+      if (nums[k] > nums[j]) {
+        [nums[j], nums[k]] = [nums[k], nums[j]];
       }
     }
-
-    [arr[k], arr[i]] = [arr[i], arr[k]];
   }
 };
+
+const arr = [1, 3, 7, 5, 2];
+selectionSort(arr);
+console.log("arr", arr);
