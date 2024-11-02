@@ -311,6 +311,16 @@
           "link": "/read/a-philosophy-of-software-design.md"
         }
       ]
+    },
+    {
+      "text": "人物传记",
+      "items": [
+        {
+          "id": "/Users/hujiahua/code/workBranch/blog/docs/read/Why-Fish-Don’t-Exist.md",
+          "text": "鱼不存在",
+          "link": "/read/Why-Fish-Don’t-Exist.md"
+        }
+      ]
     }
   ],
   "/algorithms/": [
