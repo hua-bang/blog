@@ -12,26 +12,24 @@
  * }
  */
 
-function diameterOfBinaryTree(root: TreeNode | null): number {
+function kthSmallest(root: TreeNode | null, k: number): number {
   if (!root) {
-    return 0;
+    return -1;
   }
 
-  let max = 0;
+  const res: number[] = [];
+  const stack: TreeNode[] = [];
 
-  const depth = (node: TreeNode | null) => {
-    if (!node) {
-      return 0;
+  while (root || stack.length) {
+    while (root) {
+      stack.push(root);
+      root = root.left;
     }
 
-    const l = depth(node.left);
-    const r = depth(node.right);
-
-    max = Math.max(max, l + r);
-    return Math.max(l, r) + 1;
+    root = stack.pop();
+    res.push(root.val);
+    root = root.right;
   }
 
-  depth(root);∏
-
-  return max;
+  return res[k - 1];
 };

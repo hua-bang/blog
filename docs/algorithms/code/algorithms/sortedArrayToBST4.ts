@@ -12,26 +12,17 @@
  * }
  */
 
-function diameterOfBinaryTree(root: TreeNode | null): number {
-  if (!root) {
-    return 0;
+function sortedArrayToBST(nums: number[]): TreeNode | null {
+  if (nums.length === 0) {
+    return null;
   }
 
-  let max = 0;
+  const mid = Math.floor(nums.length / 2);
 
-  const depth = (node: TreeNode | null) => {
-    if (!node) {
-      return 0;
-    }
+  const rootNode = new TreeNode(nums[mid]);
 
-    const l = depth(node.left);
-    const r = depth(node.right);
+  rootNode.left = sortedArrayToBST(nums.slice(0, mid));
+  rootNode.right = sortedArrayToBST(nums.slice(mid + 1));
 
-    max = Math.max(max, l + r);
-    return Math.max(l, r) + 1;
-  }
-
-  depth(root);∏
-
-  return max;
+  return rootNode;
 };

@@ -12,26 +12,18 @@
  * }
  */
 
-function diameterOfBinaryTree(root: TreeNode | null): number {
+function isValidBSTHelper(root: TreeNode | null, left: number, right: number) {
   if (!root) {
-    return 0;
+    return true;
   }
 
-  let max = 0;
-
-  const depth = (node: TreeNode | null) => {
-    if (!node) {
-      return 0;
-    }
-
-    const l = depth(node.left);
-    const r = depth(node.right);
-
-    max = Math.max(max, l + r);
-    return Math.max(l, r) + 1;
+  if (root.val <= left || root.val >= right) {
+    return false;
   }
 
-  depth(root);∏
+  return isValidBSTHelper(root.left, left, root.val) && isValidBSTHelper(root.right, root.val, right);
+}
 
-  return max;
+function isValidBST(root: TreeNode | null): boolean {
+  return isValidBSTHelper(root, -Infinity, Infinity);
 };
