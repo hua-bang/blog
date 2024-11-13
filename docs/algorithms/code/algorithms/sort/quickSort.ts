@@ -15,7 +15,7 @@ const partition2 = (arr: number[], left: number, right: number) => {
   let i = left - 1;
 
   for (let j = left; j < right; j++) {
-    if (arr[j] < base) {
+    if (arr[j] <= base) {
       i++;
       swap(arr, i, j);
     }
