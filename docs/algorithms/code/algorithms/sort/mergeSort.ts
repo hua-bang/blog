@@ -1,6 +1,10 @@
-const merge2 = (nums: number[], left: number, mid: number, right: number) => {
+const merge = (nums: number[], left: number, mid: number, right: number) => {
+  if (left >= right) {
+    return;
+  }
+
   const temp: number[] = [];
-  let i = left, j = mid + 1, k = 0;
+  let k = 0, i = left, j = mid + 1;
 
   while (i <= mid && j <= right) {
     if (nums[i] <= nums[j]) {
@@ -30,11 +34,10 @@ const mergeSort2 = (nums: number[], left: number, right: number) => {
   }
 
   const mid = Math.floor((left + right) / 2);
-
   mergeSort2(nums, left, mid);
   mergeSort2(nums, mid + 1, right);
 
-  merge2(nums, left, mid, right);
+  merge(nums, left, mid, right);
 }
 
 const testA1 = [2, 1, 3, 4, 5, 6, 8, 7];

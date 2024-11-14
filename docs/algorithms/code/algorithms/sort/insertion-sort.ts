@@ -3,7 +3,6 @@ const insertionSort = (nums: number[]) => {
   for (let i = 1; i < nums.length; i++) {
     const base = nums[i];
     let j = i - 1;
-
     while (j >= 0 && nums[j] > base) {
       nums[j + 1] = nums[j];
       j--;

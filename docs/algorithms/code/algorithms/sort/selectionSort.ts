@@ -15,11 +15,13 @@
 
 const selectionSort = (nums: number[]) => {
   for (let i = 0; i < nums.length - 1; i++) {
+    let minIndex = i;
     for (let j = i + 1; j < nums.length; j++) {
-      if (nums[i] > nums[j]) {
-        [nums[i], nums[j]] = [nums[j], nums[i]];
+      if (nums[minIndex] > nums[j]) {
+        minIndex = j;
       }
     }
+    [nums[minIndex], nums[i]] = [nums[i], nums[minIndex]]
   }
 }
 
