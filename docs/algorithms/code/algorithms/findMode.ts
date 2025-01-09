@@ -12,9 +12,22 @@
  * }
  */
 
+
 function findMode(root: TreeNode | null): number[] {
   const arr: number[] = [];
   let base = 0, count = 0, maxCount = 0;
+
+  const update = (num: number) => {
+    if (base === num) {
+      count++;
+      maxCount = Math.max(maxCount, count);
+    } else {
+      let prevCount = count;
+      count = 1;
+      base = num;
+      maxCount = Math.max(maxCount, count, prevCount);
+    }
+  }
 
   const stack: TreeNode[] = [];
   while (stack.length || root) {
@@ -23,24 +36,36 @@ function findMode(root: TreeNode | null): number[] {
       root = root.left;
     }
     root = stack.pop();
+    update(root.val);
     arr.push(root.val);
     root = root.right;
   }
 
-  let max = arr[0];
-  let count = 1;
+  const res: number[] = [];
+
+  base = arr[0];
+  count = 1;
+
+  console.log('maxCount', maxCount);
+  if (maxCount === 1) {
+    res.push(base);
+  }
 
   for (let i = 1; i < arr.length; i++) {
-    if (arr[i] === max) {
+    const val = arr[i];
+    if (val === base) {
       count++;
+      if (count === maxCount) {
+        res.push(val);
+      }
     } else {
-      if (count === 1) {
-        max = arr[i];
-      } else {
-        count--;
+      count = 1;
+      base = val
+      if (maxCount === 1) {
+        res.push(val);
       }
     }
   }
 
-  return [max];
+  return res;
 };
