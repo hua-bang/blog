@@ -4,7 +4,7 @@
         <title>华铧的 Blog</title>
         <link>https://hua-bang.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Sat, 11 Jan 2025 12:54:11 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 13:18:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2022-present, 华铧</copyright>
@@ -12,7 +12,7 @@
             <title><![CDATA[Life]]></title>
             <link>https://hua-bang.github.io/blog/life/</link>
             <guid>https://hua-bang.github.io/blog/life/</guid>
-            <pubDate>Sat, 11 Jan 2025 12:52:15 GMT</pubDate>
+            <pubDate>Sat, 11 Jan 2025 13:16:59 GMT</pubDate>
             <description><![CDATA[建设中]]></description>
             <content:encoded><![CDATA[<h1 id="life" tabindex="-1">Life <a class="header-anchor" href="#life" aria-label="Permalink to &quot;Life&quot;"></a></h1>
 <p>建设中</p>
@@ -22,7 +22,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://hua-bang.github.io/blog/me/</link>
             <guid>https://hua-bang.github.io/blog/me/</guid>
-            <pubDate>Sat, 11 Jan 2025 12:52:15 GMT</pubDate>
+            <pubDate>Sat, 11 Jan 2025 13:16:59 GMT</pubDate>
             <description><![CDATA[# About Me
 
 ## Self introduction
@@ -85,7 +85,7 @@
             <title><![CDATA[React]]></title>
             <link>https://hua-bang.github.io/blog/react/</link>
             <guid>https://hua-bang.github.io/blog/react/</guid>
-            <pubDate>Sat, 11 Jan 2025 12:52:15 GMT</pubDate>
+            <pubDate>Sat, 11 Jan 2025 13:16:59 GMT</pubDate>
             <description><![CDATA[关于对 React 的理解。]]></description>
             <content:encoded><![CDATA[<h1 id="react" tabindex="-1">React <a class="header-anchor" href="#react" aria-label="Permalink to &quot;React&quot;"></a></h1>
 <p>关于对 React 的理解。</p>
@@ -95,7 +95,7 @@
             <title><![CDATA[Read]]></title>
             <link>https://hua-bang.github.io/blog/read/</link>
             <guid>https://hua-bang.github.io/blog/read/</guid>
-            <pubDate>Sat, 11 Jan 2025 12:52:15 GMT</pubDate>
+            <pubDate>Sat, 11 Jan 2025 13:16:59 GMT</pubDate>
             <description><![CDATA[这里记录我的日常阅读的东西 🤔️, 尽量记录记录。]]></description>
             <content:encoded><![CDATA[<h1 id="read" tabindex="-1">Read <a class="header-anchor" href="#read" aria-label="Permalink to &quot;Read&quot;"></a></h1>
 <p>这里记录我的日常阅读的东西 🤔️, 尽量记录记录。</p>
@@ -105,7 +105,7 @@
             <title><![CDATA[Tech 🚧]]></title>
             <link>https://hua-bang.github.io/blog/tech/</link>
             <guid>https://hua-bang.github.io/blog/tech/</guid>
-            <pubDate>Sat, 11 Jan 2025 12:52:15 GMT</pubDate>
+            <pubDate>Sat, 11 Jan 2025 13:16:59 GMT</pubDate>
             <description><![CDATA[关于 Tech 的文件仍在施工中
  Knowledge Docs
 - TypeScript Note
@@ -127,10 +127,49 @@
             <title><![CDATA[React Source Code]]></title>
             <link>https://hua-bang.github.io/blog/react/react-source-code/</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/</guid>
-            <pubDate>Sat, 11 Jan 2025 12:52:15 GMT</pubDate>
+            <pubDate>Sat, 11 Jan 2025 13:16:59 GMT</pubDate>
             <description><![CDATA[This is React Source Code.]]></description>
             <content:encoded><![CDATA[<h1 id="react-source-code" tabindex="-1">React Source Code <a class="header-anchor" href="#react-source-code" aria-label="Permalink to &quot;React Source Code&quot;"></a></h1>
 <p>This is React Source Code.</p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[算法效率评估]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/complexity-analysis/</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/complexity-analysis/</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[算法效率评估
+算法层面，我们无非解决两个问题
+1.  找到问题的解法: 最重要的一点是，他首先能解答问题。
+2.  寻求最优解法: 其次，他需要尽可能的优化，以达到最优的性能, 一般从时间和空间两个维]]></description>
+            <content:encoded><![CDATA[<h1 id="算法效率评估" tabindex="-1">算法效率评估 <a class="header-anchor" href="#算法效率评估" aria-label="Permalink to &quot;算法效率评估&quot;"></a></h1>
+<p>算法层面，我们无非解决两个问题</p>
+<ol>
+<li><strong>找到问题的解法</strong>: 最重要的一点是，他首先能解答问题。</li>
+<li><strong>寻求最优解法</strong>: 其次，他需要尽可能的优化，以达到最优的性能, 一般从时间和空间两个维度来评估， 但往往在实际中，我们需要做权衡。</li>
+</ol>
+<p>所以，在效率评估中，我们主要关注的是 <strong>时间维度</strong> 和 <strong>空间维度</strong>。</p>
+<ul>
+<li><strong>时间维度</strong>: 评估算法执行的效率，一般用时间复杂度来表示。</li>
+<li><strong>空间维度</strong>: 评估算法执行时所占用的内存空间，一般用空间复杂度来表示。</li>
+</ul>
+<p>最终，我们需要在时间和空间维度上找到一个平衡点，以达到最优的性能。</p>
+<p>效率评估的两种方式，一种是 <strong>事后统计法</strong>， 一种是 <strong>事前分析法</strong>。</p>
+<h2 id="事后统计法" tabindex="-1">事后统计法 <a class="header-anchor" href="#事后统计法" aria-label="Permalink to &quot;事后统计法&quot;"></a></h2>
+<p>事后统计法，顾名思义，就是通过实际运行程序来统计执行时间，比较偏实际。</p>
+<ul>
+<li><strong>优点</strong>: 直观， 真实</li>
+<li><strong>缺点</strong>: 需要实际运行， 受环境影响大， 结果不准确</li>
+</ul>
+<h2 id="事前分析法" tabindex="-1">事前分析法 <a class="header-anchor" href="#事前分析法" aria-label="Permalink to &quot;事前分析法&quot;"></a></h2>
+<p>事前分析法，顾名思义，就是通过分析代码来预估执行时间，比较偏理论。</p>
+<ul>
+<li><strong>优点</strong>: 不需要实际运行， 结果准确</li>
+<li><strong>缺点</strong>: 需要分析代码， 结果不准确</li>
+</ul>
+<p>当我们一般的评估的话，实际上还是事前分析法， 具体而言的话 <strong>复杂度分析</strong>。</p>
+<p>注意，这里并非分析出具体执行的时间，而是通过一种相对的复杂度来评估执行时间， 如 O(1), O(n), O(n^2) 等。</p>
+<p>复杂度分析的好处在于“量执行某个算法所需的时间和空间资源，对比不同算法之间的效率”</p>
 ]]></content:encoded>
         </item>
         <item>
