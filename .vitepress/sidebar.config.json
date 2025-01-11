@@ -330,6 +330,16 @@
   ],
   "/algorithms/": [
     {
+      "text": "复杂度分析",
+      "items": [
+        {
+          "id": "/Users/colepol/project/blog/docs/algorithms/complexity-analysis/index.md",
+          "text": "算法效率评估",
+          "link": "/algorithms/complexity-analysis/index.md"
+        }
+      ]
+    },
+    {
       "text": "数据结构",
       "items": [
         {
