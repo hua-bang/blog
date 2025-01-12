@@ -82,5 +82,7 @@ editLink: true
 
 回溯算法可用于解决许多搜索问题、约束满足问题和组合优化问题。如**搜索问题、约束满足问题、组合优化问题**。
 
+回溯在大多情况下是基于 DFS（深度优先搜索）去做的。
+
 ## 参考链接
 - [回溯算法](https://www.hello-algo.com/chapter_backtracking/backtracking_algorithm/#1315)
