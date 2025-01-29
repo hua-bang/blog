@@ -5,7 +5,7 @@ date: 2025.01.29
 editLink: true
 ---
 
-# AIGC 思考
+# 本地部署 DeepSeek R1
 
 年前一两周， `DeepSeek` 刚上线深度搜索的时候，就进行体验了。
 
