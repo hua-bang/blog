@@ -46,6 +46,11 @@
           "id": "/Users/hujiahua/code/workBranch/blog/docs/blog/subscribe-or-recommend.md",
           "text": "有多久没看公众号了。",
           "link": "/blog/subscribe-or-recommend.md"
+        },
+        {
+          "id": "/Users/colepol/project/blog/docs/blog/deploy-deepseek-r1.md",
+          "text": "本地部署 DeepSeek R1",
+          "link": "/blog/deploy-deepseek-r1.md"
         }
       ]
     },
