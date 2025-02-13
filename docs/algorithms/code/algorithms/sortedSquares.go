@@ -1,8 +1,8 @@
 func sortedSquares(nums []int) []int {
+
 	res := make([]int, len(nums))
 
-	left := 0
-	right := len(nums) - 1
+	left, right := 0, len(nums)-1
 	pos := len(nums) - 1
 
 	for left <= right {
