@@ -1,3 +1,5 @@
+// 思路：遍历数组，遇到算法符则取出栈顶两个元素进行计算，然后将结果入栈，最后返回栈顶元素
+// 复杂度分析：时间复杂度O(n)，空间复杂度O(n)
 const calculateNum = (num1: number, num2: number, flag: string) => {
   let res = 0;
   if(flag === "+") {
