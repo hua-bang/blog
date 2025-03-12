@@ -1,3 +1,5 @@
+// 思路：通过递归，判断两个节点是否相同
+// 复杂度分析：时间复杂度 O(n) 空间复杂度 O(h)
 /**
  * Definition for a binary tree node.
  * class TreeNode {
