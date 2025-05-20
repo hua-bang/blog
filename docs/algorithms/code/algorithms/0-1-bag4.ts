@@ -1,6 +1,6 @@
 // 0-1背包问题
 // 思路：动态规划
-// 状态定义： dp[i][j] 表示 i个物品在容量为j的背包中的最大价值
+// 状态定义： dp[i][j] 前 i+1 个物品（下标 0…i）在容量为 j 的背包里所能取得的最大价值
 // 状态转移方程: dp[i][j] = max(dp[i-1][j], dp[i-1][j - weight[i]] + value[i])
 function knapsack(n: number, w: number, weight: number[], value: number[]): number {
   const dp: number[][] = new Array(n).fill(0).map(() => new Array(w + 1).fill(0));
