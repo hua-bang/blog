@@ -11,6 +11,8 @@
 
 // 注意：由于我们使用的是一维数组，而后续的 dp[j] 是由前置的 dp[j-w] 计算得出的
 // 所以这个时候我们需要从后往前遍历，这样就不会出现重复计算的情况。
+
+// 复杂度分析：空间复杂度 O(w), 时间复杂度 O(n * w)
 function knapsack(n: number, w: number, weight: number[], value: number[]): number {
   const dp = new Array(w + 1).fill(0);
 
