@@ -361,6 +361,11 @@
           "id": "/Users/colepol/project/blog/docs/algorithms/complexity-analysis/index.md",
           "text": "算法效率评估",
           "link": "/algorithms/complexity-analysis/index.md"
+        },
+        {
+          "id": "/Users/colepol/project/blog/docs/algorithms/complexity-analysis/time-complexity.md",
+          "text": "时间复杂度",
+          "link": "/algorithms/complexity-analysis/time-complexity.md"
         }
       ]
     },
