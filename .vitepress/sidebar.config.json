@@ -366,6 +366,11 @@
           "id": "/Users/colepol/project/blog/docs/algorithms/complexity-analysis/time-complexity.md",
           "text": "时间复杂度",
           "link": "/algorithms/complexity-analysis/time-complexity.md"
+        },
+        {
+          "id": "/Users/colepol/project/blog/docs/algorithms/complexity-analysis/space-complexity.md",
+          "text": "空间复杂度",
+          "link": "/algorithms/complexity-analysis/space-complexity.md"
         }
       ]
     },
