@@ -22,15 +22,7 @@ function trainningPlan(l1: ListNode | null, l2: ListNode | null): ListNode | nul
     return l1 || l2;
   }
 
-  let head = null;
-
-  if (l1.val >= l2.val) {
-    head = l2;
-    l2 = l2.next;
-  } else {
-    head = l1;
-    l1 = l1.next;
-  }
+  let head = new ListNode(0);
 
   let curr = head;
 
@@ -46,17 +38,7 @@ function trainningPlan(l1: ListNode | null, l2: ListNode | null): ListNode | nul
     curr = curr.next;
   }
 
-  while (l2) {
-    curr.next = l2;
-    l2 = l2.next;
-    curr = curr.next;
-  }
+  curr.next = l1 || l2;
 
-  while (l1) {
-    curr.next = l1;
-    l1 = l1.next;
-    curr = curr.next;
-  }
-
-  return head;
+  return head.next;
 };
