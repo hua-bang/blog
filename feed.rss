@@ -4,7 +4,7 @@
         <title>华铧的 Blog</title>
         <link>https://hua-bang.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Mon, 14 Apr 2025 00:19:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Jul 2025 16:33:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2022-present, 华铧</copyright>
@@ -12,7 +12,7 @@
             <title><![CDATA[Life]]></title>
             <link>https://hua-bang.github.io/blog/life/</link>
             <guid>https://hua-bang.github.io/blog/life/</guid>
-            <pubDate>Mon, 14 Apr 2025 00:17:08 GMT</pubDate>
+            <pubDate>Fri, 11 Jul 2025 16:31:11 GMT</pubDate>
             <description><![CDATA[建设中]]></description>
             <content:encoded><![CDATA[<h1 id="life" tabindex="-1">Life <a class="header-anchor" href="#life" aria-label="Permalink to &quot;Life&quot;"></a></h1>
 <p>建设中</p>
@@ -22,7 +22,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://hua-bang.github.io/blog/me/</link>
             <guid>https://hua-bang.github.io/blog/me/</guid>
-            <pubDate>Mon, 14 Apr 2025 00:17:08 GMT</pubDate>
+            <pubDate>Fri, 11 Jul 2025 16:31:11 GMT</pubDate>
             <description><![CDATA[# About Me
 
 ## Self introduction
@@ -85,7 +85,7 @@
             <title><![CDATA[React]]></title>
             <link>https://hua-bang.github.io/blog/react/</link>
             <guid>https://hua-bang.github.io/blog/react/</guid>
-            <pubDate>Mon, 14 Apr 2025 00:17:08 GMT</pubDate>
+            <pubDate>Fri, 11 Jul 2025 16:31:11 GMT</pubDate>
             <description><![CDATA[关于对 React 的理解。]]></description>
             <content:encoded><![CDATA[<h1 id="react" tabindex="-1">React <a class="header-anchor" href="#react" aria-label="Permalink to &quot;React&quot;"></a></h1>
 <p>关于对 React 的理解。</p>
@@ -95,7 +95,7 @@
             <title><![CDATA[Read]]></title>
             <link>https://hua-bang.github.io/blog/read/</link>
             <guid>https://hua-bang.github.io/blog/read/</guid>
-            <pubDate>Mon, 14 Apr 2025 00:17:08 GMT</pubDate>
+            <pubDate>Fri, 11 Jul 2025 16:31:11 GMT</pubDate>
             <description><![CDATA[这里记录我的日常阅读的东西 🤔️, 尽量记录记录。]]></description>
             <content:encoded><![CDATA[<h1 id="read" tabindex="-1">Read <a class="header-anchor" href="#read" aria-label="Permalink to &quot;Read&quot;"></a></h1>
 <p>这里记录我的日常阅读的东西 🤔️, 尽量记录记录。</p>
@@ -105,7 +105,7 @@
             <title><![CDATA[Tech 🚧]]></title>
             <link>https://hua-bang.github.io/blog/tech/</link>
             <guid>https://hua-bang.github.io/blog/tech/</guid>
-            <pubDate>Mon, 14 Apr 2025 00:17:08 GMT</pubDate>
+            <pubDate>Fri, 11 Jul 2025 16:31:11 GMT</pubDate>
             <description><![CDATA[关于 Tech 的文件仍在施工中
  Knowledge Docs
 - TypeScript Note
@@ -127,11 +127,1123 @@
             <title><![CDATA[React Source Code]]></title>
             <link>https://hua-bang.github.io/blog/react/react-source-code/</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/</guid>
-            <pubDate>Mon, 14 Apr 2025 00:17:08 GMT</pubDate>
+            <pubDate>Fri, 11 Jul 2025 16:31:11 GMT</pubDate>
             <description><![CDATA[This is React Source Code.]]></description>
             <content:encoded><![CDATA[<h1 id="react-source-code" tabindex="-1">React Source Code <a class="header-anchor" href="#react-source-code" aria-label="Permalink to &quot;React Source Code&quot;"></a></h1>
 <p>This is React Source Code.</p>
 ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[三年 & 好奇心]]></title>
+            <link>https://hua-bang.github.io/blog/blog/curiosity.html</link>
+            <guid>https://hua-bang.github.io/blog/blog/curiosity.html</guid>
+            <pubDate>Sat, 05 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[三年 & 好奇心
+时间流逝很快，
+不知不觉，
+已经工作三年了。
+也借着这个时机，
+记录下刚毕业这三年吧。
+原因有二，
+一是三年时间不长也不短，自己有些变化。
+二是有段时间没写作，也想稍微写写。
+全文会]]></description>
+            <content:encoded><![CDATA[<h1 id="三年-好奇心" tabindex="-1">三年 &amp; 好奇心 <a class="header-anchor" href="#三年-好奇心" aria-label="Permalink to &quot;三年 &amp; 好奇心&quot;"></a></h1>
+<p>时间流逝很快，</p>
+<p>不知不觉，</p>
+<p>已经工作三年了。</p>
+<p>也借着这个时机，</p>
+<p>记录下刚毕业这三年吧。</p>
+<p>原因有二，</p>
+<p>一是三年时间不长也不短，自己有些变化。</p>
+<p>二是有段时间没写作，也想稍微写写。</p>
+<p>全文会偏记录写法，</p>
+<p>也许会稍微写得无序，</p>
+<p>也许会写得略显矫情，</p>
+<p>也请多多见谅。</p>
+<p>那我们开始吧。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222224.png" alt="image.png"></p>
+<h3 id="☄️-好物" tabindex="-1">☄️ 好物 <a class="header-anchor" href="#☄️-好物" aria-label="Permalink to &quot;☄️ 好物&quot;"></a></h3>
+<p>工作后发现，物品可能也有长期主义一说，</p>
+<p>能够长期使用下来的物品也许价值不低。</p>
+<p>记录下这三年我个人喜欢的物品</p>
+<ul>
+<li><strong>墨水屏</strong></li>
+<li><strong>AirPods Pro 2</strong></li>
+<li><strong>Notion</strong></li>
+</ul>
+<p><strong>墨水屏</strong></p>
+<p>记不得是 22/23 年买的设备，</p>
+<p>回想当时，也在想买不买，</p>
+<p>主要考虑下方两个点，</p>
+<p>一是当时刚开始阅读，不确定能否长期坚持。</p>
+<p>二是不确定墨水屏对阅读的作用有多大。
+<img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222241.png" alt="image.png"></p>
+<p>但最终回过头看，是一个不错的决定。</p>
+<p>墨水屏给我带来的一个启发是：</p>
+<p><strong>“该读书的时候读书”。</strong></p>
+<p>当我用墨水屏的时候，</p>
+<p>少了其他应用和通知的干扰，</p>
+<p>黑白的颜色、极简的功能让我更专注于阅读。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705223234.png" alt="image.png"></p>
+<p>在上方阅读了 450 个小时，</p>
+<p>并且，这也是我的日用品了。</p>
+<p><strong>AirPods Pro2</strong></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222304.png" alt="image.png"></p>
+<p>一款轻便的降噪入耳式耳机。</p>
+<p>记得是在线下零售店体验的，</p>
+<p>感觉降噪效果很好，于是就下单了。</p>
+<p>至今使用有两三年了。</p>
+<p>整体体验下来，几个点</p>
+<ul>
+<li><strong>降噪</strong>：在地铁/开放工位时非常有用；</li>
+<li><strong>轻便性</strong>：虽然不如普通 AirPods 轻，但仍易携带；</li>
+<li><strong>交互设计</strong>：长按、轻点、双击这些操作直觉易懂。</li>
+</ul>
+<p>当然也有缺点，</p>
+<p>比如价格偏高，入耳式佩戴舒适度因人而异。</p>
+<p>但对我而言，它是减少干扰的好帮手。</p>
+<p><strong>Notion</strong></p>
+<p>23 年起，Notion 成了我生活里的一部分。</p>
+<p>吸引我的点主要有：</p>
+<ul>
+<li>极简优雅的交互体验</li>
+<li>知识原子化的工具哲学</li>
+</ul>
+<p>日常我用它来做：</p>
+<ul>
+<li>日程记录</li>
+<li>项目归档</li>
+<li>日常写作</li>
+<li>读书记录</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222315.png" alt="image.png"></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222323.png" alt="image.png"></p>
+<p>起初，也许你会觉得记录整理很难。</p>
+<p>但请试着克服，并尝试坚持。</p>
+<p>到最后，也许你会得到思考的痕迹。</p>
+<h3 id="⌚️-一些习惯" tabindex="-1">⌚️ 一些习惯 <a class="header-anchor" href="#⌚️-一些习惯" aria-label="Permalink to &quot;⌚️ 一些习惯&quot;"></a></h3>
+<p>过去三年也养成了几个习惯</p>
+<ul>
+<li>阅读</li>
+<li>出门逛逛</li>
+<li>多与不同的人交流</li>
+</ul>
+<p><strong>阅读</strong></p>
+<p>每天会保持 30 分钟的阅读时间，</p>
+<p>同时，一周也预留一段时间，</p>
+<p>专门阅读感兴趣的话题。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222334.png" alt="image.png"></p>
+<p>阅读不限于书籍，也包括网站、公众号、博客等形式，</p>
+<p>也不局限于科技、人文社科、传记、历史等领域。</p>
+<p>而是，仅仅找到感兴趣/喜欢的内容读一读。</p>
+<p><strong>出门逛逛</strong></p>
+<p>这里也分两种吧，</p>
+<p>一是时间比较长的假期出游，</p>
+<p>二是短时间的出门走走。</p>
+<p>对于第一种，</p>
+<p>这里就不多说了，</p>
+<p>因为我感觉我出游地方还比较少，</p>
+<p>也许未来会分享。</p>
+<p>主要是第二种，</p>
+<p>比如，周末大概率会出门逛逛，</p>
+<p>可以是公园，咖啡店，街边。</p>
+<ul>
+<li>公园：能让我全然放松，恢复能量。</li>
+<li>咖啡店：能让我有“放松的专注”。</li>
+<li>街边：会让我放松观察看到形形色色的路人。</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222345.png" alt="image.png"></p>
+<p>在这些场景下，</p>
+<p>也许能做到全然的放松，</p>
+<p>从而激发一些灵感和想法吧。</p>
+<p><strong>多与不同的人交流</strong></p>
+<p>我很喜欢与不同的人交流，</p>
+<p>特别是非同龄人，非同行业的人。</p>
+<p>因为他们能提供日常我接受不到的信息，</p>
+<p>也许这是一种方差吧。</p>
+<h3 id="📖-阅读-写作" tabindex="-1">📖 阅读 &amp; 写作 <a class="header-anchor" href="#📖-阅读-写作" aria-label="Permalink to &quot;📖 阅读 &amp; 写作&quot;"></a></h3>
+<p><strong>阅读</strong></p>
+<p>“<strong>感谢世界上有书籍</strong>”。</p>
+<p><strong>书籍，是我看到世界有限切面的一种途径。</strong></p>
+<p>我仍希望跟你分享下，</p>
+<p>在我有限视角下，所看到的那些切面。</p>
+<ul>
+<li><strong>《清醒地活》</strong>：抽离情绪，让一切自然流过。</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222357.png" alt="image.png"></p>
+<ul>
+<li><strong>《你当像鸟一样飞往你的山》</strong>：你可以用很多说法来称呼这个自我：转变，蜕变，虚伪，背叛。而我称之为：教育。</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222410.png" alt="image.png"></p>
+<ul>
+<li><strong>《小王子》</strong>：你心中的小王子是否已经老去。</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222419.png" alt="image.png"></p>
+<p>有同事问我：“看那么多书，你具体是想学习啥”</p>
+<p>我回想了下，</p>
+<p>实际上，一开始读书比较功利，</p>
+<p>但后面反而成了习惯，</p>
+<p>也看很多看似“神叨叨”，“无用”的书，</p>
+<p>这些书没有教我一二三的具体方法，</p>
+<p>但也许它们在影响我自己。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222429.png" alt="image.png"></p>
+<p><strong>写作</strong></p>
+<p>工作之后，我尝试着做内容输出，</p>
+<p>三年来，在公众号发表了 50 多篇文章，</p>
+<p>也在掘金等平台，发布二三十篇。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222438.png" alt="image.png"></p>
+<p>这意味着平均每月产出 1～2 篇文章。</p>
+<p>但过程并不顺利。</p>
+<p>比如，数据并不好看，早期也因数据而灰心。</p>
+<p>比如，公众号的调性是啥，偏技术还是偏日常。</p>
+<p>比如，文章内容要博人眼球，还是沉淀深度内容。</p>
+<p>但某天貌似我自己找到了答案，</p>
+<p>我想做“有价值，能活得久”的内容，</p>
+<p>而非“内容快消品”，</p>
+<p>重要的是，我想做“自我表达”。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222452.png" alt="image.png"></p>
+<p>记录我的所思所想，</p>
+<p>不局限于具体领域。</p>
+<p>因为，它展现的是多面的我。</p>
+<p>同时，感谢阅读文章的朋友们，</p>
+<p>给了我内容的反馈，</p>
+<p>也让我持续写下去。</p>
+<h3 id="🤖-ai-编程" tabindex="-1">🤖 AI &amp; 编程 <a class="header-anchor" href="#🤖-ai-编程" aria-label="Permalink to &quot;🤖 AI &amp; 编程&quot;"></a></h3>
+<p><strong>AI</strong></p>
+<p>近几年 AI 发展太快了，</p>
+<p>似乎每隔段时间就有新惊喜。</p>
+<p>过去三年中，有一些惊喜时刻</p>
+<ul>
+<li>第一次使用 ChatGPT</li>
+<li>Claude 的 Artifacts</li>
+<li>Cursor 编辑器的出现</li>
+<li>DeepResearch 的出现</li>
+<li>Claude Code 的代码能力</li>
+</ul>
+<p>当 AI 效果能这么好时，</p>
+<p>再伴随着一定的信息差，</p>
+<p>这个时候”焦虑”就产生了。</p>
+<p>如何对抗这些“焦虑”呢？</p>
+<p>也是最好的法子是“了解它”。</p>
+<p>个人做法是：“优质信息源 + 具体实践 + 多思考”</p>
+<ul>
+<li>优质信息源：避免营销号，而是追一手信息</li>
+<li>具体实践：日常多用 AI 工具，有机会的话多尝试 AI 工程实践。</li>
+<li>多思考：这个有点抽象，比如思考 AI 对信息管理的影响。</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222506.png" alt="image.png"></p>
+<p>但同时，不要过分依赖 AI，</p>
+<p>读过《人类简史》的朋友可能知道，</p>
+<p>“也许是小麦驯化了人类”。</p>
+<p>但我们过份依赖 AI 的时候，</p>
+<p>“也许 AI 是小麦 2.0, 驯化了人类”</p>
+<p>当 AI 一直帮我们思考回答问题的时候，</p>
+<p>也许我们就不太会思考了。</p>
+<p><strong>编程</strong></p>
+<p>24/25 年 AI Coding 有很大的发展，</p>
+<p>甚至都有新名词叫 Vibe Coding，</p>
+<p>即氛围编程，AI 帮完成大量编码。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222521.png" alt="image.png"></p>
+<p>当去年 Claude 的 Artifacts 的能力出现，</p>
+<p>今年朋友反馈新模块 70% 的编码是 Cursor 写的，</p>
+<p>近期产品同学 Vibe Coding 生成交互原型和小产品模块。</p>
+<p>像 YouWare 已经在做相关内容平台的创业了。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222534.png" alt="image.png"></p>
+<p>越来越感觉到</p>
+<p><strong>AI + Coding，已逐渐成熟</strong></p>
+<p>Coding，是一种新形态的内容</p>
+<p><strong>AI/Vibe Coding，或许就是新的创作方式</strong></p>
+<p>关于 AI Coding，</p>
+<p>我还想描述下。</p>
+<p>记得 18 年刚学编程的时候，</p>
+<p>是根据师兄给的百度网盘的资料，</p>
+<p>以及编程语言的网站，</p>
+<p>结合两边信息，</p>
+<p>然后去试着编码。</p>
+<p>而近期用 Claude Code,</p>
+<p>其效果是有些超预期的，</p>
+<p>可以在短短几分钟，</p>
+<p>生成较为质量还不错的代码。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222545.png" alt="image.png"></p>
+<p>从结果上看，</p>
+<p>貌似后者更好，</p>
+<p>但实际上，</p>
+<p>后者缺乏了过程，</p>
+<p>而这些“过程细节”，</p>
+<p>恰恰就是我们能深入学习理解的时机。</p>
+<p>而从感受来说，</p>
+<p>前者虽然花费时间长，效果一般，</p>
+<p>但正是这个给我带来创造的感觉，</p>
+<p>让我持续地迭代。</p>
+<p><strong>我永远也记得，</strong></p>
+<p><strong>第一次手写画出课程表的满足感，</strong></p>
+<p>即使代码非常地简单。</p>
+<p>我并非反对 Vibe Coding，</p>
+<p>恰恰相反，</p>
+<p>我觉得它在快速验证，原型迭代，辅助编码的场景，</p>
+<p>它反而是优先选择，</p>
+<p>能够提供不少效率，</p>
+<p>能让想法快速落地，</p>
+<p>但其可能也有代价。</p>
+<p>实际上，</p>
+<p>我更愿意称“AI/Vibe Coding 是代码界的短视频”。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222557.png" alt="image.png"></p>
+<p>我们需要平衡这两者，</p>
+<p>真正的智慧，也许在于中道。</p>
+<h3 id="🤔-想法记录" tabindex="-1">🤔 想法记录 <a class="header-anchor" href="#🤔-想法记录" aria-label="Permalink to &quot;🤔 想法记录&quot;"></a></h3>
+<p>作为一个喜欢发散思路的人，</p>
+<p>脑里其实会有不少的想法，</p>
+<p>以及我还喜欢记录，</p>
+<p>所以会记录上述所说的想法，</p>
+<p>也会记录一些外部给的输入。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222614.png" alt="image.png"></p>
+<p>在这里也希望分享下。</p>
+<ul>
+<li>理论构思可以绘制框架，但动手实践才能有具体反馈。</li>
+<li>信息应该是可关联，可用多种形态表达，即时反馈的。</li>
+<li>我们看到的只是世界的一个切面，并非完整表达。</li>
+</ul>
+<p>当然还有很多，</p>
+<p>同时，我也不是说教，</p>
+<p>因为上方的观点，</p>
+<p>“可能都是错的”，</p>
+<p>而是仅仅想分享罢了。</p>
+<h3 id="😄-好奇心" tabindex="-1">😄 好奇心 <a class="header-anchor" href="#😄-好奇心" aria-label="Permalink to &quot;😄 好奇心&quot;"></a></h3>
+<p>人会偏向于突出自己好的一面，</p>
+<p>因为这会表现得比较美好。</p>
+<p>而实际上我也不例外，</p>
+<p>在写博客的时候，</p>
+<p>在写前面内容的时候，</p>
+<p>我尽可能表现积极的一面，</p>
+<p>很少表达出消极的一面。</p>
+<p>但在这里，</p>
+<p>我想聊聊，</p>
+<p>这几年失去了什么。</p>
+<p>也许很多，</p>
+<p>但想专门聊聊“好奇心”。</p>
+<p>某天，</p>
+<p>看到一篇关于老罗访谈的文章，</p>
+<p>里面有句话：</p>
+<p>“<strong>这些人身上那种对自己不了解或未接触过的事物所展现出的好奇心和强烈的求知欲，在学生时代很普遍，但在成年人的世界里非常罕见。”</strong></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222626.png" alt="image.png"></p>
+<p>不知为什么，</p>
+<p>这段时间，我一直惦记着这段话。</p>
+<p>而后几天，</p>
+<p>有实验室的小伙伴来实习了，</p>
+<p>聊了聊实验室的小伙伴们的情况，</p>
+<p>又回想了学生时代的日子，</p>
+<p>那时候，似乎总是充满着热情与好奇。</p>
+<p>可以不计个人利益得失，</p>
+<p>花时间在探索新鲜事物上吧。</p>
+<p>《小王子》中有一句话，</p>
+<p><strong>“小王子提出问题后总是非得到答案不可。”</strong></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222635.png" alt="image.png"></p>
+<p>现在的我，</p>
+<p>还算喜欢去探索新事物，</p>
+<p>但我明显地感受到，</p>
+<p>那远不如学生时期的那个我。</p>
+<p>“好奇心”也许慢慢在消磨，</p>
+<p>有些问题也不愿追求答案，</p>
+<p>探索可能也止步于想法。</p>
+<p>也许我心中的小王子已慢慢成熟，</p>
+<p>但是我希望他能保持年轻心态。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222645.png" alt="image.png"></p>
+<h3 id="👀-最后" tabindex="-1">👀 最后 <a class="header-anchor" href="#👀-最后" aria-label="Permalink to &quot;👀 最后&quot;"></a></h3>
+<p>写到这里，</p>
+<p>文章内容和我最初设想的不太一致，</p>
+<p>也许这就是理论和实践的差距，</p>
+<p>也许这就是计划和变化的不同。</p>
+<p>正如三年前做了规划，</p>
+<p>但貌似今天的我，</p>
+<p>和规划的我大有不同，</p>
+<p>但更为真实。</p>
+<p>希望下一个三年的我，</p>
+<p>还能保持阅读，写作，探索的习惯，</p>
+<p>并且保持那颗好奇心。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222653.png" alt="image.png"></p>
+]]></content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250705222224.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[概述]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/data-structure/</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/data-structure/</guid>
+            <pubDate>Wed, 11 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[概述
+ 数据结构分类
+常见的数据结构包括数组、链表、栈、队列、哈希表、图、树、堆，可以从“逻辑结构”和“物理结构”进行分类。
+ 逻辑结构：线性与非线性
+逻辑结构揭示了数据元素之间的逻辑关系。如
+- 在]]></description>
+            <content:encoded><![CDATA[<h1 id="概述" tabindex="-1">概述 <a class="header-anchor" href="#概述" aria-label="Permalink to &quot;概述&quot;"></a></h1>
+<h2 id="数据结构分类" tabindex="-1">数据结构分类 <a class="header-anchor" href="#数据结构分类" aria-label="Permalink to &quot;数据结构分类&quot;"></a></h2>
+<p>常见的数据结构包括数组、链表、栈、队列、哈希表、图、树、堆，可以从“逻辑结构”和“物理结构”进行分类。</p>
+<h3 id="逻辑结构-线性与非线性" tabindex="-1">逻辑结构：线性与非线性 <a class="header-anchor" href="#逻辑结构-线性与非线性" aria-label="Permalink to &quot;逻辑结构：线性与非线性&quot;"></a></h3>
+<p><strong>逻辑结构揭示了数据元素之间的逻辑关系</strong>。如</p>
+<ul>
+<li>在数组和链表中，数据按照一定顺序排列，体现了数据之间的线性关系；</li>
+<li>而在树中，数据从顶部向下按层次排列，表现出“祖先”与“后代”之间的派生关系；</li>
+<li>图则由节点和边构成，反映了复杂的网络关系。</li>
+</ul>
+<p>可分为“线性”与“非线性”两部分。线性结构比较直观，指数据在逻辑关系上呈线性排列；非线性结构则相反，呈非线性排列。</p>
+<ul>
+<li><strong>线性数据结构</strong>：数组、链表、栈、队列，元素是一对一的顺序关系。</li>
+<li><strong>非线性数据结构</strong>：树、堆、图、哈希表。</li>
+</ul>
+<p>非线性数据结构可以进一步划分为树形结构和网状结构。</p>
+<ul>
+<li><strong>树形结构</strong>：树、堆、哈希表，元素之间是一对多的关系。</li>
+<li><strong>网状结构</strong>：图，元素之间是多对多的关系。
+<img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250611082443.png" alt="image.png"></li>
+</ul>
+<h3 id="物理结构-连续与分散" tabindex="-1">物理结构：连续与分散 <a class="header-anchor" href="#物理结构-连续与分散" aria-label="Permalink to &quot;物理结构：连续与分散&quot;"></a></h3>
+<p><strong>物理结构反映了数据在计算机内存中的存储方式</strong>，可分为连续空间存储（数组）和分散空间存储（链表）。
+<img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250611082517.png" alt="image.png"></p>
+<p><strong>所有数据结构都是基于数组、链表或二者的组合实现的</strong></p>
+<ul>
+<li><strong>基于数组可实现</strong>：栈、队列、哈希表、树、堆、图、矩阵、张量（维度 ≥3 的数组）等。</li>
+<li><strong>基于链表可实现</strong>：栈、队列、哈希表、树、堆、图等。</li>
+</ul>
+<h2 id="基本数据类型" tabindex="-1">基本数据类型 <a class="header-anchor" href="#基本数据类型" aria-label="Permalink to &quot;基本数据类型&quot;"></a></h2>
+<p><strong>基本数据类型是 CPU 可以直接进行运算的类型</strong>，在算法中直接被使用，主要包括以下几种。</p>
+<p>基本数据类型以二进制的形式存储在计算机中。一个二进制位即为
+1 比特。在绝大多数现代操作系统中，1 字节（byte）由
+8 比特（bit）组成。</p>
+]]></content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250611082443.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[空间复杂度]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/complexity-analysis/space-complexity.html</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/complexity-analysis/space-complexity.html</guid>
+            <pubDate>Mon, 09 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[空间复杂度
+空间复杂度 用于衡量算法占用内存空间随数据变大的增长趋势。
+ 算法相关空间
+- 输入空间：用于存储算法的输入数据。
+- 暂存空间：用于存储算法在运行过程中的变量、对象、函数上下文等数据。
+]]></description>
+            <content:encoded><![CDATA[<h1 id="空间复杂度" tabindex="-1">空间复杂度 <a class="header-anchor" href="#空间复杂度" aria-label="Permalink to &quot;空间复杂度&quot;"></a></h1>
+<p><strong>空间复杂度</strong> 用于衡量算法占用内存空间随数据变大的增长趋势。</p>
+<h2 id="算法相关空间" tabindex="-1">算法相关空间 <a class="header-anchor" href="#算法相关空间" aria-label="Permalink to &quot;算法相关空间&quot;"></a></h2>
+<ul>
+<li><strong>输入空间</strong>：用于存储算法的输入数据。</li>
+<li><strong>暂存空间</strong>：用于存储算法在运行过程中的变量、对象、函数上下文等数据。</li>
+<li><strong>输出空间</strong>：用于存储算法的输出数据。</li>
+</ul>
+<p>一般情况下，空间复杂度 = “暂存空间” + “输出空间”。</p>
+<p>暂存空间可以进一步划分：</p>
+<ul>
+<li><strong>暂存数据</strong>：用于保存算法运行过程中的各种常量、变量、对象等。</li>
+<li><strong>栈帧空间</strong>：用于保存调用函数的上下文数据。系统在每次调用函数时都会在栈顶部创建一个栈帧，函数返回后，栈帧空间会被释放。</li>
+<li><strong>指令空间</strong>：用于保存编译后的程序指令，在实际统计中通常忽略不计。</li>
+</ul>
+<p>所以我们一般统计，暂存数据 + 栈帧空间 + 输出数据三部份。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250610083119.png" alt=""></p>
+<h2 id="推算方法" tabindex="-1">推算方法 <a class="header-anchor" href="#推算方法" aria-label="Permalink to &quot;推算方法&quot;"></a></h2>
+<p>空间复杂度的推算方法与时间复杂度大致相同，只需将统计对象从“操作数量”转为“使用空间大小”。</p>
+<p>而与时间复杂度不同的是，我们通常只关注最差空间复杂度。这是因为内存空间是一项硬性要求，我们必须确保在所有输入数据下都有足够的内存空间预留。</p>
+<p>观察以下代码，最差空间复杂度中的“最差”有两层含义。</p>
+<ol>
+<li>
+<p><strong>以最差输入数据为准</strong>：当 n&lt;10 时，空间复杂度为 O(1) ；但当 n&gt;10 时，初始化的数组 <code>nums</code> 占用 O(n) 空间，因此最差空间复杂度为 O(n) 。</p>
+</li>
+<li>
+<p><strong>以算法运行中的峰值内存为准</strong>：例如，程序在执行最后一行之前，占用 O(1) 空间；当初始化数组 <code>nums</code> 时，程序占用 O(n) 空间，因此最差空间复杂度为 O(n) 。</p>
+</li>
+</ol>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> algorithm</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> void</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> a</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;                   </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// O(1)</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> b</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> Array</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">10000</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);    </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// O(1)</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">></span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 10</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">        const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> nums</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> Array</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n); </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">// O(n)</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><p>在递归函数中，需要统计栈帧空间啊。</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> constFunc</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">()</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 执行某些操作</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 循环的空间复杂度为 O(1) */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> loop</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> void</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">        constFunc</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">();</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 递归的空间复杂度为 O(n) */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> recur</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> void</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">===</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> recur</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h2 id="常见类型" tabindex="-1">常见类型 <a class="header-anchor" href="#常见类型" aria-label="Permalink to &quot;常见类型&quot;"></a></h2>
+<p>常见空间复杂度排序：</p>
+<div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span>O(1) &#x3C; O(log n) &#x3C; O(n) &#x3C; O(n ^ 2) &#x3C; O(2 ^ n)</span></span></code></pre>
+</div><p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250610083709.png" alt="image.png"></p>
+<h3 id="常数阶" tabindex="-1">常数阶 <a class="header-anchor" href="#常数阶" aria-label="Permalink to &quot;常数阶&quot;"></a></h3>
+<p>常数阶常见于数量与输入数据大小 n 无关的常量、变量、对象。</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 函数 */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> constFunc</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">()</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 执行某些操作</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 常数阶 */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> constant</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> void</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 常量、变量、对象占用 O(1) 空间</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> a</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> b</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> nums</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> Array</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">10000</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> node</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> ListNode</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 循环中的变量占用 O(1) 空间</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">        const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> c</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 循环中的函数占用 O(1) 空间</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">        constFunc</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">();</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h3 id="线性阶-o-n" tabindex="-1">线性阶 O(n) <a class="header-anchor" href="#线性阶-o-n" aria-label="Permalink to &quot;线性阶 O(n)&quot;"></a></h3>
+<p>线性阶常用于元素数量与 n 成正比的数组、链表、栈、队列等。</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> linear</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> void</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> nums</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> Array</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n);</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    nums[i] </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  }</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">  return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> num;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><p>递归情况也可以是线性阶</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 线性阶（递归实现） */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> linearRecur</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> void</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    console.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">log</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">`递归 n = ${</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">n</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">}`</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">===</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">    linearRecur</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h3 id="平方阶-o-n-2" tabindex="-1">平方阶 O(n ^ 2) <a class="header-anchor" href="#平方阶-o-n-2" aria-label="Permalink to &quot;平方阶 O(n ^ 2)&quot;"></a></h3>
+<p>平方阶常见于矩阵和图，元素数量与 n 成平方关系：</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 平方阶 */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> quadratic</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> void</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 矩阵占用 O(n^2) 空间</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> numMatrix</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> Array</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n)</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        .</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">fill</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">null</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        .</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">map</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(() </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=></span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> Array</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n).</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">fill</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">null</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">));</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 二维列表占用 O(n^2) 空间</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> numList</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> [];</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">        const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> tmp</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> [];</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">        for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> j </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; j </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; j</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">            tmp.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">push</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        numList.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">push</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(tmp);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h3 id="指数阶-o-2-n" tabindex="-1">指数阶 O(2 ^ n) <a class="header-anchor" href="#指数阶-o-2-n" aria-label="Permalink to &quot;指数阶 O(2 ^ n)&quot;"></a></h3>
+<p>指数阶常见于二叉树。层数为 n 的“满二叉树”的节点数量为 $2^n-1$ ，占用 $2 ^ n$ 空间：</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 指数阶（建立满二叉树） */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> buildTree</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> TreeNode</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> |</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> null</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">===</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">return</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> null</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> root</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> new</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> TreeNode</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    root.left </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> buildTree</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    root.right </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> buildTree</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> root;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250610084617.png" alt="image.png"></p>
+<h3 id="对数阶" tabindex="-1">对数阶 <a class="header-anchor" href="#对数阶" aria-label="Permalink to &quot;对数阶&quot;"></a></h3>
+<p>对数阶常见于分治算法。例如归并排序，输入长度为 n 的数组，每轮递归将数组从中点处划分为两半，形成高度为 log⁡n 的递归树，使用 O(log⁡n) 栈帧空间。</p>
+<p>再例如将数字转化为字符串，输入一个正整数 n ，它的位数为 ⌊log10⁡n⌋+1 ，即对应字符串长度为 ⌊log10⁡n⌋+1 ，因此空间复杂度为 O(log10⁡n+1)=O(log⁡n) 。</p>
+<h2 id="权衡时间与空间" tabindex="-1">权衡时间与空间 <a class="header-anchor" href="#权衡时间与空间" aria-label="Permalink to &quot;权衡时间与空间&quot;"></a></h2>
+<p>理想情况下，我们希望算法的时间复杂度和空间复杂度都能达到最优。然而在实际情况中，同时优化时间复杂度和空间复杂度通常非常困难。</p>
+<p><strong>降低时间复杂度通常意味着要提升空间复杂度为代价，反之亦然。</strong> 即“空间换时间”以及“时间换空间”。</p>
+]]></content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250610083119.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[时间复杂度]]></title>
+            <link>https://hua-bang.github.io/blog/algorithms/complexity-analysis/time-complexity.html</link>
+            <guid>https://hua-bang.github.io/blog/algorithms/complexity-analysis/time-complexity.html</guid>
+            <pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[时间复杂度
+时间复杂度，并不是计算算法的运行时间，而是表示算法运行时间和输入规模的关系。
+ 函数渐进上界
+时间复杂度分析的本质是计算算法的渐进上界。
+渐进上界的定义是：
+
+&gt; 
+其中，$T(n)]]></description>
+            <content:encoded><![CDATA[<h1 id="时间复杂度" tabindex="-1">时间复杂度 <a class="header-anchor" href="#时间复杂度" aria-label="Permalink to &quot;时间复杂度&quot;"></a></h1>
+<p>时间复杂度，并不是计算算法的运行时间，而是表示算法运行时间和输入规模的关系。</p>
+<h2 id="函数渐进上界" tabindex="-1">函数渐进上界 <a class="header-anchor" href="#函数渐进上界" aria-label="Permalink to &quot;函数渐进上界&quot;"></a></h2>
+<p>时间复杂度分析的本质是计算算法的渐进上界。
+渐进上界的定义是：</p>
+<blockquote>
+<p>存在一个常数 $c$ 和一个函数 $f(n)$，使得当 $n \geq n_0$ 时，有 $T(n) \leq c \cdot f(n)$。</p>
+</blockquote>
+<p>其中，$T(n)$ 是算法的运行时间，$n$ 是输入规模，$c$ 是常数，$f(n)$ 是一个函数。</p>
+<p>我们用 O 符号来表示渐进上界，即 $T(n) = O(f(n))$。</p>
+<p>举个具体例子：</p>
+<div class="language-c vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">c</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">int</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> sum</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">int</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70"> n</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    int</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> s </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">int</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        s </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> s;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><p>上面的代码中，我们用了一个 for 循环，循环了 $n$ 次，所以时间复杂度为 $O(n)$。</p>
+<p>所以，计算渐进上线就是寻找一个函数 $f(n)$，使当 $n$ 无穷大时,  $T(n)$ 和 $f(n)$
+处于相同的增长级别，仅相差一个常数项 $c$
+的倍数。</p>
+<h2 id="推算方法" tabindex="-1">推算方法 <a class="header-anchor" href="#推算方法" aria-label="Permalink to &quot;推算方法&quot;"></a></h2>
+<h3 id="统计操作数量" tabindex="-1">统计操作数量 <a class="header-anchor" href="#统计操作数量" aria-label="Permalink to &quot;统计操作数量&quot;"></a></h3>
+<ol>
+<li>忽略 Tn 的常数项：常数项都看成 1</li>
+<li>忽略所有系数：忽略所有系数，只保留最高阶项</li>
+<li>循环嵌套用乘法：如果有嵌套循环，那么就用乘法</li>
+<li>加法去掉低阶：如果包含加法，并存在低阶项，可以忽略低阶项</li>
+</ol>
+<h3 id="判断渐进上界" tabindex="-1">判断渐进上界 <a class="header-anchor" href="#判断渐进上界" aria-label="Permalink to &quot;判断渐进上界&quot;"></a></h3>
+<p>时间复杂度由 $T(n)$
+中最高阶的项来决定。这是因为在
+趋于无穷大时，最高阶的项将发挥主导作用，其他项的影响都可以忽略。</p>
+<h2 id="常见类型" tabindex="-1">常见类型 <a class="header-anchor" href="#常见类型" aria-label="Permalink to &quot;常见类型&quot;"></a></h2>
+<p>常见时间复杂度排序：</p>
+<div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span>$O(1) &#x3C; O(logn) &#x3C; O(n) &#x3C; O(nlogn) &#x3C; O(n^2) &#x3C; O(n^3) &#x3C; O(2^n) &#x3C; O(n!) &#x3C; O(n^n)$</span></span></code></pre>
+</div><h3 id="常数阶-o-1" tabindex="-1">常数阶 O(1) <a class="header-anchor" href="#常数阶-o-1" aria-label="Permalink to &quot;常数阶 O(1)&quot;"></a></h3>
+<p>常数阶操作数量和输入数据大小无关，即不随着 n 的变化而变化。</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 常数阶 */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> constant</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> count </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    const</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> size</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> =</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 100000</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> size; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) count</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> count;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h3 id="线性阶-o-n" tabindex="-1">线性阶 O(n) <a class="header-anchor" href="#线性阶-o-n" aria-label="Permalink to &quot;线性阶 O(n)&quot;"></a></h3>
+<p>先行阶操作数量和输入数据大小成线性变化。</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 线性阶 */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> linear</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> count </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) count</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> count;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h3 id="平方阶-o-n-2" tabindex="-1">平方阶 $O(n ^ 2)$ <a class="header-anchor" href="#平方阶-o-n-2" aria-label="Permalink to &quot;平方阶 $O(n ^ 2)$&quot;"></a></h3>
+<p>先行阶操作数量和输入数据大小成平方级别变化。平方阶通常出现在嵌套循环中，外层循环和内层循环的时间复杂度都为 $O(n)$, 总时间复杂度为 $O(n^2)$</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 平方阶 */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> quadratic</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> count </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">    // 循环次数与数据大小 n 成平方关系</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">        for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> j </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; j </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; j</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">            count</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> count;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h3 id="指数阶-o-2-n" tabindex="-1">指数阶 $O(2^n)$ <a class="header-anchor" href="#指数阶-o-2-n" aria-label="Permalink to &quot;指数阶 $O(2^n)$&quot;"></a></h3>
+<p>指数阶通常出现在递归算法中，递归算法的时间复杂度为 $O(2^n)$</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 指数阶 */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> exponential</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">return</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> exponential</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> exponential</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h3 id="对数阶-o-logn" tabindex="-1">对数阶 $O(logn)$ <a class="header-anchor" href="#对数阶-o-logn" aria-label="Permalink to &quot;对数阶 $O(logn)$&quot;"></a></h3>
+<p>对数阶通常出现在二分查找算法中，二分查找算法的时间复杂度为 $O(logn)$</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 对数阶 */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> logarithmic</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> count </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    while</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">></span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">/</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        count</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> count;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h3 id="线性对数阶-o-nlogn" tabindex="-1">线性对数阶 $O(nlogn)$ <a class="header-anchor" href="#线性对数阶-o-nlogn" aria-label="Permalink to &quot;线性对数阶 $O(nlogn)$&quot;"></a></h3>
+<p>线性对数阶通常出现在归并排序算法中，归并排序算法的时间复杂度为 $O(nlogn)$</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 线性对数阶 */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> linearLogRecur</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">return</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> count </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> linearLogRecur</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">/</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">+</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> linearLogRecur</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">/</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 2</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">);</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    for</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">; i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n; i</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">        count</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">++</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    }</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> count;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h3 id="阶乘阶-o-n" tabindex="-1">阶乘阶 $O(n!)$ <a class="header-anchor" href="#阶乘阶-o-n" aria-label="Permalink to &quot;阶乘阶 $O(n!)$&quot;"></a></h3>
+<p>阶乘阶通常出现在全排列算法中，全排列算法的时间复杂度为 $O(n!)$</p>
+<div class="language-ts vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D">/* 阶乘阶 */</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">function</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> factorial</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70">n</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> number</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> (n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">&#x3C;=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">return</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">    return</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> factorial</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(n </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">-</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> 1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">) </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">*</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> n;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">}</span></span></code></pre>
+</div><h2 id="最差、最佳、平均时间复杂度" tabindex="-1">最差、最佳、平均时间复杂度 <a class="header-anchor" href="#最差、最佳、平均时间复杂度" aria-label="Permalink to &quot;最差、最佳、平均时间复杂度&quot;"></a></h2>
+<ul>
+<li>最差时间复杂度：在最坏情况下，算法的时间复杂度。</li>
+<li>最佳时间复杂度：在最好情况下，算法的时间复杂度。</li>
+<li>平均时间复杂度：算法在所有可能情况下，平均时间复杂度。</li>
+</ul>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[观察与倾听]]></title>
+            <link>https://hua-bang.github.io/blog/blog/Observe-and-listen.html</link>
+            <guid>https://hua-bang.github.io/blog/blog/Observe-and-listen.html</guid>
+            <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[观察与倾听
+五月初听关于"读书日"的播客，
+嘉宾推荐了《清醒地活》这本书。
+好巧不巧，
+此前也有朋友推荐我读，
+但我由于书名感觉像畅销书，
+便一直没有着手去读。
+但后来我稍微了解了这本书，
+实际上涉及]]></description>
+            <content:encoded><![CDATA[<h1 id="观察与倾听" tabindex="-1">观察与倾听 <a class="header-anchor" href="#观察与倾听" aria-label="Permalink to &quot;观察与倾听&quot;"></a></h1>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/4d73ed4b935d79d150ff0f19d088edd2.jpg" alt="4d73ed4b935d79d150ff0f19d088edd2.jpg"></p>
+<p>五月初听关于&quot;读书日&quot;的播客，</p>
+<p>嘉宾推荐了《清醒地活》这本书。</p>
+<p>好巧不巧，</p>
+<p>此前也有朋友推荐我读，</p>
+<p>但我由于书名感觉像畅销书，</p>
+<p>便一直没有着手去读。</p>
+<p>但后来我稍微了解了这本书，</p>
+<p>实际上涉及<strong>心理</strong>，<strong>情绪</strong>，<strong>哲学</strong>等方面，</p>
+<p><strong>于是，我决定放下固有偏见，去读一读</strong>。</p>
+<h3 id="观察内心的舍友" tabindex="-1">观察内心的舍友 <a class="header-anchor" href="#观察内心的舍友" aria-label="Permalink to &quot;观察内心的舍友&quot;"></a></h3>
+<p>我们大脑中会时刻充满不同的想法，</p>
+<ul>
+<li>&quot;今天出去吃了饭，看了电影，真开心！&quot;</li>
+<li>&quot;假期又下雨了，出门计划泡汤，真扫兴…&quot;</li>
+<li>&quot;朋友就要各奔东西了，心里空落落的…&quot;</li>
+<li>&quot;假期就要过了，明天就要复工，好焦虑…&quot;</li>
+</ul>
+<p><strong>并且，我会把认同这些观点，并作为我当下状态的定义。</strong></p>
+<p>但书中却给了我一个不一样的视角，</p>
+<p>他把这些想法，都比喻成住在你心里&quot;舍友&quot;的个人想法。</p>
+<p>并指出：<strong>&quot;你不是那个舍友，而是能'听到'舍友'说话的那个人&quot;</strong>。</p>
+<p>实际上，这些想法是你心中的舍友发出的，</p>
+<p><strong>而你是捕捉了这个想法，并且被吸引过去了</strong>。</p>
+<p>倘若我们用接受了这个视角，</p>
+<p>那么我们可以去观察这个舍友，</p>
+<p>这些想法，也就是舍友的声音。</p>
+<p>也许会发现，</p>
+<ul>
+<li><strong>念头并非属于我</strong>：这些想法不是我的，而是舍友的。</li>
+<li><strong>情绪并非真理</strong>：这些想法背后的情绪，也许对，也许不一定对。</li>
+<li><strong>想法并非事实</strong>：甚至说这个想法并非事实，也许并非事件的全貌。</li>
+</ul>
+<p>也许，这个“舍友”是由你过去的经验，自身价值观，过往环境所拼接的人。</p>
+<p>而你自己，是<strong>那个拥有觉知、能够静静观察这一切发生的意识空间本身。</strong></p>
+<p>而当我们分离成主客体之外，很神奇的事情发生了。</p>
+<p>“同一件事，你的看法不同了，以及，也许你也能更好面对了。”</p>
+<p>也许你会发现，</p>
+<p><strong>“内心少了些嘈杂，多了一点平静”。</strong></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/62b9b1652faf49560061b022959bd289.jpg" alt="62b9b1652faf49560061b022959bd289.jpg"></p>
+<h3 id="倾听背后情绪" tabindex="-1">倾听背后情绪 <a class="header-anchor" href="#倾听背后情绪" aria-label="Permalink to &quot;倾听背后情绪&quot;"></a></h3>
+<p>“观察”是拉开距离看，</p>
+<p>“倾听”则是更深入地<strong>感受和容纳</strong>。</p>
+<p>我们要留意“舍友”声音背后的情绪。</p>
+<p>早些年，对于“坏”情绪，</p>
+<p>我是比较抗拒，</p>
+<ul>
+<li>悲伤来了，想立刻赶走；</li>
+<li>愤怒升起，或压抑或爆发；</li>
+<li>焦虑缠绕，只想逃避。</li>
+</ul>
+<p>但实际上，也许更好的方式是。</p>
+<p>“允许各种情绪存在，想倾听自然的声音一样，去倾听情绪本身”。</p>
+<p>不评判它好与坏，不着急改变它，</p>
+<p>而是仅仅允许它存在，并流过你的身体。</p>
+<p>在刚工作的头一两年，</p>
+<p>有段时间状态不太好,</p>
+<p>那时的我，确实会抗拒情绪，</p>
+<p>从而耗了太多的精气神。</p>
+<p>但实际反而更加的“内耗”。</p>
+<p>但后面回头看的时候，也许</p>
+<p><strong>情绪本身不是问题，</strong></p>
+<p><strong>我们与情绪对抗、纠缠、试图消灭它的过程，</strong></p>
+<p><strong>才是真正的消耗。</strong></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/543403ae28765fb6eb5419a7e8df4504.jpg" alt="543403ae28765fb6eb5419a7e8df4504.jpg"></p>
+<h3 id="让一切自然流过" tabindex="-1">让一切自然流过 <a class="header-anchor" href="#让一切自然流过" aria-label="Permalink to &quot;让一切自然流过&quot;"></a></h3>
+<p>我们观察了内心的舍友，</p>
+<p>也感受和容纳背后的情绪。</p>
+<p>那么，我们接着该怎么办呢。</p>
+<p>书中并没有教你“控制”或“消灭”这些念头和情绪，</p>
+<p>反而提到了一个很美的比喻，</p>
+<p><strong>把自己想象成天空，把想法和情绪想象成天空中的云朵。</strong></p>
+<p>云朵会来，也会走，</p>
+<p>有时是白云朵朵，有时是乌云密布，</p>
+<p>但天空始终是天空，</p>
+<p>它不会因为云的变化而改变自己的本质。</p>
+<p>你不需要抓取美好的感受想要留住，</p>
+<p>也不应该推开痛苦的情绪想要赶走。</p>
+<p><strong>仅仅是让这一切自然地流过</strong>。</p>
+<p>“让一切自然流过”并不意味着消极应对，</p>
+<p>它并不是另外一个极端。</p>
+<p>但抱歉，我目前无法很好形容“让一切自然流过”，</p>
+<p>如果真要形容的话，</p>
+<p>我会用“平常心面对”这句话来比喻吧。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/3ed9be3bafa899ccbcb6c23e19323560.jpg" alt="3ed9be3bafa899ccbcb6c23e19323560.jpg"></p>
+<h3 id="最后" tabindex="-1">最后 <a class="header-anchor" href="#最后" aria-label="Permalink to &quot;最后&quot;"></a></h3>
+<p>关于《清醒地活》这本书，</p>
+<p>起初我对它有所偏见，</p>
+<p>可能是因为这本书的书名吧，</p>
+<p>也当心这是一本“鸡汤”。</p>
+<p>但读完后，</p>
+<p>反倒是让我有了新的视角，</p>
+<p>以及，</p>
+<p>联系起了以往/当下的经历。</p>
+<p>几年前，</p>
+<p>也有朋友和我说过“抽离情绪”，“旁观者做观察”的观点，</p>
+<p>但当时的我并不太能理解，</p>
+<p>而现在，也许我理解又近了一小步。</p>
+<p>同时，这本书涉及心理学、神经科学、禅修与哲学的理论知识。</p>
+<p>如里面的</p>
+<ul>
+<li>**“让一切流过”**和《道德经》的无为有所联系。</li>
+<li>**“中道的奥秘”**也和《道德经》中&quot;避免走极端，而是追求平衡&quot;的思想相关</li>
+<li>**“心中的舍友”**和佛学中的“无我”、“相”的概念也有点类似。</li>
+</ul>
+<p>而当这一切相关联的时候，</p>
+<p>也许会有种奇特的感觉。</p>
+<p>最后以书中一句话结尾吧。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/3bce41519fe472263fe7dc2ef956c44e.jpg" alt="3bce41519fe472263fe7dc2ef956c44e.jpg"></p>
+]]></content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/hua-bang/assert-store/master/4d73ed4b935d79d150ff0f19d088edd2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[有概率的非共识]]></title>
+            <link>https://hua-bang.github.io/blog/blog/fellou.html</link>
+            <guid>https://hua-bang.github.io/blog/blog/fellou.html</guid>
+            <pubDate>Sun, 04 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+# 有概率的非共识
+
+“有概率的非共识”
+
+这是在一期博客中提到的一个观点。
+
+个人理解是，
+
+**“选择别人暂时不看好的方向，**
+
+**但不是盲目赌运气，**
+
+**而是在调查论证后确认自己仍有获胜把握的那条偏门路。”**
+
+举个例子
+
+想像大家都去同一条“淘金河”里挖沙子，
+
+你却在旁边一条看 似不起眼的小溪发现还有金块——多数人不信，
+
+但你已经探过水、算过机会，知道“真有可能捞到金子”。
+
+这一两年，关于 AI 方向的探索有挺多，
+
+而 AI 浏览器也是其中一个方向。
+
+并且在今年也有一些进展
+
+- Arc 背后公司开始做新一代 AI 原生浏览器 DIA
+- Authing 创始人开始做 Agentic Browser，叫做 Fellou
+	![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182646.png)
+
+- Perplexity AI 的 **Comet** 是一款定位 “Agentic Search” 的全新浏览器，预计 2025 年 5 月中旬开放公测。
+
+最近刚好有 fellou 的邀请码，也简单地聊一聊产品和使用感受。
+
+## 定位
+
+**Fellou 自称“全球首款 Agentic Browser”**：不仅提供 AI 辅助搜索，而是把“浏览器+AI Agent”融合成一个可执行复杂工作流的“数字伙伴”。官方口号是“Beyond browsing, into action.”
+
+从字面上理解， 将 Fellou 定位成从浏览延伸到“Action”的智能伙伴，目标是让浏览器直接执行任务而非仅呈现网页。
+
+所以，目前的交互形式还是已对话框为主，具体而言如下图。
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182658.png)
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182954.png)
+
+## 功能
+
+在功能上，主要要下方几个核心功能。
+
+|功能|说明|
+|]]></description>
+            <content:encoded><![CDATA[<h1 id="有概率的非共识" tabindex="-1">有概率的非共识 <a class="header-anchor" href="#有概率的非共识" aria-label="Permalink to &quot;有概率的非共识&quot;"></a></h1>
+<p>“有概率的非共识”</p>
+<p>这是在一期博客中提到的一个观点。</p>
+<p>个人理解是，</p>
+<p><strong>“选择别人暂时不看好的方向，</strong></p>
+<p><strong>但不是盲目赌运气，</strong></p>
+<p><strong>而是在调查论证后确认自己仍有获胜把握的那条偏门路。”</strong></p>
+<p>举个例子</p>
+<p>想像大家都去同一条“淘金河”里挖沙子，</p>
+<p>你却在旁边一条看 似不起眼的小溪发现还有金块——多数人不信，</p>
+<p>但你已经探过水、算过机会，知道“真有可能捞到金子”。</p>
+<p>这一两年，关于 AI 方向的探索有挺多，</p>
+<p>而 AI 浏览器也是其中一个方向。</p>
+<p>并且在今年也有一些进展</p>
+<ul>
+<li>
+<p>Arc 背后公司开始做新一代 AI 原生浏览器 DIA</p>
+</li>
+<li>
+<p>Authing 创始人开始做 Agentic Browser，叫做 Fellou
+<img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182646.png" alt="image.png"></p>
+</li>
+<li>
+<p>Perplexity AI 的 <strong>Comet</strong> 是一款定位 “Agentic Search” 的全新浏览器，预计 2025 年 5 月中旬开放公测。</p>
+</li>
+</ul>
+<p>最近刚好有 fellou 的邀请码，也简单地聊一聊产品和使用感受。</p>
+<h2 id="定位" tabindex="-1">定位 <a class="header-anchor" href="#定位" aria-label="Permalink to &quot;定位&quot;"></a></h2>
+<p><strong>Fellou 自称“全球首款 Agentic Browser”</strong>：不仅提供 AI 辅助搜索，而是把“浏览器+AI Agent”融合成一个可执行复杂工作流的“数字伙伴”。官方口号是“Beyond browsing, into action.”</p>
+<p>从字面上理解， 将 Fellou 定位成从浏览延伸到“Action”的智能伙伴，目标是让浏览器直接执行任务而非仅呈现网页。</p>
+<p>所以，目前的交互形式还是已对话框为主，具体而言如下图。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182658.png" alt="image.png"></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182954.png" alt="image.png"></p>
+<h2 id="功能" tabindex="-1">功能 <a class="header-anchor" href="#功能" aria-label="Permalink to &quot;功能&quot;"></a></h2>
+<p>在功能上，主要要下方几个核心功能。</p>
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Deep Search</strong></td>
+<td>并行抓取公开站点与需登录平台（LinkedIn、X 等），一键生成可视化报告</td>
+</tr>
+<tr>
+<td><strong>Deep Action</strong></td>
+<td>自动规划→调用工具→跨标签执行，如购物、发邮件、会议排程</td>
+</tr>
+<tr>
+<td><strong>智能时间线</strong></td>
+<td>任务轨迹可跳转回任意节点恢复上下文</td>
+</tr>
+<tr>
+<td><strong>影子工作区</strong></td>
+<td>代理在后台执行，用户可继续前台操作</td>
+</tr>
+<tr>
+<td><strong>拖拽交互</strong></td>
+<td>拖网页元素/图片触发解析、上传或新指令</td>
+</tr>
+<tr>
+<td><strong>跨端同步</strong></td>
+<td>Groups / Spaces / Split View 支持多窗口分身与实时数据同步</td>
+</tr>
+</tbody>
+</table>
+<p>其中，重点讲讲 Deep Search 和 Deep Action 模块吧</p>
+<h3 id="deep-search" tabindex="-1">Deep Search <a class="header-anchor" href="#deep-search" aria-label="Permalink to &quot;Deep Search&quot;"></a></h3>
+<p>Deep Search 是指浏览器会去搜索某个话题的信息资料，最终最一个报告的总结。适用于做调研报告等具体场景。</p>
+<p>这里举个例子</p>
+<div class="language-jsx vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">jsx</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">提示词：帮我搜索并总结 Fellou 浏览器的定位，设计理念，功能，优势，劣势等信息，并总结成报告</span></span></code></pre>
+</div><p>目前会做两步操作，规划和执行。</p>
+<p><strong>任务规划</strong>：将需求转化成指令步骤拆建，并给到你进行确认。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182719.png" alt="image.png"></p>
+<p><strong>任务执行</strong>：最终会搜集网页，对信息作整合，用网页的形式进行展示。具体效果如下。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504183014.png" alt="image.png"></p>
+<p>可以看到，下方的网页中涵盖了概述、市场定位、设计理念的多方面的信息。整体看还是比较全面的。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182738.png" alt="image.png"></p>
+<p>而具体看内容，下方给个示意。</p>
+<p>这一页的内容描述还好，但其他部分的内容还是存在一些幻觉。</p>
+<p>对这报告有兴趣的可以直接访问 <a href="https://chat.fellou.ai/report/c1e9ca42-67b6-4816-ace6-13bfc8100dd5" target="_blank" rel="noreferrer">https://chat.fellou.ai/report/c1e9ca42-67b6-4816-ace6-13bfc8100dd5</a></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182756.png" alt="image.png"></p>
+<h3 id="deep-action" tabindex="-1">Deep Action <a class="header-anchor" href="#deep-action" aria-label="Permalink to &quot;Deep Action&quot;"></a></h3>
+<p>Deep Action 相当于是浏览器能够帮你去收集信息后，自动执行任务，从而浏览器不再仅仅是一个信息展示区，他还能帮你直接具体的任务，如发文章，写内容等。</p>
+<p>这里也使用了一个例子体验了下</p>
+<div class="language-jsx vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">jsx</span><pre class="shiki shiki-themes github-light github-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">提示词：“帮我整理 Fellou 的相关信息，并梳理成小红书文案，发一篇小红书”</span></span></code></pre>
+</div><p>下方我们从“任务规划”，“任务执行”，“任务效果”来看</p>
+<p><strong>任务规划</strong>：这时候 fellou 会做好任务规划，会将每个步骤进行拆解，并给到最后的 workflow。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182807.png" alt="image.png"></p>
+<p><strong>任务执行</strong>：在任务执行的过程中， fellou 会去收集信息，从而做后续的行为处理。如这里现实搜索出 fellou 的相关信息，访问 fellou 官网，小红书文案收集。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182818.png" alt="image.png"></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182846.png" alt="image.png"></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182903.png" alt="image.png"></p>
+<p>**任务效果：**fellou 把大多任务都完成了，帮我搜集信息，编写文案，打开小红书网页，但在上传图文的时候，可能脱离了浏览器的范围了，所以停止了。不过大体的工作还是完成了。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182917.png" alt="image.png"></p>
+<p>总之，在个人看来， Deep Action 是让浏览器能够帮我们解析指令、智能拆解任务，并跨多个网页系统操作。</p>
+<h2 id="新奇-吐槽" tabindex="-1">新奇 &amp; 吐槽 <a class="header-anchor" href="#新奇-吐槽" aria-label="Permalink to &quot;新奇 &amp; 吐槽&quot;"></a></h2>
+<p>目前还是主要体验了 Fellou 浏览器，使用过程中感觉有新奇的点。</p>
+<ul>
+<li><strong>规划能力强</strong>：目前输入了一句话，确实能够快速拆解出具体可执行的步骤信息，作为工作流。</li>
+<li>**操作浏览器：**Fellou 依赖的一个能力还是 browser use 技术，但 Fellou 自研了这套技术，整体体验下来，可能比其他产品好点点。</li>
+<li><strong>交互新颖</strong>： AI 浏览器本来就是个新鲜的事，况且若将浏览器从浏览内容扩展成支持行为的浏览器，人机交互是需要改动的，而 Fellou 貌似也算在探索这个事。</li>
+</ul>
+<p>当然，也有一些吐槽的点</p>
+<ul>
+<li><strong>效果不稳定</strong>：目前 fellou 仍处早期 Beta / 功能不完整, 想 deep action 这个东西实际上效果不太问题。</li>
+<li><strong>内存占用</strong>：在使用过程中，在任务管理器中能看到会占用不小的内存。</li>
+<li><strong>部分交互细节</strong>：虽然提供了影子空间的能力，但还是存在开新tab默认跳出指令弹框，影响操作</li>
+</ul>
+<p>但还比较早期，吐槽点的存在可能更是产品不断更新迭代进步的燃料。</p>
+<h2 id="最后-🤔" tabindex="-1">最后 🤔 <a class="header-anchor" href="#最后-🤔" aria-label="Permalink to &quot;最后 🤔&quot;"></a></h2>
+<p>Fellou 团队对浏览器进行了下方的划分，下面来自是在网上看到 Fellou 对浏览器的看法，做下引用</p>
+<p>以往，浏览器有三种：</p>
+<ul>
+<li><strong>传统普通浏览器</strong>：侧重信息浏览，目前浏览器的最常见形态；</li>
+<li><strong>对话式浏览器</strong> （Conversational Browsers）：侧重信息交互与内容生成，侧重于通过 AI 辅助实现信息交互与内容生成。例如 Microsoft Edge（Copilot）、Opera One + Aria、360 AI 浏览器、豆包和部分 Arc 版本，均以自然语言交互、问答和内容摘要为主，但整体操作仍由用户主导；</li>
+<li><strong>搜索优化型 AI 浏览器</strong>（Search-Optimized AI Browsers）：侧重深度信息检索和摘要，通过 AI 技术对网页内容进行整合和生成精准答案。例如 Perplexity Comet 和新夸克均以深度检索和内容整合为主要卖点，提供精准信息查询服务；</li>
+</ul>
+<p>而 Fellou 尝试开创第四种<strong>行动型浏览器（Agentic Browser ）</strong>：侧重端到端自主行动，一种集成了具备思考和行动能力的智能代理的浏览器，其不仅展示信息，更能根据用户高层目标自主拆解任务、跨界操作并完成端到端任务交付。</p>
+<p>目前来看，AI 浏览器还比较早期，具体而言有下方几点</p>
+<ul>
+<li><strong>基础设施不够完善</strong>：多模态模型目前的效果和成本都还不够成熟，效果的稳定性和成本是个问题。</li>
+<li><strong>生态需发展</strong>：AI 浏览器也需要生态，也许未来有一种规范协议，能让网页能够更好被检索，读取，操作，从而构建一个浏览器和网页交互更友好的协议。</li>
+<li><strong>人机交互突破和理念</strong>：目前体验的 AI browser 的人交互，貌似都没有特别惊讶的感觉，也不确定未来是不是什么样的交互会成为主流，可能都还在探索阶段吧。同时，如何做好理论的宣传和普及是需要做用户教育。</li>
+</ul>
+<p>所以当我和朋友聊到 AI 浏览器的时候，</p>
+<p>听到大多数是</p>
+<p>“产品不够成熟”，</p>
+<p>“目前使用场景不多”，</p>
+<p>“稳定性不好保障”</p>
+<p>等等。</p>
+<p>实际上，</p>
+<p>我也没完全看懂做 AI 浏览器的公司的理念，</p>
+<p>fellou 的设计理念可能我的看法也比较片面。</p>
+<p>但也许这就是</p>
+<p>“探索未来新的人机交互”，</p>
+<p>“探索 AI 直接执行动作的尝试”</p>
+<p>“探索新一代浏览器的交互方式”。</p>
+<p>也许这过程有人会赞同，有人会质疑，</p>
+<p>并且可能在早期，质疑的声音是比较多的，</p>
+<p>但也许这就是一种“有概率的非共识”。</p>
+<p>目前还是早期，</p>
+<p>所以不好过早下绝对的判断，</p>
+<p>期待着 AI 浏览器的发展迭代吧，</p>
+<p>也期待着新的人机交互的出现。</p>
+<p><strong>参考文章/资料</strong></p>
+<ul>
+<li><a href="https://mp.weixin.qq.com/s/IuOgfZWT8jdXWnjm6yEb-Q" target="_blank" rel="noreferrer">Fellou：AI 的「组团打工」时代，由中国团队揭幕</a></li>
+<li><a href="https://www.xiaoyuzhoufm.com/episode/65e16b5b6144a933b1d968b5" target="_blank" rel="noreferrer">59. 和杨植麟聊大模型创业这一年：人类理想的增量、有概率的非共识和Sora</a></li>
+<li><a href="https://www.xiaoyuzhoufm.com/episode/680b04ea7a449ae85895ba00" target="_blank" rel="noreferrer">34.与Fellou创始人谢扬的3小时访谈：孤独、95后、牌桌与生产力的完美创业</a></li>
+<li><a href="https://podwise.ai/dashboard/episodes/198576" target="_blank" rel="noreferrer">E11 ｜ 95后CEO：我相信员工是自驱的，关键是让他们看到未来</a></li>
+</ul>
+]]></content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250504182646.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[人、AI、信息消费和生产]]></title>
+            <link>https://hua-bang.github.io/blog/blog/ai-information.html</link>
+            <guid>https://hua-bang.github.io/blog/blog/ai-information.html</guid>
+            <pubDate>Sat, 19 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+# 人、AI、信息消费和生产
+
+大多数情况下，
+
+人们日常的行为是通过消费信息的应用。
+
+实际上，人们行为可能是传播、消费、生产信息。
+
+但传播和消费占据大头，而生产/创造新信息占比比较少。
+
+但人工智能的加入之后，这个事情变得比较复杂了。
+
+原先，我本以为只是相当于**内容载体这个维度改变了，**即多了 AI 种类的内容。
+
+但实际上，还有一个维度有所改变了，那就是信息的消费和生产。
+
+具体说：
+
+- **信息消费**：指在消费信息的过程中， 和 AI 一同参与，从而做内容的消化。具体例子如 AI 将文章转思维导图，AI 文章做总结、AI 根据内容回答、AI 做内容转化（如图片，网页） 等场景
+- **信息生产**：指在生成信息的过程中，和 AI 一同参与，从而做内容的生产。具体例子如 AI 生成文章大纲， AI 整理段落信息，AI 生成图片等场景。
+
+有一些想法：
+
+### 四个象限
+
+但实际上，我们还可以叠加下“人的主动性/被动性”这个维度来看，
+
+于是，我们就可以有下方这个四象限图
+
+![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20250419205719.png)
+
+在“信息消费 / 信息生产”与“主动 / 被动”两个维度的交叉下，我们可以得到四个象限：
+
+||**信息消费**|**信息生产**|
+|]]></description>
+            <content:encoded><![CDATA[<h1 id="人、ai、信息消费和生产" tabindex="-1">人、AI、信息消费和生产 <a class="header-anchor" href="#人、ai、信息消费和生产" aria-label="Permalink to &quot;人、AI、信息消费和生产&quot;"></a></h1>
+<p>大多数情况下，</p>
+<p>人们日常的行为是通过消费信息的应用。</p>
+<p>实际上，人们行为可能是传播、消费、生产信息。</p>
+<p>但传播和消费占据大头，而生产/创造新信息占比比较少。</p>
+<p>但人工智能的加入之后，这个事情变得比较复杂了。</p>
+<p>原先，我本以为只是相当于**内容载体这个维度改变了，**即多了 AI 种类的内容。</p>
+<p>但实际上，还有一个维度有所改变了，那就是信息的消费和生产。</p>
+<p>具体说：</p>
+<ul>
+<li><strong>信息消费</strong>：指在消费信息的过程中， 和 AI 一同参与，从而做内容的消化。具体例子如 AI 将文章转思维导图，AI 文章做总结、AI 根据内容回答、AI 做内容转化（如图片，网页） 等场景</li>
+<li><strong>信息生产</strong>：指在生成信息的过程中，和 AI 一同参与，从而做内容的生产。具体例子如 AI 生成文章大纲， AI 整理段落信息，AI 生成图片等场景。</li>
+</ul>
+<p>有一些想法：</p>
+<h3 id="四个象限" tabindex="-1">四个象限 <a class="header-anchor" href="#四个象限" aria-label="Permalink to &quot;四个象限&quot;"></a></h3>
+<p>但实际上，我们还可以叠加下“人的主动性/被动性”这个维度来看，</p>
+<p>于是，我们就可以有下方这个四象限图</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250419205719.png" alt="image.png"></p>
+<p>在“信息消费 / 信息生产”与“主动 / 被动”两个维度的交叉下，我们可以得到四个象限：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>信息消费</strong></th>
+<th><strong>信息生产</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>主动</strong></td>
+<td>主动提问 AI 获取信息、主动搜索/归纳总结内容，并深化理解。</td>
+<td>用户与 AI 协同创作，如撰写文章、设计、生成网页或可交互内容，主导创意表达，AI提供扩展和反馈。</td>
+</tr>
+<tr>
+<td><strong>被动</strong></td>
+<td>推荐算法刷内容、被动阅读、短视频沉浸式观看等，用户轻松浏览并探索新知识。</td>
+<td>用户提供简单指令，AI自动化生成内容。</td>
+</tr>
+</tbody>
+</table>
+<p>这种划分让我们更清晰地看到 AI 如何改变了原本以人为主的信息流动结构，以及我们具体消费/生产内容的场景。</p>
+<p>象限没有好坏之分，只是不同场景下的具体选择。</p>
+<h3 id="可交互性-即时反馈" tabindex="-1">可交互性 &amp; 即时反馈 <a class="header-anchor" href="#可交互性-即时反馈" aria-label="Permalink to &quot;可交互性 &amp; 即时反馈&quot;"></a></h3>
+<p>AI 的一个显著特点就是 <strong>可交互性和即时反馈能力</strong>。</p>
+<p>在过去，信息往往是单向传递的（例如文章、视频），理解和反馈都需要由人来完成。而今天我们已经看到 信息 + AI，使得信息本身具备了“回应能力”——</p>
+<ul>
+<li><strong>“和一篇文章对话”</strong>：通过 AI 实现实时问答、补充背景、生成摘要。</li>
+<li><strong>“和多种形态互动”</strong>：一份内容信息，可以有不同的展示形式，文字可以转成图片，网页交互，视频。</li>
+<li><strong>“和创作过程对话”</strong>：AI 能实时生成、修改你想表达的内容，并且不断迭代。</li>
+</ul>
+<p><strong>即时反馈</strong> 带来了“反馈带来的增益”。比如 AI 进行知识追问，反馈往往几秒钟就能返回，而这些反馈本身也成为了新的信息资源，加深你对内容的理解，让你有创作的新原料。</p>
+<h3 id="消费和生产的界限" tabindex="-1">消费和生产的界限 <a class="header-anchor" href="#消费和生产的界限" aria-label="Permalink to &quot;消费和生产的界限&quot;"></a></h3>
+<p>在 AI 的参与下，“信息消费”和“信息生产”的界限变得模糊了。</p>
+<ul>
+<li>信息消费时候：其实也在不断地产生新的输入和上下文（prompt、提问、互动行为），这些都是生产的一部分。</li>
+<li>信息生产时候：可以借助 AI 辅助内容生成，背后其实在参考的是用户的需求和历史行为，也是一种“被动响应”的消费。</li>
+</ul>
+<p>也就是说，<strong>信息的流动从过去的单向线性结构（生产者 → 消费者），变成了循环和互动的网状结构。</strong></p>
+<p>读过《信息简史》的朋友，可能也了解过信息在发展过程也是不断变化</p>
+<ul>
+<li><strong>信息传播速度</strong>：从书信、电报、电话到互联网的改动，信息传播的速度是不断地加快的。</li>
+<li><strong>信息获取方式</strong>：目前信息的获取也有订阅、搜索、社交媒体、推荐等多种获取方式，并且不同获取方式得到的信息量可能不同。</li>
+<li><strong>信息承载媒介</strong>：文字，语音，图片，长短中视频等目前也成了我们日常消费和传递的媒介，甚至 VR/AR 的媒介也在发展中，以及不同媒介所承载的信息不同。</li>
+<li><strong>信息生产方性质</strong>：早期内容平台完善的时候，也已经出现了 PGC， UGC 的说法了，而今天也加入了 AIGC 的概念。</li>
+</ul>
+<p>而目前个人能比较有体感地感受到下方两点变化：</p>
+<ul>
+<li><strong>信息消费和生产</strong>：信息的消费和生产过程中加入了 AI 这个角色，并且根绝我们协作的角色，会有不同的协作场景和效果。</li>
+<li><strong>信息的可交互性和即时反馈</strong>：信息不再是一个静态的文本、图片、视频，而是能够支持对话的内容。我们与他的关系也许不再是单向的，而是双向的，以及 AIGC 的即时内容生成的效果，能够快速反馈，从而产生新的理解。</li>
+</ul>
+<p>也许，十多年前的这个预言也在慢慢具像化了。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250419205657.png" alt="image.png"></p>
+]]></content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250419205719.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[未流行的未来，在变化的过去]]></title>
