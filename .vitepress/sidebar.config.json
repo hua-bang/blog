@@ -361,6 +361,16 @@
           "link": "/read/Why-Fish-Don’t-Exist.md"
         }
       ]
+    },
+    {
+      "text": "历史",
+      "items": [
+        {
+          "id": "/Users/colepol/project/blog/docs/blog/rereading-the-Ming-Dynasty.md",
+          "text": "再读《明朝那些事儿》",
+          "link": "/read/rereading-the-Ming-Dynasty.md"
+        }
+      ]
     }
   ],
   "/algorithms/": [
