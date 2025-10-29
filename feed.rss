@@ -4,7 +4,7 @@
         <title>华铧的 Blog</title>
         <link>https://hua-bang.github.io</link>
         <description>undefined</description>
-        <lastBuildDate>Sat, 20 Sep 2025 07:58:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Oct 2025 13:39:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright (c) 2022-present, 华铧</copyright>
@@ -12,7 +12,7 @@
             <title><![CDATA[Life]]></title>
             <link>https://hua-bang.github.io/blog/life/</link>
             <guid>https://hua-bang.github.io/blog/life/</guid>
-            <pubDate>Sat, 20 Sep 2025 07:56:56 GMT</pubDate>
+            <pubDate>Wed, 29 Oct 2025 13:37:28 GMT</pubDate>
             <description><![CDATA[建设中]]></description>
             <content:encoded><![CDATA[<h1 id="life" tabindex="-1">Life <a class="header-anchor" href="#life" aria-label="Permalink to &quot;Life&quot;"></a></h1>
 <p>建设中</p>
@@ -22,7 +22,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://hua-bang.github.io/blog/me/</link>
             <guid>https://hua-bang.github.io/blog/me/</guid>
-            <pubDate>Sat, 20 Sep 2025 07:56:56 GMT</pubDate>
+            <pubDate>Wed, 29 Oct 2025 13:37:28 GMT</pubDate>
             <description><![CDATA[# About Me
 
 ## Self introduction
@@ -85,7 +85,7 @@
             <title><![CDATA[React]]></title>
             <link>https://hua-bang.github.io/blog/react/</link>
             <guid>https://hua-bang.github.io/blog/react/</guid>
-            <pubDate>Sat, 20 Sep 2025 07:56:56 GMT</pubDate>
+            <pubDate>Wed, 29 Oct 2025 13:37:28 GMT</pubDate>
             <description><![CDATA[关于对 React 的理解。]]></description>
             <content:encoded><![CDATA[<h1 id="react" tabindex="-1">React <a class="header-anchor" href="#react" aria-label="Permalink to &quot;React&quot;"></a></h1>
 <p>关于对 React 的理解。</p>
@@ -95,7 +95,7 @@
             <title><![CDATA[Read]]></title>
             <link>https://hua-bang.github.io/blog/read/</link>
             <guid>https://hua-bang.github.io/blog/read/</guid>
-            <pubDate>Sat, 20 Sep 2025 07:56:56 GMT</pubDate>
+            <pubDate>Wed, 29 Oct 2025 13:37:28 GMT</pubDate>
             <description><![CDATA[这里记录我的日常阅读的东西 🤔️, 尽量记录记录。]]></description>
             <content:encoded><![CDATA[<h1 id="read" tabindex="-1">Read <a class="header-anchor" href="#read" aria-label="Permalink to &quot;Read&quot;"></a></h1>
 <p>这里记录我的日常阅读的东西 🤔️, 尽量记录记录。</p>
@@ -105,7 +105,7 @@
             <title><![CDATA[Tech 🚧]]></title>
             <link>https://hua-bang.github.io/blog/tech/</link>
             <guid>https://hua-bang.github.io/blog/tech/</guid>
-            <pubDate>Sat, 20 Sep 2025 07:56:56 GMT</pubDate>
+            <pubDate>Wed, 29 Oct 2025 13:37:28 GMT</pubDate>
             <description><![CDATA[关于 Tech 的文件仍在施工中
  Knowledge Docs
 - TypeScript Note
@@ -127,7 +127,7 @@
             <title><![CDATA[React Source Code]]></title>
             <link>https://hua-bang.github.io/blog/react/react-source-code/</link>
             <guid>https://hua-bang.github.io/blog/react/react-source-code/</guid>
-            <pubDate>Sat, 20 Sep 2025 07:56:56 GMT</pubDate>
+            <pubDate>Wed, 29 Oct 2025 13:37:28 GMT</pubDate>
             <description><![CDATA[This is React Source Code.]]></description>
             <content:encoded><![CDATA[<h1 id="react-source-code" tabindex="-1">React Source Code <a class="header-anchor" href="#react-source-code" aria-label="Permalink to &quot;React Source Code&quot;"></a></h1>
 <p>This is React Source Code.</p>
@@ -311,6 +311,293 @@ Notion 是我很喜欢的一款应用，
 <p><strong>也是一个知识“连点成线”的过程。</strong></p>
 ]]></content:encoded>
             <enclosure url="https://raw.githubusercontent.com/hua-bang/assert-store/master/20250920112632.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[无人知晓]]></title>
+            <link>https://hua-bang.github.io/blog/blog/no-one-knows-every-things.html</link>
+            <guid>https://hua-bang.github.io/blog/blog/no-one-knows-every-things.html</guid>
+            <pubDate>Sat, 20 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[《无人知晓》
+个人有收听播客的习惯，
+前几日收到 App 推送，
+“收听《无人知晓》100小时” 。
+仔细看了下，
+基本每一期播客都听了，
+甚至有个别几期还反复听。
+所以，我个人也在想
+“当初为啥开始]]></description>
+            <content:encoded><![CDATA[<h1 id="《无人知晓》" tabindex="-1">《无人知晓》 <a class="header-anchor" href="#《无人知晓》" aria-label="Permalink to &quot;《无人知晓》&quot;"></a></h1>
+<p>个人有收听播客的习惯，</p>
+<p>前几日收到 App 推送，</p>
+<p><strong>“收听《无人知晓》100小时”</strong> 。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211513.png" alt="image.png"></p>
+<p>仔细看了下，</p>
+<p>基本每一期播客都听了，</p>
+<p>甚至有个别几期还反复听。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211530.png" alt="image.png"></p>
+<p>所以，我个人也在想</p>
+<p>“当初为啥开始听播客”</p>
+<p>“为什么收听这播客这么久”</p>
+<p>“从这播客内容中我获得了啥”</p>
+<p>我想把思考记录下来，</p>
+<p>顺便也分享给你。</p>
+<p>（无意说教，而是记录个人感受）</p>
+<h2 id="听播客的原由" tabindex="-1">听播客的原由 <a class="header-anchor" href="#听播客的原由" aria-label="Permalink to &quot;听播客的原由&quot;"></a></h2>
+<p>开始听播客是在 2023 年，</p>
+<p>但至于为啥开始听播客呢？</p>
+<p>具体原因我也有些记不太清了。</p>
+<p>模糊记得，那是在工作的早期，</p>
+<p>有些迷茫，也缺少外界信息输入。</p>
+<p>在这种焦虑迷茫的时候，</p>
+<p>选择了从书籍和播客中找输入。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211548.png" alt="image.png"></p>
+<p>实际上，早期是有点功利的做法。</p>
+<p>最近听到一个观点，</p>
+<p><strong>“播客是嘉宾人生经历的偷取”</strong></p>
+<p>实际上我的出发点和这点有些类似吧。</p>
+<p><strong>本身上是为了在听播客的过程中，</strong></p>
+<p><strong>统计出步骤一、二、三的方法论，</strong></p>
+<p><strong>然后能用于解决我日常的问题。</strong></p>
+<p>实际上，</p>
+<p>播客确实能给你上述的“获得感”,</p>
+<p>其中有些方法论实际上也确实有效。</p>
+<p>并且也许在起初的时候，</p>
+<p><strong>你会获取到不错的正反馈，</strong></p>
+<p><strong>生活中的烦恼可能也能被某期内容化解。</strong></p>
+<p>但到了一段时间后，</p>
+<p>我发现，</p>
+<p><strong>当我带有强目的性去听播客的时候，</strong></p>
+<p><strong>实际上并没有享受这次对话，</strong></p>
+<p><strong>与之相反的，</strong></p>
+<p><strong>带来的是不耐烦以及急躁。</strong></p>
+<p>“这期播客为什么这么长”</p>
+<p>“一点干货都没有”</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211615.png" alt="image.png"></p>
+<p>而到后面，</p>
+<p>随着个人对功利/非功利的看法转变，</p>
+<p>我对播客也有了新的看法。</p>
+<p>具体而言是：</p>
+<p>我逐渐降低了对播客的功利性要求，</p>
+<p>而是把他当成日常的一种信息来源。</p>
+<p><strong>我不再过多关注播客的 show-note 或 highlights，</strong></p>
+<p><strong>更多只是为了听听别人的故事，</strong></p>
+<p><strong>以及我未曾接触到的点，</strong></p>
+<p><strong>在不断给我眼中的世界进行“纠偏”。</strong></p>
+<p>也许正因为这个心态转变，</p>
+<p>听播客也成了我日常的习惯吧。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211626.png" alt="image.png"></p>
+<h2 id="《无人知晓》-1" tabindex="-1">《无人知晓》 <a class="header-anchor" href="#《无人知晓》-1" aria-label="Permalink to &quot;《无人知晓》&quot;"></a></h2>
+<p>接着到第二个问题</p>
+<p>“为什么我对《无人知晓》听到这么多？”</p>
+<p>说实话，</p>
+<p>我个人虽然很喜欢这个播客，</p>
+<p>但当时 100 小时时长也让我有点吃惊。</p>
+<p>毕竟，《无人知晓》的播客一共有 41 期，</p>
+<p>而其平均每期播客时长不到 1.5 小时。</p>
+<p>这说明，</p>
+<p>我应该重复听了很多我喜欢的单期播客，</p>
+<p>如《中》，《知识的缝隙》等等。</p>
+<p>我在想，</p>
+<p>具体是什么在吸引我，</p>
+<p>我将播客拆分成内容、声音、对谈人三个维度，</p>
+<p>具体思考了下</p>
+<ul>
+<li><strong>内容</strong>：个人眼中，《无人知晓》的内容确实不错，涉及哲学、价值观、精神层面等。</li>
+<li><strong>声音</strong>：主播孟岩老师的声音真的很不错，但我个人不会为声音买单。</li>
+<li><strong>对谈人</strong>：对孟岩老师的了解还不够多，而嘉宾每期基本不同。</li>
+</ul>
+<p>综合上方的分析，大概不是因为声音和对谈人。</p>
+<p>所以我个人感觉更多是其**“内容”**</p>
+<p>虽然这个播客以投资切入，</p>
+<p>但其探讨的是“自己”以及“人生”，</p>
+<p>由此会涉及<strong>哲学思辨、价值观探讨和精神层面</strong>。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211645.png" alt="image.png"></p>
+<p>而可能这方面的内容，</p>
+<p>恰好击中了我吧，</p>
+<p>并且让我不时地回头重听，</p>
+<p>获得新的视角和看法。</p>
+<h2 id="带给我的" tabindex="-1">带给我的 <a class="header-anchor" href="#带给我的" aria-label="Permalink to &quot;带给我的&quot;"></a></h2>
+<p>所以，具体来说，</p>
+<p>《无人知晓》带给我什么呢？</p>
+<p>个人思考了一下，</p>
+<p>感觉更多是精神层面的吧。</p>
+<p><strong>关于二元对立</strong></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211656.png" alt="image.png"></p>
+<p>很喜欢《中》这期播客，</p>
+<p>它让我对“二元对立”有着多一些理解。</p>
+<p>我们常常习惯以“二元对立”的方式看世界，</p>
+<p>把事情分为好与坏、对与错、成功或失败。</p>
+<p>但真实的世界往往更复杂、更动态，</p>
+<p>如果执着于某一个视角，就容易陷入极端。</p>
+<p><strong>“避免走向二元对立的极端，要理解他只是事物的不同面相，也许能稍微看到事情全貌，从而能够在不同的场景下做出比较合适的判断选择”。</strong></p>
+<p>举些例子：</p>
+<ul>
+<li><strong>做事方式</strong>：投入全身心的“刻意练习”是一种需要全身心投入做事方式；而苏东坡的“着力即差”则是另一种带有松弛感的做事方式。这两种方式实际在我们的日常工作中不断交替。</li>
+<li><strong>宏观和细节</strong>：“将军赶路，不打野兔”表达是关注宏观事情，细节不重要；而与之对应的是，“细节决定成败”则表明细节往往能决定事情的成败。而在具体生活中，我们又是可能需要“抓大放小”，有时候可能需要对细节吹毛求疵。</li>
+<li><strong>理想和现实</strong>：过度的理想主义会让我们大胆想象，追求自由理想；过度的现实主义则会表现追求安稳，量力而行。在实际中，我们可以保留理想，但也要考虑好现实情况。</li>
+</ul>
+<p>也许我们日常的判断，做法，听到的道理，</p>
+<p>也只是某个场景下的一种做事方法，</p>
+<p>也许我们在有些情况下，</p>
+<p><strong>我们也许也偏向了其中的一端，但未察觉。</strong></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211716.png" alt="image.png"></p>
+<p>而播客给出的一个参考答案是“中”，</p>
+<p>可以理解为“中道”、“中庸”，</p>
+<p><strong>但对于“中”的把握，也不容易,</strong></p>
+<p><strong>它不是折中，更像是在两端之间不断校准的过程。</strong></p>
+<p><strong>关于情绪</strong></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211726.png" alt="image.png"></p>
+<p>记不清具体在哪期播客中，</p>
+<p>也提到了事实/观点/情绪等内容，</p>
+<p>并且提到了《清醒地活》这本书。</p>
+<p>于是趁着好奇，也去读了一读。</p>
+<p>总得来说，</p>
+<p>这本书涉及<strong>心理学、神经科学、禅修与哲学</strong>的理论知识，</p>
+<p>同时，里面的“抽离情绪”，“旁观者做观察”的观点，</p>
+<p>也让我能够看待事情生活多一点平和。</p>
+<p>在我现在的理解中</p>
+<ul>
+<li><strong>事实</strong>：指的是较为客观存在、可以验证的数据或事件。</li>
+<li>**观点：**是基于事实，夹杂个人解读、分析和判断的结论。</li>
+<li>**情绪：**是我们在接收事实、形成观点过程中产生的心理反应。</li>
+</ul>
+<p>观点、情绪不等同于事实，</p>
+<p>但他对个人的心理/生理影响不小。</p>
+<p>部分心理/生理问题可能来自于观点和情绪。</p>
+<p>但倘若留意下方几点：</p>
+<ul>
+<li><strong>分清事实、观点、情绪。</strong></li>
+<li><strong>接纳情绪，与情绪共处。</strong></li>
+</ul>
+<p>也许，你会少掉些许不必要的烦恼。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211743.png" alt="image.png"></p>
+<p>你不需要抓取美好的感受想要留住，</p>
+<p>也不应该推开痛苦的情绪想要赶走。</p>
+<p><strong>仅仅是让这一切自然地流过</strong>。</p>
+<p><strong>知识的缝隙</strong></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211750.png" alt="image.png"></p>
+<p>网络让信息更加唾手可得，</p>
+<p>AI 也能加速信息的理解和处理。</p>
+<p>仿佛目前只要给定一些时间，</p>
+<p>可以把领域的宏观知识列出来，</p>
+<p>从而达到所谓的**“对这方面熟悉”**。</p>
+<p>但实际上你会发现，</p>
+<p>也是这并不是一个**“准确的认识”。**</p>
+<p>但你亲自下场动手，</p>
+<p>你会发现，</p>
+<p>这其中有太多未想到的细节信息，</p>
+<p><strong>导致一时间拿不定主意。</strong></p>
+<p>这就好比，</p>
+<p>你搭建出了一台机器，</p>
+<p>考虑到了每一个宏观模块，</p>
+<p>但开始运行的时候，</p>
+<p>发现不同模块的齿轮对不齐，</p>
+<p>有的是磨损，有的是卡死，</p>
+<p>而这台机器目前就不是有效的。</p>
+<p>在知识中，有存在太多的缝隙，</p>
+<p>当你远远地看，看不到细节，以为天衣无缝。</p>
+<p>当你近距离去看，发现和自己的想象差别甚远。</p>
+<p>而有的人也曾因这种**“知识错觉”**而踩了不少坑。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211801.png" alt="image.png"></p>
+<p>而如何防止或减少“知识错觉”</p>
+<ul>
+<li>承认自己的“不知道”，并保持开放，乐于反馈纠错。</li>
+<li>把手弄脏，亲自动手实践，有了实践可以有更多的理解。</li>
+<li>多元看待，开放看待不同的观点，有时候也许真是自己偏了。</li>
+</ul>
+<p><strong>有限与无限游戏</strong></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211817.png" alt="image.png"></p>
+<p>“有限游戏”和“无限游戏”这两个词，</p>
+<p>是在《张无忌的无限游戏》这期播客中所听到的。</p>
+<p>而后也去找寻了对应的书籍 <a href="https://weread.qq.com/web/bookDetail/f1832760813ab6c3dg014eff%E3%80%82" target="_blank" rel="noreferrer">https://weread.qq.com/web/bookDetail/f1832760813ab6c3dg014eff。</a></p>
+<p><strong>有限游戏</strong>：以取胜为目的，具有明确的开始和结束，规则固定，参与者在边界内游戏，存在明确的赢家和输家。</p>
+<p><strong>无限游戏</strong>：以延续游戏为目的，没有明确的开始和结束，规则在进行过程中不断变化，参与者与边界游戏，没有固定的赢家或输家。</p>
+<p>有限游戏是在边界的游戏，从而<strong>终结游戏</strong>。</p>
+<p>无限游戏则游戏的则是边界，从而<strong>延续游戏</strong>。</p>
+<p>有限游戏是边界性的，喜欢确定性，相对短期。</p>
+<p>而无限游戏是开放性的，拥抱不确定性，长期主义。</p>
+<p>在此，也让我联想到了《无穷的开始》这本书，</p>
+<p>其中有个观点是，</p>
+<p>“反馈纠错，开放的动态社会更能促使科学进步”</p>
+<p>而这里对应来说，</p>
+<p>“有限游戏是个偏封闭的系统，而无限游戏是个开放系统”，</p>
+<p>一个追求终结，一个追求延续。</p>
+<p><strong>有限游戏你会被规则束缚，也许在追求自己都不一定完全认同的东西。</strong></p>
+<p><strong>无限游戏你可以定义规则，可以长期追求符合自己价值观，感兴趣的东西。</strong></p>
+<p>无限游戏基本会包含有限游戏，</p>
+<p>但是会把有限游戏当作手段。</p>
+<p>而有限游戏则无法包含无限游戏。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211829.png" alt="image.png"></p>
+<p><strong>小结</strong></p>
+<p>《无人知晓》确实给了我不少信息的输入，</p>
+<p>特别是一些精神，哲学，价值观上的。</p>
+<p>上方也有所描述，</p>
+<p>虽然有部分是个人结合资料和思考得来。</p>
+<p>但他给了我一个出发点吧。</p>
+<p>当然，实际上这博客还有很多内容</p>
+<p>我尚未提及，如</p>
+<ul>
+<li>如何理解理性和感性</li>
+<li>接纳生活不确定性和留方差</li>
+<li>日常做好准备，而上场要全力以赴</li>
+<li>长期主义以及做“好玩”的事情</li>
+</ul>
+<p>但对这播客的描述也只是我个人的看法，</p>
+<p>对应上面的所说的，</p>
+<p><strong>这些是我的观点、情绪，</strong></p>
+<p><strong>并非完整的事实，</strong></p>
+<p><strong>但我希望做下分享，</strong></p>
+<p><strong>而每个人也会有不同看法。</strong></p>
+<h2 id="一些想法" tabindex="-1">一些想法 <a class="header-anchor" href="#一些想法" aria-label="Permalink to &quot;一些想法&quot;"></a></h2>
+<p>在写这篇文章的过程中，</p>
+<p>个人也有一些新的小想法吧。</p>
+<p><strong>内容可以影响人</strong></p>
+<p>近几年，我一直在思考下方几个问题，</p>
+<p>“面对相同的场景，不同的人为啥有不同看法”</p>
+<p>“相同地域的人，对某个事物看法观点基本一致”</p>
+<p>但我今年想到可能是影响的一个因素。</p>
+<p><strong>“身处环境的内容，或者说信息”</strong></p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211843.png" alt="image.png"></p>
+<p>在长时间听播客和看书的过程中，</p>
+<p>实际上，我也是被影响了。</p>
+<p>我能够感觉到，</p>
+<p>由于接受到了新的信息，</p>
+<p>甚至是和原本想法冲突的信息，</p>
+<p><strong>让我看待事物的角度，处事方法，价值观有所变化。</strong></p>
+<p><strong>连点成线</strong></p>
+<p>近几年中，有种具体的感受</p>
+<p>那就是，<strong>“很多看似不相关的事情关联起来”</strong></p>
+<p>如上方播客所提到的</p>
+<ul>
+<li>《有限与无限的游戏》中的开放系统和《无穷的开始》中的动态社会</li>
+<li>情绪、《清醒的活》以及佛学中的“无我”、“相”有所关系。</li>
+<li>“理解二元对立，体会中道”、道家的&quot;反者道之动，弱者道之用。&quot;以及西方哲学的&quot;正题—反题—合题”</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211858.png" alt="image.png"></p>
+<p>当然还有很多一些例子，</p>
+<p>但这里并不一一列举。</p>
+<p>但当这些散点的东西有所关联，</p>
+<p>也许我们可以看到其背后的整体，</p>
+<p>也许能够对每个点有更深的理解。</p>
+<h2 id="写在最后" tabindex="-1">写在最后 <a class="header-anchor" href="#写在最后" aria-label="Permalink to &quot;写在最后&quot;"></a></h2>
+<p>写到最后，貌似这篇文章，</p>
+<p>充斥着各种所谓的**“道理”**。</p>
+<p>不确定会不会存在说教的感觉，</p>
+<p>但我的本意并非如此，</p>
+<p>而是仅仅想记录个人感受。</p>
+<p>我并不觉得这些观点都客观，</p>
+<p>我也深刻地理解到，</p>
+<p><strong>“甲之真理，乙之谬论”。</strong></p>
+<p>我也叮嘱自己，</p>
+<p><strong>“当你觉得某个观点特别对，也许你应该提防下”。</strong></p>
+<p>也许我的感受和理解是偏的，</p>
+<p>也许我只是看到了表面，</p>
+<p>但和真正理解还有很多距离。</p>
+<p>但我觉得《无人知晓》的内容质量不错，</p>
+<p>我也想做个记录，以及分享给你。</p>
+<p><img src="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211928.png" alt="image.png"></p>
+]]></content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/hua-bang/assert-store/master/20251029211513.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[再读《明朝那些事儿》]]></title>
