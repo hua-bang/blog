@@ -1,7 +1,7 @@
 ---
 title: 2025 AI Review
 customTag: blog>AIGC
-date: 2025-04-19
+date: 2025-12-30
 editLink: true
 ---
 
