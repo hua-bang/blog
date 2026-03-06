@@ -125,6 +125,11 @@
           "id": "/Users/colepol/project/blog/docs/blog/process-compression.md",
           "text": "过程的压缩",
           "link": "/blog/process-compression.md"
+        },
+        {
+          "id": "/Users/colepol/project/blog/docs/blog/pulse-agent.md",
+          "text": "Pulse Agent",
+          "link": "/blog/pulse-agent.md"
         }
       ]
     },
